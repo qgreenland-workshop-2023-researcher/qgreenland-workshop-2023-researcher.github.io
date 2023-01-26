@@ -1,8 +1,8 @@
-# Data Scenario: Excel from a Scientist
+# Data Scenario: Vector Data Needs Reformatting
 
 You read a whitepaper about correlation between the chemistry of blood samples taken
-from 100 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
-by 100 randomly selected graduate students. The paper includes graphs and some limited
+from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
+by 100 randomly-selected graduate students. The paper includes graphs and some limited
 data tables, but after searching for hours you can't find the full data file(s) used to
 draw the conclusions in this study.
 
