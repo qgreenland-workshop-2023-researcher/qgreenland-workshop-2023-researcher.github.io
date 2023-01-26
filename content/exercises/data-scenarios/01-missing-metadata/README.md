@@ -1,8 +1,9 @@
 # Data Scenario: Missing Metadata
 
-You download a dataset which doesn't load as expected in QGIS. When loaded alongside
-QGreenland, instead of overlaying the DEM on Greenland, it can be found near the North
-pole using the "Zoom to Layer" feature.
+You download a dataset (`bamber_greenland_dem.tif`, found in this directory) which
+doesn't load as expected in QGIS. When loaded alongside QGreenland, instead of
+overlaying the DEM on Greenland, it can be found near the North pole using the "Zoom to
+Layer" feature.
 
 _NOTE: The included data file sample is not a real example of data from NSIDC; it's been
 modified from the original ([here](https://nsidc.org/data/nsidc-0092/versions/1)) to
