@@ -2,12 +2,25 @@
 
 ## Goals
 
-...
+* Build a shared familiarity with standard/open tools, formats, and practices
+* Create a more collaborative/open environment for researchers
+* ...?
 
 
-## Day 1
+## Ideas
 
-### Goals
+* Create data scenarios. Each scenario is in its own folder of this repo with both a
+  scenario (markdown) and a mock (or real) data file. The scenario could be a mock
+  dataset landing page, or a text description like "Imagine you downloaded this data
+  file from so-and-so landing page (link). How would you make it usable with QGIS?"
+* ...
+
+
+## Schedule
+
+### Day 1
+
+#### Goals
 
 Answer the following questions:
 
@@ -21,41 +34,32 @@ Answer the following questions:
   bias correction)
 
 
-### Schedule
+#### Activities
 
 ...
 
 
-### Ideas
-
-* Create data scenarios. Each scenario is in its own folder of this repo with both a
-  scenario (markdown) and a mock (or real) data file. The scenario could be a mock
-  dataset landing page, or a text description like "Imagine you downloaded this data
-  file from so-and-so landing page (link). How would you make it usable with QGIS?"
-* ...
+### Day 2
 
 
-## Day 2
-
-
-### Goals
+#### Goals
 
 ...
 
 
-### Schedule
+#### Activities
 
 ...
 
 
-## Day 3
+### Day 3
 
 
-### Goals
+#### Goals
 
 ...
 
 
-### Schedule
+#### Activities
 
 ...
