@@ -4,6 +4,6 @@
         <SrcLayer>Sheet1</SrcLayer>
         <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>EPSG:4326</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="x" y="y"/>
+        <GeometryField encoding="PointFromColumns" x="x" y="y" reportSrcColumn="FALSE" />
     </OGRVRTLayer>
 </OGRVRTDataSource>
