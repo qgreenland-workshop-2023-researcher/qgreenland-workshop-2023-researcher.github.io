@@ -18,4 +18,4 @@ ogr2ogr -f "GeoJSON" \
     -sql "SELECT ST_GeomFromText('POINT(' || x || ' ' || y || ')', 4326) geom, cuteness_rating, blood_acetone_grams_per_ml, blood_acetylcholine_grams_per_ml from Sheet1" \
     -a_srs "EPSG:4326" \
     "output.geojson" \
-    "kcbcc_DS4_final_v2_final.xlsx"
+    "../kcbcc_DS4_final_v2_final.xlsx"
