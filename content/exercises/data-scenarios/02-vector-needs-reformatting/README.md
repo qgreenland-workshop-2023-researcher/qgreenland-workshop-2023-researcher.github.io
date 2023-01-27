@@ -1,8 +1,8 @@
-# Data Scenario: Excel from a Scientist
+# Data Scenario: Vector Data Needs Reformatting
 
 You read a whitepaper about correlation between the chemistry of blood samples taken
-from 100 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
-by 100 randomly selected graduate students. The paper includes graphs and some limited
+from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
+by 100 randomly-selected graduate students. The paper includes graphs and some limited
 data tables, but after searching for hours you can't find the full data file(s) used to
 draw the conclusions in this study.
 
@@ -30,7 +30,7 @@ Fellow scientist,
 
 I found several candidates for the final dataset used to produce that study. I'm almost
 completely certain that the attached file is the correct one. Please let me know if you
-have any issues using this.
+have any issues using this. The x/y spatial coordinates are in lat/lon WGS84 projection.
 
 Best of luck.
 
@@ -42,8 +42,7 @@ You download the attachment `kcbcc_DS4_final_v2_final.xlsx`.
 
 ## TODO
 
-* Build and commit a mock dataset. Include geolocated datapoints with attributes.
-  * Should we make the data non-tabular so it can't be just loaded into Pandas? E.g.
-    include "header rows" containing metadata like projection?
+* Should we make the data non-tabular so it can't be just loaded directly into Pandas?
+  E.g.  include "header rows" containing metadata like projection?
 * Build a Jupyter notebook with an example solution? Include an example GeoJSON file (or
   other format) representing what the final result should look like?
