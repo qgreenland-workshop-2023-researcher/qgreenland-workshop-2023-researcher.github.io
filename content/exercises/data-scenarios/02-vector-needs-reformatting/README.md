@@ -42,7 +42,7 @@ You download the attachment `kcbcc_DS4_final_v2_final.xlsx`.
 
 ## TODO
 
-* Should we make the data non-tabular so it can't be just loaded directly into Pandas?
-  E.g.  include "header rows" containing metadata like projection?
+* Should we make the data non-tabular so it can't be loaded directly into Pandas without
+  modification? E.g. include "header rows" containing metadata like projection?
 * Build a Jupyter notebook with an example solution? Include an example GeoJSON file (or
   other format) representing what the final result should look like?

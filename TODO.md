@@ -4,7 +4,8 @@
 
 How do we solve the problem of diverse computing environments? We want to minimize the
 support burden because we have poor Windows/MacOS knowledge, but also want to make
-completing exercises and viewing results graphically (in QGIS) as easy as possible.
+completing exercises and viewing results graphically (in QGIS) as convenient as
+possible.
 
 * Provide Linux VMs with pre-configured tooling to upload to / download from the VMs
   disk
