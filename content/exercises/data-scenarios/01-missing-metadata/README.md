@@ -12,13 +12,13 @@ present a challenge._
 The landing page from which you downloaded this DEM states the dataset's proj4 string
 is:
 
-```
+```text
 +proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs
 ```
 
 And the corner coordinates are:
 
-```
+```text
 Upper Left  ( -802500.000, -597500.000)
 Lower Right (  702500.000,-3402500.000)
 ```
