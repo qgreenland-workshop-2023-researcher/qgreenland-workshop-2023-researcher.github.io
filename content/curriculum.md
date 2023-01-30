@@ -9,10 +9,6 @@
 
 ## Ideas
 
-* Create data scenarios. Each scenario is in its own folder of this repo with both a
-  scenario (markdown) and a mock (or real) data file. The scenario could be a mock
-  dataset landing page, or a text description like "Imagine you downloaded this data
-  file from so-and-so landing page (link). How would you make it usable with QGIS?"
 * ...
 
 
@@ -36,7 +32,10 @@ Answer the following questions:
 
 #### Activities
 
-...
+* Discussion on geospatial data quality (60m)
+  * What makes a "good" data format? (e.g. self-documenting, FAIR)
+  * Examples of "good" data formats (e.g. GeoJSON, GeoPackage, GeoTIFF, NetCDF, ...)
+  * What is "wrong" with other common data formats (e.g. .xlsx, CSV)
 
 
 ### Day 2
