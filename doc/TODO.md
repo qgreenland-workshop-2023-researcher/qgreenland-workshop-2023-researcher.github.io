@@ -28,3 +28,19 @@ possible.
 
 If we require local configuration, we should provide in-advance office hours to support
 users who are struggling with installing deps.
+
+
+## Improve presentation of this repo
+
+### Content
+
+* Add list of references that might be useful to attendees. Consider taking content from
+  `doc/development_references.md`
+
+
+### View
+
+* Consider a SSG for making an improved web-based "view" of this repo, e.g. mkdocs
+  * A good demo of something special you can do with CI
+* Consider leaving this repo without a "view" layer; introduce attendees to the utility
+  of Markdown rendered by GitHub.
