@@ -19,6 +19,8 @@
 
 #### Goals
 
+* Get to know each other
+* Get to know tools you'll need for this workshop
 * Learn what determines the quality of a dataset
   * What are common data formats?
   * What are common metadata standards?
@@ -32,25 +34,32 @@
 
 #### Activities
 
+* **Introductions (15m)**
+
+* **Intro to tools we'll be using (30m)**
+  * GitHub Discussions: Asynchronous group communication during and after the workshop.
+  * Computational tooling: What computing environment will we use and how will attendees
+    get set up?
+
 * **Review of foundational concepts of geospatial data and common terminology (15m)**
   * Vector data
-      * Types: point, line, polygon
-      * Attributes
+    * Types: point, line, polygon
+    * Attributes
   * Raster data
-      * Types: continuous, categorical
+    * Types: continuous, categorical
   * Point-cloud and others
-* **Discussion on geospatial data quality (60m)**
+
+* **Discussion on geospatial data quality (30m)**
   * What makes a "good" data format? (e.g. self-documenting, FAIR, ...)
   * Examples of "good" data formats (e.g. GeoJSON, GeoPackage, GeoTIFF, NetCDF, ...)
+    * TODO: What are some "good" self-describing formats for non-geospatial data?
   * What is "wrong" with other common data formats (e.g. .xlsx, CSV/TSV, ...)
-
-* ??? (30m)
 
 * **Break (20m)**
 
 * **Walkthrough Data Scenario #1 and solutions (60m)**
 
-* **??? (30m)**
+* **Discussion / questions? (30m)**
 
 
 ### Day 2
