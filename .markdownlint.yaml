@@ -1,0 +1,30 @@
+# MD007/ul-indent - Unordered list indentation
+MD007:
+  # Unordered list nesting indent is 4 spaces
+  indent: 4
+
+# MD012/no-multiple-blanks - Multiple consecutive blank lines
+# Allow consecutive blank lines for readability
+MD012: false
+
+# MD013/line-length - Line length
+MD013:
+  # Ignore code blocks
+  code_blocks: false
+  # Override default line length for flexibility
+  line_length: 90
+  heading_line_length: 90
+
+# MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
+MD024:
+  # Only check sibling headings
+  siblings_only: true
+
+# MD033/no-inline-html - Inline HTML
+MD033:
+  # Allow image HTML tags
+  allowed_elements:
+    - "img"
+
+# MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
+MD041: false

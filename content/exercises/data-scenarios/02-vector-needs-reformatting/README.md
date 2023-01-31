@@ -6,12 +6,12 @@ by 100 randomly-selected graduate students. The paper includes graphs and some l
 data tables, but after searching for hours you can't find the full data file(s) used to
 draw the conclusions in this study.
 
-You email Dr. Foobarbaz to ask him for help. Where can you get the source data so you
+You email Dr. Foobarbaz to ask them for help. Where can you get the source data so you
 can do your own analyses?
 
 Dr. Foobarbaz responds:
 
-```
+```text
 Fellow scientist,
 
 Thank you for your interest in my work. I appreciate that you'd like to see the source
@@ -25,7 +25,7 @@ Dr. Foobarbaz
 
 Three weeks later, Dr. Foobarbaz dilligently follows up:
 
-```
+```text
 Fellow scientist,
 
 I found several candidates for the final dataset used to produce that study. I'm almost
@@ -42,7 +42,7 @@ You download the attachment `kcbcc_DS4_final_v2_final.xlsx`.
 
 ## TODO
 
-* Should we make the data non-tabular so it can't be just loaded directly into Pandas?
-  E.g.  include "header rows" containing metadata like projection?
+* Should we make the data non-tabular so it can't be loaded directly into Pandas without
+  modification? E.g. include "header rows" containing metadata like projection?
 * Build a Jupyter notebook with an example solution? Include an example GeoJSON file (or
   other format) representing what the final result should look like?
