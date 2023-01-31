@@ -50,10 +50,19 @@
   * Point-cloud and others
 
 * **Discussion on geospatial data quality (30m)**
-  * What makes a "good" data format? (e.g. self-documenting, FAIR, ...)
-  * Examples of "good" data formats (e.g. GeoJSON, GeoPackage, GeoTIFF, NetCDF, ...)
+  * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
+  * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
+    NetCDF, ...)
     * TODO: What are some "good" self-describing formats for non-geospatial data?
-  * What is "wrong" with other common data formats (e.g. .xlsx, CSV/TSV, ...)
+    * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
+      support for metadata (e.g. data types), and you'll sometimes find CSV authors
+      "wing it" and write metadata into CSV files in non-standard format, e.g. by adding
+      lines to the end of the file. [W3
+      suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one method
+      of embedding metadata into a CSV file, but it must be supported by the processing
+      software. The advantage of CSV is that it's a "lowest common denominator" format
+      that has broad support.
+  * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
 
 * **Break (20m)**
 

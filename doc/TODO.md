@@ -34,6 +34,11 @@ users who are struggling with installing deps.
 
 ### Content
 
+* Clean up curriculum: Should be bullet points of topics and time spent on each topic.
+  Extract details for each topic into separate documents.
+
+* Index curriculum into modules, e.g. Day 1's third module could be `1C`.
+
 * Add list of references that might be useful to attendees. Consider taking content from
   `doc/development_references.md`
 
