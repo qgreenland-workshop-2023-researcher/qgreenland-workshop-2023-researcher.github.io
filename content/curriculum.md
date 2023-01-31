@@ -53,6 +53,7 @@
   * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
   * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
     NetCDF, ...)
+    * TODO: On Shapefiles; meet many quality criteria but also have some "dealbreakers".
     * TODO: What are some "good" self-describing formats for non-geospatial data?
     * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
       support for metadata (e.g. data types), and you'll sometimes find CSV authors
