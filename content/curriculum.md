@@ -32,7 +32,14 @@
 
 #### Activities
 
-* Discussion on geospatial data quality (60m)
+* **Review of foundational concepts of geospatial data and common terminology (15m)**
+  * Vector data
+      * Types: point, line, polygon
+      * Attributes
+  * Raster data
+      * Types: continuous, categorical
+  * Point-cloud and others
+* **Discussion on geospatial data quality (60m)**
   * What makes a "good" data format? (e.g. self-documenting, FAIR, ...)
   * Examples of "good" data formats (e.g. GeoJSON, GeoPackage, GeoTIFF, NetCDF, ...)
   * What is "wrong" with other common data formats (e.g. .xlsx, CSV/TSV, ...)
@@ -41,9 +48,9 @@
 
 * **Break (20m)**
 
-* Walkthrough Data Scenario #1 and solutions (60m)
+* **Walkthrough Data Scenario #1 and solutions (60m)**
 
-* ??? (30m)
+* **??? (30m)**
 
 
 ### Day 2
@@ -56,13 +63,13 @@
 
 #### Activities
 
-* Group exercises: Data Scenarios 2-4 (90m)
+* **Group exercises: Data Scenarios 2-4 (90m)**
 
-* _TODO: Some activity to fill time if exercises done early_
+* **_TODO: Some activity to fill time if exercises done early_**
 
 * **Break (20m)**
 
-* ???
+* **???**
 
 
 ### Day 3
@@ -74,4 +81,4 @@
 
 #### Activities
 
-* ???
+* **???**
