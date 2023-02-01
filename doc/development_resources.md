@@ -21,3 +21,4 @@ Draw inspiration from the way others have taught these or related concepts.
 
 * <https://www.theodi.org/>
 * <https://software-carpentry.org/>
+* <https://serc.carleton.edu/teachearth/index.html>
