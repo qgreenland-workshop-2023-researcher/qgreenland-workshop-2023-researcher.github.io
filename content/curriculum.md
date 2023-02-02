@@ -11,6 +11,7 @@
 
 * Include a break (or two) in each day's schedule. Break every 60m? 90m? How long to
   break?
+* ...?
 
 
 ## Schedule
