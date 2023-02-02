@@ -10,14 +10,14 @@ possible.
 * Provide Linux VMs with pre-configured tooling to upload to / download from the VMs
   disk
     * Pros: Consistent compute environment, transferrable Linux skills
-    * Cons: Convenience of accessing/sharing data, bandwitdh
+    * Cons: Convenience of accessing/sharing data, bandwidth
 * Provide VMs with graphical desktop to perform all operations
     * Pros: Full standardization of compute environment, transferrable Linux skills
     * Cons: Bandwidth
 * Provide a Jupyter notebook server that is shared
     * Pros: Consistent Python environment
     * Cons: How to make it convenient to access data?, does this solve for GDAL?
-* Require as a pre-requesite that users install and configure a conda environment on
+* Require as a prerequisite that users install and configure a conda environment on
   their local computer
     * Pros: Less infrastructure required (time and $ cost), everything happens in a
       familiar environment

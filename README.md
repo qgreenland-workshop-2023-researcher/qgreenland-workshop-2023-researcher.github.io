@@ -5,7 +5,7 @@
 TODO: Description
 
 
-## Prerequesites
+## Prerequisites
 
 * GDAL >= 3.0 (recommended to install with [`conda`](https://docs.conda.io))
 

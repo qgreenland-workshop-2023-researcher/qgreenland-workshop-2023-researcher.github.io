@@ -9,10 +9,10 @@
 
 ## Ideas
 
-* Create data scenarios. Each scenario is in its own folder of this repo with both a
-  scenario (markdown) and a mock (or real) data file. The scenario could be a mock
-  dataset landing page, or a text description like "Imagine you downloaded this data
-  file from so-and-so landing page (link). How would you make it usable with QGIS?"
+* Create data scenarios. Each scenario is in its own folder of this Git repository with
+  both a scenario (markdown) and a mock (or real) data file. The scenario could be a
+  mock dataset landing page, or a text description like "Imagine you downloaded this
+  data file from so-and-so landing page (link). How would you make it usable with QGIS?"
 * ...
 
 
