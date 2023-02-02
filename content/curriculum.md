@@ -21,23 +21,23 @@
 #### Goals
 
 * Get to know each other
-* Get to know tools you'll need for this workshop
+* Get to know tools you will need for this workshop
 * Learn what determines the quality of a dataset
     * What are common data formats?
     * What are common metadata standards?
     * What are some common practices that lead to problems interacting with data?
 * Learn how to fix "bad" data
-    * What can I do if my data still doesn't look right? (e.g. it's possible nobody living
-    knows how to resolve the problem, metadata may be incorrectly documented and you may
-    need help from the data producer, briefly mention techniques like georegistration,
-    bias correction)
+    * What can I do if my data still does not look right? (e.g. it's possible nobody
+      living knows how to resolve the problem, metadata may be incorrectly documented
+      and you may need help from the data producer, briefly mention techniques like
+      georegistration, bias correction)
 
 
 #### Activities
 
 * **Introductions (45 minutes)**
 
-* **Intro to tools we'll be using (15 minutes)**
+* **Intro to tools we will be using (15 minutes)**
     * GitHub Discussions: Asynchronous group communication during and after the workshop.
     * Computational tooling: What computing environment will we use and how will attendees
     get set up?
@@ -61,7 +61,7 @@
           breakers".
         * TODO: What are some "good" self-describing formats for non-geospatial data?
         * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
-      support for metadata (e.g. data types), and you'll sometimes find CSV authors
+      support for metadata (e.g. data types), and you will sometimes find CSV authors
       "wing it" and write metadata into CSV files in non-standard format, e.g. by adding
       lines to the end of the file. [W3
       suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one method
