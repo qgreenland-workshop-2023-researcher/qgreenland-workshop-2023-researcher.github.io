@@ -34,20 +34,22 @@
 
 #### Activities
 
-* **Introductions (15m)**
+* **Introductions (45m)**
 
-* **Intro to tools we'll be using (30m)**
+* **Intro to tools we'll be using (15m)**
   * GitHub Discussions: Asynchronous group communication during and after the workshop.
   * Computational tooling: What computing environment will we use and how will attendees
     get set up?
 
-* **Review of foundational concepts of geospatial data and common terminology (15m)**
+* **Review of foundational concepts of geospatial data and common terminology (30m)**
   * Vector data
     * Types: point, line, polygon
     * Attributes
   * Raster data
     * Types: continuous, categorical
   * Point-cloud and others
+
+* **Break (60m)**
 
 * **Discussion on geospatial data quality (30m)**
   * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
@@ -65,11 +67,7 @@
       that has broad support.
   * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
 
-* **Break (20m)**
-
 * **Walkthrough Data Scenario #1 and solutions (60m)**
-
-* **Discussion / questions? (30m)**
 
 
 ### Day 2
@@ -86,7 +84,7 @@
 
 * **_TODO: Some activity to fill time if exercises done early_**
 
-* **Break (20m)**
+* **Break (60m)**
 
 * **???**
 
