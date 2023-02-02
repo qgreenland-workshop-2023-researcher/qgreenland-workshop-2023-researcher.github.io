@@ -9,8 +9,8 @@
 
 ## Ideas
 
-* Include a break (or two) in each day's schedule. Break every 60m? 90m? How long to
-  break?
+* Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
+  long to break?
 * ...?
 
 
@@ -35,14 +35,15 @@
 
 #### Activities
 
-* **Introductions (45m)**
+* **Introductions (45 minutes)**
 
-* **Intro to tools we'll be using (15m)**
+* **Intro to tools we'll be using (15 minutes)**
     * GitHub Discussions: Asynchronous group communication during and after the workshop.
     * Computational tooling: What computing environment will we use and how will attendees
     get set up?
 
-* **Review of foundational concepts of geospatial data and common terminology (30m)**
+* **Review of foundational concepts of geospatial data and common terminology (30
+  minutes)**
     * Vector data
         * Types: point, line, polygon
         * Attributes
@@ -50,13 +51,14 @@
         * Types: continuous, categorical/discrete
     * Point-cloud and others
 
-* **Break (60m)**
+* **Break (60 minutes)**
 
-* **Discussion on geospatial data quality (30m)**
+* **Discussion on geospatial data quality (30 minutes)**
     * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
     * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
     NetCDF, ...)
-        * TODO: On Shapefiles; meet many quality criteria but also have some "dealbreakers".
+        * TODO: On Shapefiles; meet many quality criteria but also have some "deal
+          breakers".
         * TODO: What are some "good" self-describing formats for non-geospatial data?
         * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
       support for metadata (e.g. data types), and you'll sometimes find CSV authors
@@ -68,7 +70,7 @@
       that has broad support.
     * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
 
-* **Walkthrough Data Scenario #1 and solutions (60m)**
+* **Walk through Data Scenario #1 and solutions (60 minutes)**
 
 
 ### Day 2
@@ -81,11 +83,11 @@
 
 #### Activities
 
-* **Group exercises: Data Scenarios 2-4 (90m)**
+* **Group exercises: Data Scenarios 2-4 (90 minutes)**
 
 * **_TODO: Some activity to fill time if exercises done early_**
 
-* **Break (60m)**
+* **Break (60 minutes)**
 
 * **???**
 

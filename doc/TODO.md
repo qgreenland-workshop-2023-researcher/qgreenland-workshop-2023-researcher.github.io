@@ -10,11 +10,11 @@ possible.
 * Provide Linux VMs with pre-configured tooling to upload to / download from the VMs
   disk
     * Pros: Consistent compute environment, transferrable Linux skills
-    * Cons: Convenience of accessing/sharing data, bandwitdh
+    * Cons: Convenience of accessing/sharing data, bandwidth
 * Provide VMs with graphical desktop to perform all operations (e.g. Amazon Workspaces)
     * Pros: Full standardization of compute environment, transferrable Linux skills
     * Cons: Bandwidth
-* Require as a pre-requesite that users install and configure a conda environment on
+* Require as a prerequisite that users install and configure a conda environment on
   their local computer
     * Pros: Less infrastructure required (time and $ cost), everything happens in a
       familiar environment
@@ -22,17 +22,17 @@ possible.
 * Use JupyterHub to interact with compute resources? `%%shell` enables running bash
   (`gdal`/`ogr` commands) in notebook cells. Can we run desktop GUI apps like QGIS?
   [jupyter-qgis](https://github.com/giswqs/jupyter-qgis). We can sync data with
-  syncthing. Could use <https://github.com/berkeley-dsep-infra/datahub> as a resource.
+  Syncthing. Could use <https://github.com/berkeley-dsep-infra/datahub> as a resource.
   Could [contact 2i2c](https://2i2c.org/service/#getahub) to investigate whether their
   service would be a good fit.
     * Pros: Consistent Python environment
     * Cons: ???
 
 If we require local configuration, we should provide in-advance office hours to support
-users who are struggling with installing deps.
+users who are struggling with installing dependencies.
 
 
-## Improve presentation of this repo
+## Improve presentation of this Git repository
 
 ### Content
 
@@ -47,8 +47,9 @@ users who are struggling with installing deps.
 
 ### View
 
-* Consider a SSG for making an improved web-based "view" of this repo, e.g. mkdocs
+* Consider a SSG for making an improved web-based "view" of this Git repository, e.g.
+  MkDocs
     <!-- alex ignore special -->
     * A good demo of something special you can do with CI
-* Consider leaving this repo without a "view" layer; introduce attendees to the utility
-  of Markdown rendered by GitHub.
+* Consider leaving this Git repository without a "view" layer; introduce attendees to
+  the utility of Markdown rendered by GitHub.
