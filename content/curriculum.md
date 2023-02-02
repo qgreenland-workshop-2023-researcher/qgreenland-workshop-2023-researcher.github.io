@@ -9,11 +9,9 @@
 
 ## Ideas
 
-* Create data scenarios. Each scenario is in its own folder of this Git repository with
-  both a scenario (markdown) and a mock (or real) data file. The scenario could be a
-  mock dataset landing page, or a text description like "Imagine you downloaded this
-  data file from so-and-so landing page (link). How would you make it usable with QGIS?"
-* ...
+* Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
+  long to break?
+* ...?
 
 
 ## Schedule
@@ -22,44 +20,85 @@
 
 #### Goals
 
-Answer the following questions:
-
-* What determines the quality of a dataset?
-* What are common data formats?
-* What are common metadata standards?
-* How can I fix "bad" data?
-* What can I do if my data still doesn't look right? (e.g. it's possible nobody living
-  knows how to resolve the problem, metadata may be incorrectly documented and you may
-  need help from the data producer, briefly mention techniques like georegistration,
-  bias correction)
+* Get to know each other
+* Get to know tools you will need for this workshop
+* Learn what determines the quality of a dataset
+    * What are common data formats?
+    * What are common metadata standards?
+    * What are some common practices that lead to problems interacting with data?
+* Learn how to fix "bad" data
+    * What can I do if my data still does not look right? (e.g. it's possible nobody
+      living knows how to resolve the problem, metadata may be incorrectly documented
+      and you may need help from the data producer, briefly mention techniques like
+      georegistration, bias correction)
 
 
 #### Activities
 
-...
+* **Introductions (45 minutes)**
+
+* **Intro to tools we will be using (15 minutes)**
+    * GitHub Discussions: Asynchronous group communication during and after the workshop.
+    * Computational tooling: What computing environment will we use and how will attendees
+    get set up?
+
+* **Review of foundational concepts of geospatial data and common terminology (30
+  minutes)**
+    * Vector data
+        * Types: point, line, polygon
+        * Attributes
+    * Raster data
+        * Types: continuous, categorical/discrete
+    * Point-cloud and others
+
+* **Break (60 minutes)**
+
+* **Discussion on geospatial data quality (30 minutes)**
+    * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
+    * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
+    NetCDF, ...)
+        * TODO: On Shapefiles; meet many quality criteria but also have some "deal
+          breakers".
+        * TODO: What are some "good" self-describing formats for non-geospatial data?
+        * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
+      support for metadata (e.g. data types), and you will sometimes find CSV authors
+      "wing it" and write metadata into CSV files in non-standard format, e.g. by adding
+      lines to the end of the file. [W3
+      suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one method
+      of embedding metadata into a CSV file, but it must be supported by the processing
+      software. The advantage of CSV is that it's a "lowest common denominator" format
+      that has broad support.
+    * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
+
+* **Walk through Data Scenario #1 and solutions (60 minutes)**
 
 
 ### Day 2
 
-
 #### Goals
 
-...
+* Develop hands-on experience with manipulating data/metadata to improve dataset quality
+* ???
 
 
 #### Activities
 
-...
+* **Group exercises: Data Scenarios 2-4 (90 minutes)**
+
+* **_TODO: Some activity to fill time if exercises done early_**
+
+* **Break (60 minutes)**
+
+* **???**
 
 
 ### Day 3
 
-
 #### Goals
 
-...
+* ???
 
 
 #### Activities
 
-...
+* **???**
