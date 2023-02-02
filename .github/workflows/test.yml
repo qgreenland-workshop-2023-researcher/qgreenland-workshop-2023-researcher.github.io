@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: "ubuntu-latest"
 
     steps:
     - uses: "actions/checkout@v3"
@@ -16,14 +16,14 @@ jobs:
       with:
         node-version: '16'
 
-    - name: Install dependencies
+    - name: "Install dependencies"
       run: |
-        npm install -g markdownlint-cli alex
+        npm ci
 
-    - name: Lint
+    - name: "Check markdown formatting"
       run: |
-        markdownlint .
+        npm run markdownlint
 
-    - name: Check for considerate writing
+    - name: "Lint text content (e.g. spelling, considerate writing)"
       run: |
-        alex .
+        npm run textlint
