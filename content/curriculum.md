@@ -46,7 +46,7 @@
         * Types: point, line, polygon
         * Attributes
     * Raster data
-        * Types: continuous, categorical
+        * Types: continuous, categorical/discrete
     * Point-cloud and others
 
 * **Break (60m)**
