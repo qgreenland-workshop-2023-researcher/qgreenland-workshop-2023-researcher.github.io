@@ -48,6 +48,7 @@ users who are struggling with installing deps.
 ### View
 
 * Consider a SSG for making an improved web-based "view" of this repo, e.g. mkdocs
+    <!-- alex ignore special -->
     * A good demo of something special you can do with CI
 * Consider leaving this repo without a "view" layer; introduce attendees to the utility
   of Markdown rendered by GitHub.
