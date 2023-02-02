@@ -2,8 +2,9 @@
   "name": "qgreenland-2023-researcher-workshop",
   "description": "QGreenland 2023 Researcher Workshop",
   "scripts": {
-    "markdownlint": "markdownlint . --ignore node_modules",
-    "textlint": "textlint ."
+    "lint-alex": "alex .",
+    "lint-markdownformat": "markdownlint . --ignore node_modules",
+    "lint-spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms --report $(find . -not -path ./CODE_OF_CONDUCT.md -not -path './node_modules/*' -name '*.md')"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,7 @@
   "homepage": "https://github.com/nsidc/qgreenland-2023-researcher-workshop#readme",
   "devDependencies": {
     "alex": "^11.0.0",
-    "markdownlint-cli": "^0.33.0",
-    "textlint": "^13.1.3",
-    "textlint-rule-alex": "^3.0.0",
-    "textlint-rule-spelling": "^0.3.0"
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint-cli": "^0.33.0"
   }
 }

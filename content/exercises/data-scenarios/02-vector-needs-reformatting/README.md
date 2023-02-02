@@ -1,6 +1,6 @@
 # Data Scenario: Vector Data Needs Reformatting
 
-You read a whitepaper about correlation between the chemistry of blood samples taken
+You read a white paper about correlation between the chemistry of blood samples taken
 from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
 by 100 randomly-selected graduate students. The paper includes graphs and some limited
 data tables, but after searching for hours you can't find the full data file(s) used to
@@ -23,7 +23,7 @@ I will get back to you!
 Dr. Foobarbaz
 ```
 
-Three weeks later, Dr. Foobarbaz dilligently follows up:
+Three weeks later, Dr. Foobarbaz diligently follows up:
 
 ```text
 Fellow scientist,

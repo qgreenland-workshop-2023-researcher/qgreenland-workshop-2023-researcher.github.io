@@ -17,7 +17,7 @@ Lower Right ( -327188.537,-1860658.423) ( 54d58'23.69"W, 72d41'16.09"N)
 The projection information is given as "Well Known Text" (WKT) in the provided
 `datafile.prj` file.
 
-Given this information, create a GeoTiff file that can be loaded into QGIS and
+Given this information, create a GeoTIFF file that can be loaded into QGIS and
 viewed alongside other data in QGreenland.
 
 
@@ -25,7 +25,7 @@ viewed alongside other data in QGreenland.
 
 The provided `datafile.jpg` was extracted from NASA Operation Icebridge DMS
 imagery. Specifically, the `DMS_1000211_02076_20100409_17225023.tif` file was
-subsetted and converted to jpg for the purposes of this exercise.
+subsetted and converted to JPG for the purposes of this exercise.
 
 Credit is given to:
 
