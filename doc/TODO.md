@@ -23,6 +23,8 @@ possible.
   (`gdal`/`ogr` commands) in notebook cells. Can we run desktop GUI apps like QGIS?
   [jupyter-qgis](https://github.com/giswqs/jupyter-qgis). We can sync data with
   syncthing. Could use <https://github.com/berkeley-dsep-infra/datahub> as a resource.
+  Could [contact 2i2c](https://2i2c.org/service/#getahub) to investigate whether their
+  service would be a good fit.
     * Pros: Consistent Python environment
     * Cons: ???
 
