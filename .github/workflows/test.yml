@@ -22,12 +22,12 @@ jobs:
 
     - name: "Lint: Markdown formatting"
       run: |
-        npm run lint-markdown
+        npm run lint-markdown-format
 
     - name: "Lint: considerate writing"
       run: |
-        npm run lint-alex
+        npm run lint-considerate-writing
 
-    - name: "Lint: spelling"
+    - name: "Lint: spell check"
       run: |
-        npm run lint-spellcheck
+        npm run lint-spell-check

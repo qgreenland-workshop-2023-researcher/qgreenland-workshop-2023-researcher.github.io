@@ -1,10 +1,10 @@
 # Data Scenario: Vector Data Needs Reformatting
 
-You read a white paper about correlation between the chemistry of blood samples taken
-from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as rated
-by 100 randomly-selected graduate students. The paper includes graphs and some limited
-data tables, but after searching for hours you can't find the full data file(s) used to
-draw the conclusions in this study.
+You read a research publication about correlation between the chemistry of blood samples
+taken from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as
+rated by 100 randomly-selected graduate students. The paper includes graphs and some
+limited data tables, but after searching for hours you can't find the full data file(s)
+used to draw the conclusions in this study.
 
 You email Dr. Foobarbaz to ask them for help. Where can you get the source data so you
 can do your own analyses?

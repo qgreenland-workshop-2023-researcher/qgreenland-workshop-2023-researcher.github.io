@@ -2,9 +2,10 @@
   "name": "qgreenland-2023-researcher-workshop",
   "description": "QGreenland 2023 Researcher Workshop",
   "scripts": {
-    "lint-alex": "alex .",
-    "lint-markdownformat": "markdownlint . --ignore node_modules",
-    "lint-spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms --report $(find . -not -path ./CODE_OF_CONDUCT.md -not -path './node_modules/*' -name '*.md')"
+    "lint-considerate-writing": "alex .",
+    "lint-markdown-format": "markdownlint . --ignore node_modules",
+    "lint-spell-check": "mdspell --en-us --ignore-numbers --ignore-acronyms --report $(find . -not -path ./CODE_OF_CONDUCT.md -not -path './node_modules/*' -name '*.md')",
+    "lint": "npm run lint-considerate-writing && npm run lint-markdown-format && npm run lint-spell-check"
   },
   "repository": {
     "type": "git",
