@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nsidc/qgreenland-2023-researcher-workshop#readme",
   "devDependencies": {
     "alex": "^11.0.0",
-    "markdownlint": "^0.27.0",
+    "markdownlint-cli": "^0.33.0",
     "textlint": "^13.1.3",
     "textlint-rule-alex": "^3.0.0",
     "textlint-rule-spelling": "^0.3.0"
