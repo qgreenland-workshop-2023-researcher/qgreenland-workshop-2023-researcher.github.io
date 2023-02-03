@@ -1,5 +1,12 @@
 # Prerequisites
 
+## Code of Conduct
+
+Agree to our Code of Conduct
+
+_TODO: Use the existing one, or separate one for workshop attendees?_
+
+
 ## GitHub Account
 
 * Register an account on GitHub
