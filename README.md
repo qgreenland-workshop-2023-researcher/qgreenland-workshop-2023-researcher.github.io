@@ -5,11 +5,6 @@
 TODO: Description
 
 
-## Prerequisites
-
-* GDAL >= 3.0 (recommended to install with [`conda`](https://docs.conda.io))
-
-
 ## Level of Support
 
 This repository is not actively supported by NSIDC but we welcome issue submissions and

@@ -14,6 +14,12 @@
 * Resampling exercise?
 
 
+### Goal ideas for later
+
+* Show data transformation provenance using Jupyter Notebooks
+* Transparently share transformations and provenance using GitHub
+
+
 ## Schedule
 
 ### Day 1
@@ -22,6 +28,37 @@
 
 * Get to know each other
 * Get to know tools you will need for this workshop
+* Learn basic usage of GitHub
+* Learn basic usage of Jupyterlab
+* Learn about "FAIR" data principles _(TODO: Others?)_
+
+
+#### Activities
+
+* **Introductions (30 minutes)**
+
+* **Review/discussion on "FAIR", "CARE", ...? data principles (30 minutes)**
+  * [FAIR](https://www.go-fair.org/fair-principles/)
+  * [CARE](https://www.gida-global.org/care)
+
+* **Intro to GitHub: Discussions (30 minutes)**
+
+* **Break (60 minutes)**
+
+* **Into to GitHub: Repositories (45 minutes)**
+  * Creating a GitHub repository and adding a `README.md` file
+    * GitHub Flavored Markdown
+
+* **Intro to JupyterHub (45 minutes)**
+  * Jupyter Notebooks
+  * Accessing the terminal
+  * Accessing the desktop
+
+
+### Day 2
+
+#### Goals
+
 * Learn what determines the quality of a dataset
     * What are common data formats?
     * What are common metadata standards?
@@ -34,13 +71,6 @@
 
 
 #### Activities
-
-* **Introductions (45 minutes)**
-
-* **Intro to tools we will be using (15 minutes)**
-    * GitHub Discussions: Asynchronous group communication during and after the workshop.
-    * Computational tooling: What computing environment will we use and how will attendees
-    get set up?
 
 * **Review of foundational concepts of geospatial data and common terminology (30
   minutes)**
@@ -77,7 +107,7 @@
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
 
-### Day 2
+### Day 3
 
 #### Goals
 
@@ -87,27 +117,12 @@
 
 #### Activities
 
-* **Explore common geospatial data operations (90 minutes)**
+* **Explore common geospatial data operations (60 minutes)**
     * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, ...?
     * Explore GDAL and Python tools
+
+* **Commit a script to GitHub (15 minutes)**
 
 * **Break (60 minutes)**
 
 * **Group exercises: Data Scenarios 2-4 (90 minutes)**
-
-
-### Day 3
-
-#### Goals
-
-* Show data transformation provenance using Jupyter Notebooks
-* Transparently share transformations and provenance using GitHub
-
-
-#### Activities
-
-* **???**
-
-* **Break (60 minutes)**
-
-* **???**
