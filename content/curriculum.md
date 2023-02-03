@@ -12,6 +12,8 @@
 * Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
   long to break?
 * Resampling exercise?
+* Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
+  working
 
 
 ### Goal ideas for later
@@ -35,24 +37,47 @@
 
 #### Activities
 
-* **Introductions (30 minutes)**
+* **Workshop overview and team introductions (35 minutes)**
+  * Discuss overall goals of the workshop and today (10 minutes)
+  * Intro to GitHub Discussions (10 minutes)
+  * Team introductions in breakout rooms (15 minutes)
+  * TODO: Quirky icebreaker questions
 
-* **Review/discussion on "FAIR", "CARE", ...? data principles (30 minutes)**
+* **Review/discussion of Open Science (and data) principles (25 minutes)**
+  * Value of version control and doing work "in the open"
+    * GitHub Discussions
+    * TODO: Example Open Source research repositories?
   * [FAIR](https://www.go-fair.org/fair-principles/)
   * [CARE](https://www.gida-global.org/care)
+  * TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this?
 
-* **Intro to GitHub: Discussions (30 minutes)**
+* **Breakout room discussion (30 minutes)**
+  * How do FAIR/CARE relate to your research?
+  * Post on GH Discussions?
 
 * **Break (60 minutes)**
 
-* **Into to GitHub: Repositories (45 minutes)**
+* **Into to GitHub: Repositories (25 minutes)**
   * Creating a GitHub repository and adding a `README.md` file
     * GitHub Flavored Markdown
 
-* **Intro to JupyterHub (45 minutes)**
+* **Breakout room activity: Make a GitHub repository (20 minutes)**
+  * Add a `README.md` file introducing team members
+  * TODO: Who owns the repository? Create a dedicated organization?
+
+* **Intro to JupyterHub (30 minutes)**
   * Jupyter Notebooks
   * Accessing the terminal
   * Accessing the desktop
+  * Walk through running an example notebook and viewing its output in QGIS?
+
+<!-- TODO: Pick a breakout room activity -->
+* **Breakout room activity (15 minutes)**?
+  * Pre-populate an example notebook that generates some basic data output.
+    Walk through running the notebook then viewing the output in QGIS.
+
+* **Breakout room activity: End of day reflection (15 minutes)**?
+  * Post in GitHub discussions?
 
 
 ### Day 2
