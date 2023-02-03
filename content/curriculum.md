@@ -48,6 +48,7 @@
     * GitHub Discussions
     * TODO: Example Open Source research repositories?
   * [FAIR](https://www.go-fair.org/fair-principles/)
+  * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
   * [CARE](https://www.gida-global.org/care)
   * TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this?
 
