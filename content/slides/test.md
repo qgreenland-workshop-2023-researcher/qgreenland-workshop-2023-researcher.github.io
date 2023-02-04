@@ -1,0 +1,21 @@
+---
+title: "Test presentation"
+subtitle: "Click here to set subtitle"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard:
+      buttons: true
+    preview-links: auto
+    footer: <https://nsidc.org>
+---
+
+## Hello world
+
+This is a presentation
+
+- Thing
+- Thing
+- Another thing
+
+:tada:
