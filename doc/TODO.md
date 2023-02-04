@@ -32,6 +32,12 @@ If we require local configuration, we should provide in-advance office hours to 
 users who are struggling with installing dependencies.
 
 
+## Slides
+
+Look into `quarto create project` to set up some boilerplate (e.g. gitignore entries)
+for Quarto projects
+
+
 ## Improve presentation of this Git repository
 
 ### Content

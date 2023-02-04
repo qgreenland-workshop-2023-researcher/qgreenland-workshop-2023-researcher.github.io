@@ -19,3 +19,12 @@ This is a presentation
 - Another thing
 
 :tada:
+
+
+## Code
+
+```{python}
+#| echo: true
+import random
+print(random.random())
+```
