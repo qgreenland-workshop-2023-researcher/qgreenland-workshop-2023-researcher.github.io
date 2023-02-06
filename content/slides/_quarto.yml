@@ -5,6 +5,8 @@ project:
 
 format:
   revealjs:
+    toc: true
+    toc-depth: 2
     theme: dark
     slide-number: true
     chalkboard:
