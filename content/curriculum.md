@@ -50,7 +50,9 @@
     * [FAIR](https://www.go-fair.org/fair-principles/)
     * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
     * [CARE](https://www.gida-global.org/care)
-    * TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this?
+    * STREAM?
+    * Open Data Charter
+    * TODO: FAIR/CARE data checker? _TODO: Arctic Data Center maybe has something like this. Ask?_
 
 * **Breakout room discussion (30 minutes)**
     * How do FAIR/CARE relate to your research?
@@ -73,11 +75,11 @@
     * Walk through running an example notebook and viewing its output in QGIS?
 
 <!-- TODO: Pick a breakout room activity -->
-* **Breakout room activity (15 minutes)**?
+* **Breakout room activity (20 minutes)**?
     * Pre-populate an example notebook that generates some basic data output.
       Walk through running the notebook then viewing the output in QGIS.
 
-* **Breakout room activity: End of day reflection (15 minutes)**?
+* **Breakout room activity: End of day reflection (10 minutes)**?
     * Post in GitHub discussions?
 
 
@@ -128,7 +130,6 @@
           processing software. The advantage of CSV is that it's a "lowest common
           denominator" format that has broad support.
     * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
-      resample, ...?
 
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
@@ -144,7 +145,7 @@
 #### Activities
 
 * **Explore common geospatial data operations (60 minutes)**
-    * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, ...?
+    * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, resample, ...?
     * Explore GDAL and Python tools
 
 * **Commit a script to GitHub (15 minutes)**
