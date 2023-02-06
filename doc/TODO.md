@@ -67,3 +67,9 @@ users who are struggling with installing dependencies.
 * Consider announcing groups ahead of the workshop. This might allow
   participants to reach out to eachother ahead of time, read introductions for
   their group members, etc.
+
+
+## Workshop materials
+
+* Generate a list (at least a few) of dataset suggestions in case groups cannot
+  come up with one of their own. Check backlog for new layer suggestions.
