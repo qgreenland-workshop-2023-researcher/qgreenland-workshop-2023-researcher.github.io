@@ -7,13 +7,15 @@ format:
   revealjs:
     toc: true
     toc-depth: 2
-    theme: dark
+    theme: "dark"
     slide-number: true
     chalkboard:
       buttons: true
-    preview-links: auto
-    footer: <https://nsidc.org>
+    preview-links: "auto"
+    logo: "https://nsidc.org/themes/custom/nsidc/logo.svg" 
+    footer: "<https://nsidc.org>"
     strip-comments: true
+    overview: true
 
     # Themes:
     #   beige
