@@ -60,3 +60,10 @@ users who are struggling with installing dependencies.
     * A good demo of something special you can do with CI
 * Consider leaving this Git repository without a "view" layer; introduce attendees to
   the utility of Markdown rendered by GitHub.
+
+
+## Workshop organization
+
+* Consider announcing groups ahead of the workshop. This might allow
+  participants to reach out to eachother ahead of time, read introductions for
+  their group members, etc.
