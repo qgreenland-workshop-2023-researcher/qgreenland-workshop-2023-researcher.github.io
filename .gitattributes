@@ -1,0 +1,2 @@
+# Re-classify `.qmd` files as Markdown
+*.qmd linguist-language=Markdown
