@@ -19,5 +19,5 @@ To develop slides locally and view a preview:
 * Preview the slide deck:
 
   ```console
-  quarto preview content/slides/test.md
+  quarto preview content/slides/<my-file>.qmd
   ```
