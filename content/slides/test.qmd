@@ -17,7 +17,7 @@ This is a presentation
 
 ## Code
 
-```python
+```{python}
 #| echo: true
 import random
 print(random.random())
