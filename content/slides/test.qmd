@@ -11,7 +11,7 @@ This is a presentation
 - Thing
 - Another thing
 
-:tada:
+🎉
 
 
 ## Code

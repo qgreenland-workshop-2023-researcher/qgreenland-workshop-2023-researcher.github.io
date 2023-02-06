@@ -31,7 +31,7 @@
 * Get to know each other
 * Get to know tools you will need for this workshop
 * Learn basic usage of GitHub
-* Learn basic usage of Jupyterlab
+* Learn basic usage of JupyterLab
 * Learn about "FAIR" data principles _(TODO: Others?)_
 
 
