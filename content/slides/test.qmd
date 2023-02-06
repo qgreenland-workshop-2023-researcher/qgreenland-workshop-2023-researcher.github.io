@@ -2,6 +2,7 @@
 title: "Test presentation"
 subtitle: "Click here to set subtitle"
 ---
+<!-- vim: set ft=markdown: -->
 
 ## Hello world
 
@@ -16,7 +17,7 @@ This is a presentation
 
 ## Code
 
-```{python}
+```python
 #| echo: true
 import random
 print(random.random())
