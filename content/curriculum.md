@@ -31,54 +31,54 @@
 * Get to know each other
 * Get to know tools you will need for this workshop
 * Learn basic usage of GitHub
-* Learn basic usage of Jupyterlab
+* Learn basic usage of JupyterLab
 * Learn about "FAIR" data principles _(TODO: Others?)_
 
 
 #### Activities
 
 * **Workshop overview and team introductions (35 minutes)**
-  * Discuss overall goals of the workshop and today (10 minutes)
-  * Intro to GitHub Discussions (10 minutes)
-  * Team introductions in breakout rooms (15 minutes)
-  * TODO: Quirky icebreaker questions
+    * Discuss overall goals of the workshop and today (10 minutes)
+    * Intro to GitHub Discussions (10 minutes)
+    * Team introductions in breakout rooms (15 minutes)
+    * TODO: Quirky icebreaker questions
 
 * **Review/discussion of Open Science (and data) principles (25 minutes)**
-  * Value of version control and doing work "in the open"
-    * GitHub Discussions
-    * TODO: Example Open Source research repositories?
-  * [FAIR](https://www.go-fair.org/fair-principles/)
-  * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
-  * [CARE](https://www.gida-global.org/care)
-  * TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this?
+    * Value of version control and doing work "in the open"
+        * GitHub Discussions
+        * TODO: Example Open Source research repositories?
+    * [FAIR](https://www.go-fair.org/fair-principles/)
+    * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
+    * [CARE](https://www.gida-global.org/care)
+    * TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this?
 
 * **Breakout room discussion (30 minutes)**
-  * How do FAIR/CARE relate to your research?
-  * Post on GH Discussions?
+    * How do FAIR/CARE relate to your research?
+    * Post on GH Discussions?
 
 * **Break (60 minutes)**
 
 * **Into to GitHub: Repositories (25 minutes)**
-  * Creating a GitHub repository and adding a `README.md` file
-    * GitHub Flavored Markdown
+    * Creating a GitHub repository and adding a `README.md` file
+        * GitHub Flavored Markdown
 
 * **Breakout room activity: Make a GitHub repository (20 minutes)**
-  * Add a `README.md` file introducing team members
-  * TODO: Who owns the repository? Create a dedicated organization?
+    * Add a `README.md` file introducing team members
+    * TODO: Who owns the repository? Create a dedicated organization?
 
 * **Intro to JupyterHub (30 minutes)**
-  * Jupyter Notebooks
-  * Accessing the terminal
-  * Accessing the desktop
-  * Walk through running an example notebook and viewing its output in QGIS?
+    * Jupyter Notebooks
+    * Accessing the terminal
+    * Accessing the desktop
+    * Walk through running an example notebook and viewing its output in QGIS?
 
 <!-- TODO: Pick a breakout room activity -->
 * **Breakout room activity (15 minutes)**?
-  * Pre-populate an example notebook that generates some basic data output.
-    Walk through running the notebook then viewing the output in QGIS.
+    * Pre-populate an example notebook that generates some basic data output.
+      Walk through running the notebook then viewing the output in QGIS.
 
 * **Breakout room activity: End of day reflection (15 minutes)**?
-  * Post in GitHub discussions?
+    * Post in GitHub discussions?
 
 
 ### Day 2

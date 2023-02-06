@@ -6,6 +6,7 @@ GeoTIFF
 Icebridge
 Jupyter
 JupyterHub
+JupyterLab
 MacOS
 MkDocs
 NetCDF
@@ -19,12 +20,17 @@ dataset
 e.g.
 georegistration
 geospatial
+gitignore
 jupyter-qgis
 metadata
+metapackage
 pre-configured
+pre-populate
 proj4
 reproject
 reprojection
+resample
+resampling
 subsetted
 subsetting
 xlsx

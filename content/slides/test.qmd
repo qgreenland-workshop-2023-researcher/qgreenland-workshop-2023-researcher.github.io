@@ -1,0 +1,23 @@
+---
+title: "Test presentation"
+subtitle: "Click here to set subtitle"
+---
+
+## Hello world
+
+This is a presentation
+
+- Thing
+- Thing
+- Another thing
+
+🎉
+
+
+## Code
+
+```{python}
+#| echo: true
+import random
+print(random.random())
+```
