@@ -26,7 +26,7 @@ concurrency:
 jobs:
   build:
     runs-on: "ubuntu-latest"
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: "${{ github.event.workflow_run.conclusion == 'success' }}"
     permissions:
       contents: "write"
     steps:
@@ -35,6 +35,9 @@ jobs:
 
       - name: "Set up Quarto"
         uses: "quarto-dev/quarto-actions/setup@v2"
+
+      - name: "Install dependencies"
+        run: "pip install jupyter"
 
       - name: "Render"
         uses: "quarto-dev/quarto-actions/render@v2"
