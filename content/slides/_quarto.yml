@@ -1,3 +1,26 @@
 project:
   title: "qgreenland-2023-researcher-workshop-slides"
   type: "website"
+  output-dir: "_dist"
+
+format:
+  revealjs:
+    theme: dark
+    slide-number: true
+    chalkboard:
+      buttons: true
+    preview-links: auto
+    footer: <https://nsidc.org>
+
+    # Themes:
+    #   beige
+    #   blood
+    #   dark
+    #   default
+    #   league
+    #   moon
+    #   night
+    #   serif
+    #   simple
+    #   sky
+    #   solarized
