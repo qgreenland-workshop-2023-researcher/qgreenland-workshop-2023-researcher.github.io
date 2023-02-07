@@ -91,7 +91,7 @@
     * Identify key attributes of the data/metadata ("Unknown" is a valid answer)
         * Data type (raster, vector, etc.)
         * File type (xlsx, csv, shapefile, netcdf, etc)
-        * Projection & corner coords
+        * Projection & corner coords (for raster data)
     * For now, choose a notetaker and record this information in whatever way
       you feel comfortable. We will come back to these notes later!
 
@@ -120,21 +120,6 @@
     * _TODO: should there be a second deliverable here? A git commit? A github
       discussion? Some kind of reflection on the day?_
 
-<!-- TODO: move everything below this to day 2. -->
-* **Intro to JupyterHub (30 minutes)**
-    * Tool for showing your work / tracking provenance. 
-    * Jupyter Notebooks
-    * Accessing the terminal
-    * Accessing the desktop
-    * Walk through running an example notebook and viewing its output in QGIS?
-
-<!-- TODO: Pick a breakout room activity -->
-* **Breakout room activity (20 minutes)**?
-    * Pre-populate an example notebook that generates some basic data output.
-      Walk through running the notebook then viewing the output in QGIS.
-
-
-
 ### Day 2
 
 #### Goals
@@ -152,17 +137,11 @@
 
 #### Activities
 
-
-* **Break (60 minutes)**
-
-<!-- TODO: Maybe move this discussion up to before the break? Then follow up with discussion of jupyter as a means of tracking changes to metadata/format, followed by working out data scenarios in jupyter w/ markdown explinations of what was done? -->
-* **Discussion on geospatial data quality (60 minutes)**
-    * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
-    * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
-    NetCDF, ...)
+* **Discussion on geospatial data quality (25 minutes)**
+    * Problematic geospatial data formats: what is "wrong" with other common
+      geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
         * TODO: On Shapefiles; meet many quality criteria but also have some "deal
           breakers".
-        * TODO: What are some "good" self-describing formats for non-geospatial data?
         * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
           support for metadata (e.g. data types), and you will sometimes find CSV
           authors "wing it" and write metadata into CSV files in non-standard format,
@@ -171,10 +150,44 @@
           method of embedding metadata into a CSV file, but it must be supported by the
           processing software. The advantage of CSV is that it's a "lowest common
           denominator" format that has broad support.
-    * What is "wrong" with other common geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
+    * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
+    * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage,
+      GeoTIFF, NetCDF, ...)
+        * TODO: What are some "good" self-describing formats for non-geospatial data?
+
+* _TODO: breakout room activity here? Maybe have participants identify the
+  format they would like their data to be in if it isn't already?_
+
+* **Discussion about metadata?**
+    * Key geospatial metadata (projection, etc.). We assume participants are
+      already familiar with this.
+    * Common metadata standards, e.g., CF conventions for NetCDF data.
+    * Provenance
+    * `ogrinfo` and `gdalinfo`
+
+* _TODO: breakout room activity here? Maybe have participants use `ogrinfo` or
+  `gdalinfo` to inspect their datasets? Some datasets may not work with these commands._
+
+* **Intro to JupyterHub (30 minutes)**
+    * Tool for showing your work / tracking provenance. 
+    * Jupyter Notebooks
+    * Accessing the terminal
+    * Accessing the desktop
+    * Walk through running an example notebook and viewing its output in QGIS?
+
+* **Breakout room activity (20 minutes)**?
+    * Pre-populate an example notebook that generates some basic data output.
+      Walk through running the notebook then viewing the output in QGIS. Maybe
+      generate a random distribution of poitns over an area in greenland that
+      might represent data colleciton points.
+
+* **Break (60 minutes)**
+
 
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
+* **Breakout room activity: work on chosen datasets to reformat / add metadata if necessary**?
+    * _TODO: What would groups do if their dataset doesn't need any changes?_
 
 ### Day 3
 
@@ -182,6 +195,7 @@
 
 * Develop hands-on experience with manipulating data/metadata to improve dataset
   quality/usability.
+* How to make data suitable for a specific analysis / problem?
 * ???
 
 
