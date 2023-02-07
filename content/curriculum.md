@@ -1,9 +1,11 @@
 # Curriculum
 
+
 ## Goals
 
-* Build a shared familiarity with standard/open tools, formats, and practices
-* Create a more collaborative/open environment for researchers
+* Build a shared familiarity with standard/open tools, formats, and practices.
+* Create a more collaborative/open environment for researchers.
+* Prepare new datasets for use in the QGreenland QGIS data environment.
 * ...?
 
 
@@ -13,7 +15,7 @@
   long to break?
 * Resampling exercise?
 * Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
-  working
+  working.
 
 
 ### Goal ideas for later
@@ -28,7 +30,8 @@
 
 #### Goals
 
-* Get to know each other
+* Get to know each other and form into groups.
+* Select a dataset for your group to focus on over the course of the workshop.
 * Get to know tools you will need for this workshop
 * Learn basic usage of GitHub
 * Learn basic usage of JupyterLab
@@ -37,10 +40,12 @@
 
 #### Activities
 
-* **Workshop overview and team introductions (35 minutes)**
+* **Workshop overview and team introductions (20 minutes)**
     * Discuss overall goals of the workshop and today (10 minutes)
     * Intro to GitHub Discussions (10 minutes)
-    * Team introductions in breakout rooms (15 minutes)
+
+* **Team introductions in breakout rooms (20 minutes)**
+    * Briefly describe the dataset you chose and why.
     * TODO: Quirky icebreaker questions
 
 * **Review/discussion of Open Science (and data) principles (25 minutes)**
@@ -56,18 +61,31 @@
 
 * **Breakout room discussion (30 minutes)**
     * How do FAIR/CARE relate to your research?
+    * Discuss how one or more of the datasets your group members has chosen
+      relate/conform to FAIR/CARE.
     * Post on GH Discussions?
 
 * **Break (60 minutes)**
 
+* **Breakout room discussion (15 minutes)**
+    * Select a dataset that your group will work on. _TODO: Consider guidelines
+      for selecting an interesting dataset_.
+
 * **Into to GitHub: Repositories (25 minutes)**
     * Creating a GitHub repository and adding a `README.md` file
         * GitHub Flavored Markdown
-
+        
 * **Breakout room activity: Make a GitHub repository (20 minutes)**
-    * Add a `README.md` file introducing team members
-    * TODO: Who owns the repository? Create a dedicated organization?
+    * Create repository. _TODO: what should the repo be named? Consider
+      mentioning the difficulties around naming. Guidelines?_
+    * Add a `README.md` file introducing team members and identifying the
+      dataset your group has chosen.
+    * _TODO: Who owns the repository? Create a dedicated organization?_
 
+* **Group report: which dataset and why (15 minutes)**
+    * _can be reogranized to end of the day if running low on time_
+
+<!-- TODO: consider moving everything below this to day 2. -->
 * **Intro to JupyterHub (30 minutes)**
     * Jupyter Notebooks
     * Accessing the terminal
