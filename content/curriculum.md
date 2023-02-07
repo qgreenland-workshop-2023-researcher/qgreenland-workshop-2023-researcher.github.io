@@ -133,11 +133,13 @@
       living knows how to resolve the problem, metadata may be incorrectly documented
       and you may need help from the data producer, briefly mention techniques like
       georegistration, bias correction)
+* Develop hands-on experience with manipulating data/metadata to improve dataset
+  quality/usability.
 
 
 #### Activities
 
-* **Discussion on geospatial data quality (25 minutes)**
+* **Discussion on geospatial data formats (25 minutes)**
     * Problematic geospatial data formats: what is "wrong" with other common
       geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
         * TODO: On Shapefiles; meet many quality criteria but also have some "deal
@@ -155,18 +157,21 @@
       GeoTIFF, NetCDF, ...)
         * TODO: What are some "good" self-describing formats for non-geospatial data?
 
-* _TODO: breakout room activity here? Maybe have participants identify the
-  format they would like their data to be in if it isn't already?_
+* _TODO: breakout room activity here?_
 
-* **Discussion about metadata?**
-    * Key geospatial metadata (projection, etc.). We assume participants are
-      already familiar with this.
+* **Review of key geospatial metadata concepts (20 minutes)**
+    * Review of key geospatial metadata (projection, etc.). We assume participants are
+      already familiar with this, but may have limited hands-on experience.
+      * Even lat/lon coordinates need metadata (datum), particularly when the
+        location data is of a high precision.
     * Common metadata standards, e.g., CF conventions for NetCDF data.
     * Provenance
     * `ogrinfo` and `gdalinfo`
 
 * _TODO: breakout room activity here? Maybe have participants use `ogrinfo` or
   `gdalinfo` to inspect their datasets? Some datasets may not work with these commands._
+
+* **Break (60 minutes)**
 
 * **Intro to JupyterHub (30 minutes)**
     * Tool for showing your work / tracking provenance. 
@@ -181,9 +186,6 @@
       generate a random distribution of poitns over an area in greenland that
       might represent data colleciton points.
 
-* **Break (60 minutes)**
-
-
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
 * **Breakout room activity: work on chosen datasets to reformat / add metadata if necessary**?
@@ -193,8 +195,6 @@
 
 #### Goals
 
-* Develop hands-on experience with manipulating data/metadata to improve dataset
-  quality/usability.
 * How to make data suitable for a specific analysis / problem?
 * ???
 
@@ -203,6 +203,11 @@
 
 * **Explore common geospatial data operations (60 minutes)**
     * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, resample, ...?
+      * _TODO: consider discussion about characteristics of common projections
+        and why you might want to use one over another_
+      * _TODO: Consider discussion about information loss from common
+        transformations (reprojection, resampling, datatype conversion
+        (raster<->vector))_
     * Explore GDAL and Python tools
     * _TODO: consider discussing sybolizing geospatial data (e.g., colormaps)_
 
