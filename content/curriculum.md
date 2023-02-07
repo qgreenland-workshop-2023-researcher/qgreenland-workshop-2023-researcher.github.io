@@ -154,6 +154,7 @@
       compare to your good/bad experiences/expectations with those formats?
 
 * **Discussion: Geospatial data formats (25 minutes)**
+    * _TODO: consider discussion about how data are often organized on disk (granularity)_
     * Problematic geospatial data formats: what is "wrong" with other common
       geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
         * TODO: On Shapefiles; meet many quality criteria but also have some "deal
@@ -215,6 +216,7 @@
           a Jupyter Notebook.
         * Include Markdown cells to tell a story: explain what each computation is
           doing, and what your group learned from the results of each computation.
+        * Commit and push the notebook to GitHub.
 
 * **Discussion on fixing "bad" data (?? minutes)**
     * ???
@@ -230,10 +232,6 @@
     * Does your chosen dataset have issues that need fixing? If not, explore Data
       Scenarios?
 
-
-* **Breakout room activity: work on chosen datasets to reformat / add metadata if necessary**?
-    * _TODO: What would groups do if their dataset doesn't need any changes?_
-
 ### Day 3
 
 #### Goals
@@ -244,18 +242,42 @@
 
 #### Activities
 
-* **Explore common geospatial data operations (60 minutes)**
-    * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, resample, ...?
-      * _TODO: consider discussion about characteristics of common projections
-        and why you might want to use one over another_
-      * _TODO: Consider discussion about information loss from common
-        transformations (reprojection, resampling, datatype conversion
-        (raster<->vector))_
-    * Explore GDAL and Python tools
-    * _TODO: consider discussing sybolizing geospatial data (e.g., colormaps)_
-
-* **Commit a script to GitHub (15 minutes)**
+* **Discussion: Explore geospatial data transformations (40 minutes)**
+    * Concepts
+        * Reprojection
+            * _TODO: consider discussion about characteristics of common
+              projections and why you might want to use one over another_
+        * Resampling
+        * Subsetting
+        * Conversion (raster <-> vector)
+        * _TODO: Consider discussion about information loss from common
+            transformations (reprojection, resampling, datatype conversion
+            (raster<->vector))_
+    * Tools / Techniques
+        * QGIS Processing Toolbox (brief mention, participants should be
+          familiar with this from the [beginner tutorial
+          series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
+        * gdalwarp, ogr2ogr, ...
+        * Python (rasterio, shapely, xarray, pyresample, PyQGIS, ...)
+        
+* **Breakout room activity: Data Scenarios ?? (90 minutes)**
+    * If your group's dataset is not "QGreenland-Friendly", make it so.
+        * EPSG:3413
+        * Use the Greenland focused-boundary to subset the data.
+        * Make sure the data is GeoTiff or GeoPackage.
+    * _TODO: make data scenarios that are data based, not just metadata (exercise the concepts above)_
 
 * **Break (60 minutes)**
 
-* **Group exercises: Data Scenarios 2-4 (90 minutes)**
+* **Discussion: symbolizing geospatial data**
+    * Representing vector data attributes
+      * Point markers
+      * Color
+      * Size
+      * Labels
+      * Scale dependent rendering
+    * Colormap analysis with `viscm`. _TODO: consider utilizing
+      https://github.com/nsidc/colormap-analysis_
+    * Accessibility related concerns?
+
+* **Breakout room activity: Visualize your dataset in an interesting way**
