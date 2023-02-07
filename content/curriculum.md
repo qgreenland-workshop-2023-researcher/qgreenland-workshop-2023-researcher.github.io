@@ -19,6 +19,9 @@
 * Consider adding some buffer time before and after break for things to run
   long. A longer break is better than a shorter break.
 * Keep a timer/alarm for making sure we stay on target and don't miss the break.
+* Encourage rotation of "driver" responsibility in breakout groups.
+* Talk briefly about pair/group programming?
+* Set expectation of group activities in application materials.
 
 
 ### Goal ideas for later
@@ -31,27 +34,27 @@
 
 ### Day 1
 
-#### Goals
+#### Outcomes
 
 * Get to know each other and form into groups.
 * Select a dataset for your group to focus on over the course of the workshop.
-* Get to know tools you will need for this workshop
-* Learn basic usage of GitHub
-* Learn basic usage of JupyterLab
-* Learn about "FAIR" data principles _(TODO: Others?)_
+* Gain familiarity with or review:
+    * Open Science and data concepts/principles
+    * Geospatial data concepts
+* Create a repository on GitHub.
 
 
 #### Activities
 
-* **Workshop overview (15 minutes)**
+* **Discussion: Workshop overview (15 minutes)**
     * Discuss overall goals of the workshop and today (10 minutes)
     * Intro to GitHub Discussions (5 minutes)
 
-* **Team introductions in breakout rooms (20 minutes)**
+* **Breakout room activity: Team introductions (20 minutes)**
     * Briefly describe the dataset you chose and why.
     * TODO: Quirky icebreaker questions
 
-* **Review/discussion of Open Science (and data) principles (25 minutes)**
+* **Discussion: Review of Open Science (and data) principles (25 minutes)**
     * Value of version control and doing work "in the open"
         * GitHub Discussions
         * TODO: Example Open Source research repositories?
@@ -62,7 +65,7 @@
     * Open Data Charter
     * TODO: FAIR/CARE data checker? _TODO: Arctic Data Center maybe has something like this. Ask?_
 
-* **Breakout room discussion (30 minutes)**
+* **Breakout room activity: FAIR/CARE discussion (30 minutes)**
     * How do FAIR/CARE relate to your research?
     * Discuss how one or more of the datasets your group members has chosen
       relate/conform to FAIR/CARE.
@@ -70,8 +73,8 @@
 
 * **Break (60 minutes)**
 
-* **Brief review of foundational concepts of geospatial data and common terminology (10
-  minutes)**
+* **Discussion: Review of geospatial data foundational concepts and common terminology
+  (10 minutes)**
     * Vector data in QGIS
         * Types: point, line, polygon
         * Attributes
@@ -84,18 +87,20 @@
               aligned with the goal of preparing data for a specific use case_.
     * Point-cloud and others
 
-* **Breakout room discussion (15 minutes)**
+* **Breakout room activity: Select and analyze a dataset (15 minutes)**
     * Select a dataset that your group will work on. _TODO: Consider guidelines
       for selecting an interesting dataset_.
     * Try to open your data in QGIS. Is that possible?
-    * Identify key attributes of the data/metadata ("Unknown" is a valid answer)
+    * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
         * Data type (raster, vector, etc.)
         * File type (xlsx, csv, shapefile, netcdf, etc)
-        * Projection & corner coords (for raster data)
-    * For now, choose a notetaker and record this information in whatever way
-      you feel comfortable. We will come back to these notes later!
+        * Projection
+        * Extent (e.g. corner coords / edge values)
+    * Choose a notetaker and record this information in whatever way you feel
+      comfortable. We will come back to these notes later! NOTE: Do not take notes in
+      Zoom chat, they will disappear.
 
-* **Into to GitHub: Repositories (25 minutes)**
+* **Discussion: Intro to GitHub repositories (25 minutes)**
     * FAIR can apply to all of the work that you are doing. Now that we have
       some knowledge about the data that we want to keep track of and share with
       others, lets utilize GitHub as the mechanism to translate that knowledge
@@ -106,7 +111,7 @@
         * GitHub Flavored Markdown (we don't expect participants to read through all of this, just a reference).
             * Basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
             * Full spec: https://github.github.com/gfm/
-        
+
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
     * Create repository. _TODO: what should the repo be named? Consider
       mentioning the difficulties around naming. Guidelines?_
@@ -120,26 +125,35 @@
     * _TODO: should there be a second deliverable here? A git commit? A github
       discussion? Some kind of reflection on the day?_
 
+
 ### Day 2
 
-#### Goals
+#### Outcomes
 
-* Learn what determines the quality of a dataset
-    * What are common data formats?
-    * What are common metadata standards?
-    * What are some common practices that lead to problems interacting with data?
-* Learn how to fix "bad" data
-    * What can I do if my data still does not look right? (e.g. it's possible nobody
-      living knows how to resolve the problem, metadata may be incorrectly documented
-      and you may need help from the data producer, briefly mention techniques like
-      georegistration, bias correction)
+* Gain familiarity with or review:
+  * Geospatial data formats
+  * Geospatial metadata concepts
+* Create a Notebook in JupyterLab.
 * Develop hands-on experience with manipulating data/metadata to improve dataset
   quality/usability.
 
 
 #### Activities
 
-* **Discussion on geospatial data formats (25 minutes)**
+* **Discussion: Day 2 activity overview (5 minutes)**
+    * Discuss goals for Day 2.
+
+* **Breakout room activity: Experiences with geospatial data (?? minutes)**
+    * Discuss in groups: What are some particularly good/bad datasets you've been
+      exposed to and what attributes of that format make it easy/hard to work with? Keep
+      it constructive; the author of this dataset may be in attendance, and we should
+      always assume good intentions. _Data management is hard and standards are
+      constantly improving._
+    * Report back to the larger group? Leading in to the following discussions.
+    * How can we link this back to the chosen dataset? e.g. "How does the chosen dataset
+      compare to your good/bad experiences/expectations with those formats?
+
+* **Discussion: Geospatial data formats (25 minutes)**
     * Problematic geospatial data formats: what is "wrong" with other common
       geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
         * TODO: On Shapefiles; meet many quality criteria but also have some "deal
@@ -157,36 +171,65 @@
       GeoTIFF, NetCDF, ...)
         * TODO: What are some "good" self-describing formats for non-geospatial data?
 
-* _TODO: breakout room activity here?_
+* _TODO: How to break up this extended "lecture" section and make it less exhausting?_
 
-* **Review of key geospatial metadata concepts (20 minutes)**
+* **Discussion: Review of key geospatial metadata concepts (20 minutes)**
     * Review of key geospatial metadata (projection, etc.). We assume participants are
       already familiar with this, but may have limited hands-on experience.
-      * Even lat/lon coordinates need metadata (datum), particularly when the
-        location data is of a high precision.
+        * Even lat/lon coordinates need metadata (datum), particularly when the location
+          data is of a high precision.
     * Common metadata standards, e.g., CF conventions for NetCDF data.
     * Provenance
-    * `ogrinfo` and `gdalinfo`
+    * Tools: `ogrinfo`/`gdalinfo`, `xarray`, `Panoply`
 
-* _TODO: breakout room activity here? Maybe have participants use `ogrinfo` or
-  `gdalinfo` to inspect their datasets? Some datasets may not work with these commands._
+* _TODO: and/or breakout room activity here?_
+    * What approaches to data introspection have you used / are you comfortable with?
+    * What can you teach your teammates?
+    * What can your teammates teach you?
+
+* **Discussion: Intro to JupyterLab (20 minutes)**
+    * Accessing the terminal
+    * Accessing the desktop / QGIS
+        * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
+          JupyterHub intro early in workshop, come back later to introduce Notebooks?_
+    * Jupyter Notebooks as a tool for Literate Programming
+        * Showing your work / tracking provenance. 
+    * Walk through running an example notebook and viewing its output in QGIS?
+        * _TODO: Generate the example notebook._
+        * Maybe programmatically generate a random distribution of points over an area
+          in Greenland (e.g. use the extent of "Greenland coastlines 2017" layer as the
+          x/y extents for random-number generation, then filter those random coordinates
+          using the "Greenland coastlines 2017" layer).
+        * Maybe filter the "Place names database" layer by:
+            * Random sample
+            * Maximum of a particular attribute
 
 * **Break (60 minutes)**
 
-* **Intro to JupyterHub (30 minutes)**
-    * Tool for showing your work / tracking provenance. 
-    * Jupyter Notebooks
-    * Accessing the terminal
-    * Accessing the desktop
-    * Walk through running an example notebook and viewing its output in QGIS?
+* **Breakout room activity: Analyzing data with JupyterLab (30 minutes)**
+    * Pick someone to "drive" with a screen share. Please rotate this responsibility!
+    * Run the example notebook from the "Intro to JupyterLab" discussion.
+    * Use your JupyterLab instance to inspect your group's chosen dataset. Try a few
+      different methods!
+        * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, ??? in
+          a Jupyter Notebook.
+        * Include Markdown cells to tell a story: explain what each computation is
+          doing, and what your group learned from the results of each computation.
 
-* **Breakout room activity (20 minutes)**?
-    * Pre-populate an example notebook that generates some basic data output.
-      Walk through running the notebook then viewing the output in QGIS. Maybe
-      generate a random distribution of poitns over an area in greenland that
-      might represent data colleciton points.
+* **Discussion on fixing "bad" data (?? minutes)**
+    * ???
+    * What can I do if my data still does not look right? (e.g. it's possible nobody
+      living knows how to resolve the problem, metadata may be incorrectly documented
+      and you may need help from the data producer, briefly mention techniques like
+      georegistration, bias correction)
+    * Tools: `ogr2ogr`, `gdal_translate`, `gdal_edit.py`
 
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
+
+* **Breakout room activity: Fix some "bad" data (20 minutes)**
+    * Does your chosen dataset have issues that need fixing? If not, explore Data
+      Scenarios?
+
 
 * **Breakout room activity: work on chosen datasets to reformat / add metadata if necessary**?
     * _TODO: What would groups do if their dataset doesn't need any changes?_
