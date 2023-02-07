@@ -16,6 +16,9 @@
 * Resampling exercise?
 * Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
   working.
+* Consider adding some buffer time before and after break for things to run
+  long. A longer break is better than a shorter break.
+* Keep a timer/alarm for making sure we stay on target and don't miss the break.
 
 
 ### Goal ideas for later
@@ -40,9 +43,9 @@
 
 #### Activities
 
-* **Workshop overview and team introductions (20 minutes)**
+* **Workshop overview (15 minutes)**
     * Discuss overall goals of the workshop and today (10 minutes)
-    * Intro to GitHub Discussions (10 minutes)
+    * Intro to GitHub Discussions (5 minutes)
 
 * **Team introductions in breakout rooms (20 minutes)**
     * Briefly describe the dataset you chose and why.
@@ -67,26 +70,59 @@
 
 * **Break (60 minutes)**
 
+* **Brief review of foundational concepts of geospatial data and common terminology (10
+  minutes)**
+    * Vector data in QGIS
+        * Types: point, line, polygon
+        * Attributes
+    * Raster data in QGIS
+        * Types: continuous, categorical/discrete
+        * Considerations
+            * Interpolation: With categorical/discrete data, always use nearest
+              neighbor to avoid "smudging" between regions. _TODO: consider
+              moving this discussion to day 3? This is an operation that is more
+              aligned with the goal of preparing data for a specific use case_.
+    * Point-cloud and others
+
 * **Breakout room discussion (15 minutes)**
     * Select a dataset that your group will work on. _TODO: Consider guidelines
       for selecting an interesting dataset_.
+    * Try to open your data in QGIS. Is that possible?
+    * Identify key attributes of the data/metadata ("Unknown" is a valid answer)
+        * Data type (raster, vector, etc.)
+        * File type (xlsx, csv, shapefile, netcdf, etc)
+        * Projection & corner coords
+    * For now, choose a notetaker and record this information in whatever way
+      you feel comfortable. We will come back to these notes later!
 
 * **Into to GitHub: Repositories (25 minutes)**
-    * Creating a GitHub repository and adding a `README.md` file
-        * GitHub Flavored Markdown
+    * FAIR can apply to all of the work that you are doing. Now that we have
+      some knowledge about the data that we want to keep track of and share with
+      others, lets utilize GitHub as the mechanism to translate that knowledge
+      to documentation.
+    * Demonstrate creating a git repo in the GitHub interface with a `README.md`
+      file with the type of knowledge we want groups to record about their
+      dataset. Use an existing QGreenland data layer as an example.
+        * GitHub Flavored Markdown (we don't expect participants to read through all of this, just a reference).
+            * Basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+            * Full spec: https://github.github.com/gfm/
         
-* **Breakout room activity: Make a GitHub repository (20 minutes)**
+* **Breakout room activity: Make a GitHub repository (40 minutes)**
     * Create repository. _TODO: what should the repo be named? Consider
       mentioning the difficulties around naming. Guidelines?_
     * Add a `README.md` file introducing team members and identifying the
       dataset your group has chosen.
-    * _TODO: Who owns the repository? Create a dedicated organization?_
+        * list of team members
+        * Mimic the repo created in the previous activity, create a section for
+          the metadata and data.
+    * _TODO: Create a dedicated organization._
+    * _TODO: think more about what exactly we want people to do in the last 20 min_
+    * _TODO: should there be a second deliverable here? A git commit? A github
+      discussion? Some kind of reflection on the day?_
 
-* **Group report: which dataset and why (15 minutes)**
-    * _can be reogranized to end of the day if running low on time_
-
-<!-- TODO: consider moving everything below this to day 2. -->
+<!-- TODO: move everything below this to day 2. -->
 * **Intro to JupyterHub (30 minutes)**
+    * Tool for showing your work / tracking provenance. 
     * Jupyter Notebooks
     * Accessing the terminal
     * Accessing the desktop
@@ -97,8 +133,6 @@
     * Pre-populate an example notebook that generates some basic data output.
       Walk through running the notebook then viewing the output in QGIS.
 
-* **Breakout room activity: End of day reflection (10 minutes)**?
-    * Post in GitHub discussions?
 
 
 ### Day 2
@@ -118,20 +152,10 @@
 
 #### Activities
 
-* **Review of foundational concepts of geospatial data and common terminology (30
-  minutes)**
-    * Vector data in QGIS
-        * Types: point, line, polygon
-        * Attributes
-    * Raster data in QGIS
-        * Types: continuous, categorical/discrete
-        * Considerations
-            * Interpolation: With categorical/discrete data, always use nearest
-              neighbor to avoid "smudging" between regions.
-    * Point-cloud and others
 
 * **Break (60 minutes)**
 
+<!-- TODO: Maybe move this discussion up to before the break? Then follow up with discussion of jupyter as a means of tracking changes to metadata/format, followed by working out data scenarios in jupyter w/ markdown explinations of what was done? -->
 * **Discussion on geospatial data quality (60 minutes)**
     * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
     * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage, GeoTIFF,
@@ -156,7 +180,8 @@
 
 #### Goals
 
-* Develop hands-on experience with manipulating data/metadata to improve dataset quality
+* Develop hands-on experience with manipulating data/metadata to improve dataset
+  quality/usability.
 * ???
 
 
@@ -165,6 +190,7 @@
 * **Explore common geospatial data operations (60 minutes)**
     * Explore some QGIS Toolbox tools, e.g. reprojection, reformat, resample, ...?
     * Explore GDAL and Python tools
+    * _TODO: consider discussing sybolizing geospatial data (e.g., colormaps)_
 
 * **Commit a script to GitHub (15 minutes)**
 
