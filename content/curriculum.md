@@ -13,6 +13,8 @@
 * Encourage rotation of "driver" responsibility in breakout groups.
 * Talk briefly about pair/group programming?
 * Set expectation of group activities in application materials.
+* Consider a sync service (e.g., `syncthing`) for sharing data between participants.
+* Think about ways to encourage larger-group discussions following breakout rooms.
 
 
 ### Goal ideas for later
@@ -89,6 +91,7 @@
         * GitHub Flavored Markdown (we don't expect participants to read through all of this, just a reference).
             * Basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
             * Full spec: https://github.github.com/gfm/
+        * Turn on GitHub Discussions.
 
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
     * Create repository. _TODO: what should the repo be named? Consider
@@ -98,6 +101,9 @@
         * list of team members
         * Mimic the repo created in the previous activity, create a section for
           the metadata and data.
+    * Turn on GitHub Discussions for your group repository. You can use this
+      space any async discussions within your group during (or after!) the
+      workshop.
     * _TODO: Create a dedicated organization._
     * _TODO: think more about what exactly we want people to do in the last 20 min_
     * _TODO: should there be a second deliverable here? A git commit? A github
@@ -172,7 +178,7 @@
         * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
           JupyterHub intro early in workshop, come back later to introduce Notebooks?_
     * Jupyter Notebooks as a tool for Literate Programming
-        * Showing your work / tracking provenance. 
+        * Showing your work / tracking provenance.
     * Walk through running an example notebook and viewing its output in QGIS?
         * _TODO: Generate the example notebook._
         * Maybe programmatically generate a random distribution of points over an area
@@ -210,6 +216,11 @@
     * Does your chosen dataset have issues that need fixing? If not, explore Data
       Scenarios?
 
+* **Homework: think about how you could perform an analysis with your chosen dataset**
+    * Consider the other layers in QGreenland. How can you utlize them with your
+      dataset to answer a question?
+    * Share your ideas with your group in the GitHub Discussions for your repository.
+
 ### Day 3
 
 #### Goals
@@ -237,25 +248,52 @@
           series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
         * gdalwarp, ogr2ogr, ...
         * Python (rasterio, shapely, xarray, pyresample, PyQGIS, ...)
-        
-* **Breakout room activity: Data Scenarios ?? (90 minutes)**
-    * If your group's dataset is not "QGreenland-Friendly", make it so.
-        * EPSG:3413
-        * Use the Greenland focused-boundary to subset the data.
-        * Make sure the data is GeoTiff or GeoPackage.
-    * _TODO: make data scenarios that are data based, not just metadata (exercise the concepts above)_
+        * _TODO: create notebook examples for various tools_
+
+* **Breakout room activity: choose an analysis for your dataset (50 minutes)**
+    * Choose an idea for an analysis involving your dataset.
+    * Using a Jupyter Notebook:
+        * Outline what steps you need to take to perform the analysis.
+        * Estimate the time it would require to develop your analysis.
+        * If there are barriers to performing your analysis, document what they
+          are and how you could overcome them given the necessary resources
+          (time, additional datasets, etc.).
+    * Commit the notebook and push it to GitHub.
 
 * **Break (60 minutes)**
 
-* **Discussion: symbolizing geospatial data**
-    * Representing vector data attributes
-      * Point markers
-      * Color
-      * Size
-      * Labels
-      * Scale dependent rendering
-    * Colormap analysis with `viscm`. _TODO: consider utilizing
-      https://github.com/nsidc/colormap-analysis_
+_TODO: consider turning this into a video we post on the QGR youtube and make homework for day 1?_
+* **Discussion: symbolizing geospatial data in QGIS (20-30 minutes)**
+    * colormaps (15 minutes)
+        * cmocean as a strong default
+          * How to add cmocean to QGIS (_TODO: add link to video_)
+        * Common mistakes in choosing a colormap
+          * colorbrewer (a useful tool, but very specific use-case)
+          * jet / rainbow
+        * Colormap analysis with `viscm`. _TODO: consider utilizing
+        https://github.com/nsidc/colormap-analysis_
+    * Representing vector data attributes (10 minutes)
+        * Point markers
+        * Color
+        * Size
+        * Labels
+        * Scale dependent rendering
     * Accessibility related concerns?
 
-* **Breakout room activity: Visualize your dataset in an interesting way**
+* **Breakout room activity: Analyze your dataset (??)**
+    * If possible, begin to perform your group's chosen analysis.
+    * If your analysis is not possible, consider one of the following activities:
+        * If your group's dataset is not "QGreenland-Friendly", make it so.
+            * EPSG:3413
+            * Use the QGreenland "Greenland-focused boundary" layer to subset the
+            data (`Reference/QGreenland` boundaries in the QGreenland **Layers
+            Panel**).
+            * Make sure the data is GeoTIFF or GeoPackage.
+        * Data analysis scenario
+            * _TODO: consider additional data/analysis scenarios that groups can try if
+            they have the time / do not have an analysis for their dataset_
+
+* **End of workshop group report**
+    * Tell us about what you learned
+    * Provide a brief overview of your analysis / ideas for future analysis with
+      the dataset you chose.
