@@ -32,11 +32,23 @@ If we require local configuration, we should provide in-advance office hours to 
 users who are struggling with installing dependencies.
 
 
-## Slides
+## Slides / presenting
 
 * Look into `quarto create project` to set up some boilerplate (e.g. gitignore entries)
   for Quarto projects
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
+* Can we pre-record presentations? More control over timing, more end-user control over
+  the presentation, e.g. skipping parts they already understand or rewinding parts when
+  they require review.
+* Limit live presentations to brief overviews of topics, providing supporting materials,
+  e.g. pre-recorded topic presentations. Focus on solving problems as a group and
+  directly supporting groups.
+
+
+## Timing / scheduling
+
+* Consider a 4th optional day of workshop with a "hook" to encourage attendance,
+  followed by office hours.
 
 
 ## Improve presentation of this Git repository
