@@ -1,6 +1,6 @@
 <!-- vim: set ft=markdown: -->
 
-## Breakout: Team introductions (20 minutes)
+# Breakout: Team introductions (20 minutes)
 
 * What dataset did you choose?
 * _TODO: Pick a quirky icebreaker question!_

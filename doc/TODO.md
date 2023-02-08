@@ -41,6 +41,7 @@ users who are struggling with installing dependencies.
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
+* Select background imagery: e.g. Icebridge DMS imagery (airborne photos) of Greenland
 
 
 ## Timing / scheduling

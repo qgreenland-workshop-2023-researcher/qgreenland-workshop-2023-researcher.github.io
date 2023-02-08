@@ -12,8 +12,11 @@ subtitle: "Day 1"
 
 {{< include day-1/1c-open-science-and-data.qmd >}}
 
+{{< include day-1/1d-breakout-fair-care.qmd >}}
 
+
+# Break (60 minutes)
 
 # Afternoon session
 
-<!-- include modules -->
+{{< include day-1/1e-review-geospatial-basics.qmd >}}
