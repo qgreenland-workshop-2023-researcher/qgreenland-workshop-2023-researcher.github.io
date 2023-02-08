@@ -1,0 +1,19 @@
+---
+title: "QGreenland 2023 Researcher Workshop"
+subtitle: "Day 1"
+---
+<!-- vim: set ft=markdown: -->
+
+# Morning session
+
+{{< include day-1/1a-overview.qmd >}}
+
+{{< include day-1/1b-breakout-team-intros.qmd >}}
+
+{{< include day-1/1c-open-science-and-data.qmd >}}
+
+
+
+# Afternoon session
+
+<!-- include modules -->

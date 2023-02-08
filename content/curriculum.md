@@ -1,14 +1,5 @@
 # Curriculum
 
-
-## Goals
-
-* Build a shared familiarity with standard/open tools, formats, and practices.
-* Create a more collaborative/open environment for researchers.
-* Prepare new datasets for use in the QGreenland QGIS data environment.
-* ...?
-
-
 ## Ideas
 
 * Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
@@ -47,23 +38,10 @@
 #### Activities
 
 * **Discussion: Workshop overview (15 minutes)**
-    * Discuss overall goals of the workshop and today (10 minutes)
-    * Intro to GitHub Discussions (5 minutes)
 
 * **Breakout room activity: Team introductions (20 minutes)**
-    * Briefly describe the dataset you chose and why.
-    * TODO: Quirky icebreaker questions
 
 * **Discussion: Review of Open Science (and data) principles (25 minutes)**
-    * Value of version control and doing work "in the open"
-        * GitHub Discussions
-        * TODO: Example Open Source research repositories?
-    * [FAIR](https://www.go-fair.org/fair-principles/)
-    * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
-    * [CARE](https://www.gida-global.org/care)
-    * STREAM?
-    * Open Data Charter
-    * TODO: FAIR/CARE data checker? _TODO: Arctic Data Center maybe has something like this. Ask?_
 
 * **Breakout room activity: FAIR/CARE discussion (30 minutes)**
     * How do FAIR/CARE relate to your research?

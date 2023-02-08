@@ -1,0 +1,28 @@
+<!-- vim: set ft=markdown: -->
+
+# Discussion: Review of Open Science (and data) principles
+
+## Value of version control and doing work "in the open"
+
+* GitHub Discussions
+* _TODO: Example Open Source research repositories?_
+
+## Important data principles: [FAIR](https://www.go-fair.org/fair-principles/)
+
+![FAIR principles image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg)
+[license](https://commons.wikimedia.org/wiki/File:FAIR_data_principles.jpg)
+
+_TODO_: Image caption with link to license?
+
+
+## Important data principles: [CARE](https://www.gida-global.org/care)
+
+_TODO_
+
+
+## Other data principles
+
+* [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
+* STREAM?
+* [International Open Data Charter](https://opendatacharter.net/)
+* _TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this. Ask?_

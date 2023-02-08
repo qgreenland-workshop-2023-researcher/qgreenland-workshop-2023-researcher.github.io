@@ -1,0 +1,28 @@
+<!-- vim: set ft=markdown: -->
+
+## Workshop overview
+
+* Build a shared familiarity with standard/open tools, formats, and practices.
+* Create a more collaborative/open environment for researchers.
+* Prepare new datasets for use in the QGreenland QGIS data environment.
+* _TODO: More!_
+
+
+## Day 1 overview
+
+
+* Get to know each other and form into groups.
+* Select a dataset for your group to focus on over the course of the workshop.
+* Gain familiarity with or review:
+		 * Open Science and data concepts/principles
+		 * Geospatial data concepts
+* Create a repository on GitHub.
+
+
+## GitHub Discussions
+
+Use GitHub discussions for all asynchronous communication.
+
+* Questions
+* You found something cool
+* _TODO: More examples_

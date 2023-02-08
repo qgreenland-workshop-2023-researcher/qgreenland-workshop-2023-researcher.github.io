@@ -30,7 +30,7 @@ intros.
 * A dataset you'd love to use with QGreenland
 * Tell a story about Greenland
 * Convey a data-related challenge from your past
-* Think of QGreenland datasets you're interested in working with
+* Think of Greenland datasets you're interested in working with
 * ...?
 
 
