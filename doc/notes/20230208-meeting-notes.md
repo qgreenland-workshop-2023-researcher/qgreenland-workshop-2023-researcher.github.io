@@ -9,7 +9,7 @@
     * Could provide video for breakout room activities that informs the activity.
 * Encourage workshop attendees to apply their learning to a real-life dataset on their
   own time, and provide office hours to support any issues.
-* Be prepared for nobody to take advantage of office hours!
+    * Be prepared for nobody to take advantage of office hours!
 * Set expectation of X% attendance in order to be paid.
 * **Provide guidelines for selecting an interesting dataset.**
 * Possible day 1 activity / homework: explore QGreenland and identify a dataset that
