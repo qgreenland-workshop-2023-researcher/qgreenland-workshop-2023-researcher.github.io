@@ -88,7 +88,8 @@
     * Demonstrate creating a git repo in the GitHub interface with a `README.md`
       file with the type of knowledge we want groups to record about their
       dataset. Use an existing QGreenland data layer as an example.
-        * GitHub Flavored Markdown (we don't expect participants to read through all of this, just a reference).
+        * GitHub Flavored Markdown (we don't expect participants to read through all of
+          this, just a reference).
             * Basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
             * Full spec: https://github.github.com/gfm/
         * Turn on GitHub Discussions.
@@ -240,8 +241,8 @@
         * Subsetting
         * Conversion (raster <-> vector)
         * _TODO: Consider discussion about information loss from common
-            transformations (reprojection, resampling, datatype conversion
-            (raster<->vector))_
+          transformations (reprojection, resampling, datatype conversion
+          (raster<->vector))_
     * Tools / Techniques
         * QGIS Processing Toolbox (brief mention, participants should be
           familiar with this from the [beginner tutorial
@@ -264,14 +265,14 @@
 
 _TODO: consider turning this into a video we post on the QGR youtube and make homework for day 1?_
 * **Discussion: symbolizing geospatial data in QGIS (20-30 minutes)**
-    * colormaps (15 minutes)
-        * cmocean as a strong default
+    * Colormaps (15 minutes)
+        * `cmocean` as a strong default
           * How to add cmocean to QGIS (_TODO: add link to video_)
         * Common mistakes in choosing a colormap
-          * colorbrewer (a useful tool, but very specific use-case)
-          * jet / rainbow
+          * Colorbrewer (a useful tool, but very specific use-case)
+          * Jet / rainbow
         * Colormap analysis with `viscm`. _TODO: consider utilizing
-        https://github.com/nsidc/colormap-analysis_
+          https://github.com/nsidc/colormap-analysis_
     * Representing vector data attributes (10 minutes)
         * Point markers
         * Color
@@ -286,12 +287,12 @@ _TODO: consider turning this into a video we post on the QGR youtube and make ho
         * If your group's dataset is not "QGreenland-Friendly", make it so.
             * EPSG:3413
             * Use the QGreenland "Greenland-focused boundary" layer to subset the
-            data (`Reference/QGreenland` boundaries in the QGreenland **Layers
-            Panel**).
+              data (`Reference/QGreenland` boundaries in the QGreenland **Layers
+              Panel**).
             * Make sure the data is GeoTIFF or GeoPackage.
         * Data analysis scenario
             * _TODO: consider additional data/analysis scenarios that groups can try if
-            they have the time / do not have an analysis for their dataset_
+              they have the time / do not have an analysis for their dataset_
 
 * **End of workshop group report**
     * Tell us about what you learned
