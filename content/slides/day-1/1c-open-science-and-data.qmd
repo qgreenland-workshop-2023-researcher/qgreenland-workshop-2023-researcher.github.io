@@ -9,10 +9,21 @@
 
 ## Important data principles: [FAIR](https://www.go-fair.org/fair-principles/)
 
-![FAIR principles image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FAIR_data_principles.jpg/800px-FAIR_data_principles.jpg)
-[license](https://commons.wikimedia.org/wiki/File:FAIR_data_principles.jpg)
-
-_TODO_: Image caption with link to license?
+<!-- TODO: more links! -->
+::: {.incremental .r-fit-text}
+* **<u>F</u>**indable
+    * "Metadata and data should be easy to find for both humans **and computers**."
+* **<u>A</u>**ccessible
+    * Metadata and data should be easy to acquire for both humans **and computers**.
+* **<u>I</u>**nteroperable
+    * Data should be easy to integrate with other data and software.
+      <!-- Should we mention the utility of "self-describing" data formats here? -->
+* **<u>R</u>**eusable
+    * [Well-described](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/),
+      [licensed](https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/),
+      [provenance](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/),
+      [community standards](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)
+:::
 
 
 ## Important data principles: [CARE](https://www.gida-global.org/care)

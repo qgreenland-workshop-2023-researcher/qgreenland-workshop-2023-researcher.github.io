@@ -34,8 +34,6 @@ users who are struggling with installing dependencies.
 
 ## Slides / presenting
 
-* Look into `quarto create project` to set up some boilerplate (e.g. gitignore entries)
-  for Quarto projects
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
 * Can we pre-record presentations? More control over timing, more end-user control over
   the presentation, e.g. skipping parts they already understand or rewinding parts when
