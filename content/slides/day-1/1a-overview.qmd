@@ -14,8 +14,8 @@
 * Get to know each other and form into groups.
 * Select a dataset for your group to focus on over the course of the workshop.
 * Gain familiarity with or review:
-		 * Open Science and data concepts/principles
-		 * Geospatial data concepts
+     * Open Science and data concepts/principles
+     * Geospatial data concepts
 * Create a repository on GitHub.
 
 
