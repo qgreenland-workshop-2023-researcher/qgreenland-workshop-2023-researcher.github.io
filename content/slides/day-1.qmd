@@ -20,3 +20,5 @@ subtitle: "Day 1"
 # Afternoon session
 
 {{< include day-1/1e-review-geospatial-basics.qmd >}}
+
+{{< include day-1/1f-breakout-select-and-analyze-a-dataset.qmd >}}

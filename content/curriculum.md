@@ -53,32 +53,9 @@
 
 * **Break (60 minutes)**
 
-* **Discussion: Review of geospatial data foundational concepts and common terminology
-  (10 minutes)**
-    * Vector data in QGIS
-        * Types: point, line, polygon
-        * Attributes
-    * Raster data in QGIS
-        * Types: continuous, categorical/discrete
-        * Considerations
-            * Interpolation: With categorical/discrete data, always use nearest
-              neighbor to avoid "smudging" between regions. _TODO: consider
-              moving this discussion to day 3? This is an operation that is more
-              aligned with the goal of preparing data for a specific use case._
-    * Point-cloud and others
+* **Discussion: Review of geospatial data concepts and terminology (10 minutes)**
 
 * **Breakout room activity: Select and analyze a dataset (15 minutes)**
-    * Select a dataset that your group will work on. _TODO: Consider guidelines
-      for selecting an interesting dataset._
-    * Try to open your data in QGIS. Is that possible?
-    * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
-        * Data type (raster, vector, etc.)
-        * File type (XLSX, CSV, Shapefile, NetCDF, etc)
-        * Projection
-        * Extent (e.g. corner coordinates / edge values)
-    * Choose a note-taker and record this information in whatever way you feel
-      comfortable. We will come back to these notes later! NOTE: Do not take notes in
-      Zoom chat, they will disappear.
 
 * **Discussion: Intro to GitHub repositories (25 minutes)**
     * FAIR can apply to all of the work that you are doing. Now that we have

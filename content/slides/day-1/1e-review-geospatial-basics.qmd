@@ -40,6 +40,8 @@ Attributes add additional data to an element
     * Use "nearest neighbor" with categorical data, or there will be "smudging" between
       categories.
 * _TODO: What else?_
+* _TODO: consider moving this discussion to day 3? This is an operation that is more
+  aligned with the goal of preparing data for a specific use case._
 
 
 ## Other data types
