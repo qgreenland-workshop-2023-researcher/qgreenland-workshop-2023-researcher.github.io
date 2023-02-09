@@ -12,7 +12,7 @@
     * Identify the dataset your group has chosen.
     * Mimicking the demo repository created in the previous activity, create a section
       for the metadata and data.
-        * _TODO: Link to demo repo_
+        * _TODO: Link to demo repository_
 * Turn on GitHub Discussions for your group repository. Use this space for asynchronous
   discussions within your group during (or after!) the workshop.
 

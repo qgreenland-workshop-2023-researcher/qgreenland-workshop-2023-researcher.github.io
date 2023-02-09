@@ -14,7 +14,7 @@
 * <https://open.science.gov/>
 * [NASA TOPS](https://science.nasa.gov/open-science/transform-to-open-science)
 * [NASA
-    spd-41a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf)
+    SPD-41a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf)
 * [NIST](https://www.nist.gov/open/year-open-science)
 :::
 
