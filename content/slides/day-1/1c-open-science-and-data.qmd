@@ -35,12 +35,12 @@
 * **<u>A</u>**uthority to Control
     * Indigenous Peoples should have the right to govern their data and
       representations of their communities in data. Data collection efforts
-      should include the particpation of Indigenous communities.
+      should include the participation of Indigenous communities.
 * **<u>R</u>**esponsibility
-    * Users of Indigeious data have the responsibility to share data in a way
-      that supports Indigeious Peoples and culture.
+    * Users of Indigenous data have the responsibility to share data in a way
+      that supports Indigenous Peoples and culture.
 * **<u>E</u>**thics
-    * The rights and wellbeing of Indigeious Peoples should be the priority
+    * The rights and wellbeing of Indigenous Peoples should be the priority
       through all aspects of the data life-cycle.
 :::
 
