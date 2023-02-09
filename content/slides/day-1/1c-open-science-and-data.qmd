@@ -28,12 +28,28 @@
 
 ## Important data principles: [CARE](https://www.gida-global.org/care)
 
-_TODO_
+::: {.incremental .r-fit-text}
+* **<u>C</u>**ollective Benefit
+    * Data and the systems around them should strive to benefit Indigenous
+      communities.
+* **<u>A</u>**uthority to Control
+    * Indigenous Peoples should have the right to govern their data and
+      representations of their communities in data. Data collection efforts
+      should include the participation of Indigenous communities.
+* **<u>R</u>**esponsibility
+    * Users of Indigenous data have the responsibility to share data in a way
+      that supports Indigenous Peoples and culture.
+* **<u>E</u>**thics
+    * The rights and wellbeing of Indigenous Peoples should be the priority
+      through all aspects of the data life-cycle.
+:::
 
 
 ## Other data principles
 
 * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
-* STREAM?
+* [STREAM](https://www.itu.int/en/journal/002/Documents/ITU2018-12.pdf)?
+  * _TODO: is this actually relevant? It's talking about data practices in the
+    context of markets / commodification of data._
 * [International Open Data Charter](https://opendatacharter.net/)
 * _TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this. Ask?_
