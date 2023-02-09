@@ -28,6 +28,7 @@
 
 ## Important data principles: [CARE](https://www.gida-global.org/care)
 
+::: {.incremental .r-fit-text}
 * **<u>C</u>**ollective Benefit
     * Data and the systems around them should strive to benefit Indigenous
       communities.
@@ -41,6 +42,7 @@
 * **<u>E</u>**thics
     * The rights and wellbeing of Indigeious Peoples should be the priority
       through all aspects of the data life-cycle.
+:::
 
 
 ## Other data principles
