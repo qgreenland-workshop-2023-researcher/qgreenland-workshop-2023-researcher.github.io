@@ -2,10 +2,36 @@
 
 # Discussion: Review of Open Science (and data) principles
 
+## Open Science is here this year, get used to it!
+
+2023 is the [Federal Year of Open
+    Science](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/)
+
+### Initiatives and participating organizations:
+
+:::: {.columns}
+::: {.column width="50%"}
+* <https://open.science.gov/>
+* [NASA TOPS](https://science.nasa.gov/open-science/transform-to-open-science)
+* [NASA
+    spd-41a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf)
+* [NIST](https://www.nist.gov/open/year-open-science)
+:::
+
+::: {.column width="50%"}
+* [NSF](https://www.nsf.gov/pubs/2023/nsf23053/nsf23053.jsp?org=NSF)
+* USGS
+* National Endowment for the Humanities
+* ...and more!
+:::
+::::
+
+
 ## Value of version control and doing work "in the open"
 
 * GitHub Discussions
 * _TODO: Example Open Source research repositories?_
+
 
 ## Important data principles: [FAIR](https://www.go-fair.org/fair-principles/)
 
