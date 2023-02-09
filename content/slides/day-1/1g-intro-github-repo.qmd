@@ -1,6 +1,6 @@
 <!-- vim: set ft=markdown: -->
 
-# Intro to GitHub Repositories
+# Intro to GitHub repositories
 
 ## Working "in the open"
 

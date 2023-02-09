@@ -56,20 +56,6 @@
 * **Discussion: Intro to GitHub repositories (25 minutes)**
 
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
-    * Create repository. _TODO: what should the repository be named? Consider
-      mentioning the difficulties around naming. Guidelines?_
-    * Add a `README.md` file introducing team members and identifying the
-      dataset your group has chosen.
-        * list of team members
-        * Mimic the repository created in the previous activity, create a section for
-          the metadata and data.
-    * Turn on GitHub Discussions for your group repository. You can use this
-      space any asynchronous discussions within your group during (or after!) the
-      workshop.
-    * _TODO: Create a dedicated organization._
-    * _TODO: think more about what exactly we want people to do in the last 20 min_
-    * _TODO: should there be a second deliverable here? A git commit? A GitHub
-      discussion? Some kind of reflection on the day?_
 
 
 ### Day 2
