@@ -46,10 +46,6 @@
 * **Discussion: Review of Open Science (and data) principles (25 minutes)**
 
 * **Breakout room activity: FAIR/CARE discussion (30 minutes)**
-    * How do FAIR/CARE relate to your research?
-    * Discuss how one or more of the datasets your group members has chosen
-      relate/conform to FAIR/CARE.
-    * Post on GH Discussions?
 
 * **Break (60 minutes)**
 
