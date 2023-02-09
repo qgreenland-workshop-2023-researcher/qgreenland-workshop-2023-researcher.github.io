@@ -1,0 +1,36 @@
+<!-- vim: set ft=markdown: -->
+
+# Intro to GitHub Repositories
+
+## Working "in the open"
+
+* Open Science principles can apply to work in progress, too!
+* Open Science is easier if you are open from the beginning.
+* Documentation in GitHub as an Open Science methodology
+
+::: {.notes}
+Open Science principles can apply to all of the work that you are doing. Now that we
+have some knowledge about the data that we want to keep track of and share with others,
+let's utilize GitHub as the mechanism to translate that knowledge to documentation.
+:::
+
+
+## Demo: Creating a GitHub repository
+
+* Create a GitHub repository
+* Enable GitHub Discussions
+* Create a README file
+
+::: {.notes}
+Demonstrate creating a git repository in the GitHub interface with a `README.md` file
+with the type of knowledge we want groups to record about their dataset. Use an existing
+QGreenland data layer as an example.
+:::
+
+
+## Useful references
+
+* GitHub-Flavored Markdown
+    * [Basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+      [Full specification](https://github.github.com/gfm/)
+* _TODO: What else?_

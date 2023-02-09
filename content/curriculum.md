@@ -54,18 +54,6 @@
 * **Breakout room activity: Select and analyze a dataset (15 minutes)**
 
 * **Discussion: Intro to GitHub repositories (25 minutes)**
-    * FAIR can apply to all of the work that you are doing. Now that we have
-      some knowledge about the data that we want to keep track of and share with
-      others, lets utilize GitHub as the mechanism to translate that knowledge
-      to documentation.
-    * Demonstrate creating a git repository in the GitHub interface with a `README.md`
-      file with the type of knowledge we want groups to record about their dataset. Use
-      an existing QGreenland data layer as an example.
-        * GitHub Flavored Markdown (we don't expect participants to read through all of
-          this, only a reference).
-            * Basics: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
-            * Full spec: <https://github.github.com/gfm/>
-        * Turn on GitHub Discussions.
 
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
     * Create repository. _TODO: what should the repository be named? Consider
