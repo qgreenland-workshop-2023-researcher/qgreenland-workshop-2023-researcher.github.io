@@ -1,3 +1,7 @@
 <!-- vim: set ft=markdown: -->
 
-# Breakout: Team introductions (20 minutes)
+# Breakout: FAIR/CARE discussion (30 minutes)
+    * How do FAIR/CARE relate to your research?
+    * Discuss how one or more of the datasets your group members has chosen
+      relate/conform to FAIR/CARE.
+    * Post on GitHub Discussions?
