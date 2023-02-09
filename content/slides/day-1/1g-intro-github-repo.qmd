@@ -6,12 +6,16 @@
 
 * Open Science principles can apply to work in progress, too!
 * Open Science is easier if you are open from the beginning.
-* Documentation in GitHub as an Open Science methodology
+* Git is not just for coders!
+    * Documentation in GitHub as an Open Science methodology
 
 ::: {.notes}
 Open Science principles can apply to all of the work that you are doing. Now that we
 have some knowledge about the data that we want to keep track of and share with others,
 let's utilize GitHub as the mechanism to translate that knowledge to documentation.
+
+_TODO: Examples of "Git is not just for coders"._
+_TODO: Brief differentiation between Git and GitHub._
 :::
 
 
