@@ -28,7 +28,19 @@
 
 ## Important data principles: [CARE](https://www.gida-global.org/care)
 
-_TODO_
+* **<u>C</u>**ollective Benefit
+    * Data and the systems around them should strive to benefit Indigenous
+      communities.
+* **<u>A</u>**uthority to Control
+    * Indigenous Peoples should have the right to govern their data and
+      representations of their communities in data. Data collection efforts
+      should include the particpation of Indigenous communities.
+* **<u>R</u>**esponsibility
+    * Users of Indigeious data have the responsibility to share data in a way
+      that supports Indigeious Peoples and culture.
+* **<u>E</u>**thics
+    * The rights and wellbeing of Indigeious Peoples should be the priority
+      through all aspects of the data life-cycle.
 
 
 ## Other data principles
