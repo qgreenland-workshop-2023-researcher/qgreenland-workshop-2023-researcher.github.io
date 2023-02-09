@@ -10,7 +10,7 @@ A survey we will send to all applicants to:
 
 ### What we need to know
 
-_TODO_
+* _TODO_
 
 
 ## Post-selection

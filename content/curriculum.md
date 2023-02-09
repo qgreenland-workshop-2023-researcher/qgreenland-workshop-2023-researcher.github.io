@@ -64,19 +64,19 @@
             * Interpolation: With categorical/discrete data, always use nearest
               neighbor to avoid "smudging" between regions. _TODO: consider
               moving this discussion to day 3? This is an operation that is more
-              aligned with the goal of preparing data for a specific use case_.
+              aligned with the goal of preparing data for a specific use case._
     * Point-cloud and others
 
 * **Breakout room activity: Select and analyze a dataset (15 minutes)**
     * Select a dataset that your group will work on. _TODO: Consider guidelines
-      for selecting an interesting dataset_.
+      for selecting an interesting dataset._
     * Try to open your data in QGIS. Is that possible?
     * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
         * Data type (raster, vector, etc.)
-        * File type (xlsx, csv, shapefile, netcdf, etc)
+        * File type (XLSX, CSV, Shapefile, NetCDF, etc)
         * Projection
-        * Extent (e.g. corner coords / edge values)
-    * Choose a notetaker and record this information in whatever way you feel
+        * Extent (e.g. corner coordinates / edge values)
+    * Choose a note-taker and record this information in whatever way you feel
       comfortable. We will come back to these notes later! NOTE: Do not take notes in
       Zoom chat, they will disappear.
 
@@ -85,28 +85,29 @@
       some knowledge about the data that we want to keep track of and share with
       others, lets utilize GitHub as the mechanism to translate that knowledge
       to documentation.
-    * Demonstrate creating a git repo in the GitHub interface with a `README.md`
-      file with the type of knowledge we want groups to record about their
-      dataset. Use an existing QGreenland data layer as an example.
-        * GitHub Flavored Markdown (we don't expect participants to read through all of this, just a reference).
-            * Basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-            * Full spec: https://github.github.com/gfm/
+    * Demonstrate creating a git repository in the GitHub interface with a `README.md`
+      file with the type of knowledge we want groups to record about their dataset. Use
+      an existing QGreenland data layer as an example.
+        * GitHub Flavored Markdown (we don't expect participants to read through all of
+          this, only a reference).
+            * Basics: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
+            * Full spec: <https://github.github.com/gfm/>
         * Turn on GitHub Discussions.
 
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
-    * Create repository. _TODO: what should the repo be named? Consider
+    * Create repository. _TODO: what should the repository be named? Consider
       mentioning the difficulties around naming. Guidelines?_
     * Add a `README.md` file introducing team members and identifying the
       dataset your group has chosen.
         * list of team members
-        * Mimic the repo created in the previous activity, create a section for
+        * Mimic the repository created in the previous activity, create a section for
           the metadata and data.
     * Turn on GitHub Discussions for your group repository. You can use this
-      space any async discussions within your group during (or after!) the
+      space any asynchronous discussions within your group during (or after!) the
       workshop.
     * _TODO: Create a dedicated organization._
     * _TODO: think more about what exactly we want people to do in the last 20 min_
-    * _TODO: should there be a second deliverable here? A git commit? A github
+    * _TODO: should there be a second deliverable here? A git commit? A GitHub
       discussion? Some kind of reflection on the day?_
 
 
@@ -115,8 +116,8 @@
 #### Outcomes
 
 * Gain familiarity with or review:
-  * Geospatial data formats
-  * Geospatial metadata concepts
+    * Geospatial data formats
+    * Geospatial metadata concepts
 * Create a Notebook in JupyterLab.
 * Develop hands-on experience with manipulating data/metadata to improve dataset
   quality/usability.
@@ -129,10 +130,11 @@
 
 * **Breakout room activity: Experiences with geospatial data (?? minutes)**
     * Discuss in groups: What are some particularly good/bad datasets you've been
+        <!-- alex ignore easy -->
       exposed to and what attributes of that format make it easy/hard to work with? Keep
       it constructive; the author of this dataset may be in attendance, and we should
-      always assume good intentions. _Data management is hard and standards are
-      constantly improving._
+      always assume good intentions. **Data management is hard and standards are
+      constantly improving.**
     * Report back to the larger group? Leading in to the following discussions.
     * How can we link this back to the chosen dataset? e.g. "How does the chosen dataset
       compare to your good/bad experiences/expectations with those formats?
@@ -161,8 +163,8 @@
 * **Discussion: Review of key geospatial metadata concepts (20 minutes)**
     * Review of key geospatial metadata (projection, etc.). We assume participants are
       already familiar with this, but may have limited hands-on experience.
-        * Even lat/lon coordinates need metadata (datum), particularly when the location
-          data is of a high precision.
+        * Even latitude/longitude coordinates need metadata (datum), particularly when
+          the location data is of a high precision.
     * Common metadata standards, e.g., CF conventions for NetCDF data.
     * Provenance
     * Tools: `ogrinfo`/`gdalinfo`, `xarray`, `Panoply`
@@ -217,8 +219,8 @@
       Scenarios?
 
 * **Homework: think about how you could perform an analysis with your chosen dataset**
-    * Consider the other layers in QGreenland. How can you utlize them with your
-      dataset to answer a question?
+    * Consider the other layers in QGreenland. How can you use them with your dataset to
+      answer a question?
     * Share your ideas with your group in the GitHub Discussions for your repository.
 
 ### Day 3
@@ -235,19 +237,19 @@
     * Concepts
         * Reprojection
             * _TODO: consider discussion about characteristics of common
-              projections and why you might want to use one over another_
+              projections and why you might want to use one over another._
         * Resampling
         * Subsetting
         * Conversion (raster <-> vector)
         * _TODO: Consider discussion about information loss from common
-            transformations (reprojection, resampling, datatype conversion
-            (raster<->vector))_
+          transformations (reprojection, resampling, datatype conversion
+          (raster<->vector))_
     * Tools / Techniques
         * QGIS Processing Toolbox (brief mention, participants should be
           familiar with this from the [beginner tutorial
           series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
         * gdalwarp, ogr2ogr, ...
-        * Python (rasterio, shapely, xarray, pyresample, PyQGIS, ...)
+        * Python (rasterio, shapely, Xarray, pyresample, PyQGIS, ...)
         * _TODO: create notebook examples for various tools_
 
 * **Breakout room activity: choose an analysis for your dataset (50 minutes)**
@@ -262,18 +264,21 @@
 
 * **Break (60 minutes)**
 
-_TODO: consider turning this into a video we post on the QGR youtube and make homework for day 1?_
+_TODO: consider turning this into a video we post on the QGR YouTube and make homework
+for day 1?_
+
 * **Discussion: symbolizing geospatial data in QGIS (20-30 minutes)**
-    * colormaps (15 minutes)
-        * cmocean as a strong default
-          * How to add cmocean to QGIS (_TODO: add link to video_)
+    * Colormaps (15 minutes)
+        * `cmocean` as a strong default
+            * How to add `cmocean` to QGIS (_TODO: add link to video_)
         * Common mistakes in choosing a colormap
-          * colorbrewer (a useful tool, but very specific use-case)
-          * jet / rainbow
+            * Colorbrewer (a useful tool, but very specific use-case)
+            * Jet / rainbow
         * Colormap analysis with `viscm`. _TODO: consider utilizing
-        https://github.com/nsidc/colormap-analysis_
+          <https://github.com/nsidc/colormap-analysis>_
     * Representing vector data attributes (10 minutes)
         * Point markers
+            <!-- alex ignore color -->
         * Color
         * Size
         * Labels
@@ -286,12 +291,12 @@ _TODO: consider turning this into a video we post on the QGR youtube and make ho
         * If your group's dataset is not "QGreenland-Friendly", make it so.
             * EPSG:3413
             * Use the QGreenland "Greenland-focused boundary" layer to subset the
-            data (`Reference/QGreenland` boundaries in the QGreenland **Layers
-            Panel**).
+              data (`Reference/QGreenland` boundaries in the QGreenland **Layers
+              Panel**).
             * Make sure the data is GeoTIFF or GeoPackage.
         * Data analysis scenario
             * _TODO: consider additional data/analysis scenarios that groups can try if
-            they have the time / do not have an analysis for their dataset_
+              they have the time / do not have an analysis for their dataset._
 
 * **End of workshop group report**
     * Tell us about what you learned
