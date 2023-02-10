@@ -84,3 +84,11 @@ users who are struggling with installing dependencies.
 
 * Generate a list (at least a few) of dataset suggestions in case groups cannot
   come up with one of their own. Check backlog for new layer suggestions.
+
+
+## Dataset selection guidelines
+
+* Create a doc for dataset selection; what makes a good selection?
+* Some fallback dataset suggestions:
+    * Datasets which have interesting processing in QGreenland
+    * See dataset suggestions in Jira
