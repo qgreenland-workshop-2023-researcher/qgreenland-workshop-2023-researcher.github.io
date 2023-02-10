@@ -10,4 +10,5 @@ npx mdspell --en-us --ignore-numbers --ignore-acronyms --report \
         -not -path './node_modules/*' \
         -not -path '*/_dist/*' \
         -not -path '*/.quarto/*' \
+        -not -path '*/notes/*' \
         -regex '.*.[q]?md')

@@ -7,7 +7,7 @@
 * Twila likes concentrating exercises / group work on day 3.
 * "Group project" theme throughout?
 * Pre-identify some possible datasets for groups that don't find any ideas.
-* Consider non-substantial "homework"; e.g. 
+* Consider non-substantial "homework"; e.g. ...?
 * Share workshop goals in advance of the application process.
 * Be clear in advance that we're going to create mixed-skill groups. (You can learn and
   teach [and learn by teaching]!)
@@ -30,7 +30,7 @@ intros.
 * A dataset you'd love to use with QGreenland
 * Tell a story about Greenland
 * Convey a data-related challenge from your past
-* Think of QGreenland datasets you're interested in working with
+* Think of Greenland datasets you're interested in working with
 * ...?
 
 

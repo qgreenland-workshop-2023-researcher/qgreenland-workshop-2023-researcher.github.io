@@ -1,0 +1,28 @@
+---
+title: "QGreenland 2023 Researcher Workshop"
+subtitle: "Day 1"
+---
+<!-- vim: set ft=markdown: -->
+
+# Morning session
+
+{{< include day-1/1a-overview.qmd >}}
+
+{{< include day-1/1b-breakout-team-intros.qmd >}}
+
+{{< include day-1/1c-open-science-and-data.qmd >}}
+
+{{< include day-1/1d-breakout-fair-care.qmd >}}
+
+
+# Break (60 minutes)
+
+# Afternoon session
+
+{{< include day-1/1e-review-geospatial-basics.qmd >}}
+
+{{< include day-1/1f-breakout-select-and-analyze-a-dataset.qmd >}}
+
+{{< include day-1/1g-intro-github-repo.qmd >}}
+
+{{< include day-1/1h-breakout-make-a-github-repo.qmd >}}

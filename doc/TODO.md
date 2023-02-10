@@ -34,8 +34,6 @@ users who are struggling with installing dependencies.
 
 ## Slides / presenting
 
-* Look into `quarto create project` to set up some boilerplate (e.g. gitignore entries)
-  for Quarto projects
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
 * Can we pre-record presentations? More control over timing, more end-user control over
   the presentation, e.g. skipping parts they already understand or rewinding parts when
@@ -43,6 +41,7 @@ users who are struggling with installing dependencies.
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
+* Select background imagery: e.g. Icebridge DMS imagery (airborne photos) of Greenland
 
 
 ## Timing / scheduling
@@ -72,3 +71,16 @@ users who are struggling with installing dependencies.
     * A good demo of something special you can do with CI
 * Consider leaving this Git repository without a "view" layer; introduce attendees to
   the utility of Markdown rendered by GitHub.
+
+
+## Workshop organization
+
+* Consider announcing groups ahead of the workshop. This might allow
+  participants to reach out to each other ahead of time, read introductions for
+  their group members, etc.
+
+
+## Workshop materials
+
+* Generate a list (at least a few) of dataset suggestions in case groups cannot
+  come up with one of their own. Check backlog for new layer suggestions.

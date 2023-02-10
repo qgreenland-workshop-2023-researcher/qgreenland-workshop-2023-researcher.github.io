@@ -1,0 +1,52 @@
+<!-- vim: set ft=markdown: -->
+
+# Review: Foundational geospatial data concepts
+
+## Vector data
+
+* Point
+* Line
+* Polygon
+
+![Simple vector map (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg)
+
+## Vector attributes
+
+Attributes add additional data to an element
+
+* A point representing a weather station may have a `temperature` attribute
+* A polygon representing a state may have a `population` attribute
+
+
+## Raster data
+
+* Continuous
+* Categorical
+
+
+## Continuous raster data
+
+![Continuous data image](media/qgreenland_seaice_concentration_feb2015.png)
+
+
+## Categorical raster data
+
+![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
+
+
+## Raster data considerations
+
+* Interpolation
+    * Use "nearest neighbor" with categorical data, or there will be "smudging" between
+      categories.
+* _TODO: What else?_
+* _TODO: consider moving this discussion to day 3? This is an operation that is more
+  aligned with the goal of preparing data for a specific use case._
+
+
+## Other data types
+
+We won't focus on these:
+
+* Point cloud
+* _TODO: What else?_

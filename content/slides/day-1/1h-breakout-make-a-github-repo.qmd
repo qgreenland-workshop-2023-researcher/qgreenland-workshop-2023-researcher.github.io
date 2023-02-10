@@ -1,0 +1,25 @@
+<!-- vim: set ft=markdown: -->
+
+# Breakout: Make a GitHub repository (40 minutes)
+
+## Breakout: Make a GitHub repository
+
+* Create repository.
+    * _TODO: how should the repository be named? Consider mentioning the difficulties
+      around naming. Guidelines?_
+* Add a `README.md` file:
+    * Introduce your team members by their GitHub user IDs
+    * Identify the dataset your group has chosen.
+    * Mimicking the demo repository created in the previous activity, create a section
+      for the metadata and data.
+        * _TODO: Link to demo repository_
+* Turn on GitHub Discussions for your group repository. Use this space for asynchronous
+  discussions within your group during (or after!) the workshop.
+
+## TODO
+
+* _TODO: Create a dedicated organization for workshop participants to use, grant
+  privileges to create repositories._
+* _TODO: Think more about what exactly we want people to do in the last 20 min_
+* _TODO: Should there be a second deliverable here? A git commit? A GitHub
+  discussion? Some kind of reflection on the day?_
