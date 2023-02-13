@@ -1,8 +1,29 @@
+<!-- vim: set ft=markdown: -->
+
+<!--
+NOTE: The background image is specified twice as a hack. Just specifying
+`background-image` does not result in the image being part of the output bundle.
+
+TODO: Once we have Quarto 1.2 (waiting on conda-forge
+https://github.com/conda-forge/quarto-feedstock/pull/3), credit the background image by
+overriding the title slide template partial and pass in an "aside" property, e.g.:
+    aside: "Background image from NSIDC IODMS1B dataset"
+
+Which would populate an `<aside>` tag:
+    $if(aside)$
+      <aside>$aside$</aside>
+    $endif$
+
+Doc:
+    https://quarto.org/docs/presentations/revealjs/advanced.html#custom-template
+-->
 ---
 title: "QGreenland 2023 Researcher Workshop"
 subtitle: "Day 1"
+title-slide-attributes:
+  data-background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
-<!-- vim: set ft=markdown: -->
 
 # Morning session
 

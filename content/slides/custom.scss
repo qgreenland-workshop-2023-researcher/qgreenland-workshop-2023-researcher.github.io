@@ -1,4 +1,18 @@
+/*-- scss:defaults --*/
+
+$presentation-heading-text-shadow: "2px 2px 2px rgba(0, 0, 0, 0.5)";
+$presentation-h1-text-shadow:  "2px 2px 2px rgba(0, 0, 0, 0.5)";
+
+
 /*-- scss:rules --*/
+
+h1, h2, h3, h4, h5, h6, body {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.backgrounds {
+  background-size: cover;
+}
 
 .reveal strong {
   font-weight: 900;
