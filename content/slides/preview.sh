@@ -1,6 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
+if [ -z "${1-}" ]; then
+    echo "Please pass the file to preview."
+    exit 1
+fi
+
 # Trap INT and TERM and conver them to exit signal.
 trap 'exit' INT TERM
 # On exit, kill the process tree.
