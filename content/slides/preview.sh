@@ -6,6 +6,13 @@ if [ -z "${1-}" ]; then
     exit 1
 fi
 
+THIS_DIR="$( cd "$(dirname "$0")"; pwd -P )"
+DIST_DIR="${THIS_DIR}/_dist"
+if [ -e "${DIST_DIR}" ]; then
+    rm -rf "${DIST_DIR}"
+    echo "Removed ${DIST_DIR}"
+fi
+
 # Trap INT and TERM and conver them to exit signal.
 trap 'exit' INT TERM
 # On exit, kill the process tree.
