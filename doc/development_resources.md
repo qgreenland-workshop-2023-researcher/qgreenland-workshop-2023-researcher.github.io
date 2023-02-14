@@ -8,7 +8,8 @@ of these links might be useful for attendees as well.
 
 Draw inspiration from the way others have taught these or related concepts.
 
-* ...
+* [WSDS GitHub Workshop (4h)](https://rverse-tutorials.github.io/WSDS-StLouis/)
+* [Collaborating with Quarto and GitHub](https://youtu.be/WvKw1OQIpMk)
 
 
 ## Related documentation
