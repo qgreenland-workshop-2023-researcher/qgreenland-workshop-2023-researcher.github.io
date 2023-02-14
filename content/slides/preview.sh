@@ -22,6 +22,7 @@ trap 'kill 0' EXIT
 # when changes are detected. This will trigger quarto preview to do a hot
 # reload. Normally it only reloads on changes to the file being previewed but
 # not on changes to includes within that file.
+# TODO: This does not handle creation of new files.
 while inotifywait -e delete -e create -e close_write $(find . -type f -name '*.qmd'); do
     echo "touch"
     touch "${1}"
