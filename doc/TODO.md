@@ -34,6 +34,10 @@ users who are struggling with installing dependencies.
 
 ## Slides / presenting
 
+* How can we split our pile of slides in to multiple focused decks?
+    * Build a Quarto web page in addition to the slides, and include links to slide
+      decks?
+    * 1 deck per day? Or more focused than that?
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
 * Can we pre-record presentations? More control over timing, more end-user control over
   the presentation, e.g. skipping parts they already understand or rewinding parts when
