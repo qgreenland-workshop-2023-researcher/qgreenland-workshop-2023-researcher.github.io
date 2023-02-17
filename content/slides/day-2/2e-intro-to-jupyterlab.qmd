@@ -19,6 +19,7 @@
     * Telling a story
 * See also:
     * Quarto
+    * JupyterBook
     * _TODO: Others?_
 
 
