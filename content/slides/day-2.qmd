@@ -43,4 +43,12 @@ background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 
 # Afternoon session
 
-_TODO_
+{{< include day-2/2f-breakout-analysis-with-jupyterlab.qmd >}}
+
+{{< include day-2/2g-fixing-bad-data.qmd >}}
+
+{{< include day-2/2h-walkthrough-data-scenario-1.qmd >}}
+
+{{< include day-2/2i-breakout-fix-bad-data.qmd >}}
+
+{{< include day-2/2j-homework-think-about-analyzing-own-dataset.qmd >}}

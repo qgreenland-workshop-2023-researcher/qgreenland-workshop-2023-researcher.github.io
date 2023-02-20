@@ -92,34 +92,14 @@
 * **Break (60 minutes)**
 
 * **Breakout room activity: Analyzing data with JupyterLab (30 minutes)**
-    * Pick someone to "drive" with a screen share. Please rotate this responsibility!
-    * Run the example notebook from the "Intro to JupyterLab" discussion.
-    * Use your JupyterLab instance to inspect your group's chosen dataset. Try a few
-      different methods!
-        * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, ??? in
-          a Jupyter Notebook.
-        * Include Markdown cells to tell a story: explain what each computation is
-          doing, and what your group learned from the results of each computation.
-        * Commit and push the notebook to GitHub.
 
 * **Discussion on fixing "bad" data (?? minutes)**
-    * ???
-    * What can I do if my data still does not look right? (e.g. it's possible nobody
-      living knows how to resolve the problem, metadata may be incorrectly documented
-      and you may need help from the data producer, briefly mention techniques like
-      georegistration, bias correction)
-    * Tools: `ogr2ogr`, `gdal_translate`, `gdal_edit.py`
 
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
 * **Breakout room activity: Fix some "bad" data (20 minutes)**
-    * Does your chosen dataset have issues that need fixing? If not, explore Data
-      Scenarios?
 
 * **Homework: think about how you could perform an analysis with your chosen dataset**
-    * Consider the other layers in QGreenland. How can you use them with your dataset to
-      answer a question?
-    * Share your ideas with your group in the GitHub Discussions for your repository.
 
 ### Day 3
 

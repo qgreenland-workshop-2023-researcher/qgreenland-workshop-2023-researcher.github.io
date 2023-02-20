@@ -1,0 +1,18 @@
+<!-- vim: set ft=markdown: -->
+
+# Discussion: Fixing "bad" data
+
+* _TODO: second draft_
+* What can I do if my data still does not look right?
+    * Metadata may be incorrectly documented; contact data producer?
+    * It's possible nobody knows how to fix the problem
+    * _TODO: briefly mention techniques like georegistration, bias correction?_
+* Tools: `ogr2ogr`, `gdal_translate`, `gdal_edit.py`
+
+::: {.notes}
+Worst-case scenarios:
+
+* If the metadata is incorrectly documented, there may be no way to "guess" the correct
+  configuration. Contacting the originator may be the _only_ way forward. 
+* It's possible nobody living knows how to fix the problem.
+:::
