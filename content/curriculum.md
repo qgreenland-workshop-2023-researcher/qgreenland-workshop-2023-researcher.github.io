@@ -88,6 +88,8 @@
     * What can your teammates teach you?
 
 * **Discussion: Intro to JupyterLab (20 minutes)**
+    * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
+      JupyterHub intro early in workshop, come back later to introduce Notebooks?_
 
 * **Break (60 minutes)**
 

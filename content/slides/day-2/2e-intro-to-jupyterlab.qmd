@@ -1,19 +1,41 @@
 <!-- vim: set ft=markdown: -->
 
-# Intro to JupyterLab
+# Intro to JupyterHub
 
-## Available tools
+## Intro to JupyterHub
 
-* Notebooks (more on this later...)
+* CryoCloud
+    * JupyterHub: <https://hub.cryointhecloud.com>
+    * Website: <https://book.cryointhecloud.com>
+
+* Log in to CryoCloud JupyterHub with your GitHub username
+    * Important: select a _small_ server!
+    * Your JupyterLab is dedicated, _not_ shared!
+
+* _Please log out at the end of each day using `File > Log Out`!_
+
+::: {.notes}
+* JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
+* JupyterLab is not shared!
+    * Other attendees can't see your files (except those in "shared" dir)
+    * Your computations won't slow down anyone else's
+* Log out at the end of each day to save on cloud costs.
+    * Any files you've created will remain next time you log in.
+:::
+
+
+## What can I do in my JupyterLab?
+
 * Terminal
+    * `conda install <package>`
 * Desktop / QGIS
-    * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
-      JupyterHub intro early in workshop, come back later to introduce Notebooks?_
+    * Has access to the files in your JupyterLab
+* Notebooks (more on next slide...)
 
 
 ## Jupyter Notebooks
 
-* A tool for Literate Programming
+* A tool for [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * Showing your work
     * Tracking provenance
     * Telling a story
