@@ -26,11 +26,31 @@
 
 ## What can I do in my JupyterLab?
 
+Almost anything you can do on your laptop!
+
+JupyterLab is meant to be a human interface to computation resources.
+
+
+## What can I do in my JupyterLab?
+
+### File Manager
+
+* Drag & drop from your desktop
+* Open many types of files and get a useful display
+    * CSV will display as table
+    * GeoJSON will display on a map
+    * Images will open with an image viewer
+
+
+## What can I do in my JupyterLab?
+
+### Applications
+
 * Terminal
     * `conda install <package>` / `mamba install <package>`
 * Desktop / QGIS
     * Has access to the files in your JupyterLab
-* Notebooks (more on next slide...)
+* Jupyter Notebooks
 
 ::: {.notes}
 Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
@@ -50,7 +70,7 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
     * _TODO: Others?_
 
 
-## JupyterLab demo
+## Jupyter Notebook demo
 
 * Walk through running an example notebook and viewing its output in QGIS?
     * _TODO: Generate the example notebook._
