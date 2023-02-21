@@ -27,10 +27,15 @@
 ## What can I do in my JupyterLab?
 
 * Terminal
-    * `conda install <package>`
+    * `conda install <package>` / `mamba install <package>`
 * Desktop / QGIS
     * Has access to the files in your JupyterLab
 * Notebooks (more on next slide...)
+
+::: {.notes}
+Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
+`conda`/`mamba` commands to install Python dependencies into the `notebook` environment.
+:::
 
 
 ## Jupyter Notebooks
