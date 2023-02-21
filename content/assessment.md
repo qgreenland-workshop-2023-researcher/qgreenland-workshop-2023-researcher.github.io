@@ -10,8 +10,16 @@ A survey we will send to all applicants to:
 
 ### What we need to know
 
-* _TODO_
+#### Skills
 
+* QGIS
+* QGreenland
+* JupyterLab / Jupyter Notebooks
+* GitHub
+* Git
+* Python
+* Other programming languages
+* Geospatial analysis (ogr, gdal, metadata concepts)
 
 ## Post-selection
 
