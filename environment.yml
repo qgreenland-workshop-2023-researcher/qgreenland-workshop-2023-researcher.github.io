@@ -5,5 +5,5 @@ channels:
 dependencies:
   - python ~=3.10
 
-  - quarto ~=1.1.145
+  - quarto ~=1.2.335
   - jupyter ~=1.0.0
