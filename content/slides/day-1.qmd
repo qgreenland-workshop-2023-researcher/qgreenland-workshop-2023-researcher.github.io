@@ -18,11 +18,12 @@ Doc:
     https://quarto.org/docs/presentations/revealjs/advanced.html#custom-template
 -->
 ---
-title: "QGreenland 2023 Researcher Workshop"
+title: "QGreenland Researcher Workshop 2023"
 subtitle: "Day 1"
+format: "revealjs"
 title-slide-attributes:
-  data-background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
-background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
 {{< include day-1/1a-overview.qmd >}}

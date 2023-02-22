@@ -7,7 +7,7 @@ if [ -z "${1-}" ]; then
 fi
 
 THIS_DIR="$( cd "$(dirname "$0")"; pwd -P )"
-DIST_DIR="${THIS_DIR}/_dist"
+DIST_DIR="${THIS_DIR}/_site"
 if [ -e "${DIST_DIR}" ]; then
     rm -rf "${DIST_DIR}"
     echo "Removed ${DIST_DIR}"
