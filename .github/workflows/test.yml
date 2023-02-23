@@ -28,6 +28,12 @@ jobs:
       run: |
         npm run lint-considerate-writing
 
+    - name: Enable SSH access
+      uses: lhotari/action-upterm@v1
+      with:
+        ## limits ssh access and adds the ssh public key for the user which triggered the workflow
+        limit-access-to-actor: true
+
     - name: "Lint: spell check"
       run: |
         npm run lint-spell-check
