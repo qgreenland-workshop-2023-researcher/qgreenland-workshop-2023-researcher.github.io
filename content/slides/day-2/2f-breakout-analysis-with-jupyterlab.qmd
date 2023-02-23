@@ -1,0 +1,15 @@
+<!-- vim: set ft=markdown: -->
+
+# Breakout: Data analysis with JupyterLab (30 minutes)
+
+## Breakout: Data analysis with JupyterLab
+
+* Pick someone to "drive" with a screen share. Please rotate this responsibility!
+* Run the example notebook from the "Intro to JupyterLab" discussion.
+* Use your JupyterLab instance to inspect your group's chosen dataset. Try a few
+  different methods!
+    * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, ??? in
+      a Jupyter Notebook.
+    * Include Markdown cells to tell a story: explain what each computation is
+      doing, and what your group learned from the results of each computation.
+* Commit and push your notebook to GitHub.

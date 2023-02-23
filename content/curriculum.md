@@ -76,48 +76,14 @@ Tentative date: May 22-25
 #### Activities
 
 * **Discussion: Day 2 activity overview (5 minutes)**
-    * Discuss goals for Day 2.
 
 * **Breakout room activity: Experiences with geospatial data (?? minutes)**
-    * Discuss in groups: What are some particularly good/bad datasets you've been
-        <!-- alex ignore easy -->
-      exposed to and what attributes of that format make it easy/hard to work with? Keep
-      it constructive; the author of this dataset may be in attendance, and we should
-      always assume good intentions. **Data management is hard and standards are
-      constantly improving.**
-    * Report back to the larger group? Leading in to the following discussions.
-    * How can we link this back to the chosen dataset? e.g. "How does the chosen dataset
-      compare to your good/bad experiences/expectations with those formats?
 
 * **Discussion: Geospatial data formats (25 minutes)**
-    * _TODO: consider discussion about how data are often organized on disk (granularity)_
-    * Problematic geospatial data formats: what is "wrong" with other common
-      geospatial data formats (e.g. .xlsx, CSV/TSV, ...)
-        * TODO: On Shapefiles; meet many quality criteria but also have some "deal
-          breakers".
-        * NOTE: CSV can be fine for _some_ non-geospatial data, but lacks standardized
-          support for metadata (e.g. data types), and you will sometimes find CSV
-          authors "wing it" and write metadata into CSV files in non-standard format,
-          e.g. by adding lines to the end of the file. [W3
-          suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one
-          method of embedding metadata into a CSV file, but it must be supported by the
-          processing software. The advantage of CSV is that it's a "lowest common
-          denominator" format that has broad support.
-    * What makes a "good" geospatial data format? (e.g. self-documenting, FAIR, ...)
-    * Examples of "good" geospatial data formats (e.g. GeoJSON, GeoPackage,
-      GeoTIFF, NetCDF, ...)
-        * TODO: What are some "good" self-describing formats for non-geospatial data?
 
 * _TODO: How to break up this extended "lecture" section and make it less exhausting?_
 
 * **Discussion: Review of key geospatial metadata concepts (20 minutes)**
-    * Review of key geospatial metadata (projection, etc.). We assume participants are
-      already familiar with this, but may have limited hands-on experience.
-        * Even latitude/longitude coordinates need metadata (datum), particularly when
-          the location data is of a high precision.
-    * Common metadata standards, e.g., CF conventions for NetCDF data.
-    * Provenance
-    * Tools: `ogrinfo`/`gdalinfo`, `xarray`, `Panoply`
 
 * _TODO: and/or breakout room activity here?_
     * What approaches to data introspection have you used / are you comfortable with?
@@ -125,53 +91,20 @@ Tentative date: May 22-25
     * What can your teammates teach you?
 
 * **Discussion: Intro to JupyterLab (20 minutes)**
-    * Accessing the terminal
-    * Accessing the desktop / QGIS
-        * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
-          JupyterHub intro early in workshop, come back later to introduce Notebooks?_
-    * Jupyter Notebooks as a tool for Literate Programming
-        * Showing your work / tracking provenance.
-    * Walk through running an example notebook and viewing its output in QGIS?
-        * _TODO: Generate the example notebook._
-        * Maybe programmatically generate a random distribution of points over an area
-          in Greenland (e.g. use the extent of "Greenland coastlines 2017" layer as the
-          x/y extents for random-number generation, then filter those random coordinates
-          using the "Greenland coastlines 2017" layer).
-        * Maybe filter the "Place names database" layer by:
-            * Random sample
-            * Maximum of a particular attribute
+    * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
+      JupyterHub intro early in workshop, come back later to introduce Notebooks?_
 
 * **Break (60 minutes)**
 
 * **Breakout room activity: Analyzing data with JupyterLab (30 minutes)**
-    * Pick someone to "drive" with a screen share. Please rotate this responsibility!
-    * Run the example notebook from the "Intro to JupyterLab" discussion.
-    * Use your JupyterLab instance to inspect your group's chosen dataset. Try a few
-      different methods!
-        * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, ??? in
-          a Jupyter Notebook.
-        * Include Markdown cells to tell a story: explain what each computation is
-          doing, and what your group learned from the results of each computation.
-        * Commit and push the notebook to GitHub.
 
 * **Discussion on fixing "bad" data (?? minutes)**
-    * ???
-    * What can I do if my data still does not look right? (e.g. it's possible nobody
-      living knows how to resolve the problem, metadata may be incorrectly documented
-      and you may need help from the data producer, briefly mention techniques like
-      georegistration, bias correction)
-    * Tools: `ogr2ogr`, `gdal_translate`, `gdal_edit.py`
 
 * **Walk through Data Scenario #1 and solutions (30 minutes)**
 
 * **Breakout room activity: Fix some "bad" data (20 minutes)**
-    * Does your chosen dataset have issues that need fixing? If not, explore Data
-      Scenarios?
 
 * **Homework: think about how you could perform an analysis with your chosen dataset**
-    * Consider the other layers in QGreenland. How can you use them with your dataset to
-      answer a question?
-    * Share your ideas with your group in the GitHub Discussions for your repository.
 
 ### Day 3
 

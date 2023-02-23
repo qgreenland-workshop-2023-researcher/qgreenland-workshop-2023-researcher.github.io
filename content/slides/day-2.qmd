@@ -19,32 +19,36 @@ Doc:
 -->
 ---
 title: "QGreenland 2023 Researcher Workshop"
-subtitle: "Day 1"
+subtitle: "Day 2"
 title-slide-attributes:
   data-background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 background-image: "./media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
-{{< include day-1/1a-overview.qmd >}}
+{{< include day-2/2a-overview.qmd >}}
 
 
 # Morning session
 
-{{< include day-1/1b-breakout-team-intros.qmd >}}
+{{< include day-2/2b-breakout-geospatial-data-experiences.qmd >}}
 
-{{< include day-1/1c-open-science-and-data.qmd >}}
+{{< include day-2/2c-geospatial-data-formats.qmd >}}
 
-{{< include day-1/1d-breakout-fair-care.qmd >}}
+{{< include day-2/2d-review-geospatial-metadata-concepts.qmd >}}
+
+{{< include day-2/2e-intro-to-jupyterlab.qmd >}}
 
 
 # Break (60 minutes)
 
 # Afternoon session
 
-{{< include day-1/1e-review-geospatial-basics.qmd >}}
+{{< include day-2/2f-breakout-analysis-with-jupyterlab.qmd >}}
 
-{{< include day-1/1f-breakout-select-and-analyze-a-dataset.qmd >}}
+{{< include day-2/2g-fixing-bad-data.qmd >}}
 
-{{< include day-1/1g-intro-github-repo.qmd >}}
+{{< include day-2/2h-walkthrough-data-scenario-1.qmd >}}
 
-{{< include day-1/1h-breakout-make-a-github-repo.qmd >}}
+{{< include day-2/2i-breakout-fix-bad-data.qmd >}}
+
+{{< include day-2/2j-homework-think-about-analyzing-own-dataset.qmd >}}

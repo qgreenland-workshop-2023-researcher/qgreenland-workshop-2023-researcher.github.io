@@ -24,7 +24,7 @@ trap 'kill 0' EXIT
 # not on changes to includes within that file.
 # TODO: This does not handle creation of new files.
 while inotifywait -e delete -e create -e close_write $(find . -type f -name '*.qmd'); do
-    echo "touch"
+    echo "==> Manually triggering Quarto preview hot-reload (touch '${1}')"
     touch "${1}"
 done &
 
