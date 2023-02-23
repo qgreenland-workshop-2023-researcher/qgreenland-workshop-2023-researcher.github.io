@@ -1,0 +1,28 @@
+format:
+  revealjs:
+    strip-comments: true
+    toc: true
+    toc-depth: 2
+    overview: true
+
+    # Themes:
+    #   beige
+    #   blood
+    #   dark
+    #   default
+    #   league
+    #   moon
+    #   night
+    #   serif
+    #   simple
+    #   sky
+    #   solarized
+    theme: ["dark", "custom.scss"]
+
+    slide-number: true
+    chalkboard:
+      buttons: true
+    preview-links: "auto"
+    logo: "https://nsidc.org/themes/custom/nsidc/logo.svg"
+    footer: "<https://nsidc.org>"
+    transition: "none"

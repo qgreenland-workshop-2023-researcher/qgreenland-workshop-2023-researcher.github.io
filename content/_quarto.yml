@@ -13,33 +13,5 @@ website:
 format:
   html:
     theme: "cosmo"
-    css: "custom-html.css"
+    css: "custom.css"
     toc: true
-
-  revealjs:
-    toc: true
-    toc-depth: 2
-    overview: true
-
-    # Themes:
-    #   beige
-    #   blood
-    #   dark
-    #   default
-    #   league
-    #   moon
-    #   night
-    #   serif
-    #   simple
-    #   sky
-    #   solarized
-    theme: ["dark", "custom-revealjs.scss"]
-
-    slide-number: true
-    chalkboard:
-      buttons: true
-    preview-links: "auto"
-    logo: "https://nsidc.org/themes/custom/nsidc/logo.svg"
-    footer: "<https://nsidc.org>"
-    strip-comments: true
-    transition: "none"
