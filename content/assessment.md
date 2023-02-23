@@ -3,7 +3,7 @@
 _TODO: Delete this link after migrating content:_ [Original
 doc](https://o365coloradoedu.sharepoint.com/:w:/r/sites/CIRES-qgreenland/Shared%20Documents/UserGuide_TrainingMaterials_Etc/2023%20Trainings/Researcher%20Workshop/Skills%20assessment.docx?d=w3996f44f3a334e7c9d9d81efb67d3a96&csf=1&web=1&e=mh5ZBk)
 
-## Un-categorized
+## Uncategorized
 
 _TODO: Categorize and/or filter these questions!_
 
@@ -36,7 +36,7 @@ A survey we will send to all applicants to:
 * Git
 * Python
 * Other programming languages
-* Geospatial analysis (ogr, gdal, metadata concepts)
+* Geospatial analysis (OGR, GDAL, metadata concepts)
 
 ## Post-selection
 

@@ -28,7 +28,7 @@ Please add a modeline to the very top of each `.qmd` document to enable GitHub t
 these documents as markdown. As QMD is a superset of markdown, not all features will
 work as expected, but it will look better than plaintext.
 
-```
+```text
 <!-- vim: set ft=markdown: -->
 ```
 
