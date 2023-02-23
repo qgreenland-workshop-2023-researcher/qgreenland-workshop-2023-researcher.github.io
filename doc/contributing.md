@@ -22,6 +22,17 @@ To develop slides locally and view a preview:
   quarto preview content/slides/<my-file>.qmd
   ```
 
+### Modeline and HTML comments
+
+Please add a modeline to the very top of each `.qmd` document to enable GitHub to render
+these documents as markdown. As QMD is a superset of markdown, not all features will
+work as expected, but it will look better than plaintext.
+
+```
+<!-- vim: set ft=markdown: -->
+```
+
+
 ## Markdown formatting
 
 Markdown format is validated by `markdownlint`. Use `markdownlint .` to run locally.

@@ -1,5 +1,8 @@
 # Curriculum
 
+Tentative date: May 22-25
+
+
 ## Ideas
 
 * Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
