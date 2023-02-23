@@ -12,10 +12,9 @@ fi
 # Quarto stuff) and files from external sources (e.g. Code of Conduct, node
 # modules)
 npx mdspell --en-us --ignore-numbers --ignore-acronyms ${REPORT_MODE} \
-    $(find . \
-        -not -path './CODE_OF_CONDUCT.md' \
-        -not -path './node_modules/*' \
-        -not -path '*/_dist/*' \
-        -not -path '*/.quarto/*' \
-        -not -path '*/notes/*' \
-        -regex '.*.[q]?md')
+    '**/*.qmd' '**/*.md' \
+    '!CODE_OF_CONDUCT.md' \
+    '!**/node_modules/**/*.md' \
+    '!doc/notes/**/*.md' \
+    '!**/_dist/**/*.md' \
+    '!**/.quarto/**/*.md'
