@@ -2,7 +2,7 @@
 
 # QGreenland 2023 Researcher Workshop
 
-TODO: Description
+A workshop run by the QGreenland team targeting researchers as the primary audience.
 
 
 ## Level of Support
