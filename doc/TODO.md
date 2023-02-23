@@ -1,5 +1,12 @@
 # TODO
 
+
+## CI
+
+* Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
+  and `aspell`.
+
+
 ## Compute environment
 
 How do we solve the problem of diverse computing environments? We want to minimize the
