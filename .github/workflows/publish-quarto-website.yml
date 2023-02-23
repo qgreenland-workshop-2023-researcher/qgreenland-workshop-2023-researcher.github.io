@@ -1,4 +1,4 @@
-name: "Publish slides to GH Pages"
+name: "Publish website with slides to GH Pages"
 
 
 on:
@@ -42,12 +42,12 @@ jobs:
       - name: "Render"
         uses: "quarto-dev/quarto-actions/render@v2"
         with:
-          path: "./content/slides"
+          path: "./content"
 
       - name: "Upload artifact"
         uses: "actions/upload-pages-artifact@v1"
         with:
-          path: "./content/slides/_dist"
+          path: "./content/_site"
 
   # Deploy to GH Pages
   deploy:

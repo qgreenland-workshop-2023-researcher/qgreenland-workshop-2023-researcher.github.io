@@ -1,0 +1,11 @@
+<!-- vim: set ft=markdown: -->
+---
+title: "QGreenland Researcher Workshop 2023"
+author: "NSIDC"
+---
+
+## This is a Quarto website
+
+[Day 1 slides](slides/day-1.qmd)
+
+[Day 2 slides](slides/day-2.qmd)

@@ -16,10 +16,10 @@ To develop slides locally and view a preview:
   conda activate qgreenland-researcher-workshop
   ```
 
-* Preview the slide deck:
+* Preview the website and slides:
 
   ```console
-  quarto preview content/slides/<my-file>.qmd
+  quarto preview
   ```
 
 ### Modeline and HTML comments
