@@ -73,11 +73,4 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 ## Jupyter Notebook demo
 
 * Walk through running an example notebook and viewing its output in QGIS?
-    * _TODO: Generate the example notebook._
-    * _TODO: Maybe programmatically generate a random distribution of points over an
-      area in Greenland (e.g. use the extent of "Greenland coastlines 2017" layer as the
-      x/y extents for random-number generation, then filter those random coordinates
-      using the "Greenland coastlines 2017" layer)._
-    * _TODO: Maybe filter the "Place names database" layer by:_
-        * Random sample
-        * Maximum of a particular attribute
+    * _TODO: Finalize `demo.ipynb`_
