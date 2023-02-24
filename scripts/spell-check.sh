@@ -16,5 +16,5 @@ npx mdspell --en-us --ignore-numbers --ignore-acronyms ${REPORT_MODE} \
     '!CODE_OF_CONDUCT.md' \
     '!**/node_modules/**/*.md' \
     '!doc/notes/**/*.md' \
-    '!**/_dist/**/*.md' \
+    '!**/_site/**/*.md' \
     '!**/.quarto/**/*.md'

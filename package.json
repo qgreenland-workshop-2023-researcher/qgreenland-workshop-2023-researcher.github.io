@@ -3,8 +3,8 @@
   "description": "QGreenland 2023 Researcher Workshop",
   "scripts": {
     "lint-considerate-writing": "alex .",
-    "lint-markdown-format": "markdownlint . --ignore node_modules --ignore content/slides/_dist",
-    "lint-markdown-format-fix": "markdownlint --fix . --ignore node_modules --ignore content/slides/_dist",
+    "lint-markdown-format": "markdownlint . --ignore node_modules --ignore content/_site",
+    "lint-markdown-format-fix": "markdownlint --fix . --ignore node_modules --ignore content/_site",
     "lint-spell-check": "./scripts/spell-check.sh",
     "lint": "npm run lint-considerate-writing && npm run lint-markdown-format && npm run lint-spell-check"
   },
