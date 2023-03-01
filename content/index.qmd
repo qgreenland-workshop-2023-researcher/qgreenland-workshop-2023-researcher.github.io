@@ -4,8 +4,48 @@ title: "QGreenland Researcher Workshop 2023"
 author: "NSIDC"
 ---
 
-## This is a Quarto website
+## Workshop modules
 
-[Day 1 slides](slides/day-1.qmd)
+:::::: module
 
-[Day 2 slides](slides/day-2.qmd)
+### Day 1
+
+::: {.module-resource .slides}
+[Slides](slides/day-1.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::
+
+
+:::::: module
+
+### Day 2
+
+::: {.module-resource .slides}
+[Slides](slides/day-2.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::
+
+
+:::::: module
+
+### Day 3
+
+::: {.module-resource .slides}
+[Slides](slides/day-3.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::
