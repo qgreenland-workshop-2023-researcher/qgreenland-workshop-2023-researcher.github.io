@@ -1,0 +1,46 @@
+<!-- vim: set ft=markdown: -->
+# Course content
+
+:::::: module
+
+### Day 1
+
+::: {.module-resource .slides}
+[Slides](slides/day-1.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::
+
+
+:::::: module
+
+### Day 2
+
+::: {.module-resource .slides}
+[Slides](slides/day-2.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::
+
+
+:::::: module
+
+### Day 3
+
+::: {.module-resource .slides}
+[Slides](slides/day-3.qmd)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::::::

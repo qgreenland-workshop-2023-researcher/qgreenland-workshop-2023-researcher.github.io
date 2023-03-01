@@ -4,48 +4,12 @@ title: "QGreenland Researcher Workshop 2023"
 author: "NSIDC"
 ---
 
-## Workshop modules
+## About
 
-:::::: module
-
-### Day 1
-
-::: {.module-resource .slides}
-[Slides](content/slides/day-1.qmd)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::::::
+This workshop is aimed at researchers and is created and operated by the
+[QGreenland team](https://qgreenland.org/our-team).
 
 
-:::::: module
+### Outcomes
 
-### Day 2
-
-::: {.module-resource .slides}
-[Slides](content/slides/day-2.qmd)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::::::
-
-
-:::::: module
-
-### Day 3
-
-::: {.module-resource .slides}
-[Slides](content/slides/day-3.qmd)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::::::
+_TODO_
