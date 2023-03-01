@@ -1,6 +1,10 @@
 project:
   title: "qgreenland-2023-researcher-workshop"
   type: "website"
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!doc/"
 
 
 website:
@@ -17,7 +21,7 @@ website:
       - text: "Home"
         href: "index.qmd"
       - text: "About"
-        href: "about.qmd"
+        href: "content/about.qmd"
     right:
       - icon: "github"
         aria-label: "GitHub"
@@ -26,9 +30,9 @@ website:
   page-footer:
     left: "Built with [Quarto](https://quarto.org/) ❤️"
     right:
-      - text: "Code of Conduct (TODO)"
+      - text: "Code of Conduct"
         href: "CODE_OF_CONDUCT.md"
-      - text: "License (TODO)"
+      - text: "License"
         href: "LICENSE.md"
 
 
@@ -39,5 +43,5 @@ format:
     # theme:
     #   light: [cosmo]
     #   dark: [cosmo, dark.css]
-    css: "custom.css"
+    css: "content/custom.css"
     toc: true

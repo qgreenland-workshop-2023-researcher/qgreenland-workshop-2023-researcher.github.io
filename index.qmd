@@ -11,7 +11,7 @@ author: "NSIDC"
 ### Day 1
 
 ::: {.module-resource .slides}
-[Slides](slides/day-1.qmd)
+[Slides](content/slides/day-1.qmd)
 :::
 
 ::: {.module-resource .video}
@@ -26,7 +26,7 @@ author: "NSIDC"
 ### Day 2
 
 ::: {.module-resource .slides}
-[Slides](slides/day-2.qmd)
+[Slides](content/slides/day-2.qmd)
 :::
 
 ::: {.module-resource .video}
@@ -41,7 +41,7 @@ author: "NSIDC"
 ### Day 3
 
 ::: {.module-resource .slides}
-[Slides](slides/day-3.qmd)
+[Slides](content/slides/day-3.qmd)
 :::
 
 ::: {.module-resource .video}
