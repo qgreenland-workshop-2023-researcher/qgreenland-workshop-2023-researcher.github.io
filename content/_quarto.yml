@@ -1,17 +1,43 @@
 project:
-  title: "qgreenland-2023-researcher-workshop-slides"
+  title: "qgreenland-2023-researcher-workshop"
   type: "website"
+
 
 website:
   title: "QGreenland Researcher Workshop 2023"
+  # description: TODO
+  site-url: "https://nsidc.github.io/qgreenland-2023-researcher-workshop"
+
+  repo-url: &repo-url "https://github.com/nsidc/qgreenland-2023-researcher-workshop"
+  repo-subdir: "content"
+  repo-actions: ["edit", "issue"]
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: "index.qmd"
+      - text: "About"
+        href: "about.qmd"
+    right:
+      - icon: "github"
+        aria-label: "GitHub"
+        href: *repo-url
+
+  page-footer:
+    left: "Built with [Quarto](https://quarto.org/) ❤️"
+    right:
+      - text: "Code of Conduct (TODO)"
+        href: "CODE_OF_CONDUCT.md"
+      - text: "License (TODO)"
+        href: "LICENSE.md"
+
 
 format:
   html:
     theme: "cosmo"
+    # TODO: Support light/dark switch?
+    # theme:
+    #   light: [cosmo]
+    #   dark: [cosmo, dark.css]
     css: "custom.css"
     toc: true
