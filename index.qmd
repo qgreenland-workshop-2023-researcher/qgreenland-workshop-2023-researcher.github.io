@@ -9,6 +9,9 @@ author: "NSIDC"
 This workshop is aimed at researchers and is created and operated by the
 [QGreenland team](https://qgreenland.org/our-team).
 
+The tentative dates for this workshop are May 22-25 2023. The application process is
+TBD.
+
 
 ### Outcomes
 
