@@ -22,8 +22,8 @@ title: "QGreenland Researcher Workshop 2023"
 subtitle: "Day 2"
 format: "revealjs"
 title-slide-attributes:
-  data-background-image: "/content/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
-background-image: "/content/_media/bbS_1842643_12758_20180418_18111267_clipped.jpg"
+  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "/_media/bbS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
 {{< include day-2/2a-overview.qmd >}}

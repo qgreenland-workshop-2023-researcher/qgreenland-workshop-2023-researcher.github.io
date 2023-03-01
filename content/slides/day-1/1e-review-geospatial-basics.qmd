@@ -26,7 +26,7 @@ Attributes add additional data to an element
 
 ## Continuous raster data
 
-![Continuous data image](/content/_media/qgreenland_seaice_concentration_feb2015.png)
+![Continuous data image](/_media/qgreenland_seaice_concentration_feb2015.png)
 
 
 ## Categorical raster data
