@@ -1,10 +1,5 @@
 <!-- vim: set ft=markdown: -->
----
-title: "QGreenland Researcher Workshop 2023"
-author: "NSIDC"
----
-
-## Workshop modules
+# Course content
 
 :::::: module
 

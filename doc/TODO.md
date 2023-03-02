@@ -42,7 +42,7 @@ users who are struggling with installing dependencies.
 ## Slides / presenting
 
 * How can we split our pile of slides in to multiple focused decks?
-    * Build a Quarto web page in addition to the slides, and include links to slide
+    * [x] Build a Quarto web page in addition to the slides, and include links to slide
       decks?
     * 1 deck per day? Or more focused than that?
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
@@ -52,7 +52,9 @@ users who are struggling with installing dependencies.
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
-* Select background imagery: e.g. Icebridge DMS imagery (airborne photos) of Greenland
+* Diversify background imagery; currently have one cropped Icebridge DMS image, but
+  could also use images from [NSIDC's Flickr
+  account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
 
 
 ## Timing / scheduling
@@ -70,18 +72,13 @@ users who are struggling with installing dependencies.
 
 * Index curriculum into modules, e.g. Day 1's third module could be `1C`.
 
-* Add list of references that might be useful to attendees. Consider taking content from
-  `doc/development_references.md`
-
 
 ### View
 
-* Consider a SSG for making an improved web-based "view" of this Git repository, e.g.
-  MkDocs
+* [x] Consider a SSG for making an improved web-based "view" of this Git repository,
+  e.g. MkDocs
     <!-- alex ignore special -->
     * A good demo of something special you can do with CI
-* Consider leaving this Git repository without a "view" layer; introduce attendees to
-  the utility of Markdown rendered by GitHub.
 
 
 ## Workshop organization
@@ -95,11 +92,5 @@ users who are struggling with installing dependencies.
 
 * Generate a list (at least a few) of dataset suggestions in case groups cannot
   come up with one of their own. Check backlog for new layer suggestions.
-
-
-## Dataset selection guidelines
-
-* Create a doc for dataset selection; what makes a good selection?
-* Some fallback dataset suggestions:
     * Datasets which have interesting processing in QGreenland
     * See dataset suggestions in Jira

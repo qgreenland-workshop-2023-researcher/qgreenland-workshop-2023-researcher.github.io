@@ -1,10 +1,9 @@
+<!-- vim: set ft=markdown: -->
 # Prerequisites
 
 ## Code of Conduct
 
-Agree to our Code of Conduct
-
-_TODO: Use the existing one, or separate one for workshop attendees?_
+Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 
 ## GitHub Account
@@ -17,13 +16,14 @@ _TODO: Use the existing one, or separate one for workshop attendees?_
 ## Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
-  would like to work with during the workshop. If you do not already have an
-  idea for a new dataset, consider choosing one from an established data
-  repository such as the [Arctic Data Center's QGreenland data
-  portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the
-  [National Snow and Ice Data Center](https://nsidc.org/data/explore-data). If
-  you are still struggling to choose a dataset, select one from this list (TODO:
-  link to list).
+  would like to work with during the workshop. If you struggle to find a
+  dataset, consider choosing one from an established data repository such as
+  the [Arctic Data Center's QGreenland data
+  portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the [National
+  Snow and Ice Data Center](https://nsidc.org/data/explore-data). If you are
+  still struggling to choose a dataset, select one from this list (TODO: link to
+  list).
+* Use these [guidelines](dataset_selection.md) to pick an appropriate dataset.
 * [Post a short description of the dataset(s) you have identified and why it
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
 

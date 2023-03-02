@@ -1,1 +1,8 @@
+# Javascript ephemera
 node_modules/
+
+# Quarto ephemera
+/.quarto/
+/_site/
+/site_libs/
+*.local

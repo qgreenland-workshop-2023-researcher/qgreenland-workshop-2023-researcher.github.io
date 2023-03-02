@@ -1,0 +1,5 @@
+<!-- vim: set ft=markdown: -->
+# Exercises
+
+1. [Data scenarios](data-scenarios/index.qmd)
+1. _TODO_

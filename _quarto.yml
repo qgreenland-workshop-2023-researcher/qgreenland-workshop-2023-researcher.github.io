@@ -1,0 +1,68 @@
+project:
+  title: "qgreenland-2023-researcher-workshop"
+  type: "website"
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!doc/"
+
+
+website:
+  title: "QGreenland Researcher Workshop 2023"
+  # description: TODO
+  site-url: "https://nsidc.github.io/qgreenland-2023-researcher-workshop"
+
+  repo-url: &repo-url "https://github.com/nsidc/qgreenland-2023-researcher-workshop"
+  repo-subdir: "content"
+  repo-actions: ["edit", "issue"]
+
+  navbar:
+    left:
+      - text: "Prerequisites"
+        file: "content/prerequisites/index.qmd"
+      - text: "Course content"
+        file: "content/index.qmd"
+    right:
+      - icon: "github"
+        aria-label: "GitHub"
+        href: *repo-url
+
+  # NOTE: This sidebar is configured for "hybrid navigation"; each sidebar
+  # entry must match up with a navbar entry by:
+  #   - `title` on sidebar entry matches `text` on navbar entry
+  #   - First item in `contents` on sidebar entry matches `file` on navbar entry
+  # >> https://quarto.org/docs/websites/website-navigation.html#hybrid-navigation
+  # NOTE: The sidebar requires >1 entry to work in hybrid mode, or the same
+  # sidebar will show up on every page.
+  # >> https://github.com/quarto-dev/quarto-cli/issues/1853
+  sidebar:
+    - title: "Course content"
+      contents:
+        - "content/index.qmd"
+        - "content/curriculum.md"
+        - "content/exercises/index.qmd"
+        - "content/continued_learning.qmd"
+    - title: "Prerequisites"
+      contents:
+        - "content/prerequisites/index.qmd"
+        - "content/prerequisites/dataset_selection.md"
+        - "content/prerequisites/assessment.md"
+
+  page-footer:
+    left: "Built with [Quarto](https://quarto.org/) ❤️"
+    right:
+      - text: "Code of Conduct"
+        href: "CODE_OF_CONDUCT.md"
+      - text: "License"
+        href: "LICENSE.md"
+
+
+format:
+  html:
+    theme: "cosmo"
+    # TODO: Support light/dark switch?
+    # theme:
+    #   light: [cosmo]
+    #   dark: [cosmo, dark.css]
+    css: "content/custom.css"
+    toc: true

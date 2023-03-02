@@ -1,4 +1,4 @@
-# Data Scenario: Missing Metadata
+# Data Scenario #1: Missing Metadata
 
 You download a dataset (`bamber_greenland_dem.tif`, found in this directory) which
 doesn't load as expected in QGIS. When loaded alongside QGreenland, instead of

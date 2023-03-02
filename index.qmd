@@ -1,0 +1,28 @@
+<!-- vim: set ft=markdown: -->
+---
+title: "QGreenland Researcher Workshop 2023"
+author: "NSIDC"
+---
+
+## About
+
+This workshop is aimed at researchers and is created and operated by the
+[QGreenland team](https://qgreenland.org/our-team).
+
+The tentative dates for this workshop are May 22-25 2023. The application process is
+TBD. If you want to receive the workshop announcement, please subscribe to the
+[QGreenland newsletter](https://gmail.us5.list-manage.com/subscribe/post?u=152741e4ecbce5f73547f5fe3&id=8b1d8cf3a9).
+
+
+### Outcomes
+
+If you attend this workshop, you can expect these benefits:
+
+* Competence with some GitHub and JupyterLab features
+* Competence with geospatial data/metadata concepts
+* Participation in a small working group (3-4 people)
+    * Learn to communicate via GitHub
+    * Select a Greenland-related dataset for exploration as a group
+* Create a long-lasting artifact (GitHub repository) containing your work products:
+    * A dataset quality analysis
+    * An exploration of a question about your group's dataset
