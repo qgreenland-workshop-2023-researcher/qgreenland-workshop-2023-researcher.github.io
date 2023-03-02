@@ -5,6 +5,7 @@ _media
 Colorbrewer
 CryoCloud
 DMS_1842643_12758_20180418_18111267_clipped.jpg
+Flickr
 Foobarbaz
 GeoJSON
 GeoPackage
@@ -43,6 +44,7 @@ datasets
 dealbreakers
 e.g.
 gdalwarp
+geolocated
 georegistration
 geospatial
 gitignore

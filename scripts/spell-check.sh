@@ -14,6 +14,7 @@ fi
 npx mdspell --en-us --ignore-numbers --ignore-acronyms ${REPORT_MODE} \
     '**/*.qmd' '**/*.md' \
     '!CODE_OF_CONDUCT.md' \
+    '!LICENSE.md' \
     '!**/node_modules/**/*.md' \
     '!doc/notes/**/*.md' \
     '!**/_site/**/*.md' \
