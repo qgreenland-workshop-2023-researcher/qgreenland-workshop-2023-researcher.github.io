@@ -40,6 +40,7 @@ website:
       contents:
         - "content/index.qmd"
         - "content/curriculum.md"
+        - "content/exercises/index.qmd"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.qmd"
