@@ -39,6 +39,7 @@ website:
       contents:
         - "content/index.qmd"
         - "content/curriculum.md"
+        - "content/slides.qmd"
         - "content/exercises/index.qmd"
         - "content/continued_learning.qmd"
     - title: "Prerequisites"

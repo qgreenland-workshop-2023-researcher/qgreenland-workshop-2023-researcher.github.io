@@ -1,0 +1,7 @@
+<!-- vim: set ft=markdown: -->
+---
+title: "Slides index"
+listing:
+  type: "table"
+  contents: "slides"
+---
