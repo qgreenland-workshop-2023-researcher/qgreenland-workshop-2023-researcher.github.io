@@ -41,13 +41,11 @@ jobs:
 
       - name: "Render"
         uses: "quarto-dev/quarto-actions/render@v2"
-        with:
-          path: "./content"
 
       - name: "Upload artifact"
         uses: "actions/upload-pages-artifact@v1"
         with:
-          path: "./content/_site"
+          path: "./_site"
 
   # Deploy to GH Pages
   deploy:
