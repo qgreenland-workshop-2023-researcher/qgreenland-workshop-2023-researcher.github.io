@@ -1,4 +1,4 @@
-# Date Scenario #3: Data file needs reprojection
+# Data Scenario #3: Data file needs reprojection
 
 A colleague has sent you a CSV file containing the locations of potential field
 study sites in Greenland. The CSV provides coordinates in latitude and longitude
