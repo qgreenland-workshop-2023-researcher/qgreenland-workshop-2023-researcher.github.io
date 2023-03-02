@@ -94,3 +94,10 @@ users who are struggling with installing dependencies.
   come up with one of their own. Check backlog for new layer suggestions.
     * Datasets which have interesting processing in QGreenland
     * See dataset suggestions in Jira
+
+
+## Work products
+
+* Consider establishing a required structure for work products. E.g. your repo must 
+  include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this way,
+  model splitting a problem into parts, and encourage focused, clean notebooks.
