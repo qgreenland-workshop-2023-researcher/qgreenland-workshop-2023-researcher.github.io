@@ -16,4 +16,13 @@ TBD. If you want to receive the workshop announcement, please subscribe to the
 
 ### Outcomes
 
-_TODO_
+If you attend this workshop, you can expect these benefits:
+
+* Competence with some GitHub and JupyterLab features
+* Competence with geospatial data/metadata concepts
+* Participation in a small working group (3-4 people)
+    * Learn to communicate via GitHub
+    * Select a Greenland-related dataset for exploration as a group
+* Create a long-lasting artifact (GitHub repository) containing your work products:
+    * A dataset quality analysis
+    * An exploration of a question about your group's dataset
