@@ -98,6 +98,6 @@ users who are struggling with installing dependencies.
 
 ## Work products
 
-* Consider establishing a required structure for work products. E.g. your repo must 
-  include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this way,
-  model splitting a problem into parts, and encourage focused, clean notebooks.
+* Consider establishing a required structure for work products. E.g. your repository
+  must include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this
+  way, model splitting a problem into parts, and encourage focused, clean notebooks.
