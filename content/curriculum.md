@@ -60,16 +60,6 @@
 
 ### Day 2
 
-#### Outcomes
-
-* Gain familiarity with or review:
-    * Geospatial data formats
-    * Geospatial metadata concepts
-* Create a Notebook in JupyterLab.
-* Develop hands-on experience with manipulating data/metadata to improve dataset
-  quality/usability.
-
-
 #### Activities
 
 * **Discussion: Day 2 activity overview (5 minutes)**
