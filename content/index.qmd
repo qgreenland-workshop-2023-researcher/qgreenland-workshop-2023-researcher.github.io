@@ -1,6 +1,85 @@
 <!-- vim: set ft=markdown: -->
 # Course content
 
+### Examples
+
+:::::: module
+#### Example module #1
+
+::: {.module-resource .slides}
+[Slides](https://example.com)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Exercise title (30 minutes)](https://example.com)
+:::
+::::::
+
+::: break
+#### ☕ Break: 30 minutes
+:::
+
+:::::: module
+#### Example module #2
+
+::: {.module-resource .slides}
+[Slides](https://example.com)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Exercise title (30 minutes)](https://example.com)
+:::
+::::::
+
+::: break
+#### 🥪 Break: 60 minutes
+:::
+
+:::::: module
+#### Example module #3
+
+::: {.module-resource .slides}
+[Slides](https://example.com)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Exercise title (30 minutes)](https://example.com)
+:::
+::::::
+
+::: break
+#### ☕ Break: 30 minutes
+:::
+
+:::::: module
+#### Example module #3
+
+::: {.module-resource .slides}
+[Slides](https://example.com)
+:::
+
+::: {.module-resource .video}
+[Video](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Exercise title (30 minutes)](https://example.com)
+:::
+::::::
+
+
 ### Day 1
 
 :::::: module
