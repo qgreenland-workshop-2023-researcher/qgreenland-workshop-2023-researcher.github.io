@@ -91,6 +91,14 @@
 ### Day 1
 
 :::::: {.schedule-item .module}
+#### Daily overview
+
+::: {.module-resource .slides}
+[Slides](slides/day-1-overview.qmd)
+:::
+::::::
+
+:::::: {.schedule-item .module}
 #### All of day 1 in a single deck
 
 ::: {.module-resource .slides}

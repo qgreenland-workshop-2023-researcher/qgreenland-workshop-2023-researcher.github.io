@@ -6,3 +6,6 @@ listing:
   contents:
     - "slides/*.qmd"
 ---
+
+_TODO: Add metadata to slides so they can be displayed with / sorted by module
+identifier_
