@@ -3,5 +3,6 @@
 title: "Slides index"
 listing:
   type: "table"
-  contents: "slides"
+  contents:
+    - "slides/*.qmd"
 ---

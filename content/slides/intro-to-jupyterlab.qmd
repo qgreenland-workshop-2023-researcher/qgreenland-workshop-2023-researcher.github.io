@@ -1,8 +1,13 @@
 <!-- vim: set ft=markdown: -->
+---
+title: "Intro to JupyterLab"
+subtitle: "QGreenland Researcher Workshop 2023"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+---
 
-# Intro to JupyterHub
+## JupyterHub
 
-## Intro to JupyterHub
+Your personal JupyterLab in the cloud
 
 * CryoCloud
     * JupyterHub: <https://hub.cryointhecloud.com>
@@ -12,28 +17,25 @@
     * Important: select a _small_ server!
     * Your JupyterLab is dedicated, _not_ shared!
 
-* _Please log out at the end of each day using `File > Log Out`!_
-
 ::: {.notes}
-* JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
-* JupyterLab is not shared!
-    * Other attendees can't see your files (except those in "shared" dir)
-    * Your computations won't slow down anyone else's
-* Log out at the end of each day to save on cloud costs.
-    * Any files you've created will remain next time you log in.
+JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
+
+JupyterLab is not shared!
+
+* Other attendees can't see your files (except those in `shared/` dir)
+* No scheduler like on a supercomputer
+    * Your computations won't interfere with anyone else's
 :::
 
 
-## What can I do in my JupyterLab?
+# What can I do in my JupyterLab?
 
-Almost anything you can do on your laptop!
+💻 Almost anything you can do on your personal computer!
 
-JupyterLab is meant to be a human interface to computation resources.
+👪 JupyterLab is a human-friendly interface to computation resources.
 
 
-## What can I do in my JupyterLab?
-
-### File Manager
+## File browser
 
 * Drag & drop from your desktop
 * Open many types of files and get a useful display
@@ -42,9 +44,7 @@ JupyterLab is meant to be a human interface to computation resources.
     * Images will open with an image viewer
 
 
-## What can I do in my JupyterLab?
-
-### Applications
+## Applications
 
 * Terminal
     * `conda install <package>` / `mamba install <package>`
@@ -70,7 +70,18 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
     * _TODO: Others?_
 
 
-## Jupyter Notebook demo
+## Jupyter Notebook example
 
 * Walk through running an example notebook and viewing its output in QGIS?
-    * _TODO: Finalize `demo.ipynb`_
+    * _TODO: Finalize `demo.ipynb`. Include something simple for users to try changing._
+
+
+# Important: Please log out when done!
+
+_At the end of each day, click `File > Log Out`_
+
+::: {.notes}
+Log out at the end of each day to save on cloud costs.
+
+Any files you've created will remain next time you log in.
+:::

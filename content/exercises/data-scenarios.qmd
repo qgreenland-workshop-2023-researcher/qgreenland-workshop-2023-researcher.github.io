@@ -1,8 +1,9 @@
 <!-- vim: set ft=markdown: -->
 ---
-listing: "table"
+title: "Data scenarios"
+listing:
+  type: "table"
+  contents: "data-scenarios"
 ---
-
-# Data scenarios
 
 For each scenario, please make the data usable with QGIS.

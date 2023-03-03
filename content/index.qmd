@@ -1,46 +1,56 @@
 <!-- vim: set ft=markdown: -->
 # Course content
 
+### Day 1
+
 :::::: module
 
-### Day 1
+#### All of day 1 in a single deck
 
 ::: {.module-resource .slides}
 [Slides](slides/day-1.qmd)
 :::
 
 ::: {.module-resource .video}
-[Video](https://example.com)
+[Video (TODO)](https://example.com)
 :::
 
 ::::::
 
-
-:::::: module
 
 ### Day 2
 
+:::::: module
+
+#### Intro to JupyterLab
+
 ::: {.module-resource .slides}
-[Slides](slides/day-2.qmd)
+[Slides](slides/intro-to-jupyterlab.qmd)
 :::
 
 ::: {.module-resource .video}
-[Video](https://example.com)
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
 :::
 
 ::::::
 
 
-:::::: module
-
 ### Day 3
 
+:::::: module
+
+#### All of day 3 is a WIP
+
 ::: {.module-resource .slides}
-[Slides](slides/day-3.qmd)
+[Slides (TODO)](slides/day-3.qmd)
 :::
 
 ::: {.module-resource .video}
-[Video](https://example.com)
+[Video (TODO)](https://example.com)
 :::
 
 ::::::
