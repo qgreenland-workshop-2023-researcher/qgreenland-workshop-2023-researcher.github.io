@@ -4,6 +4,14 @@
 ### Examples
 
 :::::: module
+#### Daily overview
+
+::: {.module-resource .slides}
+[Slides](https://example.com)
+:::
+::::::
+
+:::::: module
 #### Example module #1
 
 ::: {.module-resource .slides}
@@ -83,7 +91,6 @@
 ### Day 1
 
 :::::: module
-
 #### All of day 1 in a single deck
 
 ::: {.module-resource .slides}
@@ -100,7 +107,14 @@
 ### Day 2
 
 :::::: module
+#### Daily overview
 
+::: {.module-resource .slides}
+[Slides](slides/day-2-overview.qmd)
+:::
+::::::
+
+:::::: module
 #### Intro to JupyterLab
 
 ::: {.module-resource .slides}
@@ -114,14 +128,12 @@
 ::: {.module-resource .exercise}
 [Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
 :::
-
 ::::::
 
 
 ### Day 3
 
 :::::: module
-
 #### All of day 3 is a WIP
 
 ::: {.module-resource .slides}
@@ -131,5 +143,4 @@
 ::: {.module-resource .video}
 [Video (TODO)](https://example.com)
 :::
-
 ::::::
