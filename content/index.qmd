@@ -3,7 +3,7 @@
 
 ### Examples
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Daily overview
 
 ::: {.module-resource .slides}
@@ -11,7 +11,7 @@
 :::
 ::::::
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Example module #1
 
 ::: {.module-resource .slides}
@@ -27,11 +27,11 @@
 :::
 ::::::
 
-::: break
+::: {.schedule-item .break}
 #### ☕ Break: 30 minutes
 :::
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Example module #2
 
 ::: {.module-resource .slides}
@@ -47,11 +47,11 @@
 :::
 ::::::
 
-::: break
+::: {.schedule-item .break}
 #### 🥪 Break: 60 minutes
 :::
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Example module #3
 
 ::: {.module-resource .slides}
@@ -67,12 +67,12 @@
 :::
 ::::::
 
-::: break
+::: {.schedule-item .break}
 #### ☕ Break: 30 minutes
 :::
 
-:::::: module
-#### Example module #3
+:::::: {.schedule-item .module}
+#### Example module #4
 
 ::: {.module-resource .slides}
 [Slides](https://example.com)
@@ -90,7 +90,7 @@
 
 ### Day 1
 
-:::::: module
+:::::: {.schedule-item .module}
 #### All of day 1 in a single deck
 
 ::: {.module-resource .slides}
@@ -100,13 +100,12 @@
 ::: {.module-resource .video}
 [Video (TODO)](https://example.com)
 :::
-
 ::::::
 
 
 ### Day 2
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Daily overview
 
 ::: {.module-resource .slides}
@@ -114,7 +113,7 @@
 :::
 ::::::
 
-:::::: module
+:::::: {.schedule-item .module}
 #### Intro to JupyterLab
 
 ::: {.module-resource .slides}
@@ -133,7 +132,7 @@
 
 ### Day 3
 
-:::::: module
+:::::: {.schedule-item .module}
 #### All of day 3 is a WIP
 
 ::: {.module-resource .slides}
