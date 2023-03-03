@@ -115,7 +115,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: FAIR & CARE data principles discussion](exercises/fair-care.qmd)
+[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
 :::
 ::::::
 
@@ -137,19 +137,27 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Select a dataset](exercises/select-a-dataset.qmd)
+[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.qmd)
 :::
 ::::::
 
 :::::: {.schedule-item .module}
-#### All of day 1 in a single deck
+#### Intro to GitHub
+
+::: {.callout-note}
+_TODO: Move this earlier?_
+:::
 
 ::: {.module-resource .slides}
-[Slides](slides/day-1.qmd)
+[Slides](slides/intro-to-github.qmd)
 :::
 
 ::: {.module-resource .video}
 [Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.qmd)
 :::
 ::::::
 
@@ -166,6 +174,10 @@
 
 :::::: {.schedule-item .module}
 #### Intro to JupyterLab
+
+::: {.callout-note}
+_TODO: Move this earlier?_
+:::
 
 ::: {.module-resource .slides}
 [Slides](slides/intro-to-jupyterlab.qmd)

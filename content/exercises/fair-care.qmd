@@ -1,6 +1,6 @@
 <!-- vim: set ft=markdown: -->
 
-# Breakout: FAIR/CARE discussion (30 minutes)
+# FAIR/CARE discussion (30 minutes)
 
 * How do FAIR/CARE relate to your research?
 * Discuss how one or more of the datasets your group members has chosen
