@@ -23,7 +23,7 @@ Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
   Snow and Ice Data Center](https://nsidc.org/data/explore-data). If you are
   still struggling to choose a dataset, select one from this list (TODO: link to
   list).
-* Use these [guidelines](dataset_selection.md) to pick an appropriate dataset.
+* Use these [guidelines](dataset-selection.md) to pick an appropriate dataset.
 * [Post a short description of the dataset(s) you have identified and why it
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
 

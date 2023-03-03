@@ -1,0 +1,25 @@
+<!-- vim: set ft=markdown: -->
+
+# Select and analyze a dataset (15 minutes)
+
+## 🤔 Select a dataset as a group
+
+Use [these guidelines](/content/prerequisites/dataset-selection.md) to select a dataset
+that your group will use going forward in this workshop.
+
+
+## 🧭 Explore your dataset
+
+Choose a note-taker and record the results of these steps in whatever way you feel
+comfortable. We will come back to these notes later!
+
+::: {.callout-warning}
+Do not take notes in Zoom chat; they will disappear.
+:::
+
+* Try to open your data in QGIS. Is that possible?
+* Identify key attributes of the data/metadata ("Unknown" is an expected answer)
+    * Data type (raster, vector, etc.)
+    * File type (XLSX, CSV, Shapefile, NetCDF, etc)
+    * Projection
+    * Extent (e.g. corner coordinates / edge values)

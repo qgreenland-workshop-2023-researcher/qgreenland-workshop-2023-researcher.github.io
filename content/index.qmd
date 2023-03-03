@@ -104,7 +104,7 @@
 
 
 :::::: {.schedule-item .module}
-#### Open Science (and data) principles
+#### Review Open Science (and data) principles
 
 ::: {.module-resource .slides}
 [Slides](slides/open-science-and-data.qmd)
@@ -124,6 +124,22 @@
 #### 🥪 Break: 60 minutes
 :::
 
+
+:::::: {.schedule-item .module}
+#### Review geospatial concepts and terms
+
+::: {.module-resource .slides}
+[Slides](slides/geospatial-concepts-and-terms.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Select a dataset](exercises/select-a-dataset.qmd)
+:::
+::::::
 
 :::::: {.schedule-item .module}
 #### All of day 1 in a single deck
