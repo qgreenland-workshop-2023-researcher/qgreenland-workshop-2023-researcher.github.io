@@ -96,7 +96,34 @@
 ::: {.module-resource .slides}
 [Slides](slides/day-1-overview.qmd)
 :::
+
+::: {.module-resource .exercise}
+[Exercise: Team introductions (30 minutes)](exercises/team-introductions.qmd)
+:::
 ::::::
+
+
+:::::: {.schedule-item .module}
+#### Open Science (and data) principles
+
+::: {.module-resource .slides}
+[Slides](slides/open-science-and-data.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: FAIR & CARE data principles discussion](exercises/fair-care.qmd)
+:::
+::::::
+
+
+::: {.schedule-item .break}
+#### 🥪 Break: 60 minutes
+:::
+
 
 :::::: {.schedule-item .module}
 #### All of day 1 in a single deck

@@ -1,8 +1,13 @@
 <!-- vim: set ft=markdown: -->
 
-# Breakout: Team introductions (20 minutes)
+# Team introductions (20 minutes)
+
+## ❤️ Get to know your team
+
+Discuss with your team:
 
 * What dataset did you choose?
 * _TODO: Pick a quirky icebreaker question!_
     * Dream place you want to go in Greenland
     * Tell a story about Greenland
+    * ...?
