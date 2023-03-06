@@ -41,11 +41,11 @@ website:
         - "content/curriculum.md"
         - "content/slides.qmd"
         - "content/exercises/index.qmd"
-        - "content/continued_learning.qmd"
+        - "content/continued-learning.qmd"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.qmd"
-        - "content/prerequisites/dataset_selection.md"
+        - "content/prerequisites/dataset-selection.md"
         - "content/prerequisites/assessment.md"
 
   page-footer:
