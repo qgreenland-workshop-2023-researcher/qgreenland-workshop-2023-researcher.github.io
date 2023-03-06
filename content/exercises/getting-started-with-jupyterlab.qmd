@@ -18,8 +18,10 @@ Explore JupyterLab features.
 
 * Open a new tab in the JupyterLab GUI.
 * Select "Desktop".
-* On first load, you'll be presented with a dialog box. Select "..."
-  _TODO: Add screenshot of dialog box and fix the text above_
+* On first launch, select "Use default config":
+
+    ![Use default config](/_media/xfce_first_launch.png)
+
 * Open QGIS from the desktop icon.
 * Open QGreenland from `shared/QGreenland`.
 * Explore QGreenland layers and turn on some layers.

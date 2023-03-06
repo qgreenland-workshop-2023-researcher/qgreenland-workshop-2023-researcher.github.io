@@ -43,10 +43,12 @@ JupyterLab is not shared!
     * GeoJSON will display on a map
     * Images will open with an image viewer
 
+* _TODO: Image of file browser on the side of this slide_
+
 
 ## Terminal
 
-* `conda install <package>` 
+* `conda install <package>`
 * `mamba install <package>`
 * Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
 
@@ -56,15 +58,25 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 :::
 
 
-## Desktop (with QGIS)
+## Desktop (with QGIS) {.smaller}
 
 * Has access to the files in your JupyterLab
-* On first launch, select "Default panel" (_TODO: Get a screenshot!_)
+* On first launch, select "Use default config"
+
+    ![Use default config](/_media/xfce_first_launch.png)
+
 * The "Home" icon on the desktop shows the same files as File Browser.
 * Can open QGreenland!
 
+::: {.callout-warning}
+Do not use "Logout" within your desktop
+:::
+
 ::: {.notes}
 Opening QGreenland should take ~2 minutes.
+
+Do not use the logout function within the desktop, as this may make it difficult to get
+back into your desktop.
 :::
 
 
