@@ -1,0 +1,34 @@
+<!-- vim: set ft=markdown: -->
+
+# Getting started with JupyterLab (30 minutes)
+
+::: {.callout-note}
+This is an individual exercise. Remaining exercises will be done as a team.
+:::
+
+Explore JupyterLab features.
+
+
+## ⚙️ Get set up
+
+* Log in to JupyterLab and start a _small_ server.
+
+
+## 🗺️ Open QGreenland with QGIS in JupyterLab
+
+* Open a new tab in the JupyterLab GUI.
+* Select "Desktop".
+* On first load, you'll be presented with a dialog box. Select "..."
+  _TODO: Add screenshot of dialog box and fix the text above_
+* Open QGIS from the desktop icon.
+* Open QGreenland from `shared/QGreenland`.
+* Explore QGreenland layers and turn on some layers.
+
+
+## 🧪 Try out a Notebook
+
+* Run the example notebook from the "Intro to JupyterLab" discussion.
+    * Click "Run -> Run all cells"
+    * When complete, you should see a map with QGreenland highlighted in red.
+* Change the color of the Greenland shape in the last cell of the notebook and
+  re-render.

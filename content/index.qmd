@@ -1,93 +1,6 @@
 <!-- vim: set ft=markdown: -->
 # Course content
 
-### Examples
-
-:::::: {.schedule-item .module}
-#### Daily overview
-
-::: {.module-resource .slides}
-[Slides](https://example.com)
-:::
-::::::
-
-:::::: {.schedule-item .module}
-#### Example module #1
-
-::: {.module-resource .slides}
-[Slides](https://example.com)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Exercise title (30 minutes)](https://example.com)
-:::
-::::::
-
-::: {.schedule-item .break}
-#### ☕ Break: 30 minutes
-:::
-
-:::::: {.schedule-item .module}
-#### Example module #2
-
-::: {.module-resource .slides}
-[Slides](https://example.com)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Exercise title (30 minutes)](https://example.com)
-:::
-::::::
-
-::: {.schedule-item .break}
-#### 🥪 Break: 60 minutes
-:::
-
-:::::: {.schedule-item .module}
-#### Example module #3
-
-::: {.module-resource .slides}
-[Slides](https://example.com)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Exercise title (30 minutes)](https://example.com)
-:::
-::::::
-
-::: {.schedule-item .break}
-#### ☕ Break: 30 minutes
-:::
-
-:::::: {.schedule-item .module}
-#### Example module #4
-
-::: {.module-resource .slides}
-[Slides](https://example.com)
-:::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Exercise title (30 minutes)](https://example.com)
-:::
-::::::
-
-
 ### Day 1
 
 :::::: {.schedule-item .module}
@@ -99,6 +12,23 @@
 
 ::: {.module-resource .exercise}
 [Exercise: Team introductions (30 minutes)](exercises/team-introductions.qmd)
+:::
+::::::
+
+
+:::::: {.schedule-item .module}
+#### Intro to JupyterLab
+
+::: {.module-resource .slides}
+[Slides](slides/intro-to-jupyterlab.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
 :::
 ::::::
 
@@ -169,26 +99,6 @@ _TODO: Move this earlier?_
 
 ::: {.module-resource .slides}
 [Slides](slides/day-2-overview.qmd)
-:::
-::::::
-
-:::::: {.schedule-item .module}
-#### Intro to JupyterLab
-
-::: {.callout-note}
-_TODO: Move this earlier?_
-:::
-
-::: {.module-resource .slides}
-[Slides](slides/intro-to-jupyterlab.qmd)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
 :::
 ::::::
 

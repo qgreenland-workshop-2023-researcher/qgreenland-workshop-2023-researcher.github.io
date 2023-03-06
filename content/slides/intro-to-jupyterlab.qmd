@@ -44,17 +44,27 @@ JupyterLab is not shared!
     * Images will open with an image viewer
 
 
-## Applications
+## Terminal
 
-* Terminal
-    * `conda install <package>` / `mamba install <package>`
-* Desktop / QGIS
-    * Has access to the files in your JupyterLab
-* Jupyter Notebooks
+* `conda install <package>` 
+* `mamba install <package>`
+* Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
 
 ::: {.notes}
 Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
 `conda`/`mamba` commands to install Python dependencies into the `notebook` environment.
+:::
+
+
+## Desktop (with QGIS)
+
+* Has access to the files in your JupyterLab
+* On first launch, select "Default panel" (_TODO: Get a screenshot!_)
+* The "Home" icon on the desktop shows the same files as File Browser.
+* Can open QGreenland!
+
+::: {.notes}
+Opening QGreenland should take ~2 minutes.
 :::
 
 
