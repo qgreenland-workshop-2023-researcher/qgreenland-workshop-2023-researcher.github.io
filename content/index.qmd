@@ -11,7 +11,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Team introductions (30 minutes)](exercises/team-introductions.qmd)
+[Exercise: Team introductions (20 minutes)](exercises/team-introductions.qmd)
 :::
 ::::::
 
@@ -28,24 +28,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
-:::
-::::::
-
-
-:::::: {.schedule-item .module}
-#### Review Open Science (and data) principles
-
-::: {.module-resource .slides}
-[Slides](slides/open-science-and-data.qmd)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
+[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
 :::
 ::::::
 
@@ -71,6 +54,52 @@
 :::
 ::::::
 
+
+:::::: {.schedule-item .module}
+#### Inspecting data
+
+::: {.module-resource .slides}
+[Slides]()
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
+:::
+::::::
+
+
+### Day 2
+
+:::::: {.schedule-item .module}
+#### Daily overview
+
+::: {.module-resource .slides}
+[Slides](slides/day-2-overview.qmd)
+:::
+::::::
+
+
+:::::: {.schedule-item .module}
+#### Review Open Science (and data) principles
+
+::: {.module-resource .slides}
+[Slides](slides/open-science-and-data.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
+:::
+::::::
+
+
 :::::: {.schedule-item .module}
 #### Intro to GitHub
 
@@ -88,17 +117,6 @@ _TODO: Move this earlier?_
 
 ::: {.module-resource .exercise}
 [Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.qmd)
-:::
-::::::
-
-
-### Day 2
-
-:::::: {.schedule-item .module}
-#### Daily overview
-
-::: {.module-resource .slides}
-[Slides](slides/day-2-overview.qmd)
 :::
 ::::::
 
