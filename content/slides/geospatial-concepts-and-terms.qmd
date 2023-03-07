@@ -76,11 +76,16 @@ For example, this data is in "North Polar Stereographic" projection.
 
 ## Geospatial metadata concepts
 
-* Projection
+* Datum & Projection
     * Even latitude/longitude coordinates need metadata (datum), particularly when
       the location data is of a high precision.
 * Provenance
 * _TODO: More!_
+
+::: {.notes}
+_TODO: Define and differentiate datum and projection_
+_TODO: Find a diagram!_
+:::
 
 
 ## Metadata standards

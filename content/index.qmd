@@ -59,7 +59,7 @@
 #### Inspecting data
 
 ::: {.module-resource .slides}
-[Slides]()
+[Slides](slides/data-inspection.qmd)
 :::
 
 ::: {.module-resource .video}

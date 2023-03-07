@@ -1,0 +1,51 @@
+<!-- vim: set ft=markdown: -->
+---
+title: "Data inspection tools"
+subtitle: "QGreenland Researcher Workshop 2023"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+---
+
+# Inspection with QGIS
+
+* You can use QGIS to inspect both raster and vector data
+* You can compare this data to other layers, e.g. basemap. 
+
+::: {.notes}
+This can be a pitfall; if the datum differs from other layers, there could be
+discrepancies that are hard to detect. When doing an analysis, transform all layers to
+the same datum using e.g. `gdalwarp`, `ogr2ogr`.
+:::
+
+
+## Layer Properties window
+
+...
+
+
+# Raster data inspection tools
+
+## Raster data inspection with GDAL
+
+...
+
+
+## Raster data inspection with Rasterio
+
+...
+
+
+## Raster data inspection with Xarray (rioxarray)
+
+...
+
+
+# Vector data inspection tools
+
+## Vector data inspection with OGR
+
+...
+
+
+## Vector data inspection with Fiona
+
+...
