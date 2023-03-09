@@ -66,6 +66,8 @@ We won't focus on these:
 
 # Metadata
 
+Data about data
+
 ::: {.notes}
 Metadata is "data about data", and is how standards-compliant data files
 "self-describe".
@@ -74,18 +76,40 @@ For example, this data is in "North Polar Stereographic" projection.
 :::
 
 
-## Geospatial metadata concepts
+## Projection & Datum {.smaller}
 
-* Datum & Projection
-    * Even latitude/longitude coordinates need metadata (datum), particularly when
-      the location data is of a high precision.
-* Provenance
-* _TODO: More!_
+* Both datum and projection are important to describe spatial locations.
+    * The term "projection" is often used to describe both datum and projection.
+    * Prefer "Coordinate Reference System" or "Spatial Reference System".
+
+* **Datum**: A representation of an ellipsoid that best matches an area of interest.
+    * `WGS84` is a common global datum.
+
+* **Projection**: ...
+    * "Geographic" projection indicates latitude/longitude
+    *
+
+
+::: {.callout-note}
+Even latitude/longitude coordinates need metadata (datum), particularly when the
+location data is of a high precision.
+:::
+
 
 ::: {.notes}
 _TODO: Define and differentiate datum and projection_
 _TODO: Find a diagram!_
 :::
+
+
+## Geospatial metadata concepts
+
+* Provenance
+
+
+## _TODO: More!_
+
+_TODO_
 
 
 ## Metadata standards
