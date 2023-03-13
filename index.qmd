@@ -28,7 +28,7 @@ answering questions about Greenland using geospatial data. Basic knowledge of QG
 experience using QGreenland are assumed.
 
 
-### Benefits of Participation
+### Benefits of participation
 
 * $250 stipend for successful completion of workshop
 * Gain skills to make data QGreenland-friendly and standards compliant
