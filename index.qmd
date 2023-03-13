@@ -50,7 +50,7 @@ If you answer to these questions is yes, than this workshop is for YOU!
 QGreenland is a free, Greenland-focused data-viewing environment for QGIS that
 supports research, education, decision-making, and collaboration. QGreenland is
 a U.S. National Science Foundation EarthCube-funded effort (award #1928393).
-For more information, visit [https://qgreenland.org](https://qgreenland.org)
+For more information, visit <https://qgreenland.org>.
 
 
 ### Application details
