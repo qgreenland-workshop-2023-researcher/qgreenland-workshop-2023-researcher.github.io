@@ -83,23 +83,6 @@
 
 
 :::::: {.schedule-item .module}
-#### Review Open Science (and data) principles
-
-::: {.module-resource .slides}
-[Slides](slides/open-science-and-data.qmd)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
-:::
-::::::
-
-
-:::::: {.schedule-item .module}
 #### Intro to GitHub
 
 ::: {.callout-note}
@@ -118,6 +101,28 @@ _TODO: Move this earlier?_
 [Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.qmd)
 :::
 ::::::
+
+
+:::::: {.schedule-item .module}
+#### Review Open Science (and data) principles
+
+::: {.module-resource .slides}
+[Slides](slides/open-science-and-data.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
+:::
+::::::
+
+
+::: {.schedule-item .break}
+#### 🥪 Break: 60 minutes
+:::
 
 
 ### Day 3
