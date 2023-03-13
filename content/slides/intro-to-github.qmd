@@ -1,4 +1,3 @@
-<!-- vim: set ft=markdown: -->
 ---
 title: "Intro to GitHub"
 subtitle: "QGreenland Researcher Workshop 2023"

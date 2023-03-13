@@ -1,4 +1,3 @@
-<!-- vim: set ft=markdown: -->
 
 # Make a GitHub repository (40 minutes)
 
