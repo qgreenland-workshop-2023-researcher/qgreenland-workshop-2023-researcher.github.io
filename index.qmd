@@ -38,8 +38,9 @@ experience using QGreenland are assumed.
 
 ### Is this workshop for me?
 
-* Do you want to learn more about data and metadata standards and practices?
-* Do you want to be able to produce new datasets and modify existing datasets to maximize usability?
+* Do you want to learn more about geospatial data and metadata standards and practices?
+* Do you want to be able to produce new datasets and modify existing datasets to
+  maximize usability in GIS tools (for example, with QGreenland)?
 
 If you answer to these questions is yes, than this workshop is for YOU!
 
