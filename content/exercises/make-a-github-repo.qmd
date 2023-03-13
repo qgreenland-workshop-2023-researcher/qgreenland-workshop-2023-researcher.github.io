@@ -1,8 +1,6 @@
 <!-- vim: set ft=markdown: -->
 
-# Breakout: Make a GitHub repository (40 minutes)
-
-## Breakout: Make a GitHub repository
+# Make a GitHub repository (40 minutes)
 
 * Create repository.
     * _TODO: how should the repository be named? Consider mentioning the difficulties

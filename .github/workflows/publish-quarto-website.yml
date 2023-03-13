@@ -36,6 +36,7 @@ jobs:
       - name: "Set up Quarto"
         uses: "quarto-dev/quarto-actions/setup@v2"
 
+      # TODO: Do we need a more complex environment managed by conda?
       - name: "Install dependencies"
         run: "pip install jupyter"
 

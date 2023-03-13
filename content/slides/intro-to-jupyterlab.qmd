@@ -1,0 +1,109 @@
+<!-- vim: set ft=markdown: -->
+---
+title: "Intro to JupyterLab"
+subtitle: "QGreenland Researcher Workshop 2023"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+---
+
+## JupyterHub
+
+Your personal JupyterLab in the cloud
+
+* CryoCloud
+    * JupyterHub: <https://hub.cryointhecloud.com>
+    * Website: <https://book.cryointhecloud.com>
+
+* Log in to CryoCloud JupyterHub with your GitHub username
+    * Important: select a _small_ server!
+    * Your JupyterLab is dedicated, _not_ shared!
+
+::: {.notes}
+JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
+
+JupyterLab is not shared!
+
+* Other attendees can't see your files (except those in `shared/` dir)
+* No scheduler like on a supercomputer
+    * Your computations won't interfere with anyone else's
+:::
+
+
+# What can I do in my JupyterLab?
+
+💻 Almost anything you can do on your personal computer!
+
+👪 JupyterLab is a human-friendly interface to computation resources.
+
+
+## File browser
+
+* Drag & drop from your desktop
+* Open many types of files and get a useful display
+    * CSV will display as table
+    * GeoJSON will display on a map
+    * Images will open with an image viewer
+
+* _TODO: Image of file browser on the side of this slide_
+
+
+## Terminal
+
+* `conda install <package>`
+* `mamba install <package>`
+* Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
+
+::: {.notes}
+Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
+`conda`/`mamba` commands to install Python dependencies into the `notebook` environment.
+:::
+
+
+## Desktop (with QGIS) {.smaller}
+
+* Has access to the files in your JupyterLab
+* On first launch, select "Use default config"
+
+    ![Use default config](/_media/xfce_first_launch.png)
+
+* The "Home" icon on the desktop shows the same files as File Browser.
+* Can open QGreenland!
+
+::: {.callout-warning}
+Do not use "Logout" within your desktop
+:::
+
+::: {.notes}
+Opening QGreenland should take ~2 minutes.
+
+Do not use the logout function within the desktop, as this may make it difficult to get
+back into your desktop.
+:::
+
+
+## Jupyter Notebooks
+
+* A tool for [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
+    * Showing your work
+    * Tracking provenance
+    * Telling a story
+* See also:
+    * Quarto
+    * JupyterBook
+    * _TODO: Others?_
+
+
+## Jupyter Notebook example
+
+* Walk through running an example notebook and viewing its output in QGIS?
+    * _TODO: Finalize `demo.ipynb`. Include something simple for users to try changing._
+
+
+# Important: Please log out when done!
+
+_At the end of each day, click `File > Log Out`_
+
+::: {.notes}
+Log out at the end of each day to save on cloud costs.
+
+Any files you've created will remain next time you log in.
+:::

@@ -27,18 +27,6 @@
 
 ### Day 1
 
-#### Outcomes
-
-* Get to know each other and form into groups.
-* Select a dataset for your group to focus on over the course of the workshop.
-* Gain familiarity with or review:
-    * Open Science and data concepts/principles
-    * Geospatial data concepts
-* Create a repository on GitHub.
-
-
-#### Activities
-
 * **Discussion: Workshop overview (15 minutes)**
 
 * **Breakout room activity: Team introductions (20 minutes)**
@@ -59,18 +47,6 @@
 
 
 ### Day 2
-
-#### Outcomes
-
-* Gain familiarity with or review:
-    * Geospatial data formats
-    * Geospatial metadata concepts
-* Create a Notebook in JupyterLab.
-* Develop hands-on experience with manipulating data/metadata to improve dataset
-  quality/usability.
-
-
-#### Activities
 
 * **Discussion: Day 2 activity overview (5 minutes)**
 
@@ -105,13 +81,9 @@
 
 ### Day 3
 
-#### Goals
-
-* How to make data suitable for a specific analysis / problem?
-* ???
-
-
 #### Activities
+
+* **Discussion: Day 3 activity overview (5 minutes)**
 
 * **Discussion: Explore geospatial data transformations (40 minutes)**
     * Concepts

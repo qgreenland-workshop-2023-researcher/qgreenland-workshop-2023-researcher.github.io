@@ -101,3 +101,13 @@ users who are struggling with installing dependencies.
 * Consider establishing a required structure for work products. E.g. your repository
   must include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this
   way, model splitting a problem into parts, and encourage focused, clean notebooks.
+
+
+## Automated FAIR / other quality checks
+
+The NCEAS has an [automated checking tool](https://github.com/NCEAS/metadig-checks).
+
+It's deployed on DataONE, e.g.
+[here](https://arcticdata.io/catalog/quality/s=FAIR-suite-0.3.1/doi%3A10.18739%2FA2KW57K4R)
+
+Can/should we integrate this tool into the workshop?

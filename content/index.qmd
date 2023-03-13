@@ -1,46 +1,136 @@
 <!-- vim: set ft=markdown: -->
 # Course content
 
-:::::: module
-
 ### Day 1
 
+:::::: {.schedule-item .module}
+#### Daily overview
+
 ::: {.module-resource .slides}
-[Slides](slides/day-1.qmd)
+[Slides](slides/day-1-overview.qmd)
 :::
 
-::: {.module-resource .video}
-[Video](https://example.com)
+::: {.module-resource .exercise}
+[Exercise: Team introductions (20 minutes)](exercises/team-introductions.qmd)
 :::
-
 ::::::
 
 
-:::::: module
+:::::: {.schedule-item .module}
+#### Intro to JupyterLab
+
+::: {.module-resource .slides}
+[Slides](slides/intro-to-jupyterlab.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
+:::
+::::::
+
+
+::: {.schedule-item .break}
+#### 🥪 Break: 60 minutes
+:::
+
+
+:::::: {.schedule-item .module}
+#### Review geospatial concepts and terms
+
+::: {.module-resource .slides}
+[Slides](slides/geospatial-concepts-and-terms.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.qmd)
+:::
+::::::
+
+
+:::::: {.schedule-item .module}
+#### Inspecting data
+
+::: {.module-resource .slides}
+[Slides](slides/data-inspection.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
+:::
+::::::
+
 
 ### Day 2
 
+:::::: {.schedule-item .module}
+#### Daily overview
+
 ::: {.module-resource .slides}
-[Slides](slides/day-2.qmd)
+[Slides](slides/day-2-overview.qmd)
 :::
-
-::: {.module-resource .video}
-[Video](https://example.com)
-:::
-
 ::::::
 
 
-:::::: module
-
-### Day 3
+:::::: {.schedule-item .module}
+#### Review Open Science (and data) principles
 
 ::: {.module-resource .slides}
-[Slides](slides/day-3.qmd)
+[Slides](slides/open-science-and-data.qmd)
 :::
 
 ::: {.module-resource .video}
-[Video](https://example.com)
+[Video (TODO)](https://example.com)
 :::
 
+::: {.module-resource .exercise}
+[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
+:::
+::::::
+
+
+:::::: {.schedule-item .module}
+#### Intro to GitHub
+
+::: {.callout-note}
+_TODO: Move this earlier?_
+:::
+
+::: {.module-resource .slides}
+[Slides](slides/intro-to-github.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.qmd)
+:::
+::::::
+
+
+### Day 3
+
+:::::: {.schedule-item .module}
+#### All of day 3 is a WIP
+
+::: {.module-resource .slides}
+[Slides (TODO)](slides/day-3.qmd)
+:::
+
+::: {.module-resource .video}
+[Video (TODO)](https://example.com)
+:::
 ::::::

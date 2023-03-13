@@ -1,5 +1,11 @@
 <!-- vim: set ft=markdown: -->
-# Exercises
+---
+title: "Exercises"
+listing:
+  type: "table"
+  contents:
+    - "/*.qmd"
+    - "/*.md"
+---
 
-1. [Data scenarios](data-scenarios/index.qmd)
-1. _TODO_
+_TODO: Add metadata to exercises so they can be sorted/filtered_

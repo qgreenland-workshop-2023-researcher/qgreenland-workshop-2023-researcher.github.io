@@ -1,4 +1,9 @@
 <!-- vim: set ft=markdown: -->
+---
+title: "Day 1 overview"
+subtitle: "QGreenland Researcher Workshop 2023"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+---
 
 ## Workshop overview
 
@@ -10,7 +15,6 @@
 
 ## Day 1 overview
 
-
 * Get to know each other and form into groups.
 * Select a dataset for your group to focus on over the course of the workshop.
 * Gain familiarity with or review:
@@ -21,8 +25,9 @@
 
 ## GitHub Discussions
 
-Use GitHub discussions for all asynchronous communication.
+Use GitHub discussions for all non-real-time communication.
 
 * Questions
 * You found something cool
 * _TODO: More examples_
+* _TODO: Links_

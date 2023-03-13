@@ -10,9 +10,9 @@ project:
 website:
   title: "QGreenland Researcher Workshop 2023"
   # description: TODO
-  site-url: "https://nsidc.github.io/qgreenland-2023-researcher-workshop"
+  site-url: "https://qgreenland-workshop-2023-researcher.github.io/"
 
-  repo-url: &repo-url "https://github.com/nsidc/qgreenland-2023-researcher-workshop"
+  repo-url: &repo-url "https://github.com/qgreenland-workshop-2023-researcher/qgreenland-workshop-2023-researcher.github.io"
   repo-actions: ["edit", "issue"]
 
   navbar:
@@ -41,11 +41,11 @@ website:
         - "content/curriculum.md"
         - "content/slides.qmd"
         - "content/exercises/index.qmd"
-        - "content/continued_learning.qmd"
+        - "content/continued-learning.qmd"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.qmd"
-        - "content/prerequisites/dataset_selection.md"
+        - "content/prerequisites/dataset-selection.md"
         - "content/prerequisites/assessment.md"
 
   page-footer:
@@ -59,10 +59,8 @@ website:
 
 format:
   html:
-    theme: "cosmo"
-    # TODO: Support light/dark switch?
-    # theme:
-    #   light: [cosmo]
-    #   dark: [cosmo, dark.css]
+    theme:
+      light: "flatly"
+      dark: "darkly"
     css: "content/custom.css"
     toc: true

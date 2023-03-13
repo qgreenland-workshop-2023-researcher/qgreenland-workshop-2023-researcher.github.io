@@ -1,10 +1,13 @@
 _
+_At
 _TODO
 _media
 2i2c
 Colorbrewer
 CryoCloud
+DataONE
 DMS_1842643_12758_20180418_18111267_clipped.jpg
+EarthCube
 Flickr
 Foobarbaz
 GeoJSON
@@ -31,11 +34,15 @@ Shapefiles
 SQLite
 Syncthing
 TODO
+U.S.
 VMs
 Xarray
 YouTube
+basemap
+callout
 center
 conda
+config
 colormap
 colormaps
 datascience-box
@@ -72,6 +79,7 @@ reprojection
 resample
 resampling
 revealjs
+rioxarray
 subsetted
 subsetting
 superset
@@ -79,7 +87,7 @@ uncategorized
 xlsx
 walkthrough
 wellbeing
- - content/slides/day-1/1c-open-science-and-data.qmd
+ - content/slides/open-science-and-data.qmd
 indable
 ccessible
 nteroperable

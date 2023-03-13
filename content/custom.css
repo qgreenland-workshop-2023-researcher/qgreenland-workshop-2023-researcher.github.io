@@ -1,28 +1,44 @@
 /* css styles */
 
-.module {
-  padding: 1em 1em 1em 3em;
+.schedule-item {
+  padding: 0em 1em 1em 3em;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+.break {
+  border: 1px dashed #2780e3;
+  border-radius: 5px;
+}
+
+.module {
   border: 1px solid #2780e3;
   border-radius: 5px;
+  background-color: #eeeef4;
 }
 
 .module-resource {
   padding: 0em 1em 0em 2em;
   position: relative;
+  vertical-align: middle;
 }
 
 .slides:before {
-  content: "\f108";
-  font-family: FontAwesome;
+  content: "🛝";
+  /* content: "🖥️"; */
   left: 5px;
   position: absolute;
 }
 
 .video:before {
-  content: "\f03d";
-  font-family: FontAwesome;
+  content: "🎥";
   left: 5px;
   position: absolute;
 }
+
+.exercise:before {
+  content: "💪";
+  left: 5px;
+  position: absolute;
+}
+

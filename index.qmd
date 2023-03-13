@@ -1,28 +1,59 @@
 <!-- vim: set ft=markdown: -->
 ---
-title: "QGreenland Researcher Workshop 2023"
-author: "NSIDC"
+title: "🧪 QGreenland Researcher Workshop 2023"
 ---
 
-## About
+#### Develop standards-based geospatial data practices
 
-This workshop is aimed at researchers and is created and operated by the
-[QGreenland team](https://qgreenland.org/our-team).
+_May 23-25, 2023_
 
-The tentative dates for this workshop are May 22-25 2023. The application process is
-TBD. If you want to receive the workshop announcement, please subscribe to the
-[QGreenland newsletter](https://gmail.us5.list-manage.com/subscribe/post?u=152741e4ecbce5f73547f5fe3&id=8b1d8cf3a9).
+**Apply [here](https://forms.gle/HkgtxhHSBTuqiRLf7) between March 15 - April 3, 2023!**
 
 
-### Outcomes
+## Overview
 
-If you attend this workshop, you can expect these benefits:
+QGreenland curates Greenland-focused data ready for research and analysis. The
+QGreenland data package represents only a small portion of available data, much of which
+requires specialized skills to handle. The goal of this workshop is to equip researchers
+with the necessary skills to evaluate data quality, standards-compliance, and develop
+best practices for open-science geospatial workflows which enable use with QGreenland.
 
-* Competence with some GitHub and JupyterLab features
-* Competence with geospatial data/metadata concepts
-* Participation in a small working group (3-4 people)
-    * Learn to communicate via GitHub
-    * Select a Greenland-related dataset for exploration as a group
-* Create a long-lasting artifact (GitHub repository) containing your work products:
-    * A dataset quality analysis
-    * An exploration of a question about your group's dataset
+Participants will work in small groups to engage in discussion on open-science practices
+and tools like JupyterLab and GitHub, work through several data-based exercises focused
+on gaining first-hand experience making data ready for analysis, and develop practices
+for collaboration.
+
+This workshop is aimed primarily at graduate level or higher researchers interested in
+answering questions about Greenland using geospatial data. Basic knowledge of QGIS and
+experience using QGreenland are assumed.
+
+
+### Benefits of participation
+
+* $250 stipend for successful completion of workshop
+* Gain skills to make data QGreenland-friendly and standards compliant
+* A portfolio of Jupyter Notebooks on GitHub demonstrating skills developed during the workshop
+* Extend your network of researchers answering questions about Greenland
+
+
+### Is this workshop for me?
+
+* Do you want to learn more about geospatial data and metadata standards and practices?
+* Do you want to be able to produce new datasets and modify existing datasets to
+  maximize usability in GIS tools (for example, with QGreenland)?
+
+If you answer to these questions is yes, than this workshop is for YOU!
+
+
+### About QGreenland
+
+QGreenland is a free, Greenland-focused data-viewing environment for QGIS that
+supports research, education, decision-making, and collaboration. QGreenland is
+a U.S. National Science Foundation EarthCube-funded effort (award #1928393).
+For more information, visit <https://qgreenland.org>.
+
+
+### Application details
+
+Deadline to apply is April 3, 2023.
+Decisions will be made the week of April 10, 2023.
