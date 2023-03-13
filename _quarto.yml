@@ -59,10 +59,8 @@ website:
 
 format:
   html:
-    theme: "cosmo"
-    # TODO: Support light/dark switch?
-    # theme:
-    #   light: [cosmo]
-    #   dark: [cosmo, dark.css]
+    theme:
+      light: "flatly"
+      dark: "darkly"
     css: "content/custom.css"
     toc: true
