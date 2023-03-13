@@ -3,7 +3,7 @@
 ### Day 1
 
 :::::: {.schedule-item .module}
-#### Daily overview
+#### Day 1 overview
 
 ::: {.module-resource .slides}
 [Slides](slides/day-1-overview.qmd)
@@ -74,7 +74,7 @@
 ### Day 2
 
 :::::: {.schedule-item .module}
-#### Daily overview
+#### Day 2 overview
 
 ::: {.module-resource .slides}
 [Slides](slides/day-2-overview.qmd)
@@ -121,6 +121,14 @@ _TODO: Move this earlier?_
 
 
 ### Day 3
+
+:::::: {.schedule-item .module}
+#### Day 3 overview
+
+::: {.module-resource .slides}
+[Slides (TODO)](slides/day-3.qmd)
+:::
+::::::
 
 :::::: {.schedule-item .module}
 #### All of day 3 is a WIP

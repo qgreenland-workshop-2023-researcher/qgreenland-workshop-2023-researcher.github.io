@@ -38,10 +38,11 @@ website:
     - title: "Course content"
       contents:
         - "content/index.qmd"
-        - "content/curriculum.md"
+        - "content/schedule.qmd"
         - "content/slides.qmd"
         - "content/exercises/index.qmd"
         - "content/continued-learning.qmd"
+        - "content/ideas.md"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.qmd"
@@ -62,5 +63,5 @@ format:
     theme:
       light: "flatly"
       dark: "darkly"
-    css: "content/custom.css"
+    css: "content/custom.scss"
     toc: true

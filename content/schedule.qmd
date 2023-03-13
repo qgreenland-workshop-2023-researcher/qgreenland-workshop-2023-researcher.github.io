@@ -1,0 +1,81 @@
+# Schedule
+
+<!-- TODO: These links currently work but produce a visual overlap between the target of
+the link and the header. How to resolve? Maybe something like:
+
+    https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/
+-->
+
+::: {.callout-note}
+All times in Mountain Daylight Time (UTC-6:00).
+:::
+
+::: {.callout-warning}
+This schedule is a work-in-progress and is subject to change!
+
+Incomplete schedules will have a bulleted list of concepts under a `Content to be
+scheduled` header.
+:::
+
+
+### Day 1
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:45 | [Workshop overview and introductions](index.qmd#day-1-overview) |
+| 09:45 - ??:?? | [Intro to JupyterLab](index.qmd#intro-to-jupyterlab) |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | [Review geospatial concepts and terms](index.qmd#review-geospatial-concepts-and-terms) |
+| ??:?? - 13:00 | [Inspecting data](index.qmd#inspecting-data) |
+
+
+#### Content to be scheduled
+
+* Discussion about data formats during "concepts and terms" session
+
+
+### Day 2
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:15 | [Daily overview](index.qmd#day-2-overview) |
+| 09:15 - ??:?? | [Intro to GitHub](index.qmd#intro-to-github) |
+| ??:?? - ??:?? | [Review Open Science (and data) principles](index.qmd#review-open-science-and-data-principles) |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | ??? |
+| ??:?? - 13:00 | ??? |
+
+
+#### Content to be scheduled
+
+* Discussion about data formats
+
+<!-- TODOs:
+
+* Is the lecture/discussion part of the morning too long? Can we break it up with
+  exercises?
+-->
+
+
+### Day 3
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:45 | [Daily overview](index.qmd#day-3-overview) |
+| 09:45 - ??:?? | ??? |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | ??? |
+| ??:?? - 1:00  | ??? |
+
+
+#### Content to be scheduled
+
+...
+
+
+## Day 4 - Office hours
+
+_TODO: What are the hours? How to join office hours?_
+
+Use this time to discuss continued learning opportunities, for example advanced
+Git/GitHub usage.

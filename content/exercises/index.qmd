@@ -1,5 +1,5 @@
 ---
-title: "Exercises"
+title: "Exercises index"
 listing:
   type: "table"
   contents:

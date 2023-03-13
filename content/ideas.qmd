@@ -1,6 +1,4 @@
-# Curriculum
-
-## Ideas
+# Ideas
 
 * Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
   long to break?
@@ -17,57 +15,28 @@
 * Think about ways to encourage larger-group discussions following breakout rooms.
 
 
-### Goal ideas for later
+## Goal ideas for later
 
 * Show data transformation provenance using Jupyter Notebooks
 * Transparently share transformations and provenance using GitHub
 
 
-## Schedule
-
-### Day 1
-
-* **Discussion: Workshop overview (15 minutes)**
-
-* **Breakout room activity: Team introductions (20 minutes)**
+## Schedulable ideas
 
 * **Discussion: Review of Open Science (and data) principles (25 minutes)**
 
 * **Breakout room activity: FAIR/CARE discussion (30 minutes)**
 
-* **Break (60 minutes)**
-
-* **Discussion: Review of geospatial data concepts and terminology (10 minutes)**
-
-* **Breakout room activity: Select and analyze a dataset (15 minutes)**
-
 * **Discussion: Intro to GitHub repositories (25 minutes)**
 
 * **Breakout room activity: Make a GitHub repository (40 minutes)**
 
-
-### Day 2
-
-* **Discussion: Day 2 activity overview (5 minutes)**
-
 * **Breakout room activity: Experiences with geospatial data (?? minutes)**
 
-* **Discussion: Geospatial data formats (25 minutes)**
-
-* _TODO: How to break up this extended "lecture" section and make it less exhausting?_
-
-* **Discussion: Review of key geospatial metadata concepts (20 minutes)**
-
-* _TODO: and/or breakout room activity here?_
+* _TODO: Breakout room activity ideas_
     * What approaches to data introspection have you used / are you comfortable with?
     * What can you teach your teammates?
     * What can your teammates teach you?
-
-* **Discussion: Intro to JupyterLab (20 minutes)**
-    * _TODO: Prior activities require use of QGIS; introduce this earlier? e.g.
-      JupyterHub intro early in workshop, come back later to introduce Notebooks?_
-
-* **Break (60 minutes)**
 
 * **Breakout room activity: Analyzing data with JupyterLab (30 minutes)**
 
@@ -78,12 +47,6 @@
 * **Breakout room activity: Fix some "bad" data (20 minutes)**
 
 * **Homework: think about how you could perform an analysis with your chosen dataset**
-
-### Day 3
-
-#### Activities
-
-* **Discussion: Day 3 activity overview (5 minutes)**
 
 * **Discussion: Explore geospatial data transformations (40 minutes)**
     * Concepts
@@ -113,8 +76,6 @@
           are and how you could overcome them given the necessary resources
           (time, additional datasets, etc.).
     * Commit the notebook and push it to GitHub.
-
-* **Break (60 minutes)**
 
 _TODO: consider turning this into a video we post on the QGR YouTube and make homework
 for day 1?_
