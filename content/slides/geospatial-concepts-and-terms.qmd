@@ -17,6 +17,8 @@ For example, at location (X, Y), the albedo is 39%.
 
 ## Vector data
 
+Choose the right feature type:
+
 * Point
 * Line
 * Polygon
