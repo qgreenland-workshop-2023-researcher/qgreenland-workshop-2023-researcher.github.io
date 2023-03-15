@@ -95,9 +95,11 @@ location data is of a high precision.
 
 
 ::: {.notes}
-A coordinate reference system (CRS) / spatial reference system (SRS) includes the information necessary for accurately locating geospatial data on the Earth.
+* A coordinate reference system (CRS) / spatial reference system (SRS) includes the information necessary for accurately locating geospatial data on the Earth.
 
-Horizontal _and_ vertical datums. _TODO: include information about this in slide directy?_
+* Horizontal _and_ vertical datums. _TODO: include information about this in slide directy?_
+
+* _Datum shift_ is the difference in lat/lon of a location between different datums. E.g., a surveyed location will have different lat/lon values under different datums, sometimes resulting in significant differences (> 100m in some cases).
 
 _TODO: Find a diagram!_
 :::
