@@ -48,11 +48,15 @@ scheduled` header.
 
 #### Content to be scheduled
 
-* Add Jupyter Notebook from day 1 to repo during "Intro to GitHub" exercise
 * Fixing common metadata/data formatting problems
     * Walk through data scenario(s)?
     * Group activity: data scenario(s)?
 * Homework? Think about how you could perform an analysis with your chosen dataset
+
+<!-- TODO:
+* Add slide on Zenodo to "Intro to GitHub" module
+* Add Jupyter Notebook from day 1 to repo during "Intro to GitHub" exercise
+-->
 
 
 #### TODOs
@@ -65,8 +69,8 @@ scheduled` header.
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:45 | [Daily overview](index.qmd#day-3-overview) |
-| 09:45 - ??:?? | ??? |
+| 09:00 - 09:15 | [Daily overview](index.qmd#day-3-overview) |
+| 09:15 - ??:?? | ??? |
 | ??:?? - ??:?? | 🥙 Break |
 | ??:?? - ??:?? | ??? |
 | ??:?? - 1:00  | ??? |
