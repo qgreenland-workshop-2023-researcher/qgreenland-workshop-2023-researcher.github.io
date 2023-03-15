@@ -5,9 +5,9 @@
 A workshop run by the QGreenland team targeting researchers as the primary audience.
 
 [`quarto`](https://quarto.org/) is used to generate the [workshop
-website](https://qgreenland-workshop-2023-researcher.github.io/) from this repo
-via [GitHub Actions](.github/workflows/publish-to-quarto-website.yml) on pushes
-to the `main` branch.
+website](https://qgreenland-workshop-2023-researcher.github.io/) from this
+repository via [GitHub Actions](.github/workflows/publish-to-quarto-website.yml)
+on pushes to the `main` branch.
 
 
 ## Level of Support
@@ -39,9 +39,9 @@ multiple sources.
 
 To develop the workshop website locally, install the dependencies via `conda`:
 
-```
-$ conda env create
-$ conda activate qgreenland-researcher-workshop
+```{bash}
+conda env create
+conda activate qgreenland-researcher-workshop
 ```
 
 Then use the `quarto preview` command to start a local server for the website
@@ -50,6 +50,6 @@ that will live-reload on changes to source content (`.qmd` files).
 
 ### Fixing spelling mistakes
 
-`mdspell` is used to check for spelling pistakes in source files. If the linter
+`mdspell` is used to check for spelling mistakes in source files. If the linter
 catches spelling mistakes, use `./scripts/spell-check.sh -i` to interactively
 correct mistakes (or add exceptions).
