@@ -59,7 +59,7 @@ scheduled` header.
 -->
 
 
-#### TODOs
+#### TODO
 
 * Is the lecture/discussion part of the morning too long? Can we break it up with
   exercises?
