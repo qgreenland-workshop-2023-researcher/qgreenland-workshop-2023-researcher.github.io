@@ -77,19 +77,16 @@ For example, this data is in "North Polar Stereographic" projection.
 :::
 
 
-## Projection & Datum {.smaller}
+## Coordinate Reference System (CRS) information{.smaller}
 
-* Both datum and projection are important to describe spatial locations.
-    * The term "projection" is often used to describe both datum and projection.
-    * Prefer "Coordinate Reference System" or "Spatial Reference System".
-
-* **Datum**: A representation of an ellipsoid that best matches an area of interest.
+* **Geodetic Datum**: A representation of an ellipsoid that best matches an area of interest on the Earth.
     * `WGS84` is a common global datum.
+    
+* **Geographic Coordinate System (GCS)**: Coordinate system that represents locations on the Earth in spherical coordinates of latitudes and longitudes.
 
-* **Projection**: ...
-    * "Geographic" projection indicates latitude/longitude
-    *
-
+* **Projection**: A 2D representation of the 3D (curved) surface of the Earth.
+    * Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
+    * Projection results in one or more distortions: shape, area, distance, direction
 
 ::: {.callout-note}
 Even latitude/longitude coordinates need metadata (datum), particularly when the
@@ -98,7 +95,10 @@ location data is of a high precision.
 
 
 ::: {.notes}
-_TODO: Define and differentiate datum and projection_
+A coordinate reference system (CRS) / spatial reference system (SRS) includes the information necessary for accurately locating geospatial data on the Earth.
+
+Horizontal _and_ vertical datums. _TODO: include information about this in slide directy?_
+
 _TODO: Find a diagram!_
 :::
 
