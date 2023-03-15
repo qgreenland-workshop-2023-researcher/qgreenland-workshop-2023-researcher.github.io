@@ -106,6 +106,9 @@ _TODO: Find a diagram!_
 ## Geospatial metadata concepts
 
 * Provenance
+* Temporality (date & time related to the phenomena being measured/represented)
+* "Missing/No Data" and other flags
+* ...
 
 
 ## _TODO: More!_
