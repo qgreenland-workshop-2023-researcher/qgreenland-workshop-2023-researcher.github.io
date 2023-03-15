@@ -22,11 +22,11 @@ scheduled` header.
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:45 | [Workshop overview and introductions](index.qmd#day-1-overview) |
-| 09:45 - ??:?? | [Intro to JupyterLab](index.qmd#intro-to-jupyterlab) |
+| 09:00 - 09:45 | [Workshop overview and introductions](materials.qmd#day-1-overview) |
+| 09:45 - ??:?? | [Intro to JupyterLab](materials.qmd#intro-to-jupyterlab) |
 | ??:?? - ??:?? | 🥙 Break |
-| ??:?? - ??:?? | [Review geospatial concepts and terms](index.qmd#review-geospatial-concepts-and-terms) |
-| ??:?? - 13:00 | [Inspecting data](index.qmd#inspecting-data) |
+| ??:?? - ??:?? | [Review geospatial concepts and terms](materials.qmd#review-geospatial-concepts-and-terms) |
+| ??:?? - 13:00 | [Inspecting data](materials.qmd#inspecting-data) |
 
 
 #### Content to be scheduled
@@ -38,9 +38,9 @@ scheduled` header.
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:15 | [Daily overview](index.qmd#day-2-overview) |
-| 09:15 - ??:?? | [Intro to GitHub](index.qmd#intro-to-github) |
-| ??:?? - ??:?? | [Review Open Science (and data) principles](index.qmd#review-open-science-and-data-principles) |
+| 09:00 - 09:15 | [Daily overview](materials.qmd#day-2-overview) |
+| 09:15 - ??:?? | [Intro to GitHub](materials.qmd#intro-to-github) |
+| ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
 | ??:?? - ??:?? | 🥙 Break |
 | ??:?? - ??:?? | ??? |
 | ??:?? - 13:00 | ??? |
@@ -69,7 +69,7 @@ scheduled` header.
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:15 | [Daily overview](index.qmd#day-3-overview) |
+| 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
 | 09:15 - ??:?? | ??? |
 | ??:?? - ??:?? | 🥙 Break |
 | ??:?? - ??:?? | ??? |
