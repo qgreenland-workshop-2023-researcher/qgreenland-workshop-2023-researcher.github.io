@@ -37,19 +37,5 @@ multiple sources.
 
 ## Development
 
-To develop the workshop website locally, install the dependencies via `conda`:
-
-```{bash}
-conda env create
-conda activate qgreenland-researcher-workshop
-```
-
-Then use the `quarto preview` command to start a local server for the website
-that will live-reload on changes to source content (`.qmd` files).
-
-
-### Fixing spelling mistakes
-
-`mdspell` is used to check for spelling mistakes in source files. If the linter
-catches spelling mistakes, use `./scripts/spell-check.sh -i` to interactively
-correct mistakes (or add exceptions).
+For documentation on contributing and other development resources, see the
+[./doc](./doc) directory.

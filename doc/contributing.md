@@ -39,3 +39,10 @@ Markdown format is validated by `markdownlint`. Use `markdownlint .` to run loca
 
 Use `markdownlint --fix .` to automatically fix linting errors. This only works for some
 classes of errors.
+
+
+## Fixing spelling mistakes
+
+`mdspell` is used to check for spelling mistakes in source files. If the linter
+catches spelling mistakes, use `./scripts/spell-check.sh -i` to interactively
+correct mistakes (or add exceptions).
