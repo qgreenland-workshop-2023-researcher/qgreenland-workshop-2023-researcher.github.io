@@ -62,7 +62,6 @@ website:
 format:
   html:
     theme:
-      light: "flatly"
-      dark: "darkly"
-    css: "content/custom.scss"
+      light: ["flatly", "custom.scss"]
+      dark: ["darkly", "custom.scss"]
     toc: true

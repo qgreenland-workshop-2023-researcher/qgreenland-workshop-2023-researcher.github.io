@@ -26,20 +26,21 @@
 }
 
 .slides:before {
-  content: "🛝";
-  /* content: "🖥️"; */
+  content: "🖥️";
   left: 5px;
   position: absolute;
 }
 
 .video:before {
   content: "🎥";
+  font-family: var(--bs-body-font-family);
   left: 5px;
   position: absolute;
 }
 
 .exercise:before {
   content: "💪";
+  font-family: var(--bs-body-font-family);
   left: 5px;
   position: absolute;
 }
