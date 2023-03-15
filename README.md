@@ -4,6 +4,11 @@
 
 A workshop run by the QGreenland team targeting researchers as the primary audience.
 
+[`quarto`](https://quarto.org/) is used to generate the [workshop
+website](https://qgreenland-workshop-2023-researcher.github.io/) from this
+repository via [GitHub Actions](.github/workflows/publish-to-quarto-website.yml)
+on pushes to the `main` branch.
+
 
 ## Level of Support
 
@@ -28,3 +33,9 @@ See [Code of Conduct](CODE_OF_CONDUCT.md).
 
 This software was developed by the National Snow and Ice Data Center with funding from
 multiple sources.
+
+
+## Development
+
+For documentation on contributing and other development resources, see the
+[./doc](./doc) directory.
