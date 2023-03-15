@@ -11,3 +11,10 @@ For continued learning, please consider the following external resources.
 ## Git/GitHub
 
 * [YouTube: ICESat-2 2020: Git and GitHub (1:38:00)](https://www.youtube.com/watch?v=O2lLC_s_d20)
+
+
+### Geospatial concepts
+
+#### Datum
+
+* [YouTube: An Introduction to Geodetic Datums](https://www.youtube.com/playlist?list=PLsyDl_aqUTdFY6eKURmiCBBk-mP4R10Dx)
