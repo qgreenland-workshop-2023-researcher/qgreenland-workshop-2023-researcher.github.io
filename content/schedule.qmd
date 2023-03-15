@@ -1,0 +1,161 @@
+# Schedule
+
+<!-- TODO: These links currently work but produce a visual overlap between the target of
+the link and the header. How to resolve? Maybe something like:
+
+    https://markus.oberlehner.net/blog/simple-solution-for-anchor-links-behind-sticky-headers/
+-->
+
+::: {.callout-note}
+All times in Mountain Daylight Time (UTC-6:00).
+:::
+
+::: {.callout-warning}
+This schedule is a work-in-progress and is subject to change!
+
+Incomplete schedules will have a bulleted list of concepts under a `Content to be
+scheduled` header.
+:::
+
+
+### Day 1
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:45 | [Workshop overview and introductions](materials.qmd#day-1-overview) |
+| 09:45 - ??:?? | [Intro to JupyterLab](materials.qmd#intro-to-jupyterlab) |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | [Review geospatial concepts and terms](materials.qmd#review-geospatial-concepts-and-terms) |
+| ??:?? - 13:00 | [Inspecting data](materials.qmd#inspecting-data) |
+
+
+#### Content to be scheduled
+
+* Add discussion about data formats to "concepts and terms" module 
+
+
+### Day 2
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:15 | [Daily overview](materials.qmd#day-2-overview) |
+| 09:15 - ??:?? | [Intro to GitHub](materials.qmd#intro-to-github) |
+| ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | ??? |
+| ??:?? - 13:00 | ??? |
+
+
+#### Content to be scheduled
+
+* Fixing common metadata/data formatting problems
+    * Walk through data scenario(s)?
+    * Group activity: data scenario(s)?
+* Homework? Think about how you could perform an analysis with your chosen dataset
+
+<!-- TODO:
+* Add slide on Zenodo to "Intro to GitHub" module
+* Add Jupyter Notebook from day 1 to repo during "Intro to GitHub" exercise
+-->
+
+
+#### TODO
+
+* Is the lecture/discussion part of the morning too long? Can we break it up with
+  exercises?
+
+
+### Day 3
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
+| 09:15 - ??:?? | ??? |
+| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | ??? |
+| ??:?? - 1:00  | ??? |
+
+
+#### Content to be scheduled
+
+* Symbolizing geospatial data in QGIS
+<!-- TODO:
+    * Colormaps (15 minutes)
+        * `cmocean` as a strong default
+            * How to add `cmocean` to QGIS (_TODO: add link to video_)
+        * Common mistakes in choosing a colormap
+            * Colorbrewer (a useful tool, but very specific use-case)
+            * Jet / rainbow
+        * Colormap analysis with `viscm`. _TODO: consider utilizing
+          <https://github.com/nsidc/colormap-analysis>_
+    * Representing vector data attributes (10 minutes)
+        * Point markers
+        * Color
+        * Size
+        * Labels
+        * Scale dependent rendering
+    * Accessibility related concerns?
+-->
+
+* Discuss geospatial data transformations
+<!-- TODO:
+    * Concepts
+        * Reprojection
+            * _TODO: consider discussion about characteristics of common
+              projections and why you might want to use one over another._
+        * Resampling
+        * Subsetting
+        * Conversion (raster <-> vector)
+        * _TODO: Consider discussion about information loss from common
+          transformations (reprojection, resampling, datatype conversion
+          (raster<->vector))_
+    * Tools / Techniques
+        * QGIS Processing Toolbox (brief mention, participants should be
+          familiar with this from the [beginner tutorial
+          series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
+        * gdalwarp, ogr2ogr, ...
+        * Python (rasterio, shapely, Xarray, pyresample, PyQGIS, ...)
+        * _TODO: create notebook examples for various tools_
+-->
+
+* Exercise: Plan an analysis for your dataset
+<!-- TODO:
+    * Choose an idea for an analysis involving your dataset.
+    * Using a Jupyter Notebook:
+        * Outline what steps you need to take to perform the analysis.
+        * Estimate the time it would require to develop your analysis.
+        * If there are barriers to performing your analysis, document what they
+          are and how you could overcome them given the necessary resources
+          (time, additional datasets, etc.).
+    * Commit the notebook and push it to GitHub.
+-->
+
+* Exercise: Analyze your dataset
+<!-- TODO:
+    * If possible, begin to perform your group's chosen analysis.
+    * If your analysis is not possible, consider one of the following activities:
+        * If your group's dataset is not "QGreenland-Friendly", make it so.
+            * EPSG:3413
+            * Use the QGreenland "Greenland-focused boundary" layer to subset the
+              data (`Reference/QGreenland` boundaries in the QGreenland **Layers
+              Panel**).
+            * Make sure the data is GeoTIFF or GeoPackage.
+        * Data analysis scenario
+            * _TODO: consider additional data/analysis scenarios that groups can try if
+              they have the time / do not have an analysis for their dataset._
+-->
+
+* End of workshop group report
+<!-- TODO:
+    * Tell us about what you learned
+    * Provide a brief overview of your analysis / ideas for future analysis with
+      the dataset you chose.
+-->
+
+
+## Day 4 - Office hours
+
+_TODO: What are the hours? How to join office hours?_
+
+Use this time to discuss continued learning opportunities, for example advanced
+Git/GitHub usage.
