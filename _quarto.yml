@@ -19,8 +19,10 @@ website:
     left:
       - text: "Prerequisites"
         file: "content/prerequisites/index.qmd"
-      - text: "Course content"
-        file: "content/index.qmd"
+      - text: "Schedule"
+        file: "content/schedule.qmd"
+      - text: "Materials"
+        file: "content/materials.qmd"
     right:
       - icon: "github"
         aria-label: "GitHub"
@@ -35,10 +37,9 @@ website:
   # sidebar will show up on every page.
   # >> https://github.com/quarto-dev/quarto-cli/issues/1853
   sidebar:
-    - title: "Course content"
+    - title: "Materials"
       contents:
-        - "content/index.qmd"
-        - "content/schedule.qmd"
+        - "content/materials.qmd"
         - "content/slides.qmd"
         - "content/exercises/index.qmd"
         - "content/continued-learning.qmd"
