@@ -118,9 +118,17 @@ _TODO_
 
 ## Metadata standards
 
-* CF conventions for NetCDF data
+* [NetCDF Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org/)
+* [Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata](https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/base-metadata/v2_0698.pdf)
+  * CF conventions use the FGDC standards as a guide.
+* [Cooperative Ocean/Atmosphere Research Data Service (COARDS) NetCDF Conventions](https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions)
+  * CF "[conventions generalize and extend the COARDS conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch01s04.html)"
+* [ISO 19111:2019, Geographic information — Referencing by coordinates](https://www.iso.org/standard/74039.html)
 * _TODO: More!_
 
+::: {.notes}
+When a dataset follows a combination of one or more common standards, GIS practitioners and tools can accurately parse information about CRS, date/time, etc.
+:::
 
 ## Tools for introspecting metadata
 
