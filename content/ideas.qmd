@@ -13,7 +13,11 @@
 * Set expectation of group activities in application materials.
 * Consider a sync service (e.g., `syncthing`) for sharing data between participants.
 * Think about ways to encourage larger-group discussions following breakout rooms.
-
+* Should we expect any attendees to be concerned about credit-sharing for
+  analysis done during workshop? Should we note that any papers produced
+  directly from ideas developed in this workshop should include a citation of
+  QGreenland and the workshop small group as collaborators?
+* Should we have a module about integrating GitHub with Zenodo to create DOIs?
 
 ## Breakout room activity ideas
 
