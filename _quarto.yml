@@ -42,7 +42,7 @@ website:
         - "content/slides.qmd"
         - "content/exercises/index.qmd"
         - "content/continued-learning.qmd"
-        - "content/ideas.md"
+        - "content/ideas.qmd"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.qmd"
