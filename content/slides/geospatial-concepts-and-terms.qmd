@@ -128,7 +128,7 @@ representing geospatial metadata (EPSG codes, WKT, proj parameters, etc)_
 
 ## Standard representations of geospatial metadata
 
-### [Well Known Text (WKT)](http://docs.opengeospatial.org/is/18-010r7/18-010r7.html)
+### [Well Known Text (WKT)](https://www.ogc.org/standard/wkt-crs/)
 ```{.text code-line-numbers="false"}
 PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
     BASEGEOGCRS["WGS 84",
