@@ -173,10 +173,10 @@ Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
 nicely indents for us. The "top-level" EPSG is shown as 3413.
 * Pixel size, in projected units
 * Global metadata: _TODO: Mention of the difference namespaces, specifically
-	call out the `grid_mapping` namespace's significance?_
+  call out the `grid_mapping` namespace's significance?_
 * Band metadata
 * Overviews: Various down-sampled versions of the data for performance when
-	zoomed out.
+  zoomed out.
 :::
 
 
