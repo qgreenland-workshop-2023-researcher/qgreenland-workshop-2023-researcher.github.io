@@ -45,8 +45,8 @@ tools.
 
 ## Raster data inspection: `gdalinfo`
 
-_TODO: Should we use a small dataset that we can include in the Git repo, and actually
-run these operations at Quarto render-time?_
+_TODO: Should we use a small dataset that we can include in the Git repository,
+and actually run these operations at Quarto render-time?_
 
 ```{.text code-line-numbers="1|2-4|5|6,7|45|48|49-87|97|100|101|102|103-115"}
 $ gdalinfo bedmachine_bed.tif
