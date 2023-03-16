@@ -87,6 +87,7 @@ For example, this data is in "North Polar Stereographic" projection.
 * **Projection**: A 2D representation of the 3D (curved) surface of the Earth.
     * Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
     * Projection results in one or more distortions: shape, area, distance, direction
+    * By default in programs like QGIS, data referenced to a Geographic Coordinate System (unprojected) are shown in an 'equirectangular' projection in which latitudes are mapped to the Y axis and longitudes are mapped to the X axis of a planar coordinate sysatem.
 
 ::: {.callout-note}
 Even latitude/longitude coordinates need metadata (datum), particularly when the
