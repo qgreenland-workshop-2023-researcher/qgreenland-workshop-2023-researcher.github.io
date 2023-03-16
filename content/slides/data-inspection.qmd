@@ -46,7 +46,8 @@ tools.
 ## Raster data inspection: `gdalinfo`
 
 _TODO: Should we use a small dataset that we can include in the Git repository,
-and actually run these operations at Quarto render-time?_
+and actually run these operations at Quarto render-time? Or one that can be
+downloaded to `/tmp` at render-time?_
 
 ```{.text code-line-numbers="1|2-4|5|6,7|45|48|49-87|97|100|101|102|103-115"}
 $ gdalinfo bedmachine_bed.tif
@@ -256,11 +257,144 @@ CRS.from_epsg(3413)
 
 # Vector data inspection tools
 
-## Vector data inspection with OGR
+## Vector data inspection: `ogrinfo`
 
-_TODO_
+* <https://gdal.org/programs/ogrinfo.html>
+* `ogrinfo --help`
+* `man ogrinfo`
 
 
-## Vector data inspection with Fiona
+## Vector data inspection: `ogrinfo`
 
-_TODO_
+```{.text code-line-numbers="1|2-3|5|6|7|8|9|56|58-86"}
+$ gdalinfo -al -so populated_places.gpkg
+INFO: Open of `populated_places.gpkg'
+      using driver `GPKG' successful.
+
+Layer name: SELECT
+Geometry: Point
+Feature Count: 83
+Extent: (-605594.054592, -3322344.525361) - (837631.269958, -1140855.537211)
+Layer SRS WKT:
+PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
+    BASEGEOGCRS["WGS 84",
+        ENSEMBLE["World Geodetic System 1984 ensemble",
+            MEMBER["World Geodetic System 1984 (Transit)"],
+            MEMBER["World Geodetic System 1984 (G730)"],
+            MEMBER["World Geodetic System 1984 (G873)"],
+            MEMBER["World Geodetic System 1984 (G1150)"],
+            MEMBER["World Geodetic System 1984 (G1674)"],
+            MEMBER["World Geodetic System 1984 (G1762)"],
+            MEMBER["World Geodetic System 1984 (G2139)"],
+            ELLIPSOID["WGS 84",6378137,298.257223563,
+                LENGTHUNIT["metre",1]],
+            ENSEMBLEACCURACY[2.0]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433]],
+        ID["EPSG",4326]],
+    CONVERSION["US NSIDC Sea Ice polar stereographic north",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",70,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",-45,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["easting (X)",south,
+            MERIDIAN[45,
+                ANGLEUNIT["degree",0.0174532925199433]],
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["northing (Y)",south,
+            MERIDIAN[135,
+                ANGLEUNIT["degree",0.0174532925199433]],
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Polar research."],
+        AREA["Northern hemisphere - north of 60°N onshore and offshore, including Arctic."],
+        BBOX[60,-180,90,180]],
+    ID["EPSG",3413]]
+Data axis to CRS axis mapping: 1,2
+FID Column = fid
+Geometry Column = geom
+ID: Integer64 (0.0)
+New Greenlandic: String (0.0)
+Old Greenlandic: String (0.0)
+Danish: String (0.0)
+Alternative placename: String (0.0)
+Object designation: String (0.0)
+Source: String (0.0)
+Municipality: String (0.0)
+Notes: String (0.0)
+Date of registration: String (0.0)
+Modification date: String (0.0)
+Authorized: String (0.0)
+Authorized date: String (0.0)
+Project manager: String (0.0)
+KMS_id: String (0.0)
+Latitude: Real (0.0)
+Longitude: Real (0.0)
+Card: String (0.0)
+Namer: String (0.0)
+Namesake: String (0.0)
+Meaning of the placename: String (0.0)
+Placename history: String (0.0)
+Danish explanation of Object designation: String (0.0)
+Greenlandic explanation of Object designation: String (0.0)
+English explanation of Object designation: String (0.0)
+Translation notes: String (0.0)
+label: String (0.0)
+```
+
+::: {.notes}
+* `-al`: All layers
+* `-so`: Summary only; don't list individual features.
+* Geopackages (`GPKG`) are a special extension to SQLite databases.
+* There may be many layers, but this particular geopackage just has one called
+  "SELECT", which is a poor name.
+* Like `gdalinfo`, the CRS is in WKT. First thing to look for is a "top-level"
+  EPSG code.
+* These are attribute table columns and their datatypes.
+:::
+
+
+## Vector data inspection: Fiona
+
+```{.text code-line-numbers="4-5|6-7|8-9|11-20|21"}
+$ python
+Python 3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import fiona
+>>> ds = fiona.open('populated_places.gpkg')
+>>> ds.profile['crs']
+CRS.from_epsg(3413)
+>>> ds.profile['driver']
+'GPKG'
+>>> from pprint import pprint
+>>> pprint(ds.profile['schema'])
+{'geometry': 'Point',
+ 'properties': {'Alternative placename': 'str',
+                'Authorized': 'str',
+                'Authorized date': 'str',
+                'Card': 'str',
+                'Danish': 'str',
+                <... trimmed to save space ...>
+                'Translation notes': 'str',
+                'label': 'str'}}
+>>> ds.close()
+```
+
+::: {.notes}
+* `profile` attribute contains metadata.
+* The "schema" includes geometry type and attribute table fields.
+* It's important to either use a context manager or manually close your dataset.
+:::
