@@ -358,8 +358,8 @@ label: String (0.0)
 ::: {.notes}
 * `-al`: All layers
 * `-so`: Summary only; don't list individual features.
-* Geopackages (`GPKG`) are a special extension to SQLite databases.
-* There may be many layers, but this particular geopackage just has one called
+* GeoPackages (`GPKG`) are a special extension to SQLite databases.
+* There may be many layers, but this particular GeoPackage just has one called
   "SELECT", which is a poor name.
 * Like `gdalinfo`, the CRS is in WKT. First thing to look for is a "top-level"
   EPSG code.

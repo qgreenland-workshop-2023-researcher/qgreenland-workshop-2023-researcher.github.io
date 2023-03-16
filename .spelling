@@ -12,6 +12,7 @@ Flickr
 Foobarbaz
 GeoJSON
 GeoPackage
+GeoPackages
 GeoTIFF
 GitHub
 ICESat
@@ -48,6 +49,8 @@ colormaps
 datascience-box
 dataset
 datasets
+datatype
+datatypes
 dealbreakers
 e.g.
 gdalwarp
