@@ -93,12 +93,14 @@ For example, this data is in "North Polar Stereographic" projection.
 
 ## Coordinate Reference System (CRS) information{.smaller}
 
+* **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**.
+
 * **Geodetic Datum**: A model representation of the Earth serving as a reference for locating features.
     * Often a spherical or ellipsoidal representation.
     * Horizontal and/or vertical.
     * `WGS84` is a common global datum, but many others (including locally best-fitting models).
     * Differences between datums can be significant (> 100m in some cases).
-    
+
 * **Geographic Coordinate System (GCS)**: Coordinate system that represents locations on the Earth in spherical coordinates of latitudes and longitudes.
 
 * **Projected Coordinate System (PCS)**: Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
