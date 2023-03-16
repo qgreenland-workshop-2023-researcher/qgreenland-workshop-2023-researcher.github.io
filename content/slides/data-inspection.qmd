@@ -6,6 +6,22 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+# What tool should I use?
+
+The best one for the job. Explore the alternatives available in the ecosystem
+you want to work!
+
+::: {.notes}
+Tool selection is context-dependent.
+
+Command-line tools are especially useful for getting a quick answer.
+
+Language-specific tools are good for automations or research code. These
+examples use Python because that's what we're most familiar with, but explore
+your preferred ecosystem and you'll find equivalents.
+:::
+
+
 # Inspection with QGIS
 
 * You can use QGIS to inspect both raster and vector data
@@ -404,8 +420,52 @@ CRS.from_epsg(3413)
 
 # Example: no metadata
 
-## Raster with no metadata
+## Raster with no metadata: `gdalinfo` {.smaller}
 
-_TODO: Show what it looks like to inspect this file with one of the above methods_
+_Please note: This dataset was intentionally modified to remove metadata. This example
+does not reflect the quality of the original dataset._
 
-`/content/exercises/data-scenarios/01-missing-metadata/bamber_greenland_dem.tif`
+```{.text code-line-numbers="1|2-3|4|10-14"}
+$ gdalinfo content/examples/data-scenarios/01-missing-metadata/bamber_greenland_dem.tif 
+Driver: GTiff/GeoTIFF
+Files: bamber_greenland_dem.tif
+Size is 301, 561
+Metadata:
+  TIFFTAG_XRESOLUTION=1
+  TIFFTAG_YRESOLUTION=1
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  (    0.0,    0.0)
+Lower Left  (    0.0,  561.0)
+Upper Right (  301.0,    0.0)
+Lower Right (  301.0,  561.0)
+Center      (  150.5,  280.5)
+Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
+``` 
+
+No Coordinate Reference System is specified!
+
+::: {.notes}
+* Size is in grid space.
+* Corner coordinates are in grid space.
+* There is no WKT or other specification of a coordinate reference system.
+:::
+
+
+## Raster with no metadata: Rasterio CLI
+
+```
+$ rio info --crs bamber_greenland_dem.tif 
+/home/mfisher/miniconda3/envs/xarray/lib/python3.11/site-packages/rasterio/__init__.py:304:
+NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix
+will be returned.
+  dataset = DatasetReader(path, driver=driver, sharing=sharing, **kwargs)
+```
+
+This error message tells us that geolocation metadata was not found in the dataset.
+
+::: {.notes}
+We won't talk about "GCPs" (Ground Control Points) or "RPCs" (Rational Polynomial
+Coefficients).
+:::
