@@ -369,6 +369,8 @@ label: String (0.0)
 
 ## Vector data inspection: Fiona
 
+_TODO: Verify Fiona is in our JupyterHub environment._
+
 ```{.text code-line-numbers="4-5|6-7|8-9|11-20|21"}
 $ python
 Python 3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0] on linux
@@ -398,3 +400,12 @@ CRS.from_epsg(3413)
 * The "schema" includes geometry type and attribute table fields.
 * It's important to either use a context manager or manually close your dataset.
 :::
+
+
+# Example: no metadata
+
+## Raster with no metadata
+
+_TODO: Show what it looks like to inspect this file with one of the above methods_
+
+`/content/exercises/data-scenarios/01-missing-metadata/bamber_greenland_dem.tif`
