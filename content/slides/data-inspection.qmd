@@ -6,6 +6,9 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+<!-- TODO: Slide on `gdalsrsinfo`? -->
+
+
 # What tool should I use?
 
 The best one for the job. Explore the alternatives available in the ecosystem
