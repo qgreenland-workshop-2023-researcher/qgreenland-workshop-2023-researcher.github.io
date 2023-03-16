@@ -1,9 +1,9 @@
 ---
 title: "🧪 QGreenland Researcher Workshop 2023"
+subtitle: "Develop standards-based geospatial data practices"
 author: "Trey Stafford, Matt Fisher"
 ---
 
-#### Develop standards-based geospatial data practices
 
 _May 23-25, 2023_
 
