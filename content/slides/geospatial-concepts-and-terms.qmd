@@ -76,6 +76,14 @@ Metadata is "data about data", and is how standards-compliant data files
 For example, this data is in "North Polar Stereographic" projection.
 :::
 
+## Geospatial metadata concepts
+
+* Location: where did the observed phenomena occur in space/on the Earth.
+* Time: when did the observed phenomena occur?
+* Provenance: Where did the data come from and what kind of processing was applied?
+* Measurement information
+  * What units of measure is the phenomena recorded in?
+  * "Missing/No Data" and other flags
 
 ## Coordinate Reference System (CRS) information{.smaller}
 
@@ -106,14 +114,6 @@ location data is of a high precision.
 
 _TODO: Find a diagram!_
 :::
-
-
-## Geospatial metadata concepts
-
-* Provenance
-* Temporality (date & time related to the phenomena being measured/represented)
-* "Missing/No Data" and other flags
-* ...
 
 
 ## _TODO: More!_
