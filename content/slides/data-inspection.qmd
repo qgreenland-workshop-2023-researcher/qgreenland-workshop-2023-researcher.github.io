@@ -1,5 +1,5 @@
 ---
-title: "Data inspection tools"
+title: "Data inspection"
 subtitle: "QGreenland Researcher Workshop 2023"
 background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 title-slide-attributes:
@@ -9,7 +9,7 @@ title-slide-attributes:
 # Inspection with QGIS
 
 * You can use QGIS to inspect both raster and vector data
-* You can compare this data to other layers, e.g. basemap. 
+* You can compare this data to other layers, e.g. basemap.
 
 ::: {.notes}
 This can be a pitfall; if the datum differs from other layers, there could be
@@ -19,7 +19,6 @@ the same datum using e.g. `gdalwarp`, `ogr2ogr`.
 
 
 ## QGIS Layer Properties
-
 
 ![CRS of a QGreenland layer](/_media/qgreenland_layer_properties.png)
 
@@ -34,19 +33,225 @@ grid pixel size, grid origin, and more.
 
 # Raster data inspection tools
 
-## Raster data inspection with GDAL
+## Raster data inspection: `gdalinfo`
 
-...
+One of the most commonly-available tools, and is used under-the-hood by many other
+tools.
+
+* <https://gdal.org/programs/gdalinfo.html>
+* `gdalinfo --help`
+* `man gdalinfo`
 
 
-## Raster data inspection with Rasterio
+## Raster data inspection: `gdalinfo`
 
-...
+_TODO: Should we use a small dataset that we can include in the Git repo, and actually
+run these operations at Quarto render-time?_
+
+```{.text code-line-numbers="1|2-4|5|6,7|45|48|49-87|97|100|101|102|103-115"}
+$ gdalinfo bedmachine_bed.tif
+Driver: GTiff/GeoTIFF
+Files: bedmachine_bed.tif
+       bedmachine_bed.tif.aux.xml
+Size is 14844, 21876
+Coordinate System is:
+PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
+    BASEGEOGCRS["WGS 84",
+        DATUM["World Geodetic System 1984",
+            ELLIPSOID["WGS 84",6378137,298.257223563,
+                LENGTHUNIT["metre",1]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433]],
+        ID["EPSG",4326]],
+    CONVERSION["US NSIDC Sea Ice polar stereographic north",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",70,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",-45,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["easting (X)",south,
+            MERIDIAN[45,
+                ANGLEUNIT["degree",0.0174532925199433]],
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["northing (Y)",south,
+            MERIDIAN[135,
+                ANGLEUNIT["degree",0.0174532925199433]],
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["unknown"],
+        AREA["World - N hemisphere - north of 60°N"],
+        BBOX[60,-180,90,180]],
+    ID["EPSG",3413]]
+Data axis to CRS axis mapping: 1,2
+Origin = (-997978.940007228753529,-329743.070899212907534)
+Pixel Size = (149.996827426226332,-149.996827426226389)
+Metadata:
+  AREA_OR_POINT=Area
+  bed#grid_mapping=mapping
+  bed#long_name=bed topography
+  bed#source=Mass conservation (Mathieu Morlighem)
+  bed#standard_name=bedrock_altitude
+  bed#units=meters
+  bed#_FillValue=-9999
+  mapping#false_easting=0
+  mapping#false_northing=0
+  mapping#geoid=eigen-6c4
+  mapping#grid_mapping_name=polar_stereographic
+  mapping#inverse_flattening=298.2794050428205
+  mapping#latitude_of_projection_origin=90
+  mapping#semi_major_axis=6378273
+  mapping#standard_parallel=70
+  mapping#straight_vertical_longitude_from_pole=-45
+  NC_GLOBAL#Author=Mathieu Morlighem
+  NC_GLOBAL#Conventions=CF-1.7
+  NC_GLOBAL#Data_citation=Morlighem M. et al., (2017), BedMachine v3: Complete bed topography and ocean bathymetry mapping of Greenland from multi-beam echo sounding combined with mass conservation, Geophys. Res. Lett., 44, doi:10.1002/2017GL074954. (http://onlinelibrary.wiley.com/doi/10.1002/2017GL074954/full)
+  NC_GLOBAL#ice_density (kg m-3)=917
+  NC_GLOBAL#license=No restrictions on access or use
+  NC_GLOBAL#no_data=-9999
+  NC_GLOBAL#nx=10218
+  NC_GLOBAL#ny=18346
+  NC_GLOBAL#proj4=+init=epsg:3413
+  NC_GLOBAL#Projection=Polar Stereographic North (70N, 45W)
+  NC_GLOBAL#sea_water_density (kg m-3)=1023
+  NC_GLOBAL#spacing=150
+  NC_GLOBAL#Title=BedMachine Greenland
+  NC_GLOBAL#version=20-Apr-2021 (v4.10)
+  NC_GLOBAL#xmin=-652925
+  NC_GLOBAL#ymax=-632675
+  x#long_name=Cartesian x-coordinate
+  x#standard_name=projection_x_coordinate
+  x#units=meter
+  y#long_name=Cartesian y-coordinate
+  y#standard_name=projection_y_coordinate
+  y#units=meter
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  ( -997978.940, -329743.071) (116d42'57.18"W, 80d19'10.86"N)
+Lower Left  ( -997978.940,-3611073.668) ( 60d26'56.41"W, 56d22'33.59"N)
+Upper Right ( 1228573.966, -329743.071) ( 29d58'34.22"E, 78d17'47.47"N)
+Lower Right ( 1228573.966,-3611073.668) ( 26d12'37.67"W, 55d48' 2.10"N)
+Center      (  115297.513,-1970408.369) ( 41d39' 4.26"W, 71d55'29.45"N)
+Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
+  Min=-5571.673 Max=3672.355
+  Minimum=-5571.673, Maximum=3672.355, Mean=-307.314, StdDev=1161.000
+  NoData Value=-9999
+  Overviews: 7422x10938, 3711x5469, 1856x2735, 928x1368
+  Unit Type: meters
+  Metadata:
+    grid_mapping=mapping
+    long_name=bed topography
+    NETCDF_VARNAME=bed
+    source=Mass conservation (Mathieu Morlighem)
+    standard_name=bedrock_altitude
+    STATISTICS_MAXIMUM=3672.35546875
+    STATISTICS_MEAN=-307.31420082049
+    STATISTICS_MINIMUM=-5571.6728515625
+    STATISTICS_STDDEV=1160.9999064556
+    STATISTICS_VALID_PERCENT=57.73
+    units=meters
+    _FillValue=-9999
+```
+
+::: {.notes}
+* Grid size, in "pixels"
+* Well-Known Text represents CRS with hierarchical data, which `gdalinfo`
+nicely indents for us. The "top-level" EPSG is shown as 3413.
+* Pixel size, in projected units
+* Global metadata: _TODO: Mention of the difference namespaces, specifically
+	call out the `grid_mapping` namespace's significance?_
+* Band metadata
+* Overviews: Various down-sampled versions of the data for performance when
+	zoomed out.
+:::
+
+
+## Raster data inspection: Rasterio CLI
+
+`rio info --help`
+
+```{.text code-line-numbers="false"}
+$ rio info --crs bedmachine_bed.tif
+EPSG:3413
+
+$ rio info --dtype bedmachine_bed.tif
+float32
+
+$ rio info --nodata bedmachine_bed.tif
+-9999.0
+
+$ rio info --shape bedmachine_bed.tif
+21876 14844
+```
+
+
+## Raster data inspection: Rasterio Python
+
+`import rasterio; help(rasterio)`
+
+```{.text code-line-numbers="false"}
+$ python
+Python 3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rasterio
+>>> ds = rasterio.open('bedmachine_bed.tif')
+>>> ds.crs
+CRS.from_epsg(3413)
+>>> ds.dtypes
+('float32',)
+>>> ds.nodata
+-9999.0
+>>> ds.shape
+(21876, 14844)
+>>> ds.close()
+```
+
+::: {.notes}
+Normally, you would use a context manager to open a file with rasterio. Since
+we didn't do that here, we must manually close the file.
+:::
+
+
 
 
 ## Raster data inspection with Xarray (rioxarray)
 
-...
+`import xarray; help(xarray)`
+
+```{.text code-line-numbers="false"}
+>>> import rioxarray
+>>> import xarray as xra
+>>> ds = xra.open_dataset('bedmachine_bed.tif')
+>>> ds
+<xarray.Dataset>
+Dimensions:  (band: 1, x: 14844, y: 21876)
+Coordinates:
+  * band     (band) int64 1
+  * x        (x) float64 -9.979e+05 -9.978e+05 ... 1.228e+06 1.228e+06
+  * y        (y) float64 -3.298e+05 -3.3e+05 ... -3.611e+06 -3.611e+06
+    mapping  int64 ...
+Data variables:
+    bed      (band, y, x) float32 ...
+>>> ds.rio.crs
+CRS.from_epsg(3413)
+```
+
+::: {.notes}
+`rioxarray` provides geospatial awareness to `xarray`.
+:::
 
 
 # Vector data inspection tools
