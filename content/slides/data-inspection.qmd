@@ -1,5 +1,5 @@
 ---
-title: "Data inspection"
+title: "Data/metadata inspection"
 subtitle: "QGreenland Researcher Workshop 2023"
 background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 title-slide-attributes:
@@ -258,9 +258,9 @@ CRS.from_epsg(3413)
 
 ## Vector data inspection with OGR
 
-...
+_TODO_
 
 
 ## Vector data inspection with Fiona
 
-...
+_TODO_
