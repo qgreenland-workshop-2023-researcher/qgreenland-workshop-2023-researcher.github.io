@@ -15,6 +15,9 @@ For continued learning, please consider the following external resources.
 
 ## Geospatial concepts
 
+### Coordinate systems
+* [ESRI: Coordinate Systems: What's the Difference?](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
+
 ### Datum
 
 * [YouTube: An Introduction to Geodetic Datums](https://www.youtube.com/playlist?list=PLsyDl_aqUTdFY6eKURmiCBBk-mP4R10Dx)
