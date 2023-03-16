@@ -61,9 +61,9 @@ tools.
 
 ## Raster data inspection: `gdalinfo`
 
-_TODO: Should we use a small dataset that we can include in the Git repository,
+<!-- TODO: Should we use a small dataset that we can include in the Git repository,
 and actually run these operations at Quarto render-time? Or one that can be
-downloaded to `/tmp` at render-time?_
+downloaded to `/tmp` at render-time? -->
 
 ```{.text code-line-numbers="1|2-4|5|6,7|45|48|49-87|97|100|101|102|103-115"}
 $ gdalinfo bedmachine_bed.tif
@@ -186,10 +186,11 @@ Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
 ::: {.notes}
 * Grid size, in "pixels"
 * Well-Known Text represents CRS with hierarchical data, which `gdalinfo`
-nicely indents for us. The "top-level" EPSG is shown as 3413.
+  nicely indents for us. The "top-level" EPSG is shown as 3413.
 * Pixel size, in projected units
-* Global metadata: _TODO: Mention of the difference namespaces, specifically
-  call out the `grid_mapping` namespace's significance?_
+* Global metadata: These are metadata that were included in the original NetCDF
+  source dataset. We'll discuss more about this pitfall in the
+  "Transformations" module.
 * Band metadata
 * Overviews: Various down-sampled versions of the data for performance when
   zoomed out.
