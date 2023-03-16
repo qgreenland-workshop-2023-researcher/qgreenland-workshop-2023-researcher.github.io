@@ -118,9 +118,11 @@ representing geospatial metadata (EPSG codes, WKT, proj parameters, etc)_
 :::
 
 
-## _TODO: More!_
+## Representing geospatial metadata
 
-_TODO_
+* [Well Known Text (WKT)](http://docs.opengeospatial.org/is/18-010r7/18-010r7.html)
+* [Proj parameters](https://proj.org/usage/projections.html)
+* [European Petroleum Survey Group (EPSG) Geodetic Parameter Dataset](https://epsg.org/home.html)
 
 
 ## Metadata standards
