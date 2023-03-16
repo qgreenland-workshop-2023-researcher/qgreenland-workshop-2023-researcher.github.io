@@ -101,6 +101,8 @@ location data is of a high precision.
 
 * _Datum shift_ is the difference in lat/lon of a location between different datums. E.g., a surveyed location will have different lat/lon values under different datums, sometimes resulting in significant differences (> 100m in some cases).
 
+* Datums like WGS84 have multiple 'realizations' (re-estimates of the locations of monumented points). These realizations are often prompted by technological advancements in surveying (e.g., laser ranging, GPS). Differences between raelizations of WGS84 can be on the scale of a few meters.
+
 _TODO: Find a diagram!_
 :::
 
