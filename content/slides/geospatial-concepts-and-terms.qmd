@@ -191,6 +191,8 @@ EPSG:3413
 ```
 ::: {.notes}
 Extremely concise, EPSG maintains a registry of codes that map to CRS definitions in a standard databse used by tools like `gdal`.
+
+Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
 
 
