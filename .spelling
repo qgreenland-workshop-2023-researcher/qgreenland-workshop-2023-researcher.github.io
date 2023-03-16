@@ -10,6 +10,7 @@ DMS_1842643_12758_20180418_18111267_clipped.jpg
 EarthCube
 Flickr
 Foobarbaz
+GCPs
 GeoJSON
 GeoPackage
 GeoPackages
@@ -29,6 +30,7 @@ MkDocs
 NetCDF
 PyQGIS
 QGreenland
+RPCs
 SPD-41a
 Shapefile
 Shapefiles
@@ -39,6 +41,7 @@ U.S.
 VMs
 Xarray
 YouTube
+automations
 basemap
 callout
 center
@@ -55,6 +58,7 @@ dealbreakers
 e.g.
 gdalwarp
 geolocated
+geolocation
 georegistration
 geospatial
 gitignore
