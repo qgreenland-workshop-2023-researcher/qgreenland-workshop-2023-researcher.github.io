@@ -275,7 +275,6 @@ Note there are other standard representations as well, e.g., Geography Markup La
   * CF "[conventions generalize and extend the COARDS conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch01s04.html)"
 * [ISO 19111:2019, Geographic information — Referencing by coordinates](https://www.iso.org/standard/74039.html)
 * [Open Geospatial Consortium (OGC) standards](https://www.ogc.org/standards/)
-* _TODO: More!_
 
 ::: {.notes}
 When a dataset follows a combination of one or more common standards, GIS practitioners and tools can accurately parse information about CRS, date/time, etc.
