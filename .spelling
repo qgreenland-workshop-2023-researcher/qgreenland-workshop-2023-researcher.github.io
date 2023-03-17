@@ -100,6 +100,13 @@ wellbeing
 Zenodo
 DOIs
 bulleted
+datums
+lon
+unprojected
+equirectangular
+layout-ncol
+background-iframe
+proj
  - content/slides/open-science-and-data.qmd
 indable
 ccessible

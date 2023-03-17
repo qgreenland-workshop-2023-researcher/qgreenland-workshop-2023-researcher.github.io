@@ -118,7 +118,7 @@ A model representation of the Earth serving as a reference for locating features
 * Often a spherical or ellipsoidal representation.
 * Horizontal and/or vertical.
 * `WGS84` is a common global datum, but many others (including locally best-fitting models).
-* Differences between datums can be significant (> 100m in some cases).
+* Differences between datums can be significant (> 100 meters in some cases).
 :::
 
 ![Global and regional ellipsoids (Wikimedia
@@ -128,7 +128,7 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_R
 ::: {.notes}
 _Datum shift_ is the difference in lat/lon of a location between different
 datums. E.g., a surveyed location will have different lat/lon values under
-different datums, sometimes resulting in significant differences (> 100m in some
+different datums, sometimes resulting in significant differences (> 100 meters in some
 cases).
 
 _TODO: can we find a better image that shows differences between Earth, ellipsoid, and geoid?_
@@ -147,7 +147,7 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Latitude_and
 By default in programs like QGIS, data referenced to a Geographic Coordinate
 System (unprojected) are shown in an 'equirectangular' projection in which
 latitudes are mapped to the Y axis and longitudes are mapped to the X axis of a
-planar coordinate sysatem.
+planar coordinate system.
 :::
 
 ## CRS: Projected Coordinate System (PCS)
@@ -156,7 +156,7 @@ planar coordinate sysatem.
 Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
 
 * Projection is the transformation of spherical (lat/lon) coordinates to a planar surface.
-* Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
+* Benefits include visualization on flat surfaces (e.g., maps) and simplified distance calculations.
 * Projection results in one or more distortions: shape, area, distance, direction
 :::
 
@@ -253,7 +253,7 @@ Proj parameters encode CRS parameters as simple key-value pairs.
 EPSG:3413
 ```
 ::: {.notes}
-Extremely concise, EPSG maintains a registry of codes that map to CRS definitions in a standard databse used by tools like `gdal`.
+Extremely concise, EPSG maintains a registry of codes that map to CRS definitions in a standard database used by tools like `gdal`.
 
 Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
