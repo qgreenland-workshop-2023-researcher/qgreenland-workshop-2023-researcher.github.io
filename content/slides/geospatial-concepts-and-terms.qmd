@@ -68,7 +68,13 @@ Attributes add additional data to a geospatial element
 We won't focus on these:
 
 * Point cloud
+* Triangular Irregular Networks (TINs)
 * _TODO: What else?_
+
+::: {.notes}
+_TODO: is it even worth discussing these as 'other' data types? Point clouds are
+just a special case of vector data, as are TINs._
+:::
 
 
 # Metadata
