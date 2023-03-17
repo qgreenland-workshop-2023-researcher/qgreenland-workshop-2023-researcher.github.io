@@ -91,38 +91,60 @@ For example, this data is in "North Polar Stereographic" projection.
   * What units of measure is the phenomena recorded in?
   * "Missing/No Data" and other flags
 
-## Coordinate Reference System (CRS) information{.smaller}
+## Coordinate Reference System (CRS) information
 
-* **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**.
+Includes all of the information necessary to accurately locate things on Earth.
 
-* **Geodetic Datum**: A model representation of the Earth serving as a reference for locating features.
-    * Often a spherical or ellipsoidal representation.
-    * Horizontal and/or vertical.
-    * `WGS84` is a common global datum, but many others (including locally best-fitting models).
-    * Differences between datums can be significant (> 100m in some cases).
+::: {.callout-note}
+**Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**
+:::
 
-* **Geographic Coordinate System (GCS)**: Coordinate system that represents locations on the Earth in spherical coordinates of latitudes and longitudes.
+::: {.notes}
+A coordinate reference system (CRS) / spatial reference system (SRS) includes
+the information necessary for accurately locating geospatial data on the Earth.
+:::
 
-* **Projected Coordinate System (PCS)**: Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
-    * Projection is the transformation of spherical (lat/lon) coordinates to a planar surface.
-    * Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
-    * Projection results in one or more distortions: shape, area, distance, direction
+## CRS: Geodetic Datums
+
+A model representation of the Earth serving as a reference for locating features.
+
+* Often a spherical or ellipsoidal representation.
+* Horizontal and/or vertical.
+* `WGS84` is a common global datum, but many others (including locally best-fitting models).
+* Differences between datums can be significant (> 100m in some cases).
+
+::: {.notes}
+_Datum shift_ is the difference in lat/lon of a location between different
+datums. E.g., a surveyed location will have different lat/lon values under
+different datums, sometimes resulting in significant differences (> 100m in some
+cases).
+:::
+
+## CRS: Geographic Coordinate System (GCS)
+
+Coordinate system that represents locations on the Earth in spherical
+coordinates of latitudes and longitudes.
+
+_TODO: graphic_
+
+::: {.notes}
+By default in programs like QGIS, data referenced to a Geographic Coordinate
+System (unprojected) are shown in an 'equirectangular' projection in which
+latitudes are mapped to the Y axis and longitudes are mapped to the X axis of a
+planar coordinate sysatem.
+:::
+
+## CRS: Projected Coordinate System (PCS)
+
+Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
+
+* Projection is the transformation of spherical (lat/lon) coordinates to a planar surface.
+* Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
+* Projection results in one or more distortions: shape, area, distance, direction
 
 
 ::: {.notes}
-* A coordinate reference system (CRS) / spatial reference system (SRS) includes the information necessary for accurately locating geospatial data on the Earth.
-
-* Horizontal _and_ vertical datums. _TODO: include information about this in slide directy?_
-
-* _Datum shift_ is the difference in lat/lon of a location between different datums. E.g., a surveyed location will have different lat/lon values under different datums, sometimes resulting in significant differences (> 100m in some cases).
-
-* Datums like WGS84 have multiple 'realizations' (re-estimates of the locations of monumented points). These realizations are often prompted by technological advancements in surveying (e.g., laser ranging, GPS). Differences between raelizations of WGS84 can be on the scale of a few meters.
-
-* By default in programs like QGIS, data referenced to a Geographic Coordinate System (unprojected) are shown in an 'equirectangular' projection in which latitudes are mapped to the Y axis and longitudes are mapped to the X axis of a planar coordinate sysatem.
-
-_TODO: Find a diagram!_
-_TODO: include reference to geotransforms somewhere? Maybe in slides about
-representing geospatial metadata (EPSG codes, WKT, proj parameters, etc)_
+A projection is an algorithm (e.g., stereographic) and its parameters (e.g, lat/lon of origin, units, etc).
 :::
 
 
