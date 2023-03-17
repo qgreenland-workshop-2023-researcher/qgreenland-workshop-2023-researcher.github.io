@@ -90,16 +90,16 @@ For example, this data is in "North Polar Stereographic" projection.
 
 ## Geospatial metadata concepts
 
-* Location: where did the observed phenomena occur in space/on the Earth.
-* Time: when did the observed phenomena occur?
+* Location: where does a feature occur in space/on the Earth.
+* Time: when did the feature occur?
 * Provenance: Where did the data come from and what kind of processing was applied?
 * Measurement information
-  * What units of measure is the phenomena recorded in?
+  * What units of measure is feature recorded in?
   * "Missing/No Data" and other flags
 
 ## Coordinate Reference System (CRS) information
 
-Includes all of the information necessary to accurately locate things on Earth.
+Includes all of the information necessary to accurately locate features on Earth.
 
 ::: {.callout-note}
 **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**
