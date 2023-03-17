@@ -150,7 +150,11 @@ Coordinate system that represents locations on the Earth in planar coordinates (
 
 
 ::: {.notes}
-A projection is an algorithm (e.g., stereographic) and its parameters (e.g, lat/lon of origin, units, etc).
+A projection is an algorithm (e.g., stereographic) and its parameters (e.g,
+lat/lon of origin, units, etc).
+
+[A PCS is a GCS with a map
+projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm).
 :::
 
 
