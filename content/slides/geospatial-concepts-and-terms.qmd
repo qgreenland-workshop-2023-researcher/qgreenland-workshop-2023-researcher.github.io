@@ -41,6 +41,23 @@ point layer in
 QGreenland](/_media/qgreenland_GEM-research-stations_attribute_table.png)
 
 
+## Vector topology {.smaller}
+
+* Spatial relationships between vector features.
+* E.g,
+  * "what points fall within a given polygon?"
+  * "What polygons are adjacent to this one?"
+
+![Examples of topological spatial relations (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/5/55/TopologicSpatialRelarions2.png)
+
+::: {.notes}
+_TODO: keep this slide here? Day 3? Or remove? This is more about analysis with
+vector features. Another thing to think about: vector validity (e.g.,
+non-self-crossing lines)?_
+:::
+
+
 ## Raster data
 
 * Continuous
