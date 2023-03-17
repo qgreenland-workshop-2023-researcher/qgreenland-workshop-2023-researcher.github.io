@@ -28,10 +28,17 @@ Choose the right feature type:
 
 ## Vector attributes
 
+::: {.r-fit-text}
 Attributes add additional data to a geospatial element
 
 * A point representing a weather station may have a `temperature` attribute
+* a line representing a river may have a `name` attribute
 * A polygon representing a state may have a `population` attribute
+:::
+
+![Attribute table for the "Human activity/Research sites/GEM research stations"
+point layer in
+QGreenland](/_media/qgreenland_GEM-research-stations_attribute_table.png)
 
 
 ## Raster data
