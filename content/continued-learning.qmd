@@ -29,3 +29,7 @@ For continued learning, please consider the following external resources.
 * [Awesome Projections GitHub
   repository](https://github.com/webgeodatavore/awesome-projections/blob/master/README.md):
   list of resources related to map projections.
+* [Guide on NSIDC polar stereographic
+  projections](https://nsidc.org/data/user-resources/help-center/guide-nsidcs-polar-stereographic-projection):
+  NSIDC's Polar Stereographic North (EPSG:3413) is used as the default
+  projection in QGreenland.
