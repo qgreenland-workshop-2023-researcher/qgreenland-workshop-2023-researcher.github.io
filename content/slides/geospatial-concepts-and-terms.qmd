@@ -101,7 +101,7 @@ For example, this data is in "North Polar Stereographic" projection.
 * Time: when did the feature occur?
 * Provenance: Where did the data come from and what kind of processing was applied?
 * Measurement information
-  * What units of measure is feature recorded in?
+  * What units of measure is the feature recorded in?
   * "Missing/No Data" and other flags
 
 ## Coordinate Reference System (CRS) information
