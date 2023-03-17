@@ -11,3 +11,29 @@ For continued learning, please consider the following external resources.
 ## Git/GitHub
 
 * [YouTube: ICESat-2 2020: Git and GitHub (1:38:00)](https://www.youtube.com/watch?v=O2lLC_s_d20)
+
+
+## Geospatial concepts
+
+* [ESRI: Coordinate systems, map projections, and
+  transformations](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm)
+
+### Coordinate systems
+* [ESRI: Coordinate Systems: What's the
+  Difference?](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
+
+### Datum
+
+* [YouTube: An Introduction to Geodetic Datums](https://www.youtube.com/playlist?list=PLsyDl_aqUTdFY6eKURmiCBBk-mP4R10Dx)
+* [NOAA National Geodetic Survey: Datums and Reference Frames](https://geodesy.noaa.gov/datums/index.shtml)
+
+### Map Projections
+
+* [Awesome Projections GitHub
+  repository](https://github.com/webgeodatavore/awesome-projections/blob/master/README.md):
+  list of resources related to map projections.
+* [Guide on NSIDC polar stereographic
+  projections](https://nsidc.org/data/user-resources/help-center/guide-nsidcs-polar-stereographic-projection):
+  NSIDC's Polar Stereographic North (EPSG:3413) is used as the default
+  projection in QGreenland.
+* [Map projections: A working manual (USGS, 1987)](https://pubs.er.usgs.gov/publication/pp1395)
