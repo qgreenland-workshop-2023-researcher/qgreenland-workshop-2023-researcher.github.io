@@ -36,3 +36,4 @@ For continued learning, please consider the following external resources.
   projections](https://nsidc.org/data/user-resources/help-center/guide-nsidcs-polar-stereographic-projection):
   NSIDC's Polar Stereographic North (EPSG:3413) is used as the default
   projection in QGreenland.
+* [Map projections: A working manual (USGS, 1987)](https://pubs.er.usgs.gov/publication/pp1395)

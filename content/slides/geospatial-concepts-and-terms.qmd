@@ -112,18 +112,26 @@ the information necessary for accurately locating geospatial data on the Earth.
 
 ## CRS: Geodetic Datums
 
+::: {.r-fit-text}
 A model representation of the Earth serving as a reference for locating features.
 
 * Often a spherical or ellipsoidal representation.
 * Horizontal and/or vertical.
 * `WGS84` is a common global datum, but many others (including locally best-fitting models).
 * Differences between datums can be significant (> 100m in some cases).
+:::
+
+![Global and regional ellipsoids (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_Regional_Ellipsoids.svg/256px-Gloabl_and_Regional_Ellipsoids.svg.png)
+
 
 ::: {.notes}
 _Datum shift_ is the difference in lat/lon of a location between different
 datums. E.g., a surveyed location will have different lat/lon values under
 different datums, sometimes resulting in significant differences (> 100m in some
 cases).
+
+_TODO: can we find a better image that shows differences between Earth, ellipsoid, and geoid?_
 :::
 
 ## CRS: Geographic Coordinate System (GCS)
@@ -131,7 +139,9 @@ cases).
 Coordinate system that represents locations on the Earth in spherical
 coordinates of latitudes and longitudes.
 
-_TODO: graphic_
+![Diagram of the latitude ϕ and longitude λ angle measurements for a spherical
+model of the Earth (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Latitude_and_longitude_graticule_on_a_sphere.svg/1024px-Latitude_and_longitude_graticule_on_a_sphere.svg.png)
 
 ::: {.notes}
 By default in programs like QGIS, data referenced to a Geographic Coordinate
@@ -142,11 +152,22 @@ planar coordinate sysatem.
 
 ## CRS: Projected Coordinate System (PCS)
 
+::: {.r-fit-text}
 Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
 
 * Projection is the transformation of spherical (lat/lon) coordinates to a planar surface.
 * Benefits include visualization on flat surfaces (e.g., maps) and simplfied distance calculations.
 * Projection results in one or more distortions: shape, area, distance, direction
+:::
+
+::: {#figs layout-ncol=2}
+![Comparison of tangent and secant forms of normal, oblique and transverse
+Mercator projections with standard parallels in red (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Mercator_projections.svg)
+
+![Tissot's Indicatrices on the Mercator projection (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png)
+:::
 
 
 ::: {.notes}
@@ -155,8 +176,18 @@ lat/lon of origin, units, etc).
 
 [A PCS is a GCS with a map
 projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm).
+
+There are MANY map projections. Each has advantages and disadvantages depending
+on use-case and the part of the world being mapped.
+
+_TODO: how do size images so that they take up the remaining space?_
 :::
 
+## {background-iframe="https://www.jasondavies.com/maps/transition/" background-interactive="true"}
+
+::: {.notes}
+Website demonstrates many different projections with an interactive control to change the perspective.
+:::
 
 ## Standard representations of geospatial metadata
 
