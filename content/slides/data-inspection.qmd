@@ -24,7 +24,8 @@ selection of a format depends on use case and data type.
 
 # Geospatial data formats: CSV/TSV
 
-* Great for simple use cases, but not geospatial
+* Vector data
+* Highly interoperable
 * Lacks metadata support
 
 ::: {.notes}
@@ -38,12 +39,16 @@ software. The advantage of CSV is that it's a "lowest common denominator" format
 has broad support.
 :::
 
-# Geospatial data formats: .xlsx
+# Geospatial data formats: Microsoft .xls/.xlsx
 
 * Vector data
-* Great for simple use cases, but not geospatial
 * Lacks metadata support
-* Proprietary
+* No support for data types
+* Proprietary (.xls)
+
+::: {.notes}
+[The display of stored numbers as integers or currency is through display format options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)
+:::
 
 # Geospatial data formats: [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
 
@@ -72,6 +77,7 @@ file). E.g., `.shp`, `.prj`, etc.
 # Geospatial data formats: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)
 
 * Raster (and vector) data
+* Extension of [HDF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml) 🌎
 * Self-Describing
 * Efficient storage of multi-dimensional arrays of data (e.g., `time`,
   `elevation`, `longitude`, `latitude` as dimensions of a `temperature`
@@ -89,11 +95,24 @@ data](https://gdal.org/drivers/vector/netcdf.html)
 * A specialized SQLite database supporting geospatial metadata
 * Can store datasets of different types in a single file
 
-# Geospatial data formats: More?
+# Geospatial data formats: Others
 
-* _TODO: More? HDF5? Collapse some of these formats into single slides?_
+* [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
+* [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
+* [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
+* [Google (KML/KMZ)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎 
+
+::: {.notes}
+* ASCII Grids are used to store raster data in a ASCII text format.
+
+* World Files are text files that accompany other raster data file (e.g., `jpeg`,
+`png`) and provide geospatial metadata.
+
+* ESRI GeoDatabases are proprietary.
+:::
 
 
+# Inspecting Data
 
 # What tool should I use?
 
