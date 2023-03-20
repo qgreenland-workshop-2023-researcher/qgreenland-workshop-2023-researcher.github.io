@@ -22,7 +22,7 @@ selection of a format depends on use case and data type.
 
 :::
 
-# Geospatial data formats: CSV/TSV
+# CSV/TSV
 
 * Vector data
 * Highly interoperable
@@ -39,7 +39,7 @@ software. The advantage of CSV is that it's a "lowest common denominator" format
 has broad support.
 :::
 
-# Geospatial data formats: Microsoft .xls/.xlsx
+# Microsoft .xls/.xlsx
 
 * Vector data
 * Lacks metadata support
@@ -50,7 +50,7 @@ has broad support.
 [The display of stored numbers as integers or currency is through display format options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)
 :::
 
-# Geospatial data formats: [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
+# [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
 
 * Vector data
 * Field names limited to 10 characters.
@@ -62,19 +62,19 @@ ESRI shapefiles are actually a collection of files stored in a directory (or zip
 file). E.g., `.shp`, `.prj`, etc.
 :::
 
-# Geospatial data formats: GeoJSON
+# GeoJSON
 
 * Vector data
 * An extension of the JSON standard supporting geospatial metadata
 * Text-based, can be read by humans
 
-# Geospatial data formats: GeoTIFF
+# GeoTIFF
 
 * Raster data
 * An extension of the TIFF standard supporting geospatial metadata
 * Works with almost all image viewer software
 
-# Geospatial data formats: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)
+# [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)
 
 * Raster (and vector) data
 * Extension of [HDF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml) 🌎
@@ -89,13 +89,13 @@ Most commonly used to store raster datasets, often with additional dimensions
 data](https://gdal.org/drivers/vector/netcdf.html)
 :::
 
-# Geospatial data formats: GeoPackage
+# GeoPackage
 
 * Raster, vector, and more...
 * A specialized SQLite database supporting geospatial metadata
 * Can store datasets of different types in a single file
 
-# Geospatial data formats: Others
+# Others
 
 * [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
 * [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
