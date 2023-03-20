@@ -45,6 +45,18 @@ has broad support.
 * Lacks metadata support
 * Proprietary
 
+# Geospatial data formats: [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
+
+* Vector data
+* Field names limited to 10 characters.
+* Limited to 255 fields
+* 2GB size limitation
+
+::: {.notes}
+ESRI shapefiles are actually a collection of files stored in a directory (or zip
+file). E.g., `.shp`, `.prj`, etc.
+:::
+
 # Geospatial data formats: GeoJSON
 
 * Vector data
