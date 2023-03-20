@@ -101,66 +101,6 @@ just a special case of vector data, as are TINs._
 :::
 
 
-# Geospatial data formats: CSV/TSV
-
-* Great for simple use cases, but not geospatial
-* Lacks metadata support
-
-::: {.notes}
-* CSV can be fine for _some_ non-geospatial data, but lacks standardized support for
-  metadata (e.g. data types), and you will sometimes find CSV authors "wing it" and
-  write metadata into CSV files in non-standard format, e.g. by adding lines to the end
-  of the file.
-  [W3 suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one method
-  of embedding metadata into a CSV file, but it must be supported by the processing
-  software. The advantage of CSV is that it's a "lowest common denominator" format that
-  has broad support.
-:::
-
-# Geospatial data formats: .xlsx
-
-* Vector data
-* Great for simple use cases, but not geospatial
-* Lacks metadata support
-* Proprietary
-
-# Geospatial data formats: GeoJSON
-
-* Vector data
-* An extension of the JSON standard supporting geospatial metadata
-* Text-based, can be read by humans
-
-# Geospatial data formats: GeoTIFF
-
-* Raster data
-* An extension of the TIFF standard supporting geospatial metadata
-* Works with almost all image viewer software
-
-# Geospatial data formats: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)
-
-* Raster (and vector) data
-* Self-Describing
-* Efficient storage of multi-dimensional arrays of data (e.g., `time`,
-  `elevation`, `longitude`, `latitude` as dimensions of a `temperature`
-  variable)
-
-::: {.notes}
-Most commonly used to store raster datasets, often with additional dimensions
-(e.g., `time`, `scenario`, etc), however, [NetCDFs can store vector
-data](https://gdal.org/drivers/vector/netcdf.html)
-:::
-
-# Geospatial data formats: GeoPackage
-
-* Raster, vector, and more...
-* A specialized SQLite database supporting geospatial metadata
-* Can store datasets of different types in a single file
-
-# Geospatial data formats: More?
-
-* _TODO: More? HDF5? Collapse some of these formats into single slides?_
-
-
 # Metadata
 
 Data about data
