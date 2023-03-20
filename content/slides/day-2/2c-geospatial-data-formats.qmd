@@ -1,29 +1,8 @@
+<!--TODO: move this content into geospatial-concepts-and-terms?-->
 
 # Discussion: Geospatial data formats
 
 ## Problematic geospatial data formats {.smaller}
-
-What is "wrong" with some common geospatial data formats?
-
-* CSV/TSV
-    * Great for simple use cases, but not geospatial
-    * Lacks metadata support
-* `.xlsx`
-    * Same problems as CSV, but harder to read
-* Shapefiles
-    * An old format with some "dealbreakers"
-* _TODO: More?_
-
-::: {.notes}
-* CSV can be fine for _some_ non-geospatial data, but lacks standardized support for
-  metadata (e.g. data types), and you will sometimes find CSV authors "wing it" and
-  write metadata into CSV files in non-standard format, e.g. by adding lines to the end
-  of the file.
-  [W3 suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata) one method
-  of embedding metadata into a CSV file, but it must be supported by the processing
-  software. The advantage of CSV is that it's a "lowest common denominator" format that
-  has broad support.
-:::
 
 
 ## What makes a "good" geospatial data formats
@@ -33,32 +12,8 @@ _TODO: Finish this slide!_
 * Remember "FAIR" principles!
     * Self-documenting
     * _TODO: More!_
-
-
-## Examples of "good" geospatial data formats
-
-* GeoJSON
-    * An extension of the JSON standard supporting geospatial metadata
-    * Text-based, can be read by humans
-* GeoTIFF
-    * An extension of the TIFF standard supporting geospatial metadata
-    * Works with almost all image viewer software
-
-
-## Examples of "good" geospatial data formats
-
-* GeoPackage
-    * A specialized SQLite database supporting geospatial metadata
-    * Supports vector, raster, and more...
-    * Can store datasets of different types in a single file
-* NetCDF
-    * _TODO: Say something nice about NetCDF!_
-* _TODO: More?_
-
-
 ## TODO
 
-* Deal with slide overflow
 * Try to avoid bad/good paradigm
 * Consider discussion about how data are often organized on disk (granularity)
 * Consider discussion on "good" self-describing formats for non-geospatial data?
