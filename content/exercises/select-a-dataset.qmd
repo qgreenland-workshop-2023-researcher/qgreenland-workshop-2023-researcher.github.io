@@ -18,7 +18,8 @@ Do not take notes in Zoom chat; they will disappear.
 
 * Try to open your data in QGIS. Is that possible?
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
-    * Data type (raster, vector, etc.)
+    * Data type (raster, vector, etc.).
+      * For rasters: is it categorical or continous data? What are some of the
+        categories that are present or what does the continous variable measure?
+      * For vectors: what geometry type(s) are included and what do they represent?
     * File type (XLSX, CSV, Shapefile, NetCDF, etc)
-    * Projection
-    * Extent (e.g. corner coordinates / edge values)

@@ -17,7 +17,9 @@ Learn about a dataset and its metadata.
 * Use your JupyterLab instance to inspect your group's chosen dataset. Try a few
   different methods!
     * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, ??? in
-      a Jupyter Notebook.
+      a Jupyter Notebook. Include information like:
+        * Projection
+        * Extent (e.g. corner coordinates / edge values)
     * Include Markdown cells to tell a story: explain what each operation is
       doing, and what your group learned from the results of each operation.
 * Commit and push your notebook to GitHub.
