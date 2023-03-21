@@ -24,7 +24,7 @@ scheduled` header.
 | :------------ | :--------------- |
 | 09:00 - 09:45 | [Workshop overview and introductions](materials.qmd#day-1-overview) |
 | 09:45 - ??:?? | [Intro to JupyterLab](materials.qmd#intro-to-jupyterlab) |
-| ??:?? - ??:?? | 🥙 Break |
+| ??:?? - ??:?? | 🥙 **Break** |
 | ??:?? - ??:?? | [Review geospatial concepts and terms](materials.qmd#review-geospatial-concepts-and-terms) |
 | ??:?? - 13:00 | [Data formats and data inspection](materials.qmd#data-formats-and-data-inspection) |
 
@@ -38,7 +38,7 @@ scheduled` header.
 | 09:00 - 09:15 | [Daily overview](materials.qmd#day-2-overview) |
 | 09:15 - ??:?? | [Intro to GitHub](materials.qmd#intro-to-github) |
 | ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
-| ??:?? - ??:?? | 🍜 Break |
+| ??:?? - ??:?? | 🍜 **Break** |
 | ??:?? - ??:?? | Fixing common data/metadata issues |
 | ??:?? - 13:00 | Geospatial data transformations |
 
@@ -62,7 +62,7 @@ scheduled` header.
 | :------------ | :--------------- |
 | 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
 | 09:15 - ??:?? | Symbolizing geospatial data in QGIS |
-| ??:?? - ??:?? | 🌶️ Break |
+| ??:?? - ??:?? | 🌶️ **Break** |
 | ??:?? - ??:?? | Geospatial transformations |
 | ??:?? - 13:00  | Group dataset analysis |
 
