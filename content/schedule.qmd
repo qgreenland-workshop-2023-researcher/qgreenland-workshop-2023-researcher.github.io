@@ -42,47 +42,17 @@ This schedule is a work-in-progress and is subject to change!
 : {tbl-colwidths="[25,75]"}
 
 <!-- TODO:
-* Add slide on Zenodo to "Intro to GitHub" module
-* Add Jupyter Notebook from day 1 to repo during "Intro to GitHub" exercise
-* Fixing common metadata/data formatting problems
-    * Walk through data scenario(s)?
-    * Group activity: data scenario(s)?
 * Homework? Think about how you could perform an analysis with your chosen dataset
 * Is the lecture/discussion part of the morning too long? Can we break it up with
   exercises?
--->
 
+* Intro to GitHub
+    * Add slide on Zenodo
+    * Add Jupyter Notebook from day 1 to personal repo
 
-### Day 3
-
-| Time          | Activity         |
-| :------------ | :--------------- |
-| 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
-| 09:15 - ??:?? | Symbolizing geospatial data in QGIS |
-| ??:?? - ??:?? | 🌶️ **Break** |
-| ??:?? - ??:?? | Geospatial transformations |
-| ??:?? - 13:00  | Group dataset analysis |
-
-: {tbl-colwidths="[25,75]"}
-
-<!-- TODO:
-* Symbolizing geospatial data in QGIS
-    * Colormaps (15 minutes)
-        * `cmocean` as a strong default
-            * How to add `cmocean` to QGIS (_TODO: add link to video_)
-        * Common mistakes in choosing a colormap
-            * Colorbrewer (a useful tool, but very specific use-case)
-            * Jet / rainbow
-        * Colormap analysis with `viscm`. _TODO: consider utilizing
-          <https://github.com/nsidc/colormap-analysis>_
-    * Representing vector data attributes (10 minutes)
-        * Point markers
-        * Color
-        * Size
-        * Labels
-        * Scale dependent rendering
-    * Accessibility related concerns?
-    * Exporting layer settings as QLR
+* Fixing common metadata/data formatting problems
+    * Walk through data scenario(s)?
+    * Group activity: data scenario(s)?
 
 * Discuss geospatial data transformations
     * Concepts
@@ -111,6 +81,38 @@ This schedule is a work-in-progress and is subject to change!
           citation and other metadata which we want to keep was also pulled over. This
           means you may need to do some manual metadata management when you apply
           transformations.
+-->
+
+
+### Day 3
+
+| Time          | Activity         |
+| :------------ | :--------------- |
+| 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
+| 09:15 - ??:?? | Symbolizing geospatial data in QGIS |
+| ??:?? - ??:?? | 🌶️ **Break** |
+| ??:?? - 13:00 | Group dataset analysis |
+
+: {tbl-colwidths="[25,75]"}
+
+<!-- TODO:
+* Symbolizing geospatial data in QGIS
+    * Colormaps (15 minutes)
+        * `cmocean` as a strong default
+            * How to add `cmocean` to QGIS (_TODO: add link to video_)
+        * Common mistakes in choosing a colormap
+            * Colorbrewer (a useful tool, but very specific use-case)
+            * Jet / rainbow
+        * Colormap analysis with `viscm`. _TODO: consider utilizing
+          <https://github.com/nsidc/colormap-analysis>_
+    * Representing vector data attributes (10 minutes)
+        * Point markers
+        * Color
+        * Size
+        * Labels
+        * Scale dependent rendering
+    * Accessibility related concerns?
+    * Exporting layer settings as QLR
 
 * Exercise: Plan an analysis for your dataset
     * Choose an idea for an analysis involving your dataset.
@@ -146,7 +148,12 @@ This schedule is a work-in-progress and is subject to change!
 
 Use this time to discuss continued learning opportunities, for example:
 
+* If we run low on time:
+    * QGIS symbology
 * Advanced Git/GitHub usage
-* If we run low on time, QGIS symbology
 * Continued dataset analysis
 * Publishing derived data
+
+<!-- TODO:
+What other modules can be moved to day 4 if we're running low on time?
+--->
