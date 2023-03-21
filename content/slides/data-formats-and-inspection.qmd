@@ -6,7 +6,6 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
-
 # Geospatial data formats
 
 In general, we suggest formats that:
@@ -119,8 +118,8 @@ data](https://gdal.org/drivers/vector/netcdf.html)
 * [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
 * [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
 * [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
-* [Google (KML/KMZ)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎 
-* [HDF EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
+* [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎 
+* [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
 
 ::: {.notes}
 * ASCII Grids are used to store raster data in a ASCII text format.
@@ -129,6 +128,8 @@ data](https://gdal.org/drivers/vector/netcdf.html)
 `png`) and provide geospatial metadata.
 
 * ESRI GeoDatabases are proprietary.
+
+* HDF-EOS is built on the old HDF4 standard.
 :::
 
 
