@@ -55,10 +55,10 @@
 
 
 :::::: {.schedule-item .module}
-#### Inspecting data
+#### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides](slides/data-inspection.qmd)
+[Slides](slides/data-formats-and-inspection.qmd)
 :::
 
 ::: {.module-resource .video}

@@ -285,6 +285,7 @@ Note there are other standard representations as well, e.g., Geography Markup La
 
 ## Metadata standards
 
+* [Unified Metadata Model](https://www.earthdata.nasa.gov/unified-metadata-model-umm)
 * [NetCDF Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org/)
 * [Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata](https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/base-metadata/v2_0698.pdf)
   * CF conventions use the FGDC standards as a guide.
@@ -294,10 +295,12 @@ Note there are other standard representations as well, e.g., Geography Markup La
 * [Open Geospatial Consortium (OGC) standards](https://www.ogc.org/standards/) 🌎 
 
 ::: {.notes}
-When a dataset follows a combination of one or more common standards, GIS practitioners and tools can accurately parse information about CRS, date/time, etc.
+When a dataset follows of one or more common standards, GIS practitioners and tools can
+accurately parse information about CRS, date/time, etc.
 :::
 
-## Tools for introspecting metadata
+
+## Tools for inspecting metadata
 
 * `ogrinfo`/`gdalinfo`: CLI & Python
 * `xarray`: Python
