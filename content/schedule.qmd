@@ -26,12 +26,9 @@ scheduled` header.
 | 09:45 - ??:?? | [Intro to JupyterLab](materials.qmd#intro-to-jupyterlab) |
 | ??:?? - ??:?? | 🥙 Break |
 | ??:?? - ??:?? | [Review geospatial concepts and terms](materials.qmd#review-geospatial-concepts-and-terms) |
-| ??:?? - 13:00 | [Inspecting data](materials.qmd#inspecting-data) |
+| ??:?? - 13:00 | [Data formats and data inspection](materials.qmd#data-formats-and-data-inspection) |
 
-
-#### Content to be scheduled
-
-* Add discussion about data formats to "concepts and terms" module 
+: {tbl-colwidths="[25,75]"}
 
 
 ### Day 2
@@ -41,28 +38,22 @@ scheduled` header.
 | 09:00 - 09:15 | [Daily overview](materials.qmd#day-2-overview) |
 | 09:15 - ??:?? | [Intro to GitHub](materials.qmd#intro-to-github) |
 | ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
-| ??:?? - ??:?? | 🥙 Break |
-| ??:?? - ??:?? | ??? |
-| ??:?? - 13:00 | ??? |
+| ??:?? - ??:?? | 🍜 Break |
+| ??:?? - ??:?? | Fixing common data/metadata issues |
+| ??:?? - 13:00 | Geospatial data transformations |
 
-
-#### Content to be scheduled
-
-* Fixing common metadata/data formatting problems
-    * Walk through data scenario(s)?
-    * Group activity: data scenario(s)?
-* Homework? Think about how you could perform an analysis with your chosen dataset
+: {tbl-colwidths="[25,75]"}
 
 <!-- TODO:
 * Add slide on Zenodo to "Intro to GitHub" module
 * Add Jupyter Notebook from day 1 to repo during "Intro to GitHub" exercise
--->
-
-
-#### TODO
-
+* Fixing common metadata/data formatting problems
+    * Walk through data scenario(s)?
+    * Group activity: data scenario(s)?
+* Homework? Think about how you could perform an analysis with your chosen dataset
 * Is the lecture/discussion part of the morning too long? Can we break it up with
   exercises?
+-->
 
 
 ### Day 3
@@ -70,16 +61,15 @@ scheduled` header.
 | Time          | Activity         |
 | :------------ | :--------------- |
 | 09:00 - 09:15 | [Daily overview](materials.qmd#day-3-overview) |
-| 09:15 - ??:?? | ??? |
-| ??:?? - ??:?? | 🥙 Break |
-| ??:?? - ??:?? | ??? |
-| ??:?? - 1:00  | ??? |
+| 09:15 - ??:?? | Symbolizing geospatial data in QGIS |
+| ??:?? - ??:?? | 🌶️ Break |
+| ??:?? - ??:?? | Geospatial transformations |
+| ??:?? - 13:00  | Group dataset analysis |
 
+: {tbl-colwidths="[25,75]"}
 
-#### Content to be scheduled
-
-* Symbolizing geospatial data in QGIS
 <!-- TODO:
+* Symbolizing geospatial data in QGIS
     * Colormaps (15 minutes)
         * `cmocean` as a strong default
             * How to add `cmocean` to QGIS (_TODO: add link to video_)
@@ -95,10 +85,9 @@ scheduled` header.
         * Labels
         * Scale dependent rendering
     * Accessibility related concerns?
--->
+    * Exporting layer settings as QLR
 
 * Discuss geospatial data transformations
-<!-- TODO:
     * Concepts
         * Reprojection
             * _TODO: consider discussion about characteristics of common
@@ -125,10 +114,8 @@ scheduled` header.
           citation and other metadata which we want to keep was also pulled over. This
           means you may need to do some manual metadata management when you apply
           transformations.
--->
 
 * Exercise: Plan an analysis for your dataset
-<!-- TODO:
     * Choose an idea for an analysis involving your dataset.
     * Using a Jupyter Notebook:
         * Outline what steps you need to take to perform the analysis.
@@ -137,10 +124,8 @@ scheduled` header.
           are and how you could overcome them given the necessary resources
           (time, additional datasets, etc.).
     * Commit the notebook and push it to GitHub.
--->
 
 * Exercise: Analyze your dataset
-<!-- TODO:
     * If possible, begin to perform your group's chosen analysis.
     * If your analysis is not possible, consider one of the following activities:
         * If your group's dataset is not "QGreenland-Friendly", make it so.
@@ -152,10 +137,8 @@ scheduled` header.
         * Data analysis scenario
             * _TODO: consider additional data/analysis scenarios that groups can try if
               they have the time / do not have an analysis for their dataset._
--->
 
 * End of workshop group report
-<!-- TODO:
     * Tell us about what you learned
     * Provide a brief overview of your analysis / ideas for future analysis with
       the dataset you chose.
@@ -164,7 +147,9 @@ scheduled` header.
 
 ## Day 4 - Office hours
 
-_TODO: What are the hours? How to join office hours?_
+Use this time to discuss continued learning opportunities, for example:
 
-Use this time to discuss continued learning opportunities, for example advanced
-Git/GitHub usage.
+* Advanced Git/GitHub usage
+* If we run low on time, QGIS symbology
+* Continued dataset analysis
+* Publishing derived data
