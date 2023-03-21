@@ -2,6 +2,13 @@
 
 /*-- scss:rules --*/
 
+/* Prevent anchor links from overlapping with header:
+   https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors
+*/
+html {
+  scroll-padding-top: 85px;
+}
+
 /* Override built-in style which adds space after nested list elements */
 ul ul, ol ol, ul ol, ol ul {
   margin-bottom: 0px !important;
