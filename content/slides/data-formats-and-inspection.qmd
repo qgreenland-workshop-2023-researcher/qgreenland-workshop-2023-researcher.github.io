@@ -6,13 +6,142 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+# Geospatial data formats
+
+In general, we suggest formats that:
+
+* Are non-proprietary
+* Are broadly supported by common software tools
+* Have rich metadata support
+
+🌎 indicates an [OGC-adopted standard](https://www.ogc.org/standards/)
+
+::: {.notes}
+There are various data file formats for storing geospatial data and the
+selection of a format depends on use case and data type.
+
+The best formats for storing geospatial data have been designed for this purpose.
+Some general-purpose formats like CSV may be okay, but not great.
+:::
+
+
+## [CSV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000323.shtml)/[TSV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000533.shtml)
+
+* General-purpose
+    * Use case: vector data
+* Highly interoperable
+* Lacks metadata support
+
+::: {.notes}
+The advantage of CSV is that it's a "lowest common denominator" format that has broad
+support. However, lack of metadata support is a deal-breaker for CSV as an interoperable
+geospatial information format.
+
+CSV can be fine for _some_ non-geospatial data. Without standardized support for
+metadata (e.g. data types) you will sometimes find CSV authors "wing it" and write
+metadata into CSV files in non-standard format, e.g. by adding lines to the end
+of the file.  [W3 suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata)
+one method of embedding metadata into a CSV file, but it must be supported by the
+processing software.
+:::
+
+
+## Microsoft [.xls](https://www.loc.gov/preservation/digital/formats/fdd/fdd000510.shtml)/[.xlsx](https://www.loc.gov/preservation/digital/formats/fdd/fdd000401.shtml)
+
+* General-purpose
+    * Use case: vector data
+* Lacks metadata support
+* No support for data types
+* Proprietary (.xls)
+
+::: {.notes}
+No support for data types: "[The display of stored numbers as integers or currency is
+through display format options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)"
+
+XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing) extension
+of XML.
+:::
+
+
+## [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
+
+* Vector data
+* Field names limited to 10 characters.
+* Limited to 255 fields
+* 2GB size limitation
+
+::: {.notes}
+ESRI shapefiles are actually a collection of files stored in a directory (or zip
+file). E.g., `.shp`, `.prj`, etc.
+:::
+
+
+## [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml) 🌎
+
+* Vector data
+* An extension of the JSON standard supporting geospatial metadata
+* Text-based, can be read by humans
+
+
+## [GeoTIFF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml) 🌎
+
+* Raster data
+* An extension of the TIFF standard supporting geospatial metadata
+* Works with almost all image viewer software
+
+
+## [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) 🌎
+
+* Raster (and vector) data
+* Extension of [HDF5](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml) 🌎
+* Self-Describing
+* Efficient storage of multi-dimensional arrays of data (e.g., `time`,
+  `elevation`, `longitude`, `latitude` as dimensions of a `temperature`
+  variable)
+
+::: {.notes}
+Most commonly used to store raster datasets, often with additional dimensions
+(e.g., `time`, `scenario`, etc), however, [NetCDFs can store vector
+data](https://gdal.org/drivers/vector/netcdf.html)
+:::
+
+
+## [GeoPackage](https://www.loc.gov/preservation/digital/formats/fdd/fdd000520.shtml) 🌎
+
+* Raster, vector, and more...
+* A specialized SQLite database supporting geospatial metadata
+* Can store datasets of different types in a single file
+
+
+## Others
+
+* [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
+* [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
+* [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
+* [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎 
+* [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
+
+::: {.notes}
+* ASCII Grids are used to store raster data in a ASCII text format.
+
+* World Files are text files that accompany other raster data file (e.g., `jpeg`,
+`png`) and provide geospatial metadata.
+
+* ESRI GeoDatabases are proprietary.
+
+* HDF-EOS is built on the old HDF4 standard.
+:::
+
+
 <!-- TODO: Slide on `gdalsrsinfo`? -->
 
+# Inspecting Data
 
-# What tool should I use?
+## What tool should I use?
 
-The best one for the job. Explore the alternatives available in the ecosystem
-you want to work!
+The best one for the job.
+
+Explore the alternatives available in the ecosystem you want to work!
 
 ::: {.notes}
 Tool selection is context-dependent.
