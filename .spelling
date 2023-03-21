@@ -11,11 +11,14 @@ EarthCube
 Flickr
 Foobarbaz
 GCPs
+GeoDatabase
+GeoDatabases
 GeoJSON
 GeoPackage
 GeoPackages
 GeoTIFF
 GitHub
+HDF-EOS
 ICESat
 ICESat-2
 Icebridge
@@ -28,6 +31,8 @@ JupyterLabs
 MacOS
 MkDocs
 NetCDF
+NetCDFs
+OGC-adopted
 PyQGIS
 QGreenland
 RPCs
@@ -90,10 +95,12 @@ resample
 resampling
 revealjs
 rioxarray
+shapefiles
 subsetted
 subsetting
 superset
 uncategorized
+xls
 xlsx
 walkthrough
 wellbeing

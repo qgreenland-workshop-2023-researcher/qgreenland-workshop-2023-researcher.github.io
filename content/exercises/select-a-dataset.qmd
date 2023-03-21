@@ -19,8 +19,8 @@ Do not take notes in Zoom chat; they will disappear.
 * Try to open your data in QGIS. Is that possible?
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
     * Data type (raster, vector, etc.).
-        * For rasters: is it categorical or continous data? What are some of
-          the categories that are present or what does the continous variable
+        * For rasters: is it categorical or continuous data? What are some of
+          the categories that are present or what does the continuous variable
           measure?
         * For vectors: what geometry type(s) are included and what do they
           represent? What are some attributes?
