@@ -2,6 +2,11 @@
 
 /*-- scss:rules --*/
 
+/* Override built-in style which adds space after nested list elements */
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0px !important;
+}
+
 .schedule-item {
   padding: 0em 1em 1em 3em;
   margin-bottom: 15px;
