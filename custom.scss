@@ -3,7 +3,7 @@
 /*-- scss:rules --*/
 
 $module-bg-color: rgba(188, 188, 254, 0.25);
-$module-bg-color-highlight: rgba(254, 254, 254, 0.5);
+$module-bg-color-highlight: rgba(188, 188, 254, 0.75);
 
 
 /* Prevent anchor links from overlapping with header:
@@ -65,11 +65,10 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 /* Highlight target when using an anchor link */
-.module:target {
+.schedule-item:target {
    animation-name: ref-animation;
    animation-duration: 3s;
 }
 @keyframes ref-animation {
    from { background-color: $module-bg-color-highlight; }
-   to   { background-color: $module-bg-color; }
 }
