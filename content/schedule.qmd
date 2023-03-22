@@ -36,7 +36,7 @@ This schedule is a work-in-progress and is subject to change!
 | 09:15 - ??:?? | [Intro to GitHub](materials.qmd#intro-to-github) |
 | ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
 | ??:?? - ??:?? | 🍜 **Break** |
-| ??:?? - ??:?? | Fixing common data/metadata issues |
+| ??:?? - ??:?? | [Fixing common data/metadata issues](materials.qmd#fixing-common-datametadata-issues) |
 | ??:?? - 13:00 | Geospatial data transformations |
 
 : {tbl-colwidths="[25,75]"}
@@ -49,10 +49,6 @@ This schedule is a work-in-progress and is subject to change!
 * Intro to GitHub
     * Add slide on Zenodo
     * Add Jupyter Notebook from day 1 to personal repo
-
-* Fixing common metadata/data formatting problems
-    * Walk through data scenario(s)?
-    * Group activity: data scenario(s)?
 
 * Discuss geospatial data transformations
     * Concepts

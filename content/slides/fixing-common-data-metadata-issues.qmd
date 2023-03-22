@@ -1,0 +1,42 @@
+---
+title: "Fixing common data/metadata issues"
+subtitle: "QGreenland Researcher Workshop 2023"
+background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+title-slide-attributes:
+  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+---
+
+## Fixing common data/metadata issues
+
+* `ogr2ogr`
+* `gdal_translate`
+* `gdal_edit.py`
+* _TODO: More_
+
+
+## TODO: Walkthrough a simple scenario
+
+_TODO: Data scenario number 1?_
+
+
+## TODO: Advanced techniques
+
+* _TODO: briefly mention techniques like georegistration, bias correction?_
+
+
+## What if I can't find a way to fix my data?
+
+Metadata may be undocumented or incorrectly documented; contact data producer!
+
+::: {.callout-warning}
+It's possible nobody living knows how to fix the problem!
+:::
+
+::: {.notes}
+Worst-case scenarios:
+
+* If the metadata is incorrectly documented, there may be no way to "guess" the correct
+  configuration. Contacting the originator may be the _only_ way forward. 
+* Data originator may have passed away, changed careers, stopped checking their
+  email, or forgotten about the data you're working with.
+:::

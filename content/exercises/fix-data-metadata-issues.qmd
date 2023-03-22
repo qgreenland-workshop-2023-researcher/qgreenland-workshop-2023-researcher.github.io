@@ -1,0 +1,21 @@
+# Fixing an issue with data/metadata
+
+## 🧭 Explore data scenarios
+
+Browse [data scenarios](data-scenarios.qmd) and select one which interests your
+group.
+
+
+## 🛠️ Resolve at least one scenario
+
+Build a Jupyter Notebook that resolves a scenario.
+
+Commit your solution notebook to your GitHub repository.
+
+
+## 👐 Consider your group's selected dataset
+
+Does your chosen dataset have issues that need fixing? Explore those issues in
+a Jupyter Notebook.
+
+Commit your notebook to your GitHub repository.
