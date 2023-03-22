@@ -2,6 +2,10 @@
 
 /*-- scss:rules --*/
 
+$module-bg-color: rgba(188, 188, 254, 0.25);
+$module-bg-color-highlight: rgba(254, 254, 254, 0.5);
+
+
 /* Prevent anchor links from overlapping with header:
    https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors
 */
@@ -9,11 +13,14 @@ html {
   scroll-padding-top: 85px;
 }
 
+
 /* Override built-in style which adds space after nested list elements */
 ul ul, ol ol, ul ol, ol ul {
   margin-bottom: 0px !important;
 }
 
+
+/* Custom "blocks" for schedule elements */
 .schedule-item {
   padding: 0em 1em 1em 3em;
   margin-bottom: 15px;
@@ -28,7 +35,7 @@ ul ul, ol ol, ul ol, ol ul {
 .module {
   border: 1px solid #2780e3;
   border-radius: 5px;
-  background-color: rgba(188, 188, 254, 0.25);
+  background-color: $module-bg-color;
 }
 
 .module-resource {
@@ -57,3 +64,12 @@ ul ul, ol ol, ul ol, ol ul {
   position: absolute;
 }
 
+/* Highlight target when using an anchor link */
+.module:target {
+   animation-name: ref-animation;
+   animation-duration: 3s;
+}
+@keyframes ref-animation {
+   from { background-color: $module-bg-color-highlight; }
+   to   { background-color: $module-bg-color; }
+}
