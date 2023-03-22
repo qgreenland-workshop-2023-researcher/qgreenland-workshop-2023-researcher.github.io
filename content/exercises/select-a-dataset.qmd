@@ -1,4 +1,3 @@
-
 # Select and analyze a dataset (15 minutes)
 
 ## 🤔 Select a dataset as a group

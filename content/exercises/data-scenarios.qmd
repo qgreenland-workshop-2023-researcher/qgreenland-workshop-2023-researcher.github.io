@@ -4,5 +4,3 @@ listing:
   type: "table"
   contents: "data-scenarios"
 ---
-
-For each scenario, please make the data usable with QGIS.
