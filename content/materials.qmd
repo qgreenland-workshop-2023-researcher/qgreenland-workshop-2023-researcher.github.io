@@ -142,7 +142,7 @@
 #### Geospatial data transformations
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/?.qmd)
+[Slides (WIP)](slides/geospatial-data-transformations.qmd)
 :::
 
 ::: {.module-resource .video}
@@ -167,13 +167,36 @@
 
 
 :::::: {.schedule-item .module}
-#### All of day 3 is a WIP
+#### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides (TODO)](slides/day-3.qmd)
+[Slides (WIP)](slides/symbology-with-qgis.qmd)
 :::
 
 ::: {.module-resource .video}
 [Video (TODO)](https://example.com)
 :::
+
+::: {.module-resource .exercise}
+[Exercise: TODO (?? minutes)](exercises/?.qmd)
+:::
+::::::
+
+
+::: {.schedule-item .break}
+#### 🥪 Break: 60 minutes
+:::
+
+
+:::::: {.schedule-item .module}
+#### Group dataset analysis
+
+::: {.module-resource .exercise}
+[Exercise: Plan an analysis (?? minutes)](exercises/dataset-analysis-plan.qmd)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Implement analysis notebook (?? minutes)](exercises/dataset-analysis-notebook.qmd)
+:::
+
 ::::::
