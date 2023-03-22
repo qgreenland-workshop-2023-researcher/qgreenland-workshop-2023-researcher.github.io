@@ -150,7 +150,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: ? (?? minutes)](exercises/?.qmd)
+[Exercise: TODO (?? minutes)](exercises/?.qmd)
 :::
 ::::::
 

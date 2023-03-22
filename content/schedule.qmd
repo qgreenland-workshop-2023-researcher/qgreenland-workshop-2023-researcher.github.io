@@ -37,7 +37,7 @@ This schedule is a work-in-progress and is subject to change!
 | ??:?? - ??:?? | [Review Open Science (and data) principles](materials.qmd#review-open-science-and-data-principles) |
 | ??:?? - ??:?? | 🍜 **Break** |
 | ??:?? - ??:?? | [Fixing common data/metadata issues](materials.qmd#fixing-common-datametadata-issues) |
-| ??:?? - 13:00 | Geospatial data transformations |
+| ??:?? - 13:00 | [Geospatial data transformations](materials.qmd#geospatial-data-transformations) |
 
 : {tbl-colwidths="[25,75]"}
 
