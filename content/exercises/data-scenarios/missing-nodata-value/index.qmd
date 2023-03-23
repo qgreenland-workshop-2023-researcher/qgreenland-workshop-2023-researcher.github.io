@@ -27,3 +27,15 @@ important phrase at the top of page 4:
 Since you don't need this dataset to represent ocean locations (and it covers up your
 basemap), you decide you'd like to encode this ocean value in the metadata as a NoData
 value.
+
+
+## Validation
+
+The dataset should not show ocean values when initially opened in QGIS.
+
+::: {.callout-note}
+This problem can be solved with symbology, but that's not what we're shooting
+for here. We want a file with the ocean pixels encoded internally as NoData
+values so we can share it with others and they won't have to deal with this
+issue.
+:::
