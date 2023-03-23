@@ -1,9 +1,19 @@
-
 # Make a GitHub repository (40 minutes)
 
-* Create repository.
-    * _TODO: how should the repository be named? Consider mentioning the difficulties
-      around naming. Guidelines?_
+
+## ✨ Create repository for your group
+
+Pick a person in your group to "drive" a screen share and do the following
+steps:
+
+* Your repository should be named with convention: _TODO: Convention!_
+
+::: {.callout-warning}
+It's expected that participants will work in the GitHub browser interface. If
+you prefer to work at the CLI or use branches, it's expected that you will
+support your group if any issues like merge conflicts arise.
+:::
+
 * Add a `README.md` file:
     * Introduce your team members by their GitHub user IDs
     * Identify the dataset your group has chosen.
@@ -16,8 +26,6 @@
 
 ## TODO
 
-* _TODO: Create a dedicated organization for workshop participants to use, grant
-  privileges to create repositories._
-* _TODO: Think more about what exactly we want people to do in the last 20 min_
+* _TODO: Figure out how permissions will be handled._
 * _TODO: Should there be a second deliverable here? A git commit? A GitHub
   discussion? Some kind of reflection on the day?_
