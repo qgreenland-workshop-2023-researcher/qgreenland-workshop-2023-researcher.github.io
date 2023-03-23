@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu
 
 # Make a copy of the data that we will apply edits to.
 cp dem_without_metadata.tif dem_without_metadata_edited.tif
