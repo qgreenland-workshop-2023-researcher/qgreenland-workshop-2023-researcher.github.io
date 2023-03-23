@@ -29,11 +29,15 @@ your preferred ecosystem and you'll find equivalents.
 
 [Link](/content/exercises/data-scenarios/01-missing-metadata)
 
+:::: {.columns}
+
+:::{.column}
 ![QGreenland screenshot of layer with missing
 metadata](/_media/qgreenland_missing_metadata.png)
+:::
 
-<!-- TODO: Use columns to also display gdalinfo output showing the corner coordinate is 0,0 -->
-```
+:::{.column}
+```{.text  code-line-numbers="10"}
 Driver: GTiff/GeoTIFF
 Files: bamber_greenland_dem.tif
 Size is 301, 561
@@ -50,6 +54,9 @@ Lower Right (  301.0,  561.0)
 Center      (  150.5,  280.5)
 Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ```
+:::
+
+::::
 
 
 ## Data scenario #1: Solution
