@@ -6,17 +6,60 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
-## Fixing common data/metadata issues
+## What tool should I use?
 
-* `ogr2ogr`
-* `gdal_translate`
-* `gdal_edit.py`
-* _TODO: More_
+The best one for the job.
+
+Explore the alternatives available in the ecosystem you want to work!
+
+::: {.notes}
+You may recognize this slide from the "data inspection" deck.
+
+Tool selection is context-dependent.
+
+Command-line tools are especially useful for getting a quick answer.
+
+Language-specific tools are good for automations or research code. These
+examples use Python because that's what we're most familiar with, but explore
+your preferred ecosystem and you'll find equivalents.
+:::
 
 
-## TODO: Walkthrough a simple scenario
+## Data scenario #1: Missing metadata
 
-_TODO: Data scenario number 1?_
+[Link](/content/exercises/data-scenarios/01-missing-metadata)
+
+![QGreenland screenshot of layer with missing
+metadata](/_media/qgreenland_missing_metadata.png)
+
+<!-- TODO: Use columns to also display gdalinfo output showing the corner coordinate is 0,0 -->
+```
+Driver: GTiff/GeoTIFF
+Files: bamber_greenland_dem.tif
+Size is 301, 561
+Metadata:
+  TIFFTAG_XRESOLUTION=1
+  TIFFTAG_YRESOLUTION=1
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  (    0.0,    0.0)
+Lower Left  (    0.0,  561.0)
+Upper Right (  301.0,    0.0)
+Lower Right (  301.0,  561.0)
+Center      (  150.5,  280.5)
+Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
+```
+
+
+## Data scenario #1: Solution
+
+```console
+```
+
+
+## Data scenario #1: All better!
+
 
 
 ## TODO: Advanced techniques

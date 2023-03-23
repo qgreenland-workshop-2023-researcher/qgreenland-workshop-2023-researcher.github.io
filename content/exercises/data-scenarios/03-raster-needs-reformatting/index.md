@@ -1,4 +1,4 @@
-# Data Scenario #4: Raster Data Needs Reformatting
+# Data Scenario #3: Raster Data Needs Reformatting
 
 A colleague e-mails you aerial imagery of a potential study site that you would
 like to view in QGIS alongside some other data. The person who provided the data
