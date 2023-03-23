@@ -1,4 +1,4 @@
-# Data Scenario #2: Vector Data Needs Reformatting
+# Data Scenario: Vector Data Needs Reformatting
 
 You read a research publication about correlation between the chemistry of blood samples
 taken from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as

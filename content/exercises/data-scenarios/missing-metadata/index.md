@@ -8,7 +8,7 @@ listing:
     - "*"
 ---
 
-# Data Scenario #1: Missing Metadata
+# Data Scenario: Missing Metadata
 
 ::: {#file-listing}
 :::
