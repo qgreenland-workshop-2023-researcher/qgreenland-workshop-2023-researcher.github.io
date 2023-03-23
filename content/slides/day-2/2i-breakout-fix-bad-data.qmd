@@ -1,9 +1,0 @@
-
-# Breakout: Fix "bad" data (20 minutes)
-
-## Breakout: Fix "bad" data
-
-_TODO: Draft_
-
-* Does your chosen dataset have issues that need fixing?
-* What should groups do if not? Explore Data Scenarios?

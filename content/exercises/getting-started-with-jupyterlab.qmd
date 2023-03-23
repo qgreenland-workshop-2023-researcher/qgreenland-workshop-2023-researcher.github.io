@@ -1,4 +1,3 @@
-
 # Getting started with JupyterLab (30 minutes)
 
 ::: {.callout-note}
