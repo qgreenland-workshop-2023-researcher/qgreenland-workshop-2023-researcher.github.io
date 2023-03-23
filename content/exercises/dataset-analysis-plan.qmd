@@ -2,7 +2,7 @@
 
 ## 💬 Discuss your group's ideas for analysis
 
-Come to a team agreement on the analysis you'd like to perform. Choose an
+Come to a team agreement on the analysis you would like to perform. Choose an
 analysis that will be at least partially achievable during the workshop. You
 may want to continue the analysis post-workshop.
 
