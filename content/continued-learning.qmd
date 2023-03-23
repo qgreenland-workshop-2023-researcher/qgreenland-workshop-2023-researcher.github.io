@@ -3,6 +3,11 @@
 For continued learning, please consider the following external resources.
 
 
+## Live collaboration
+
+* [Tuple's pair programming guide](https://tuple.app/pair-programming-guide/)
+
+
 ## JupyterHub/Lab
 
 * [YouTube: CryoCloud onboarding training (1:59:00)](https://www.youtube.com/watch?v=QNrDlwiomgc&feature=youtu.be)

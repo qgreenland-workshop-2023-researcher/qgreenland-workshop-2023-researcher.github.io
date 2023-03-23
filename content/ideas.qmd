@@ -19,6 +19,8 @@
   QGreenland and the workshop small group as collaborators?
 * Should we have a module about integrating GitHub with Zenodo to create DOIs?
 * Consider discussion about how data are often organized on disk (granularity)
+* Module on live group collaboration (in the style of pair/group programming)
+
 
 ## Breakout room activity ideas
 
