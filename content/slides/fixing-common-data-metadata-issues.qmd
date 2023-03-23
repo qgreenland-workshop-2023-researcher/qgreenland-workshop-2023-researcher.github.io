@@ -95,6 +95,41 @@ space.
 ![QGreenland screenshot of layer with edited
 metadata](/_media/qgreenland_edited_metadata.png)
 
+## Data scenario #2: Vector data needs reformatting
+
+[Link](/content/exercises/data-scenarios/02-vector-needs-reformatting)
+
+:::: {.columns}
+
+::: {.column}
+![xlsx vector data](/_media/qgreenland_scenario1_table.png)
+:::
+
+::: {.column}
+```{.console code-line-numbers="5|6,10-11|8-9"}
+$ ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
+INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
+      using driver `XLSX' successful.
+
+Layer name: Sheet1
+Geometry: None
+Feature Count: 12
+Layer SRS WKT:
+(unknown)
+x: Real (0.0)
+y: Real (0.0)
+cuteness_rating: Real (0.0)
+blood_acetone_grams_per_ml: Real (0.0)
+blood_acetylcholine_grams_per_ml: Real (0.0)
+```
+:::
+
+::::
+
+:::{.notes}
+The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
+indicates the data is in a "WGS84" projection.
+:::
 
 ## TODO: Advanced techniques
 
