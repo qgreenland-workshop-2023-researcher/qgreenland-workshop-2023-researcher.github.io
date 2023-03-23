@@ -31,12 +31,6 @@ title-slide-attributes:
 ::::
 
 
-## Value of version control and doing work "in the open"
-
-* GitHub Discussions
-* _TODO: Example Open Source research repositories?_
-
-
 ## Important data principles: [FAIR](https://www.go-fair.org/fair-principles/)
 
 <!-- TODO: more links! -->

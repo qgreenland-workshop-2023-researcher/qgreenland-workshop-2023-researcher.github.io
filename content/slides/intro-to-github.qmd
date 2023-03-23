@@ -8,14 +8,21 @@ title-slide-attributes:
 
 <!-- TODO:
 * Add slide on Zenodo
+* GitHub discussions
+* Example Open Source research repositories?
 * Add Jupyter Notebook from day 1 to personal repo
 -->
 
 ## Working "in the open"
 
+![<https://allisonhorst.com>](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e4a11b1f-f235-461f-ab73-ce6128c59e49.png?h=dc95847637c97b0d5f5c993e906f2ccd)
+
+
+## Working "in the open"
+
 * Open Science principles can apply to work in progress, too!
-* Open Science is easier if you are open from the beginning.
-* Git is not just for coders!
+    * Easier if you are open from the beginning.
+* Git/Hub is not just for coders!
     * Documentation in GitHub as an Open Science methodology
 
 ::: {.notes}
@@ -46,4 +53,6 @@ QGreenland data layer as an example.
 * GitHub-Flavored Markdown
     * [Basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
       [Full specification](https://github.github.com/gfm/)
-* _TODO: What else?_
+* [Allison Horst's Git/Hub illustrations](https://allisonhorst.com/git-github)
+* _TODO: More!_
+* _TODO: More_
