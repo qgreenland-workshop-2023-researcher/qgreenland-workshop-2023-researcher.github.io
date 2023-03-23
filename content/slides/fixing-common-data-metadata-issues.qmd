@@ -92,6 +92,8 @@ space.
 
 ## Data scenario #1: All better!
 
+![QGreenland screenshot of layer with edited
+metadata](/_media/qgreenland_edited_metadata.png)
 
 
 ## TODO: Advanced techniques
