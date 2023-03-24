@@ -412,6 +412,13 @@ CRS.from_epsg(3413)
 * `ogrinfo --help`
 * `man ogrinfo`
 
+:::{.note}
+"OGR" used to stand for "OpenGIS Simple Features Reference Implementation" but
+is now the name is "OGR Simple Features Library". "OGR" is left for historical
+reasons. [OSGeo GDAL
+FAQ](https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatdoesOGRstandfor)
+:::
+
 
 ## Vector data inspection: `ogrinfo`
 
