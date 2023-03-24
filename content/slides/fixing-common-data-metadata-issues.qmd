@@ -133,6 +133,8 @@ indicates the data is in a "WGS84" projection.
 
 ## Data scenario #2: Solution
 
+:::: {.r-fit-text}
+
 The `gdal` [VRT](https://gdal.org/drivers/vector/vrt.html) driver can be used.
 
 Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
@@ -158,9 +160,13 @@ $ ogr2ogr \
 >   kcbcc_DS4_final_v2_final.vrt
 ```
 
+::::
+
 :::{.notes}
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
 ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc.
+
+The `-nln` flag in the `ogr2ogr` command sets the new layer name.
 
 Note that there are other approaches that use `ogr2ogr` as well. E.g., the
 [`with_ogr2ogr.sh`
