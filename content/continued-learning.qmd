@@ -29,6 +29,7 @@ For continued learning, please consider the following external resources.
 * [ESRI: Coordinate Systems: What's the
   Difference?](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
 * [Proj4 parameters](https://en.wikibooks.org/wiki/PROJ.4#Parameters)
+* [Data Carpentry: Coordinate Reference Systems](https://datacarpentry.org/organization-geospatial/03-crs/)
 
 
 ### Datum
