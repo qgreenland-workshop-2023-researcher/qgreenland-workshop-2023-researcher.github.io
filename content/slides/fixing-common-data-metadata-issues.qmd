@@ -390,7 +390,7 @@ The `-a_ullr` option takes an array of numbers: ulx, uly, lrx, lry
 
 ## Raster needs reformatting: All better!
 
-```{.console code-line-numbers="|5-41|50"}
+```{.console code-line-numbers="|5-41|43,49-50"}
 $ gdalinfo datafile.tif
 Driver: GTiff/GeoTIFF
 Files: datafile.tif
