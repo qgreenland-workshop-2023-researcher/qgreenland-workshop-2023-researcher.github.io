@@ -1,0 +1,41 @@
+---
+listing:
+  id: "file-listing"
+  type: "table"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "*"
+---
+
+# Data Scenario: Missing NoData value
+
+::: {#file-listing}
+:::
+
+You download the dataset `bambgrl_dem_5km_corrected.tif` [from
+NSIDC](https://nsidc.org/data/nsidc-0092/versions/1) and open it in QGIS. You
+observe that ocean values all appear black. You use the **Identify tool** to
+verify all the black values are the same: `-0.1`.
+
+At this point, you're not sure what this represents, so you consult the [user
+guide](https://nsidc.org/sites/default/files/nsidc-0092-v001-userguide.pdf) to find this
+important phrase at the top of page 4:
+
+>DEM values of -0.1 m represent ocean
+
+Since you don't need this dataset to represent ocean locations (and it covers up your
+basemap), you decide you'd like to encode this ocean value in the metadata as a NoData
+value.
+
+
+## Validation
+
+The dataset should not show ocean values when initially opened in QGIS.
+
+::: {.callout-note}
+This problem can be solved with symbology, but that's not what we're shooting
+for here. We want a file with the ocean pixels encoded internally as NoData
+values so we can share it with others and they won't have to deal with this
+issue.
+:::

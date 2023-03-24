@@ -27,7 +27,7 @@ your preferred ecosystem and you'll find equivalents.
 
 ## Data scenario #1: Missing metadata
 
-[Link](/content/exercises/data-scenarios/01-missing-metadata)
+[Link](/content/exercises/data-scenarios/missing-metadata)
 
 :::: {.columns}
 
@@ -97,7 +97,7 @@ metadata](/_media/qgreenland_edited_metadata.png)
 
 ## Data scenario #2: Vector data needs reformatting
 
-[Link](/content/exercises/data-scenarios/02-vector-needs-reformatting)
+[Link](/content/exercises/data-scenarios/vector-needs-reformatting)
 
 :::: {.columns}
 
@@ -133,7 +133,7 @@ indicates the data is in a "WGS84" projection.
 
 ## Data scenario #2: Solution
 
-The `gdal` [vrt](https://gdal.org/drivers/vector/vrt.html) driver can be used.
+The `gdal` [VRT](https://gdal.org/drivers/vector/vrt.html) driver can be used.
 
 Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 
@@ -160,12 +160,12 @@ $ ogr2ogr \
 
 :::{.notes}
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
-ogr2ogr to transform the data into a geopackage, geojson, etc.
+ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc.
 
 Note that there are other approaches that use `ogr2ogr` as well. E.g., the
 [`with_ogr2ogr.sh`
-solution](/content/exercises/data-scenarios/02-vector-needs-reformatting/solution/with_ogr2ogr.sh)
-uses an SQL query to generate geojson with the correct metadata.
+solution](/content/exercises/data-scenarios/vector-needs-reformatting/solution/with_ogr2ogr.sh)
+uses an SQL query to generate GeoJSON with the correct metadata.
 :::
 
 ## Data scenario #2: Solution
