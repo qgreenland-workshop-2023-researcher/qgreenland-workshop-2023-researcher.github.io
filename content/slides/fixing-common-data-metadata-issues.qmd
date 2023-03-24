@@ -176,7 +176,7 @@ metadata](/_media/qgreenland_edited_metadata.png)
 :::
 
 ::: {.column}
-```{.console code-line-numbers="5|6,10-11|8-9"}
+```{.console code-line-numbers="|5|6,10-11|8-9"}
 $ ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
 INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
       using driver `XLSX' successful.
@@ -249,7 +249,7 @@ solution](/content/exercises/data-scenarios/vector-needs-reformatting/solution/w
 uses an SQL query to generate GeoJSON with the correct metadata.
 :::
 
-## Vector data needs reformatting: Solution
+## Vector data needs reformatting: All better!
 
 ```
 $ cat output.geojson | jq
@@ -289,6 +289,47 @@ vector layers in QGreenland but GeoJSON is easily human readable, and the output
 as formatted by `jq` shows that the required CRS information is now present and
 that point geometries have been created from the records in the orignal XLSX file.
 :::
+
+## Vector data needs reformatting: All better!
+
+```{.console code-line-numbers="|5|6-8|9-23"}
+$ ogrinfo -al -so output.geojson
+INFO: Open of `output.geojson'
+      using driver `GeoJSON' successful.
+
+Layer name: kcbcc
+Geometry: Point
+Feature Count: 12
+Extent: (-63.307095, 64.081793) - (-22.181734, 76.963005)
+Layer SRS WKT:
+GEOGCRS["WGS 84",
+    DATUM["World Geodetic System 1984",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    ID["EPSG",4326]]
+Data axis to CRS axis mapping: 2,1
+cuteness_rating: Real (0.0)
+blood_acetone_grams_per_ml: Real (0.0)
+blood_acetylcholine_grams_per_ml: Real (0.0)
+```
+
+:::{.notes}
+`ogrinfo` confirms the metadata we were able to visually see in the structure of the
+GeoJSON in the previous slide is understandable to gdal.
+
+The layer has the name we provided `ogr2ogr`, has 12 point features, and a
+defined SRS (EPSG:4326, WGS84)
+:::
+
 
 ## Vector data needs reformatting: All better!
 
