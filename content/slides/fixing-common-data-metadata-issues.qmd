@@ -70,18 +70,18 @@ of data from NSIDC; it's been modified from the original
 
 First, make a copy of the data that we will apply edits to:
 ```{.console}
-$ cp dem_without_metadata.tif dem_without_metadata_edited.tif
+$ cp dem_without_metadata.tif dem_with_metadata.tif
 ```
 
 Next, use `gdal_edit.py` to edit, in place, the metadata of
-`dem_without_metadata_edited.tif` with the information provided to us in the
+`dem_with_metadata.tif` with the information provided to us in the
 dataset landing page.
 
 ```{.console}
 $ gdal_edit.py \
 > -a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
 > -a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
-> dem_without_metadata_edited.tif
+> dem_with_metadata.tif
 ```
 
 ::: {.notes}
@@ -92,7 +92,115 @@ space.
 
 ## Data scenario #1: All better!
 
+![QGreenland screenshot of layer with edited
+metadata](/_media/qgreenland_edited_metadata.png)
 
+## Data scenario #2: Vector data needs reformatting
+
+[Link](/content/exercises/data-scenarios/02-vector-needs-reformatting)
+
+:::: {.columns}
+
+::: {.column}
+![xlsx vector data](/_media/qgreenland_scenario1_table.png)
+:::
+
+::: {.column}
+```{.console code-line-numbers="5|6,10-11|8-9"}
+$ ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
+INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
+      using driver `XLSX' successful.
+
+Layer name: Sheet1
+Geometry: None
+Feature Count: 12
+Layer SRS WKT:
+(unknown)
+x: Real (0.0)
+y: Real (0.0)
+cuteness_rating: Real (0.0)
+blood_acetone_grams_per_ml: Real (0.0)
+blood_acetylcholine_grams_per_ml: Real (0.0)
+```
+:::
+
+::::
+
+:::{.notes}
+The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
+indicates the data is in a "WGS84" projection.
+:::
+
+## Data scenario #2: Solution
+
+The `gdal` [vrt](https://gdal.org/drivers/vector/vrt.html) driver can be used.
+
+Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
+
+```{.text}
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Sheet1">
+        <SrcDataSource>kcbcc_DS4_final_v2_final.xlsx</SrcDataSource>
+        <SrcLayer>Sheet1</SrcLayer>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="x" y="y" reportSrcColumn="FALSE" />
+    </OGRVRTLayer>
+</OGRVRTDataSource>
+```
+
+Then, use `ogr2ogr`:
+
+```{.console}
+$ ogr2ogr \
+>   -nln "kcbcc" \
+>   output.geojson \
+>   kcbcc_DS4_final_v2_final.vrt
+```
+
+:::{.notes}
+A `.vrt` file that sits alongside the xlsx file containing the above will allow
+ogr2ogr to transform the data into a geopackage, geojson, etc.
+
+Note that there are other approaches that use `ogr2ogr` as well. E.g., the
+[`with_ogr2ogr.sh`
+solution](/content/exercises/data-scenarios/02-vector-needs-reformatting/solution/with_ogr2ogr.sh)
+uses an SQL query to generate geojson with the correct metadata.
+:::
+
+## Data scenario #2: Solution
+
+```
+$ >> cat output.geojson | jq
+{
+  "type": "FeatureCollection",
+  "name": "kcbcc",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cuteness_rating": 9.226,
+        "blood_acetone_grams_per_ml": 1.945e-05,
+        "blood_acetylcholine_grams_per_ml": 7.22e-08
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3070952173288,
+          76.9630048613197
+        ]
+      }
+    },
+    ...<clipped for brevity>...
+  ]
+}
+```
 
 ## TODO: Advanced techniques
 
