@@ -25,7 +25,7 @@ your preferred ecosystem and you'll find equivalents.
 :::
 
 
-## Data scenario #1: Missing metadata
+## Data scenario: Missing metadata
 
 [Link](/content/exercises/data-scenarios/missing-metadata)
 
@@ -66,7 +66,7 @@ of data from NSIDC; it's been modified from the original
 :::
 
 
-## Data scenario #1: Solution
+## Missing metadata: Solution
 
 First, make a copy of the data that we will apply edits to:
 ```{.console}
@@ -90,12 +90,12 @@ supports metadata required by tools like `qgis` to correctly locate the data in
 space.
 :::
 
-## Data scenario #1: All better!
+## Missing Metadata: All better!
 
 ![QGreenland screenshot of layer with edited
 metadata](/_media/qgreenland_edited_metadata.png)
 
-## Data scenario #2: Vector data needs reformatting
+## Data scenario: Vector data needs reformatting
 
 [Link](/content/exercises/data-scenarios/vector-needs-reformatting)
 
@@ -131,7 +131,7 @@ The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
 indicates the data is in a "WGS84" projection.
 :::
 
-## Data scenario #2: Solution
+## Vector data needs reformatting: Solution
 
 :::: {.r-fit-text}
 
@@ -174,7 +174,7 @@ solution](/content/exercises/data-scenarios/vector-needs-reformatting/solution/w
 uses an SQL query to generate GeoJSON with the correct metadata.
 :::
 
-## Data scenario #2: Solution
+## Vector data needs reformatting: Solution
 
 ```
 $ cat output.geojson | jq
