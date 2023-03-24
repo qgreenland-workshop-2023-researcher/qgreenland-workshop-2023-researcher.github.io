@@ -171,7 +171,7 @@ uses an SQL query to generate GeoJSON with the correct metadata.
 ## Data scenario #2: Solution
 
 ```
-$ >> cat output.geojson | jq
+$ cat output.geojson | jq
 {
   "type": "FeatureCollection",
   "name": "kcbcc",
