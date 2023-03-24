@@ -293,6 +293,34 @@ corner coordinates is (0, 0). If we plotted this in QGIS, it would place the ULC
 at the geographic north pole.
 :::
 
+## Raster needs reformatting: solution
+
+```{.console}
+$ gdal_translate -a_srs datafile.prj \
+> -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
+> datafile.jpg datafile.tif
+```
+
+## Raster needs reformatting: All better!
+:::: {.columns}
+
+::: {.column}
+![](/_media/qgreenland_raster_reformatted1.png)
+:::
+
+::: {.column}
+![](/_media/qgreenland_raster_reformatted2.png){fig-align="center"}
+:::
+
+::::
+
+:::{.notes}
+The image data is now correctly positioned, as shown in these screenshots from
+QGreenland which has the "Reference/Borders/Greenland coastlines 2017" overlaid
+and the "Internet-required data/Greenland image mosaic 2015 (15m)" as background
+imagery. Lat/lon lines are shown for reference.
+:::
+
 
 ## TODO: Advanced techniques
 
