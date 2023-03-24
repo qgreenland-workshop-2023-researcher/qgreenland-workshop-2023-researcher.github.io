@@ -90,6 +90,76 @@ supports metadata required by tools like `qgis` to correctly locate the data in
 space.
 :::
 
+
+## Missing Metadata: All better!
+
+```{.console code-line-numbers="|5-42|44,52-53|45"}
+$ gdalinfo dem_with_metadata.tif
+Driver: GTiff/GeoTIFF
+Files: dem_with_metadata.tif
+Size is 301, 561
+Coordinate System is:
+PROJCRS["unknown",
+    BASEGEOGCRS["unknown",
+        DATUM["unknown",
+            ELLIPSOID["unknown",6378137,298.257024882273,
+                LENGTHUNIT["metre",1,
+                    ID["EPSG",9001]]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]],
+    CONVERSION["Polar Stereographic (variant B)",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",71,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",-39,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["(E)",south,
+            MERIDIAN[90,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",south,
+            MERIDIAN[180,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[2],
+            LENGTHUNIT["metre",1]]]
+Data axis to CRS axis mapping: 1,2
+Origin = (-802500.000000000000000,-597500.000000000000000)
+Pixel Size = (5000.000000000000000,-5000.000000000000000)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_XRESOLUTION=1
+  TIFFTAG_YRESOLUTION=1
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  ( -802500.000, -597500.000) ( 92d19'49.93"W, 80d48'38.29"N)
+Lower Left  ( -802500.000,-3402500.000) ( 52d16'15.67"W, 58d36'12.78"N)
+Upper Right (  702500.000, -597500.000) ( 10d37' 3.76"E, 81d31'36.98"N)
+Lower Right (  702500.000,-3402500.000) ( 27d20' 3.47"W, 58d47'17.98"N)
+Center      (  -50000.000,-2000000.000) ( 40d25'55.55"W, 71d44'12.84"N)
+Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
+```
+
+:::{.notes}
+The output of our `gdal_edit.py` operation has the metadata we expect: a CRS is
+present, an origin is established (the upper-left-hand-corner), and the pixel size
+is 5000m (5km).
+:::
+
 ## Missing Metadata: All better!
 
 ![QGreenland screenshot of layer with edited
