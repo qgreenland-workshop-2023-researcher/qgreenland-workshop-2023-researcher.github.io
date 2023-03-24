@@ -225,6 +225,76 @@ that point geometries have been created from the records in the orignal XLSX fil
 ![QGreenland screenshot of reformatted vector
 layer](/_media/qgreenland_reformatted_vector_map.png)
 
+## Data scenario: Raster needs reformatting
+
+::::: {.r-fit-text}
+
+[Link](/content/exercises/data-scenarios/raster-needs-reformatting)
+
+:::: {.columns}
+
+:::{.column}
+```{.console code-line-numbers="|10"}
+$ gdalinfo datafile.jpg
+Driver: JPEG/JPEG JFIF
+Files: datafile.jpg
+Size is 2813, 1914
+Image Structure Metadata:
+  COMPRESSION=JPEG
+  INTERLEAVE=PIXEL
+  SOURCE_COLOR_SPACE=YCbCr
+Corner Coordinates:
+Upper Left  (    0.0,    0.0)
+Lower Left  (    0.0, 1914.0)
+Upper Right ( 2813.0,    0.0)
+Lower Right ( 2813.0, 1914.0)
+Center      ( 1406.5,  957.0)
+Band 1 Block=2813x1 Type=Byte, ColorInterp=Red
+  Overviews: 1407x957, 704x479, 352x240
+  Image Structure Metadata:
+    COMPRESSION=JPEG
+Band 2 Block=2813x1 Type=Byte, ColorInterp=Green
+  Overviews: 1407x957, 704x479, 352x240
+  Image Structure Metadata:
+    COMPRESSION=JPEG
+Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
+  Overviews: 1407x957, 704x479, 352x240
+  Image Structure Metadata:
+    COMPRESSION=JPEG
+```
+:::
+
+:::{.column}
+```{.console}
+$ >> gdalsrsinfo -o wkt_simple datafile.prj
+
+PROJCS["unnamed",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433]],
+    PROJECTION["Polar_Stereographic"],
+    PARAMETER["latitude_of_origin",70],
+    PARAMETER["central_meridian",-45],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1]]
+```
+![](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="50%" fig-align="center"}
+:::
+
+::::
+
+:::::
+
+:::{.notes}
+Just like our first scenario, `gdalinfo` shows no CRS information and the UL
+corner coordinates is (0, 0). If we plotted this in QGIS, it would place the ULC
+at the geographic north pole.
+:::
+
+
 ## TODO: Advanced techniques
 
 * _TODO: briefly mention techniques like georegistration, bias correction?_
