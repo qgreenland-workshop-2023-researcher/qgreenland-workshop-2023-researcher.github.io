@@ -213,6 +213,13 @@ $ cat output.geojson | jq
 }
 ```
 
+:::{.note}
+We could have output this reformatted data as a GeoPackage like we do for other
+vector layers in QGreenland but GeoJSON is easily human readable, and the output
+as formatted by `jq` shows that the required CRS information is now present and
+that point geometries have been created from the records in the orignal XLSX file.
+:::
+
 ## TODO: Advanced techniques
 
 * _TODO: briefly mention techniques like georegistration, bias correction?_
