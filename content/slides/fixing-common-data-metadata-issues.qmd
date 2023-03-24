@@ -129,6 +129,11 @@ blood_acetylcholine_grams_per_ml: Real (0.0)
 :::{.notes}
 The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
 indicates the data is in a "WGS84" projection.
+
+`ogrinfo`:
+    * `-al`: list all features of all layers (we don't have to pass in `Sheet1`
+      to get information about what fields it contains).
+    * `-so`: Summary Only
 :::
 
 ## Vector data needs reformatting: Solution
