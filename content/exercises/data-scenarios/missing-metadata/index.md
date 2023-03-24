@@ -19,7 +19,7 @@ modified from the original ([here](https://nsidc.org/data/nsidc-0092/versions/1)
 present a challenge.
 :::
 
-You download a dataset (`bamber_greenland_dem.tif`, found in this directory) which
+You download a dataset (`dem_without_metadata.tif`, found in this directory) which
 doesn't load as expected in QGIS. When loaded alongside QGreenland, instead of
 overlaying the DEM on Greenland, it can be found near the North pole using the "Zoom to
 Layer" feature.

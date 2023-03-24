@@ -27,7 +27,7 @@ your preferred ecosystem and you'll find equivalents.
 
 ## Data scenario #1: Missing metadata
 
-[Link](/content/exercises/data-scenarios/01-missing-metadata)
+[Link](/content/exercises/data-scenarios/missing-metadata)
 
 :::: {.columns}
 
@@ -97,7 +97,7 @@ metadata](/_media/qgreenland_edited_metadata.png)
 
 ## Data scenario #2: Vector data needs reformatting
 
-[Link](/content/exercises/data-scenarios/02-vector-needs-reformatting)
+[Link](/content/exercises/data-scenarios/vector-needs-reformatting)
 
 :::: {.columns}
 
@@ -164,7 +164,7 @@ ogr2ogr to transform the data into a geopackage, geojson, etc.
 
 Note that there are other approaches that use `ogr2ogr` as well. E.g., the
 [`with_ogr2ogr.sh`
-solution](/content/exercises/data-scenarios/02-vector-needs-reformatting/solution/with_ogr2ogr.sh)
+solution](/content/exercises/data-scenarios/vector-needs-reformatting/solution/with_ogr2ogr.sh)
 uses an SQL query to generate geojson with the correct metadata.
 :::
 
