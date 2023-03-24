@@ -213,7 +213,7 @@ $ cat output.geojson | jq
 }
 ```
 
-:::{.note}
+:::{.notes}
 We could have output this reformatted data as a GeoPackage like we do for other
 vector layers in QGreenland but GeoJSON is easily human readable, and the output
 as formatted by `jq` shows that the required CRS information is now present and
