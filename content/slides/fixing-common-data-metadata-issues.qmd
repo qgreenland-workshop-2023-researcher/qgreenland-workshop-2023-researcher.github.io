@@ -267,7 +267,6 @@ Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
 :::{.column}
 ```{.console}
 $ >> gdalsrsinfo -o wkt_simple datafile.prj
-
 PROJCS["unnamed",
     GEOGCS["WGS 84",
         DATUM["WGS_1984",
@@ -281,7 +280,7 @@ PROJCS["unnamed",
     PARAMETER["false_northing",0],
     UNIT["metre",1]]
 ```
-![](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="50%" fig-align="center"}
+![](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="65%" fig-align="center"}
 :::
 
 ::::
