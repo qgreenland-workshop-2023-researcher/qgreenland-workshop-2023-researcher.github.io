@@ -517,6 +517,59 @@ and the "Internet-required data/Greenland image mosaic 2015 (15m)" as background
 imagery. Lat/lon lines are shown for reference.
 :::
 
+## Data scenario: Missing NoData value
+
+[Link](/content/exercises/data-scenarios/missing-nodata-value)
+
+:::: {.columns}
+
+:::{.column}
+![](/_media/qgreenland_missing_nodata_value.png)
+:::
+
+
+:::{.column}
+```{.console}
+$ rio info --nodata \
+> bambgrl_dem_5km_corrected.tif
+
+
+```
+Using `rio` shows that there is no `nodata` value set.
+:::
+::::
+
+## Data scenario: Solution
+
+First, make a copy of the data that we will apply edits to:
+```{.console}
+$ cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
+```
+
+Next, use `gdal_edit.py` to set the nodata/ocean value indicated in the user guide for this dataset.
+```{.console}
+$ gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
+```
+
+## Data scenario: All better!
+
+```{.console}
+$ rio info --nodata \
+> with_nodata_value.tif
+-0.10000000149011612
+```
+
+![](/_media/qgreenland_dem_with_nodata.png){fig-align="center"}
+
+:::{.notes}
+The echo-ed `nodata` value provided by `rio` illustrates how floating point
+values can be problematic for encoding flag values.
+
+the output of `gdalinfo` now also shows that the nodata value is set, although
+it truncates the representation of that value as `-0.1`
+:::
+
+
 
 ## TODO: Advanced techniques
 
