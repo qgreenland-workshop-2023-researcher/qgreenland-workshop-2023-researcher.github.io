@@ -300,6 +300,24 @@ $ gdal_translate -a_srs datafile.prj \
 > -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
 > datafile.jpg datafile.tif
 ```
+
+:::{.notes}
+Our colleague from the data scenario gave us the projection information as WKT
+in the provided `.proj` file, so we can pass that directly to `gdal_translate`
+with the `-a_srs` option.
+
+Our colleague also provided us with information about the location of the corner coordinates:
+
+```text
+Upper Left  ( -334334.200,-1855796.425) ( 55d12'45.62"W, 72d43'11.00"N)
+Lower Left  ( -334334.200,-1860658.423) ( 55d11'11.56"W, 72d40'35.44"N)
+Upper Right ( -327188.537,-1855796.425) ( 54d59'55.86"W, 72d43'51.77"N)
+Lower Right ( -327188.537,-1860658.423) ( 54d58'23.69"W, 72d41'16.09"N)
+```
+
+The `-a_ullr` option takes an array of numbers: ulx, uly, lrx, lry
+:::
+
 ## Raster needs reformatting: All better!
 
 ```{.console code-line-numbers="|5-41|50"}
