@@ -220,6 +220,11 @@ as formatted by `jq` shows that the required CRS information is now present and
 that point geometries have been created from the records in the orignal XLSX file.
 :::
 
+## Vector data needs reformatting: All better!
+
+![QGreenland screenshot of reformatted vector
+layer](/_media/qgreenland_reformatted_vector_map.png)
+
 ## TODO: Advanced techniques
 
 * _TODO: briefly mention techniques like georegistration, bias correction?_
