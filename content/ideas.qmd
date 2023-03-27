@@ -20,6 +20,9 @@
 * Should we have a module about integrating GitHub with Zenodo to create DOIs?
 * Consider discussion about how data are often organized on disk (granularity)
 * Module on live group collaboration (in the style of pair/group programming)
+* Consider how materials developed for this workshop might be convereted into
+  [CIRES data
+  puzzles](https://datapuzzles.org/virtual-workshops/tipping-point-virtual-teacher-workshop).
 
 
 ## Breakout room activity ideas
