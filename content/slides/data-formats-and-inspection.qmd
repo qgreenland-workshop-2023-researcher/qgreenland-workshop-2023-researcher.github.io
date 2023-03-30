@@ -118,7 +118,7 @@ data](https://gdal.org/drivers/vector/netcdf.html)
 * [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
 * [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
 * [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
-* [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎 
+* [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎
 * [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
 
 ::: {.notes}
@@ -566,7 +566,7 @@ _Please note: This dataset was intentionally modified to remove metadata. This e
 does not reflect the quality of the original dataset._
 
 ```{.text code-line-numbers="1|2-3|4|10-14"}
-$ gdalinfo content/examples/data-scenarios/missing-metadata/dem_without_metadata.tif 
+$ gdalinfo content/examples/data-scenarios/missing-metadata/dem_without_metadata.tif
 Driver: GTiff/GeoTIFF
 Files: dem_without_metadata.tif
 Size is 301, 561
@@ -582,7 +582,7 @@ Upper Right (  301.0,    0.0)
 Lower Right (  301.0,  561.0)
 Center      (  150.5,  280.5)
 Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
-``` 
+```
 
 No Coordinate Reference System is specified!
 
@@ -596,7 +596,7 @@ No Coordinate Reference System is specified!
 ## Raster with no metadata: Rasterio CLI
 
 ```
-$ rio info --crs dem_without_metadata.tif 
+$ rio info --crs dem_without_metadata.tif
 /home/mfisher/miniconda3/envs/xarray/lib/python3.11/site-packages/rasterio/__init__.py:304:
 NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix
 will be returned.
