@@ -38,7 +38,7 @@ metadata](/_media/qgreenland_missing_metadata.png)
 
 ::: {.column}
 ```{.text  code-line-numbers="11"}
-$ gdalinfo dem_without_metadata.tif
+gdalinfo dem_without_metadata.tif
 Driver: GTiff/GeoTIFF
 Files: dem_without_metadata.tif
 Size is 301, 561
@@ -70,7 +70,7 @@ of data from NSIDC; it's been modified from the original
 
 First, make a copy of the data that we will apply edits to:
 ```{.console}
-$ cp dem_without_metadata.tif dem_with_metadata.tif
+cp dem_without_metadata.tif dem_with_metadata.tif
 ```
 
 Next, use `gdal_edit.py` to edit, in place, the metadata of
@@ -78,7 +78,7 @@ Next, use `gdal_edit.py` to edit, in place, the metadata of
 dataset landing page.
 
 ```{.console}
-$ gdal_edit.py \
+gdal_edit.py \
 > -a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
 > -a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
 > dem_with_metadata.tif
@@ -94,7 +94,7 @@ space.
 ## Missing Metadata: All better!
 
 ```{.console code-line-numbers="|5-42|44,52-53|45"}
-$ gdalinfo dem_with_metadata.tif
+gdalinfo dem_with_metadata.tif
 Driver: GTiff/GeoTIFF
 Files: dem_with_metadata.tif
 Size is 301, 561
@@ -177,7 +177,7 @@ metadata](/_media/qgreenland_edited_metadata.png)
 
 ::: {.column}
 ```{.console code-line-numbers="|5|6,10-11|8-9"}
-$ ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
+ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
 INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
       using driver `XLSX' successful.
 
@@ -229,7 +229,7 @@ Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 Then, use `ogr2ogr`:
 
 ```{.console}
-$ ogr2ogr \
+ogr2ogr \
 >   -nln "kcbcc" \
 >   output.geojson \
 >   kcbcc_DS4_final_v2_final.vrt
@@ -252,7 +252,7 @@ uses an SQL query to generate GeoJSON with the correct metadata.
 ## Vector data needs reformatting: All better!
 
 ```
-$ cat output.geojson | jq
+cat output.geojson | jq
 {
   "type": "FeatureCollection",
   "name": "kcbcc",
@@ -293,7 +293,7 @@ that point geometries have been created from the records in the original XLSX fi
 ## Vector data needs reformatting: All better!
 
 ```{.console code-line-numbers="|5|6-8|9-23"}
-$ ogrinfo -al -so output.geojson
+ogrinfo -al -so output.geojson
 INFO: Open of `output.geojson'
       using driver `GeoJSON' successful.
 
@@ -346,7 +346,7 @@ layer](/_media/qgreenland_reformatted_vector_map.png)
 
 :::{.column}
 ```{.console code-line-numbers="|10"}
-$ gdalinfo datafile.jpg
+gdalinfo datafile.jpg
 Driver: JPEG/JPEG JFIF
 Files: datafile.jpg
 Size is 2813, 1914
@@ -377,7 +377,7 @@ Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
 
 :::{.column}
 ```{.console}
-$ gdalsrsinfo -o wkt_simple datafile.prj
+gdalsrsinfo -o wkt_simple datafile.prj
 PROJCS["unnamed",
     GEOGCS["WGS 84",
         DATUM["WGS_1984",
@@ -407,7 +407,7 @@ at the geographic north pole.
 ## Raster needs reformatting: solution
 
 ```{.console}
-$ gdal_translate -a_srs datafile.prj \
+gdal_translate -a_srs datafile.prj \
 > -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
 > datafile.jpg datafile.tif
 ```
@@ -432,7 +432,7 @@ The `-a_ullr` option takes an array of numbers: ulx, uly, lrx, lry
 ## Raster needs reformatting: All better!
 
 ```{.console code-line-numbers="|5-41|43,49-50"}
-$ gdalinfo datafile.tif
+gdalinfo datafile.tif
 Driver: GTiff/GeoTIFF
 Files: datafile.tif
 Size is 2813, 1914
@@ -530,7 +530,7 @@ imagery. Lat/lon lines are shown for reference.
 
 :::{.column}
 ```{.console}
-$ rio info --nodata \
+rio info --nodata \
 > bambgrl_dem_5km_corrected.tif
 
 
@@ -543,18 +543,18 @@ Using `rio` shows that there is no `nodata` value set.
 
 First, make a copy of the data that we will apply edits to:
 ```{.console}
-$ cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
+cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
 ```
 
 Next, use `gdal_edit.py` to set the nodata/ocean value indicated in the user guide for this dataset.
 ```{.console}
-$ gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
+gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
 ```
 
 ## Data scenario: All better!
 
 ```{.console}
-$ rio info --nodata \
+rio info --nodata \
 > with_nodata_value.tif
 -0.10000000149011612
 ```
