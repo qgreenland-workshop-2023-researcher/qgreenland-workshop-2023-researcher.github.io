@@ -8,6 +8,7 @@
   * Call out things like "power dynamics", creating space for "being human"/forgiving of
     imperfection. See [Slack
     suggestion](https://nsidc.slack.com/archives/CRB96FG68/p1680214782923999)
+  * ‼️ Review code of conduct as a group in first slide deck
 * 💡 Team members (myself, Trey, Alyse, maybe Twila) should post an introduction in the
   GH Discussions to "break the ice".
     * Test that non-members of our org can post to Discussions
