@@ -12,7 +12,7 @@ rm -f "${OUTPUT_FILE}"
 ogr2ogr \
     "${OUTPUT_FILE}" \
     "${INPUT_FILE}" \
-    -a_srs "EPSG:4326" \
+    -s_srs "EPSG:4326" \
     -t_srs "EPSG:3413" \
     -oo X_POSSIBLE_NAMES=lon* \
     -oo Y_POSSIBLE_NAMES=lat*
