@@ -6,6 +6,7 @@ listing:
   filter-ui: false
   contents:
     - "*"
+    - "solutions/*"
 ---
 
 # Data Scenario: Missing metadata
