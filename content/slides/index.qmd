@@ -3,7 +3,9 @@ title: "Slides index"
 listing:
   type: "table"
   contents:
-    - "slides/*.qmd"
+    - "*.qmd"
+format:
+  html: default
 ---
 
 _TODO: Add metadata to slides so they can be displayed with / sorted by module
