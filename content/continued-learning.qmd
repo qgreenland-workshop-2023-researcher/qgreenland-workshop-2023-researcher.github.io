@@ -24,6 +24,11 @@ For continued learning, please consider the following external resources.
   transformations](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm)
 
 
+### Raster data
+
+* [NCAR Regridding Overview](https://climatedataguide.ucar.edu/climate-tools/regridding-overview)
+
+
 ### Coordinate systems
 
 * [ESRI: Coordinate Systems: What's the
