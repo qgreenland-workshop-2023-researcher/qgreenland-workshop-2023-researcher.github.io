@@ -121,3 +121,5 @@
   play a support role to non-experts.
 * ‼️ Intra-group teaching is an expectation of the workshop! Advertise this on the front
   page.
+* ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill those
+  roles? e.g. MC students?
