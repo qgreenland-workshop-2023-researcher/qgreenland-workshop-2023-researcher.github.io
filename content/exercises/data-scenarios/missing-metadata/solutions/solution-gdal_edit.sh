@@ -6,6 +6,8 @@ THIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 INPUT_FILE="${THIS_DIR}/../dem_without_metadata.tif"
 OUTPUT_FILE="${THIS_DIR}/dem_with_metadata.tif"
 
+rm -f "${OUTPUT_FILE}"
+
 # Make a copy of the data that we will apply edits to.
 cp "${INPUT_FILE}" "${OUTPUT_FILE}"
 
