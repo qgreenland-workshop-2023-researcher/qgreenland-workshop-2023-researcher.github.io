@@ -6,6 +6,27 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+## What tool should I use?
+
+The best one for the job.
+
+Explore the alternatives available in the ecosystem you want to work!
+
+::: {.notes}
+You may recognize this slide from the "data inspection" deck.
+
+Tool selection is context-dependent.
+
+Command-line tools are especially useful for getting a quick answer.
+
+Language-specific tools are good for automations or research code. These
+examples use Python because that's what we're most familiar with, but explore
+your preferred ecosystem and you'll find equivalents.
+:::
+
+
+## TODO
+
 <!-- TODO:
 * Discuss geospatial data transformations
     * Concepts

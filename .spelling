@@ -33,6 +33,7 @@ MacOS
 MkDocs
 NetCDF
 NetCDFs
+NoData
 OGC-adopted
 PyQGIS
 QGreenland
@@ -45,6 +46,7 @@ Syncthing
 TODO
 U.S.
 VMs
+Wikimedia
 Xarray
 YouTube
 Zenodo
@@ -98,6 +100,7 @@ proj
 proj4
 pyresample
 rasterio
+regridding
 reproject
 reprojection
 resample
@@ -116,6 +119,14 @@ walkthrough
 wellbeing
 xls
 xlsx
+OpenGIS
+OSGeo
+ulx
+uly
+lrx
+lry
+15m
+nodata
  - content/slides/open-science-and-data.qmd
 indable
 ccessible

@@ -111,3 +111,9 @@ It's deployed on DataONE, e.g.
 [here](https://arcticdata.io/catalog/quality/s=FAIR-suite-0.3.1/doi%3A10.18739%2FA2KW57K4R)
 
 Can/should we integrate this tool into the workshop?
+
+
+## Citation
+
+* For Wikimedia Commons images, use their "embed in site" feature which includes an
+  automatically-generated citation

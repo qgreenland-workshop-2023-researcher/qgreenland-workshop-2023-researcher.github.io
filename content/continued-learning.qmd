@@ -3,6 +3,11 @@
 For continued learning, please consider the following external resources.
 
 
+## Live collaboration
+
+* [Tuple's pair programming guide](https://tuple.app/pair-programming-guide/)
+
+
 ## JupyterHub/Lab
 
 * [YouTube: CryoCloud onboarding training (1:59:00)](https://www.youtube.com/watch?v=QNrDlwiomgc&feature=youtu.be)
@@ -18,14 +23,25 @@ For continued learning, please consider the following external resources.
 * [ESRI: Coordinate systems, map projections, and
   transformations](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm)
 
+
+### Raster data
+
+* [NCAR Regridding Overview](https://climatedataguide.ucar.edu/climate-tools/regridding-overview)
+
+
 ### Coordinate systems
+
 * [ESRI: Coordinate Systems: What's the
   Difference?](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
+* [Proj4 parameters](https://en.wikibooks.org/wiki/PROJ.4#Parameters)
+* [Data Carpentry: Coordinate Reference Systems](https://datacarpentry.org/organization-geospatial/03-crs/)
+
 
 ### Datum
 
 * [YouTube: An Introduction to Geodetic Datums](https://www.youtube.com/playlist?list=PLsyDl_aqUTdFY6eKURmiCBBk-mP4R10Dx)
 * [NOAA National Geodetic Survey: Datums and Reference Frames](https://geodesy.noaa.gov/datums/index.shtml)
+
 
 ### Map Projections
 

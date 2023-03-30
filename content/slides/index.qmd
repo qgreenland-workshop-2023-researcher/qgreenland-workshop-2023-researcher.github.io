@@ -1,0 +1,12 @@
+---
+title: "Slides index"
+listing:
+  type: "table"
+  contents:
+    - "*.qmd"
+format:
+  html: default
+---
+
+_TODO: Add metadata to slides so they can be displayed with / sorted by module
+identifier_
