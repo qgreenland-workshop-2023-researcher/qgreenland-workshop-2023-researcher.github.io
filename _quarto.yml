@@ -40,7 +40,7 @@ website:
     - title: "Materials"
       contents:
         - "content/materials.qmd"
-        - "content/slides.qmd"
+        - "content/slides/index.qmd"
         - "content/exercises/index.qmd"
         - "content/continued-learning.qmd"
         - "content/ideas.qmd"
