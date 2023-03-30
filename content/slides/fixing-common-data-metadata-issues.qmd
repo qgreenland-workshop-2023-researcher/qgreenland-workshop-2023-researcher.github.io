@@ -589,12 +589,6 @@ it truncates the representation of that value as `-0.1`
 :::
 
 
-
-## TODO: Advanced techniques
-
-* _TODO: briefly mention techniques like georegistration, bias correction?_
-
-
 ## What if I can't find a way to fix my data?
 
 Metadata may be undocumented or incorrectly documented; contact data producer!

@@ -27,6 +27,7 @@ For continued learning, please consider the following external resources.
 ### Raster data
 
 * [NCAR Regridding Overview](https://climatedataguide.ucar.edu/climate-tools/regridding-overview)
+* [Georegistration / georeferencing](https://docs.qgis.org/3.28/en/docs/training_manual/forestry/map_georeferencing.html)
 
 
 ### Coordinate systems
