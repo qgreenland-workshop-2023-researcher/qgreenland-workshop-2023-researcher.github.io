@@ -46,6 +46,7 @@ Syncthing
 TODO
 U.S.
 VMs
+Wikimedia
 Xarray
 YouTube
 Zenodo
@@ -99,6 +100,7 @@ proj
 proj4
 pyresample
 rasterio
+regridding
 reproject
 reprojection
 resample

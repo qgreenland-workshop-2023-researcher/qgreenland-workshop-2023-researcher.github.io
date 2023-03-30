@@ -115,5 +115,5 @@ Can/should we integrate this tool into the workshop?
 
 ## Citation
 
-* For wikimedia commons images, use their "embed in site" feature which includes an
+* For Wikimedia Commons images, use their "embed in site" feature which includes an
   automatically-generated citation
