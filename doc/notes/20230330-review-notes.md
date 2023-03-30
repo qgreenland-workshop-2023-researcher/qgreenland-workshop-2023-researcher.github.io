@@ -117,7 +117,6 @@
   encourage them all to do the same steps on their own computers. Or be explicit: Are
   there some exercises that should be done as a group and others that should be
   implemented by everyone?
-* ‼️  Ensure our workshop's Zoom meeting is set to disable annotations.
 * We should demo creating a new notebook so everyone knows how. Screenshots of all the
   different "new" icons.
 * Ensure each person can have a personal interaction with GitHub, JupyterLab, data. We
@@ -125,5 +124,8 @@
   play a support role to non-experts.
 * ‼️ Intra-group teaching is an expectation of the workshop! Advertise this on the front
   page.
-* ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill those
-  roles? e.g. MC students?
+* Create a new section of the site for "Running the workshop" or "For
+  administrators" which includes a checklist.
+  * ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill those
+    roles? e.g. MC students?
+  * ‼️  Ensure our workshop's Zoom meeting is set to disable annotations.
