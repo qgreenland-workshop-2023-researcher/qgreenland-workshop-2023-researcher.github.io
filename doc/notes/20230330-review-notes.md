@@ -96,10 +96,10 @@
 
 ##### Exercise
 
-* Remove "Run the example notebook"
-* Remove "Change the color of Greenland"
+* ~~Remove "Run the example notebook"~~
+* ~~Remove "Change the color of Greenland"~~
 * 💡 Create an example notebook for this exercise using an existing QGreenland layer.
-* Remove "Push to GitHub", not covered until day 2.
+* ~~Remove "Push to GitHub", not covered until day 2.~~
 
 
 #### Intro to GitHub
