@@ -45,10 +45,10 @@
   some things!
 * ~~When demoing the notebook, ensure that we narrate double-clicking markdown cells to
   show the source of it. And also how to expand/collapse cells.~~
-* In the exercise to change "red" to "green", suggest that if they're done early they
-  can try out some other things, like changing projection.
-* ‼️ In the exercise, remind people to log out?
-  * More reminders to log out of JH, e.g. at the end of each day's module.
+* ~~In the exercise to change "red" to "green", suggest that if they're done early they
+  can try out some other things, like changing projection.~~
+* ~~‼️ In the exercise, remind people to log out?~~
+  * ~~No, we plan other exercises using jupyterlab after the break.~~
 
 
 #### Geospatial concepts and terms
@@ -130,3 +130,4 @@
     * Discuss roles for administrators in each workshop. Do we need more people to
       fill those roles? e.g. MC students?
     * Ensure our workshop's Zoom meeting is set to disable annotations.
+* More reminders to log out of JH, e.g. at the end of each day's module.
