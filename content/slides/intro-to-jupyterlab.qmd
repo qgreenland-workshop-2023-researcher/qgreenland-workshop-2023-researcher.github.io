@@ -152,6 +152,10 @@ Live demo: Walk through running the `demo.ipnb` notebook.
 
 ![Demo Notebook](/_media/jupyterlab_notebook.png)
 
+:::{.notes}
+When demoing the notebook, ensure that we narrate double-clicking markdown cells
+to show the source of it. And also how to expand/collapse cells.
+:::
 
 
 # Log Out when done!

@@ -43,8 +43,8 @@
 * 💡 Show example of how literate programming in a notebook _looks_ during slides. Small
   portions of notebooks that demonstrate useful concepts, even if this means repeating
   some things!
-* When demoing the notebook, ensure that we narrate double-clicking markdown cells to
-  show the source of it. And also how to expand/collapse cells.
+* ~~When demoing the notebook, ensure that we narrate double-clicking markdown cells to
+  show the source of it. And also how to expand/collapse cells.~~
 * In the exercise to change "red" to "green", suggest that if they're done early they
   can try out some other things, like changing projection.
 * ‼️ In the exercise, remind people to log out?
