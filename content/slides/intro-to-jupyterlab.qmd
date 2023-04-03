@@ -35,17 +35,34 @@ JupyterLab is not shared!
 
 👪 JupyterLab is a human-friendly interface to computation resources.
 
+![Jupyterlab logo](/_media/jupyterlab_about_logo.png)
+
+:::{.notes}
+The jupyterlab logo is a screenshot from Jupyterlab's "Help -> About JupyterLab"
+popup in cryocloud.
+:::
+
+#
+
+![Jupyterlab](/_media/jupyterlab.png)
+
 
 ## File browser
+:::::: {.columns}
 
+::: {.column}
 * Drag & drop from your desktop
 * Open many types of files and get a useful display
     * CSV will display as table
     * GeoJSON will display on a map
     * Images will open with an image viewer
+:::
 
-* _TODO: Image of file browser on the side of this slide_
+::: {.column}
+![Jupyterlab file browser](/_media/jupyter_lab_file_browser.png)
+:::
 
+::::::
 
 ## Terminal
 
@@ -53,28 +70,42 @@ JupyterLab is not shared!
 * `mamba install <package>`
 * Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
 
+![Jupyterlab terminal](/_media/jupyterlab_terminal.png)
+
 ::: {.notes}
 Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
 `conda`/`mamba` commands to install Python dependencies into the `notebook` environment.
 :::
 
 
-## Desktop (with QGIS)
+## Desktop
+
+![Desktop](/_media/jupyterlab_desktop.png)
+
+## Desktop
 
 On first launch, select "Use default config"
 
 ![Use default config](/_media/xfce_first_launch.png)
 
 
-## Desktop (with QGIS)
+## Desktop: file browser
 
-* The "Home" icon on the desktop shows the same files as JupyterLab
-  File Browser.
-* Can open QGreenland!
+The "Home" icon on the desktop shows the same files as JupyterLab File Browser.
 
-::: {.callout-warning}
-Do not use "Logout" from the desktop environment!
+![Desktop file browser](/_media/jupyterlab_desktop_file_browser.png)
+
+::: {.notes}
+There's also a terminal emulator and other utilities often found in a desktop
+GUI environment.
 :::
+
+
+## Desktop: QGIS and QGreenland
+
+Can open QGreenland!
+
+![Desktop file browser](/_media/jupyterlab_desktop_qgreenland.png)
 
 ::: {.notes}
 Opening QGreenland should take ~2 minutes.
@@ -84,34 +115,52 @@ back into your desktop.
 :::
 
 
+## Desktop: logging out
+::: {.callout-warning}
+Do not use "Logout" from the desktop environment!
+:::
+
+:::{.notes}
+_TODO: add an image showing a "no" symbol over the logout menu? Or show what is
+supposed to be done? Just close the window? Something else?_
+:::
+
+
 ## Jupyter Notebooks
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column}
 * A tool for [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * Showing your work
     * Tracking provenance
     * Telling a story
-:::
-
-::: {.column width="50%"}
+    
 * See also:
     * Quarto
     * JupyterBook
-    * _TODO: Others?_
+:::
+
+::: {.column}
+![Jupyter Notebook](/_media/jupyterlab_notebook.png)
 :::
 ::::::
 
 
 ## Jupyter Notebook example
 
-* Walk through running an example notebook and viewing its output in QGIS?
-    * _TODO: Finalize `demo.ipynb`. Include something simple for users to try changing._
+Live demo: Walk through running the `demo.ipnb` notebook.
+
+![Demo Notebook](/_media/jupyterlab_notebook.png)
 
 
-# Important: Please log out when done!
 
+# Log Out when done!
+
+::: {.callout-important}
 _At the end of each day, click `File > Log Out`_
+:::
+
+![Log Out](/_media/jupyterlab_log_out.png){width=40%}
 
 ::: {.notes}
 Log out at the end of each day to save on cloud costs.
