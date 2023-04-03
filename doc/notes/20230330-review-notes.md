@@ -35,7 +35,7 @@
 #### Intro to JupyterHub
 
 * Change "small" server requirement to specific number of CPUs and RAM
-* Add screenshots of File Browser, application icons.
+* ~~Add screenshots of File Browser, application icons.~~
 * Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
   show you how this works, then take 5 minutes to do it on your own." or "We're going
   to go through this together."
