@@ -1,18 +1,46 @@
 # Prerequisites
 
-## Code of Conduct
+## 📏 Code of Conduct
 
 Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 
-## GitHub Account
+## 🐙 GitHub Account
 
 * Register an account on GitHub
 * [Post an introduction on GitHub
     Discussions](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=introductions)
 
 
-## Select a dataset of interest
+## ❄️ CryoCloud account
+
+::: {.callout-warning}
+Requires a GitHub account first!
+:::
+
+Follow the [CryoCloud Getting
+Started](https://book.cryointhecloud.com/content/Getting_Started.html) guide to
+request an account. The following steps are **critical** to workshop participation:
+
+* Fill out the [Getting Started
+  Survey](https://docs.google.com/forms/d/e/1FAIpQLScb2B5LRy7qU9qDfUp5a51n87sumOxivXbQhc02wFX_FxEbXg/viewform).
+  This survey will start the process of creating your account.
+* E-mail <cryocloud@mines.edu> to request account activation (provide your GitHub
+  username).
+    * You will shortly receive an invite (by e-mail from GitHub) to the CryoCloud GitHub
+      organization and CryoCloudUsers team. **Please accept this within 7 days,** or it
+      will expire!
+* Test that you can [log in](https://hub.cryointhecloud.com/) with your GitHub
+  credentials.
+* [Join the CryoCloud
+  Slack](https://join.slack.com/t/cryospherecloud/shared_invite/zt-1isgbeuhh-q~cYYKtn_6i3PR1alGca_g).
+  We'll be using this for interactive chat.
+
+In addition to these critical steps, we recommend viewing the training recording and
+we'd appreciate if you fill out the onboarding survey and anonymous feedback form!
+
+
+## 💾 Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
   would like to work with during the workshop. If you struggle to find a
@@ -27,7 +55,7 @@ Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
 
 
-## QGreenland
+## 🇬🇱 QGreenland
 
 * Install QGIS 3.22 or later
 * Install QGreenland: you can open QGreenland in QGIS
