@@ -117,3 +117,8 @@ Can/should we integrate this tool into the workshop?
 
 * For Wikimedia Commons images, use their "embed in site" feature which includes an
   automatically-generated citation
+
+
+## Workshop prep
+
+* Clean up GH Discussions
