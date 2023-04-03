@@ -104,7 +104,7 @@
 
 #### Intro to GitHub
 
-* Ask them to commit the notebook they made on Day 1 to GitHub.
+* ~~Ask them to commit the notebook they made on Day 1 to GitHub.~~
 
 
 ### Misc

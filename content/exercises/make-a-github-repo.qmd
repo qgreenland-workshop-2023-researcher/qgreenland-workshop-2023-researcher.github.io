@@ -9,23 +9,28 @@ steps:
 * Your repository should be named with convention: _TODO: Convention!_
 
 ::: {.callout-warning}
-It's expected that participants will work in the GitHub browser interface. If
-you prefer to work at the CLI or use branches, it's expected that you will
+It's expected that most participants will work in the GitHub browser interface.
+If you prefer to work at the CLI or use branches, we expect that you will
 support your group if any issues like merge conflicts arise.
 :::
 
-* Add a `README.md` file:
+
+## 📂 Add some content
+
+* Add and commit the notebook produced during the _Data Inspection_ module to
+  your repository.
+* Add and commit a `README.md` file:
     * Introduce your team members by their GitHub user IDs
     * Identify the dataset your group has chosen.
-    * Mimicking the demo repository created in the previous activity, create a section
-      for the metadata and data.
+    * Mimicking the demo repository created in the previous activity, create a
+      section for the metadata and data.
         * _TODO: Link to demo repository_
-* Turn on GitHub Discussions for your group repository. Use this space for asynchronous
-  discussions within your group during (or after!) the workshop.
+* Turn on GitHub Discussions for your group repository. Use this space for
+  asynchronous discussions within your group during (or after!) the workshop.
 
 
 ## TODO
 
 * _TODO: Figure out how permissions will be handled._
-* _TODO: Should there be a second deliverable here? A git commit? A GitHub
-  discussion? Some kind of reflection on the day?_
+* _TODO: Should there be another deliverable here? A GitHub discussion? Some
+  kind of reflection on the day?_
