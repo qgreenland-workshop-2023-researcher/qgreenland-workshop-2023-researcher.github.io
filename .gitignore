@@ -6,3 +6,5 @@ node_modules/
 /_site/
 /site_libs/
 *.local
+*.html
+*.json

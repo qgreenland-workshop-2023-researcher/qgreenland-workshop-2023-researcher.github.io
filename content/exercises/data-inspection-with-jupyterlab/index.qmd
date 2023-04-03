@@ -26,3 +26,10 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
 Don't lose track of this notebook. We will use it again in a future exercise.
 Download it to your computer as a backup.
 :::
+
+
+## 📝 Example notebook
+
+If you are looking for clarity or inspiration, please see our [example
+notebook](./data-inspection-with-jupyterlab.ipynb) based on
+a layer that is already in QGreenland.
