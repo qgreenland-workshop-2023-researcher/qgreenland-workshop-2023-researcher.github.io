@@ -5,16 +5,16 @@
 ### Prereqs
 
 * Code of conduct: Separate one for contributors and attendees?
-  * Call out things like "power dynamics", creating space for "being human"/forgiving of
-    imperfection. See [Slack
-    suggestion](https://nsidc.slack.com/archives/CRB96FG68/p1680214782923999)
-  * ‼️ Review code of conduct as a group in first slide deck
+    * Call out things like "power dynamics", creating space for "being human"/forgiving
+      of imperfection. See [Slack
+      suggestion](https://nsidc.slack.com/archives/CRB96FG68/p1680214782923999)
+    * ‼️ Review code of conduct as a group in first slide deck
 * 💡 Team members (myself, Trey, Alyse, maybe Twila) should post an introduction in the
   GH Discussions to "break the ice".
     * Test that non-members of our org can post to Discussions
 * 💡 Pre-populate the "Dataset Ideas" section of GH Discussions with multiple posts,
   each detailing one "fallback" dataset for groups that have trouble picking one.
-* Clean up/remove assessment page. 
+* Clean up/remove assessment page.
 * ‼️ Do we need each user to fill out the CryoCloud survey??
 
 
@@ -34,11 +34,11 @@
 #### Intro to JupyterHub
 
 * Change "small" server requirement to specific number of CPUs and RAM
-* Add screenshots of File Browser, application icons, 
+* Add screenshots of File Browser, application icons.
 * Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
   show you how this works, then take 5 minutes to do it on your own." or "We're going
   to go through this together."
-  * 💡 Set this expectation on a title slide
+    * 💡 Set this expectation on a title slide
 * 💡 Show example of how literate programming in a notebook _looks_ during slides. Small
   portions of notebooks that demonstrate useful concepts, even if this means repeating
   some things!
@@ -58,8 +58,8 @@
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
   quality?
 * Remove "other data types" slide.
-  * Move to "continued learning"?
-  * Can we make time on day 3/4 for those "bonus" topics?
+    * Move to "continued learning"?
+    * Can we make time on day 3/4 for those "bonus" topics?
 * More on "Metadata standards" slide; instead of just listing them, why would you care
   about them?
 * Drop "Tools for inspecting metadata" slide; move GUI application recommendations to
@@ -80,7 +80,7 @@
 * Expand the "OGC" acronym in the first slide it's mentioned. Explain what they are and
   what they do in speaker notes.
 * CSV/TSV: Expand acronyms
-  * Code cell with CSV data
+    * Code cell with CSV data
 * XLS: screenshot of Excel
 * ESRI Shapefile: Directory listing of example files (`.prj`, `.?`)
 * Others: Extract to continued learning?
@@ -126,6 +126,6 @@
   page.
 * Create a new section of the site for "Running the workshop" or "For
   administrators" which includes a checklist.
-  * ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill those
-    roles? e.g. MC students?
-  * ‼️  Ensure our workshop's Zoom meeting is set to disable annotations.
+    * ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill
+      those roles? e.g. MC students?
+    * ‼️  Ensure our workshop's Zoom meeting is set to disable annotations.
