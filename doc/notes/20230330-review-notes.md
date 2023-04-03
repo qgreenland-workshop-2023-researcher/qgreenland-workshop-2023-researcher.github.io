@@ -4,31 +4,32 @@
 
 ### Prereqs
 
-* Code of conduct: Separate one for contributors and attendees?
+* ~~Code of conduct~~: Separate one for contributors and attendees?
     * Call out things like "power dynamics", creating space for "being human"/forgiving
       of imperfection. See [Slack
       suggestion](https://nsidc.slack.com/archives/CRB96FG68/p1680214782923999)
-    * ‼️ Review code of conduct as a group in first slide deck
+    * ‼️ ~~review code of conduct as a group in first slide deck~~
 * 💡 Team members (myself, Trey, Alyse, maybe Twila) should post an introduction in the
   GH Discussions to "break the ice".
     * Test that non-members of our org can post to Discussions
 * 💡 Pre-populate the "Dataset Ideas" section of GH Discussions with multiple posts,
   each detailing one "fallback" dataset for groups that have trouble picking one.
 * Clean up/remove assessment page.
-* ‼️ Do we need each user to fill out the CryoCloud survey??
+* ~~‼️ Do we need each user to fill out the CryoCloud survey??~~
+    * Yes, each user should fill out survey, per Tasha
 
 
-### Day 1
+### Module review
 
 #### Overview
 
-* Remove "Day 1 overview" slides, but keep workshop overview slides. We can do the daily
-  overviews from the "Materials" page to avoid keeping things in sync with slides.
+* ~~Remove "Day 1 overview" slides, but keep workshop overview slides. We can do the daily
+  overviews from the "Materials" page to avoid keeping things in sync with slides.~~
 * Icebreaker: Pick a question from a list to introduce yourself.
 * Icebreaker: "Tell a _short_ story about your interest in Greenland"
 * Icebreaker: "Something unique about yourself"
-* If we use Slack, add slides to overview. What should go in Slack and what should go in
-  Discussions?
+* ~~If we use Slack, add slides to overview. What should go in Slack and what should go in
+  Discussions?~~
 
 
 #### Intro to JupyterHub
@@ -47,7 +48,7 @@
 * In the exercise to change "red" to "green", suggest that if they're done early they
   can try out some other things, like changing projection.
 * ‼️ In the exercise, remind people to log out?
-* ‼️ More reminders to log out of JH, e.g. at the end of each day's module.
+  * More reminders to log out of JH, e.g. at the end of each day's module.
 
 
 #### Geospatial concepts and terms
@@ -122,10 +123,10 @@
 * Ensure each person can have a personal interaction with GitHub, JupyterLab, data. We
   don't want the experts to be the only ones _doing_. Encourage experts in groups to
   play a support role to non-experts.
-* ‼️ Intra-group teaching is an expectation of the workshop! Advertise this on the front
-  page.
-* Create a new section of the site for "Running the workshop" or "For
+* ‼️ ~~Intra-group teaching is an expectation of the workshop! Advertise this on the front
+  page.~~
+* ‼️ Create a new section of the site for "Running the workshop" or "For
   administrators" which includes a checklist.
-    * ‼️ Discuss roles for everyone in each workshop. Do we need more people to fill
-      those roles? e.g. MC students?
-    * ‼️  Ensure our workshop's Zoom meeting is set to disable annotations.
+    * Discuss roles for administrators in each workshop. Do we need more people to
+      fill those roles? e.g. MC students?
+    * Ensure our workshop's Zoom meeting is set to disable annotations.
