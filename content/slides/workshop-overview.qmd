@@ -34,7 +34,7 @@ Open up GitHub Discussions and demo the interface:
 * Walk through the "New discussion" interface
     * Create a "Help Request"
     * Post a response
-    * Mark that responset as answer
+    * Mark that response as answer
 :::
 
 
