@@ -25,9 +25,9 @@
 
 * ~~Remove "Day 1 overview" slides, but keep workshop overview slides. We can do the daily
   overviews from the "Materials" page to avoid keeping things in sync with slides.~~
-* Icebreaker: Pick a question from a list to introduce yourself.
-* Icebreaker: "Tell a _short_ story about your interest in Greenland"
-* Icebreaker: "Something unique about yourself"
+* ~~Icebreaker: Pick a question from a list to introduce yourself.~~
+* ~~Icebreaker: "Tell a _short_ story about your interest in Greenland"~~
+* ~~Icebreaker: "Something unique about yourself"~~
 * ~~If we use Slack, add slides to overview. What should go in Slack and what should go in
   Discussions?~~
 

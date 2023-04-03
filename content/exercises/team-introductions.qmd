@@ -3,10 +3,12 @@
 
 ## ❤️ Get to know your team
 
-Discuss with your team:
+Introduce yourself to your team. Each person:
 
-* What dataset did you choose?
-* _TODO: Pick a quirky icebreaker question!_
+* Tell what dataset you choose and why.
+* Choose one of the following icebreakers to tell your team more
+  about yourself:
     * Dream place you want to go in Greenland
-    * Tell a story about Greenland
-    * ...?
+    * Tell a short story about Greenland
+    * Tell a short story about your interest in Greenland
+    * Say something unique about yourself
