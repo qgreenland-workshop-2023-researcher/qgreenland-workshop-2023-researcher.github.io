@@ -31,7 +31,7 @@ our community include:
 Examples of unacceptable behavior include:
 
 * Overruling or talking over others based on perceived experience or seniority
-* Destructive criticism 
+* Destructive criticism
 * The use of sexualized language or imagery, and sexual attention or advances of any
   kind
 * Trolling, insulting or derogatory comments, and personal or political attacks
