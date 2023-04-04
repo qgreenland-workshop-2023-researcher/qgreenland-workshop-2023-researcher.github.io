@@ -63,8 +63,8 @@
     * Can we make time on day 3/4 for those "bonus" topics?
 * More on "Metadata standards" slide; instead of just listing them, why would you care
   about them?
-* Drop "Tools for inspecting metadata" slide; move GUI application recommendations to
-  "inspecting" deck.
+* ~~Drop "Tools for inspecting metadata" slide;~~ move GUI (Panoply) application
+  recommendations to "inspecting" deck.
 
 
 ##### Exercise

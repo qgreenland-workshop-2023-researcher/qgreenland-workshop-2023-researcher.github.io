@@ -295,11 +295,3 @@ Note there are other standard representations as well, e.g., Geography Markup La
 When a dataset follows of one or more common standards, GIS practitioners and tools can
 accurately parse information about CRS, date/time, etc.
 :::
-
-
-## Tools for inspecting metadata
-
-* `ogrinfo`/`gdalinfo`: CLI & Python
-* `xarray`: Python
-* `ncview`: GUI
-* Panoply: GUI
