@@ -35,7 +35,7 @@ JupyterLab is not shared!
 
 👪 JupyterLab is a human-friendly interface to computation resources.
 
-![Jupyterlab logo](/_media/jupyterlab_about_logo.png)
+![JupyterLab logo](/_media/jupyterlab_about_logo.png)
 
 :::{.notes}
 The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
@@ -44,7 +44,7 @@ pop-up in CryoCloud.
 
 #
 
-![Jupyterlab](/_media/jupyterlab.png)
+![JupyterLab](/_media/jupyterlab.png)
 
 
 ## File browser
@@ -59,7 +59,7 @@ pop-up in CryoCloud.
 :::
 
 ::: {.column}
-![Jupyterlab file browser](/_media/jupyter_lab_file_browser.png)
+![JupyterLab file browser](/_media/jupyter_lab_file_browser.png)
 :::
 
 ::::::
@@ -70,7 +70,7 @@ pop-up in CryoCloud.
 * `mamba install <package>`
 * Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
 
-![Jupyterlab terminal](/_media/jupyterlab_terminal.png)
+![JupyterLab terminal](/_media/jupyterlab_terminal.png)
 
 ::: {.notes}
 Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
