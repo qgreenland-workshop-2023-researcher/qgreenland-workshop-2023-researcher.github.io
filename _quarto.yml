@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "*.md"
+    - "*.ipynb"
     - "!doc/"
 
 

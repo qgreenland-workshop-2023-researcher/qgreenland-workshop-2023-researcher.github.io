@@ -48,7 +48,7 @@
 * In the exercise to change "red" to "green", suggest that if they're done early they
   can try out some other things, like changing projection.
 * ‼️ In the exercise, remind people to log out?
-  * More reminders to log out of JH, e.g. at the end of each day's module.
+    * More reminders to log out of JH, e.g. at the end of each day's module.
 
 
 #### Geospatial concepts and terms
@@ -96,15 +96,16 @@
 
 ##### Exercise
 
-* Remove "Run the example notebook"
-* Remove "Change the color of Greenland"
-* 💡 Create an example notebook for this exercise using an existing QGreenland layer.
-* Remove "Push to GitHub", not covered until day 2.
+* ~~Remove "Run the example notebook"~~
+* ~~Remove "Change the color of Greenland"~~
+* ~~💡 Create an example notebook for this exercise using an existing QGreenland
+  layer.~~
+* ~~Remove "Push to GitHub", not covered until day 2.~~
 
 
 #### Intro to GitHub
 
-* Ask them to commit the notebook they made on Day 1 to GitHub.
+* ~~Ask them to commit the notebook they made on Day 1 to GitHub.~~
 
 
 ### Misc
