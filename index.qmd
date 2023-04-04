@@ -22,7 +22,7 @@ Participants will work as small teams (~4 people) to engage in discussion on
 open-science practices and tools like JupyterLab and GitHub, work through several
 data-based exercises focused on gaining first-hand experience making data ready for
 analysis, and develop practices for collaboration. Groups will be organized with diverse
-skillsets, and you should expect to both teach and learn from your group.
+skill sets, and you should expect to both teach and learn from your group.
 
 This workshop is aimed primarily at graduate level or higher researchers interested in
 answering questions about Greenland using geospatial data. Basic knowledge of QGIS and

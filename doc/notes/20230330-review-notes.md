@@ -48,7 +48,7 @@
 * In the exercise to change "red" to "green", suggest that if they're done early they
   can try out some other things, like changing projection.
 * ‼️ In the exercise, remind people to log out?
-  * More reminders to log out of JH, e.g. at the end of each day's module.
+    * More reminders to log out of JH, e.g. at the end of each day's module.
 
 
 #### Geospatial concepts and terms
