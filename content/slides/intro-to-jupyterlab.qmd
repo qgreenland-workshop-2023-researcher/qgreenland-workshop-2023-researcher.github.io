@@ -47,7 +47,7 @@ pop-up in CryoCloud.
 ![JupyterLab](/_media/jupyterlab.png)
 
 
-## File browser
+## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
 :::::: {.columns}
 
 ::: {.column}
