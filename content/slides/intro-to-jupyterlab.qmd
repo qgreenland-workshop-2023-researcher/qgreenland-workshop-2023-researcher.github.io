@@ -6,7 +6,7 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
-## JupyterHub
+## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
 
 Your personal JupyterLab in the cloud
 
