@@ -48,7 +48,7 @@
 * ~~In the exercise to change "red" to "green", suggest that if they're done early they
   can try out some other things, like changing projection.~~
 * ~~‼️ In the exercise, remind people to log out?~~
-  * ~~No, we plan other exercises using jupyterlab after the break.~~
+    * ~~No, we plan other exercises using jupyterlab after the break.~~
 
 
 #### Geospatial concepts and terms
