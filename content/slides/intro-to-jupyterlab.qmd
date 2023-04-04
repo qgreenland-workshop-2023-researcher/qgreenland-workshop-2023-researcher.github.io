@@ -120,9 +120,10 @@ back into your desktop.
 Do not use "Logout" from the desktop environment!
 :::
 
+To close the desktop, just close the window/tab that the desktop environment is open in.
+
 :::{.notes}
-_TODO: add an image showing a "no" symbol over the logout menu? Or show what is
-supposed to be done? Just close the window? Something else?_
+_TODO: add an image showing a "no" symbol over the logout menu?_
 :::
 
 
