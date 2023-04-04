@@ -32,3 +32,5 @@ Explore JupyterLab features.
     * When complete, you should see a map with QGreenland highlighted in red.
 * Change the color of the Greenland shape in the last cell of the notebook and
   re-render.
+* Try changing other map parameters in the last cell of the notebook. Can you
+  change the map's projection?

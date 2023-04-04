@@ -25,9 +25,9 @@
 
 * ~~Remove "Day 1 overview" slides, but keep workshop overview slides. We can do the daily
   overviews from the "Materials" page to avoid keeping things in sync with slides.~~
-* Icebreaker: Pick a question from a list to introduce yourself.
-* Icebreaker: "Tell a _short_ story about your interest in Greenland"
-* Icebreaker: "Something unique about yourself"
+* ~~Icebreaker: Pick a question from a list to introduce yourself.~~
+* ~~Icebreaker: "Tell a _short_ story about your interest in Greenland"~~
+* ~~Icebreaker: "Something unique about yourself"~~
 * ~~If we use Slack, add slides to overview. What should go in Slack and what should go in
   Discussions?~~
 
@@ -35,7 +35,7 @@
 #### Intro to JupyterHub
 
 * Change "small" server requirement to specific number of CPUs and RAM
-* Add screenshots of File Browser, application icons.
+* ~~Add screenshots of File Browser, application icons.~~
 * Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
   show you how this works, then take 5 minutes to do it on your own." or "We're going
   to go through this together."
@@ -43,28 +43,28 @@
 * 💡 Show example of how literate programming in a notebook _looks_ during slides. Small
   portions of notebooks that demonstrate useful concepts, even if this means repeating
   some things!
-* When demoing the notebook, ensure that we narrate double-clicking markdown cells to
-  show the source of it. And also how to expand/collapse cells.
-* In the exercise to change "red" to "green", suggest that if they're done early they
-  can try out some other things, like changing projection.
-* ‼️ In the exercise, remind people to log out?
-    * More reminders to log out of JH, e.g. at the end of each day's module.
+* ~~When demoing the notebook, ensure that we narrate double-clicking markdown cells to
+  show the source of it. And also how to expand/collapse cells.~~
+* ~~In the exercise to change "red" to "green", suggest that if they're done early they
+  can try out some other things, like changing projection.~~
+* ~~‼️ In the exercise, remind people to log out?~~
+    * ~~No, we plan other exercises using jupyterlab after the break.~~
 
 
 #### Geospatial concepts and terms
 
-* Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
-  ADD SPEAKER NOTES!
+* ~~Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
+  ADD SPEAKER NOTES!~~
 * Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
   quality?
-* Remove "other data types" slide.
+* ~~Remove "other data types" slide.~~
     * Move to "continued learning"?
     * Can we make time on day 3/4 for those "bonus" topics?
 * More on "Metadata standards" slide; instead of just listing them, why would you care
   about them?
-* Drop "Tools for inspecting metadata" slide; move GUI application recommendations to
-  "inspecting" deck.
+* ~~Drop "Tools for inspecting metadata" slide;~~ move GUI (Panoply) application
+  recommendations to "inspecting" deck.
 
 
 ##### Exercise
@@ -131,3 +131,4 @@
     * Discuss roles for administrators in each workshop. Do we need more people to
       fill those roles? e.g. MC students?
     * Ensure our workshop's Zoom meeting is set to disable annotations.
+* More reminders to log out of JH, e.g. at the end of each day's module.

@@ -6,7 +6,7 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
-## JupyterHub
+## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
 
 Your personal JupyterLab in the cloud
 
@@ -35,23 +35,42 @@ JupyterLab is not shared!
 
 👪 JupyterLab is a human-friendly interface to computation resources.
 
+![JupyterLab logo](/_media/jupyterlab_about_logo.png)
 
-## File browser
+:::{.notes}
+The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
+pop-up in CryoCloud.
+:::
 
+#
+
+![JupyterLab](/_media/jupyterlab.png)
+
+
+## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
+:::::: {.columns}
+
+::: {.column}
 * Drag & drop from your desktop
 * Open many types of files and get a useful display
     * CSV will display as table
     * GeoJSON will display on a map
     * Images will open with an image viewer
+:::
 
-* _TODO: Image of file browser on the side of this slide_
+::: {.column}
+![JupyterLab file browser](/_media/jupyter_lab_file_browser.png)
+:::
 
+::::::
 
-## Terminal
+## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 
 * `conda install <package>`
 * `mamba install <package>`
 * Common GDAL/OGR utilities: `gdalinfo`, `ogrinfo`, etc.
+
+![JupyterLab terminal](/_media/jupyterlab_terminal.png)
 
 ::: {.notes}
 Conda and Mamba are already installed, and a `notebook` environment is pre-created. Use
@@ -59,22 +78,34 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 :::
 
 
-## Desktop (with QGIS)
+## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
+
+![Desktop](/_media/jupyterlab_desktop.png)
+
+## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
 On first launch, select "Use default config"
 
 ![Use default config](/_media/xfce_first_launch.png)
 
 
-## Desktop (with QGIS)
+## Desktop: file browser
 
-* The "Home" icon on the desktop shows the same files as JupyterLab
-  File Browser.
-* Can open QGreenland!
+The "Home" icon on the desktop shows the same files as JupyterLab File Browser.
 
-::: {.callout-warning}
-Do not use "Logout" from the desktop environment!
+![Desktop file browser](/_media/jupyterlab_desktop_file_browser.png)
+
+::: {.notes}
+There's also a terminal emulator and other utilities often found in a desktop
+GUI environment.
 :::
+
+
+## Desktop: QGIS and QGreenland
+
+Can open QGreenland!
+
+![Desktop file browser](/_media/jupyterlab_desktop_qgreenland.png)
 
 ::: {.notes}
 Opening QGreenland should take ~2 minutes.
@@ -84,34 +115,52 @@ back into your desktop.
 :::
 
 
+## Desktop: logging out
+::: {.callout-warning}
+Do not use "Logout" from the desktop environment!
+:::
+
+To close the desktop, just close the window/tab that the desktop environment is open in.
+
+:::{.notes}
+_TODO: add an image showing a "no" symbol over the logout menu?_
+:::
+
+
 ## Jupyter Notebooks
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column}
 * A tool for [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * Showing your work
     * Tracking provenance
     * Telling a story
-:::
-
-::: {.column width="50%"}
+    
 * See also:
     * Quarto
     * JupyterBook
-    * _TODO: Others?_
+:::
+
+::: {.column}
+![Jupyter Notebook](/_media/jupyterlab_notebook.png)
 :::
 ::::::
 
+:::{.notes}
+At this point, do a live demo of the `demo.ipynb` notebook.
 
-## Jupyter Notebook example
+When demoing the notebook, ensure that we narrate double-clicking markdown cells
+to show the source of it. And also how to expand/collapse cells.
+:::
 
-* Walk through running an example notebook and viewing its output in QGIS?
-    * _TODO: Finalize `demo.ipynb`. Include something simple for users to try changing._
 
+# Log Out when done!
 
-# Important: Please log out when done!
-
+::: {.callout-important}
 _At the end of each day, click `File > Log Out`_
+:::
+
+![Log Out](/_media/jupyterlab_log_out.png){width=40%}
 
 ::: {.notes}
 Log out at the end of each day to save on cloud costs.
