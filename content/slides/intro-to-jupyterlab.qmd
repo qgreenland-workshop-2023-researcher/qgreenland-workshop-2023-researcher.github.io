@@ -64,7 +64,7 @@ pop-up in CryoCloud.
 
 ::::::
 
-## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5%}
+## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 
 * `conda install <package>`
 * `mamba install <package>`
@@ -78,11 +78,11 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 :::
 
 
-## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5%}
+## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
 ![Desktop](/_media/jupyterlab_desktop.png)
 
-## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5%}
+## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
 On first launch, select "Use default config"
 
