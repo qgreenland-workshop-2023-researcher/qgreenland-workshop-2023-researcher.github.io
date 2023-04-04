@@ -98,20 +98,6 @@ non-self-crossing lines)?_
   aligned with the goal of preparing data for a specific use case._
 
 
-## Other data types
-
-We won't focus on these:
-
-* Point cloud
-* Triangular Irregular Networks (TINs)
-* _TODO: What else?_
-
-::: {.notes}
-_TODO: is it even worth discussing these as 'other' data types? Point clouds are
-just a special case of vector data, as are TINs._
-:::
-
-
 # Metadata
 
 Data about data

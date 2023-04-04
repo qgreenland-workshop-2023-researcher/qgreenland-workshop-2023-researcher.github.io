@@ -58,7 +58,7 @@
 * Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
   quality?
-* Remove "other data types" slide.
+* ~~Remove "other data types" slide.~~
     * Move to "continued learning"?
     * Can we make time on day 3/4 for those "bonus" topics?
 * More on "Metadata standards" slide; instead of just listing them, why would you care
