@@ -53,8 +53,8 @@
 
 #### Geospatial concepts and terms
 
-* Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
-  ADD SPEAKER NOTES!
+* ~~Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
+  ADD SPEAKER NOTES!~~
 * Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
   quality?

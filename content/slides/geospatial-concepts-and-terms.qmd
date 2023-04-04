@@ -60,8 +60,19 @@ non-self-crossing lines)?_
 
 ## Raster data
 
-* Continuous
-* Categorical
+* Continuous: temperature, sea ice concentration, wind speed
+* Categorical: land cover, cloud type, storm category
+
+![RGB Raster Image (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Rgb-raster-image.svg)
+
+:::{.notes}
+* Rasters can sometimes contain a mix of continous and categorical data (a
+  measure plus flag values, e.g., sea ice concentration with "land", "coast",
+  "lake" flags).
+
+* The symbology of raster data may be categorical while the underlying data is
+  continous (e.g., high/medium/low sea ice concentration).
+:::
 
 
 ## Continuous raster data
