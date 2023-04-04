@@ -36,7 +36,7 @@ formats](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
 From the [OGC website](https://www.ogc.org): "We represent over 500 businesses,
 government agencies, research organizations, and universities united with a desire to
 make location information FAIR – Findable, Accessible, Interoperable, and Reusable."
-Among those organizations represented are USGS, NOAA, ESA, AWS, and esri. 
+Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 :::
 
 
@@ -102,15 +102,15 @@ of XML.
 * 2GB size limitation
 
 ```{.console code-line-numbers="false"}
-unzip arctic_sea_routes.zip 
+unzip arctic_sea_routes.zip
 ```
 ```console
 Archive:  arctic_sea_routes.zip
-  inflating: Arctic_Sea_Routes.prj   
-  inflating: Arctic_Sea_Routes.shx   
- extracting: Arctic_Sea_Routes.cpg   
-  inflating: Arctic_Sea_Routes.dbf   
-  inflating: Arctic_Sea_Routes.shp   
+  inflating: Arctic_Sea_Routes.prj
+  inflating: Arctic_Sea_Routes.shx
+ extracting: Arctic_Sea_Routes.cpg
+  inflating: Arctic_Sea_Routes.dbf
+  inflating: Arctic_Sea_Routes.shp
 ```
 
 ::: {.notes}
@@ -1772,7 +1772,7 @@ No Coordinate Reference System is specified!
 * Size is in grid space.
 * Corner coordinates are in grid space.
     * NOTE: the upper-left corner coordinates are `(0, 0)`; this is a red flag that the
-      data is not properly geo-located.
+      data is not properly geolocated.
 * There is no WKT or other specification of a coordinate reference system.
 :::
 

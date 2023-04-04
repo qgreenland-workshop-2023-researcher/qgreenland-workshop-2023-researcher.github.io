@@ -20,7 +20,7 @@ For continued learning, please consider the following external resources.
 
 ## Geospatial concepts
 
-* [ESRI: Coordinate systems, map projections, and
+* [Esri: Coordinate systems, map projections, and
   transformations](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm)
 
 
@@ -31,7 +31,7 @@ For continued learning, please consider the following external resources.
 
 ### Coordinate systems
 
-* [ESRI: Coordinate Systems: What's the
+* [Esri: Coordinate Systems: What's the
   Difference?](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
 * [Proj4 parameters](https://en.wikibooks.org/wiki/PROJ.4#Parameters)
 * [Data Carpentry: Coordinate Reference Systems](https://datacarpentry.org/organization-geospatial/03-crs/)
