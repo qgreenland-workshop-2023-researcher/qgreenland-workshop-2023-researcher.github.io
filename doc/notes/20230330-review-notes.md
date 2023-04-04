@@ -76,21 +76,22 @@
 
 #### Inspecting data
 
-* At the beginning, suggest the LoC as a place to start to answer questions about a
-  format. Specifically point people to the "Licensing and patents" section.
-* Expand the "OGC" acronym in the first slide it's mentioned. Explain what they are and
-  what they do in speaker notes.
-* CSV/TSV: Expand acronyms
-    * Code cell with CSV data
-* XLS: screenshot of Excel
-* ESRI Shapefile: Directory listing of example files (`.prj`, `.?`)
+* ~~At the beginning, suggest the LoC as a place to start to answer questions about a
+  format. Specifically point people to the "Licensing and patents" section.~~
+* ~~Expand the "OGC" acronym in the first slide it's mentioned. Explain what they are and
+  what they do in speaker notes.~~
+* ~~CSV/TSV: Expand acronyms~~
+    * ~~Code cell with CSV data~~
+* ~~XLS: screenshot of Excel~~
+* ~~ESRI Shapefile: Directory listing of example files (`.prj`, `.?`)~~
 * Others: Extract to continued learning?
-* Rasterio CLI: Mention in speaker notes that it has both a CLI and Python interface.
-* Consider e.g. in Rasterio slides, having a dedicated slide to showing the "help"
-  output.
-* Move "OGR used to stand for" to speaker notes.
-* In "Raster with no metadata" slide, call out the upper left corner's value is 0,0 as a
-  red flag.
+* ~~Rasterio CLI: Mention in speaker notes that it has both a CLI and Python
+  interface.~~
+* ~~Consider e.g. in Rasterio slides, having a dedicated slide to showing the "help"
+  output.~~
+* ~~Move "OGR used to stand for" to speaker notes.~~
+* ~~In "Raster with no metadata" slide, call out the upper left corner's value is 0,0 as a
+  red flag.~~
 * Consider showing missing metadata on a vector datasource.
 
 
