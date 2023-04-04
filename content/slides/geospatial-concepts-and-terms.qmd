@@ -66,12 +66,12 @@ non-self-crossing lines)?_
 ![RGB Raster Image (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Rgb-raster-image.svg)
 
 :::{.notes}
-* Rasters can sometimes contain a mix of continous and categorical data (a
+* Rasters can sometimes contain a mix of continuous and categorical data (a
   measure plus flag values, e.g., sea ice concentration with "land", "coast",
   "lake" flags).
 
 * The symbology of raster data may be categorical while the underlying data is
-  continous (e.g., high/medium/low sea ice concentration).
+  continuous (e.g., high/medium/low sea ice concentration).
 :::
 
 

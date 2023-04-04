@@ -38,8 +38,8 @@ JupyterLab is not shared!
 ![Jupyterlab logo](/_media/jupyterlab_about_logo.png)
 
 :::{.notes}
-The jupyterlab logo is a screenshot from Jupyterlab's "Help -> About JupyterLab"
-popup in cryocloud.
+The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
+pop-up in CryoCloud.
 :::
 
 #
