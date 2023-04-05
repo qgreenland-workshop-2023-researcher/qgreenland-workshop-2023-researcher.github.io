@@ -37,10 +37,10 @@
 * ~~Change "small" server requirement to specific number of CPUs and RAM: 4GB~~
     * ~~Slide about monitoring memory/CPU usage (bottom-left of JupyterHub window)~~
 * ~~Add screenshots of File Browser, application icons.~~
-* Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
+* ~~Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
   show you how this works, then take 5 minutes to do it on your own." or "We're going
-  to go through this together."
-    * 💡 Set this expectation on a title slide
+  to go through this together."~~
+    * ~~💡 Set this expectation on a title slide~~
 * 💡 Show example of how literate programming in a notebook _looks_ during slides. Small
   portions of notebooks that demonstrate useful concepts, even if this means repeating
   some things!
