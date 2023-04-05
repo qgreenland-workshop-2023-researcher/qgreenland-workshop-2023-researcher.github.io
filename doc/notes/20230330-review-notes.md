@@ -85,8 +85,8 @@
     * ~~Code cell with CSV data~~
 * ~~XLS: screenshot of Excel~~
 * ~~ESRI Shapefile: Directory listing of example files (`.prj`, `.?`)~~
-* Others: Remove and add Library of Congress data formats + OGC standards link to
-  continued learning
+* ~~Others: Remove and add Library of Congress data formats + OGC standards link to
+  continued learning~~
 * ~~Rasterio CLI: Mention in speaker notes that it has both a CLI and Python
   interface.~~
 * ~~Consider e.g. in Rasterio slides, having a dedicated slide to showing the "help"

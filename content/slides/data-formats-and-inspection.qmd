@@ -308,27 +308,8 @@ data](https://gdal.org/drivers/vector/netcdf.html)
 * Can store datasets of different types in a single file
 
 
-## Others
-
-* [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
-* [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
-* [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
-* [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎
-* [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
-
-::: {.notes}
-* ASCII Grids are used to store raster data in a ASCII text format.
-
-* World Files are text files that accompany other raster data file (e.g., `jpeg`,
-`png`) and provide geospatial metadata.
-
-* ESRI GeoDatabases are proprietary.
-
-* HDF-EOS is built on the old HDF4 standard.
-:::
-
-
 <!-- TODO: Slide on `gdalsrsinfo`? -->
+
 
 # Inspecting Data
 

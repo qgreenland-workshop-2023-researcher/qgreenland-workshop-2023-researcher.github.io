@@ -55,6 +55,15 @@ For continued learning, please consider the following external resources.
 * [Map projections: A working manual (USGS, 1987)](https://pubs.er.usgs.gov/publication/pp1395)
 
 
+## Data formats
+
+* [Library of Congress Digital Formats](https://www.loc.gov/preservation/digital/formats/)
+    * [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
+    * [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
+    * [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
+    * [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml) 🌎
+    * [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
+
 ## Data and Metadata Standards
 
 * [Unified Metadata Model](https://www.earthdata.nasa.gov/unified-metadata-model-umm)
