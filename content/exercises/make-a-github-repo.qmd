@@ -1,31 +1,46 @@
 # Make a GitHub repository (40 minutes)
 
+::: {.callout-warning}
+We request that everyone use the GitHub browser interface. If you choose not to, be
+prepared to support your group if issues like merge conflicts arise. See <link to
+CryoCloud Git gotchas> for details on using Git in CryoCloud.
+
+_TODO: CryoCloud link. Ask Tasha how we should handle auth_
+:::
+
 ## ✨ Create repository for your group
 
-Pick a person in your group to "drive" a screen share and do the following
-steps:
+Pick a person in your group to "drive" a screen share and set up your group repository.
+We suggest someone who has never created a GitHub repository before.
 
-* Your repository should be named with convention: _TODO: Convention!_
+Create a new GitHub repository under the `qgreenland-workshop-2023-researcher`
+organization.
 
-::: {.callout-warning}
-It's expected that most participants will work in the GitHub browser interface.
-If you prefer to work at the CLI or use branches, we expect that you will
-support your group if any issues like merge conflicts arise.
-:::
+Your repository should be named with convention: _TODO: Convention!_
 
 
 ## 📂 Add some content
 
-* Add and commit the notebook produced during the _Data Inspection_ module to
-  your repository.
+* Add and commit the notebook your team produced during the [Data
+  Inspection](data-inspection-with-jupyterlab/index.qmd) exercise to your
+  repository.
 * Add and commit a `README.md` file:
-    * Introduce your team members by their GitHub user IDs
-    * Identify the dataset your group has chosen.
-    * Mimicking the demo repository created in the previous activity, create a
-      section for the metadata and data.
-        * _TODO: Link to demo repository_
+    * List your team members by name.
+    * Identify the dataset your group has chosen to explore.
 * Turn on GitHub Discussions for your group repository. Use this space for
   asynchronous discussions within your group during (or after!) the workshop.
+
+
+## ✨ Create your personal profile repository
+
+Follow [GitHub's
+instructions](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme#adding-a-profile-readme)
+to create a profile repository with a profile README.
+
+You may want to use your introductory post to 
+
+When you're done, you should be able to navigate to `https://github.com/<your-username>`
+and see your new content displayed!
 
 
 ## ⏱️ Finished early?
