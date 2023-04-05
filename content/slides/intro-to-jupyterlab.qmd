@@ -193,7 +193,7 @@ GUI environment.
 
 Can open QGreenland!
 
-![Desktop file browser](/_media/jupyterlab_desktop_qgreenland.png)
+![Desktop with QGIS and QGreenland](/_media/jupyterlab_desktop_qgreenland.png)
 
 ::: {.notes}
 Opening QGreenland should take ~2 minutes.
