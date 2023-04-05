@@ -92,7 +92,7 @@ non-self-crossing lines)?_
       categories.
 * Reprojection
     * Reproject only once, if you have to. Data values in the output grid are
-      estimated from the input using an interpolation techinque like 'nearest
+      estimated from the input using an interpolation technique like 'nearest
       neighbor' or 'bilinear', potentially resulting in a loss or transformation
       of information in the input grid.
 * _TODO: What else?_
@@ -103,7 +103,7 @@ non-self-crossing lines)?_
 :::{.notes}
 Raster reprojection results in resampling of the input grid to a new, output
 grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
-etc.). Data values stored in the original grid are transformed to accomodate the
+etc.). Data values stored in the original grid are transformed to accommodate the
 geometry and spatial positioning of the output grid.
 
 _TODO: consider incorporating this image of interpolation techniques (maybe just
