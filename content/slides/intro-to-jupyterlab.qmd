@@ -61,9 +61,9 @@ server.
 :::
 
 
-# Memory / RAM usage
+# 
 
-![JupyterLab](/_media/jupyterlab_memory.png)
+![JupyterLab - memory/RAM usage](/_media/jupyterlab_memory.png)
 
 :::{.notes}
 Highlight where to monitor memory usage. If a dataset is particularly large
