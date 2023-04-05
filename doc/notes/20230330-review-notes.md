@@ -34,7 +34,7 @@
 
 #### Intro to JupyterHub
 
-* Change "small" server requirement to specific number of CPUs and RAM: 4GB
+* ~~Change "small" server requirement to specific number of CPUs and RAM: 4GB~~
     * Slide about monitoring memory/CPU usage (bottom-left of JupyterHub window)
 * ~~Add screenshots of File Browser, application icons.~~
 * Clarify which parts are demo and which parts are "follow along". E.g.: "We're going to
