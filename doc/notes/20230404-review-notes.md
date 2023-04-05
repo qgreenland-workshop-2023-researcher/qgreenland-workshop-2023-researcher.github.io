@@ -4,9 +4,9 @@
 
 ### Intro to GitHub
 
-* On the first slide, add an explanation of the scope of this "intro"; we want to give a
+* ~~On the first slide, add an explanation of the scope of this "intro"; we want to give a
   "taste", and to that end we're streamlining this material and not focusing on
-  advanced/intermediate topics.
+  advanced/intermediate topics.~~
 * Make a Git vs GitHub slide
     * <https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/>
 * Mention alternatives to GitHub

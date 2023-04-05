@@ -8,10 +8,24 @@ title-slide-attributes:
 
 <!-- TODO:
 * Add slide on Zenodo
-* GitHub discussions
 * Example Open Source research repositories?
 * Add Jupyter Notebook from day 1 to personal repo
 -->
+
+# Intro to GitHub
+
+* Provide a "taste" of the utility of Git and GitHub
+* Intermediate/advanced topics out of scope
+    * See [continued learning](/content/continued-learning.html#gitgithub) page
+    * Attend office hours!
+
+::: {.notes}
+We love Git and are excited to teach about it, but we don't have room in this workshop
+to fit that and still meet our other goals. We welcome anyone who wants to learn more to
+attend office hours on day 4. We also provide resources for continued independent
+learning.
+:::
+
 
 ## Working "in the open"
 
