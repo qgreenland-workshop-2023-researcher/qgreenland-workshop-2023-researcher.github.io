@@ -24,5 +24,5 @@ format:
       buttons: true
     preview-links: "auto"
     logo: "https://nsidc.org/themes/custom/nsidc/logo.svg"
-    footer: "<https://nsidc.org>"
+    footer: "[Home](/)"
     transition: "none"
