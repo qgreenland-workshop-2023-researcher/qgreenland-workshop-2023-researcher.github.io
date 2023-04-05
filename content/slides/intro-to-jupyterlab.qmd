@@ -87,6 +87,14 @@ The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
 pop-up in CryoCloud.
 :::
 
+#
+
+![JupyterLab side-bar](/_media/jupyterlab_side_bar.png)
+
+:::{.notes}
+We'll talk about the side-bar first.
+:::
+
 
 ## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
 :::::: {.columns}
@@ -104,6 +112,29 @@ pop-up in CryoCloud.
 :::
 
 ::::::
+
+## Running terminals and kernels ![](/_media/jupyterlab_running_terminals_kernels_icon.png){width="3%" style="vertical-align:middle"}
+:::::: {.columns}
+
+::: {.column}
+* Lists currently running Terminals and Kernels.
+
+* If one of these apps gets 'stuck', you may need to shut it down and
+  try again
+
+* If you accidentally close a terminal or notebook tab, you can re-access it by
+  clicking on its entry here.
+:::
+
+::: {.column}
+![JupyterLab Running Terminals and Kernels](/_media/jupyterlab_running_terminals_kernels.png)
+:::
+
+::::::
+
+:::{.notes}
+We will not be covering the usage of the final three side panel views.
+:::
 
 ## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 
