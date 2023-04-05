@@ -25,12 +25,6 @@ CryoCloud: your personal JupyterLab in the cloud
 
 ::: {.notes}
 JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
-
-JupyterLab is not shared!
-
-* Other attendees can't see your files (except those in `shared/` dir)
-* No scheduler like on a supercomputer
-    * Your computations won't interfere with anyone else's
 :::
 
 ## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
@@ -51,6 +45,10 @@ Although each user has their own dedicated workspace and filesystem, compute
 resources are not completely isolated. For example, selecting a 4GB RAM server
 size results in a guaranteed allocation of 4GB but if more memory is free on the
 node a user may be able to utilize more than 4GB.
+
+* Other attendees can't see your files (except those in `shared/` dir)
+* No scheduler like on a supercomputer
+    * Your computations won't interfere with anyone else's
 :::
 
 #
