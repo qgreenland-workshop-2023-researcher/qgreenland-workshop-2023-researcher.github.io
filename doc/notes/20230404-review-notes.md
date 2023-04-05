@@ -87,7 +87,7 @@
 * Create an overview checklist with:
     * Discuss the modules we'll cover today
     * Questions from yesterday?
-* Create administrator documentation 
+* Create administrator documentation
     * Daily checklist
         * When/how to record
     * Roles
@@ -97,3 +97,8 @@
 * What does contributor workflow look like if people want to add to the package? We
   don't want "inconsequential" layers. E.g. start with an issue to discuss viability of
   dataset, then open PR.
+* Emphasize different chat channels: Try not to use Zoom chat, but we'll be available
+  there if needed.
+* Demo the different communication methods in Day 1 overview slides
+* Add slides to introduce ourselves in the Day 1 overview deck. This should be at the
+  beginning.
