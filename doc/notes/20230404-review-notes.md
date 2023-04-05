@@ -7,9 +7,9 @@
 * ~~On the first slide, add an explanation of the scope of this "intro"; we want to give a
   "taste", and to that end we're streamlining this material and not focusing on
   advanced/intermediate topics.~~
-* Make a Git vs GitHub slide
+* ~~Make a Git vs GitHub slide~~
     * <https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/>
-* Mention alternatives to GitHub
+* ~~Mention alternatives to GitHub~~
 * How to set up permissions, or set up org-level defaults
 * Useful references slide:
     * GFM doc links are hard to distinguish

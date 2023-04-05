@@ -27,7 +27,7 @@ learning.
 :::
 
 
-## Working "in the open"
+# Working "in the open"
 
 ![<https://allisonhorst.com>](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e4a11b1f-f235-461f-ab73-ce6128c59e49.png?h=dc95847637c97b0d5f5c993e906f2ccd)
 
@@ -46,6 +46,66 @@ let's utilize GitHub as the mechanism to translate that knowledge to documentati
 
 _TODO: Examples of "Git is not just for coders"._
 _TODO: Brief differentiation between Git and GitHub._
+:::
+
+
+# Git vs GitHub
+
+:::::: {.columns}
+::: {.column width="50%"}
+![Git logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg){width=300}
+:::
+::: {.column width="50%"}
+![GitHub logo](/_media/github-mark.svg){width=300}
+:::
+::::::
+
+
+## ![](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg){width=50 style="vertical-align: middle"} Git
+
+Git is the "foundation" of GitHub; it is an information (*not* code!) management
+system. Git can answer questions like:
+
+* Who made this change?
+* What did this information look like last week?
+* When did this change occur?
+* Why was this change made?
+
+[Learn more about Git](https://docs.github.com/en/get-started/using-git/about-git)
+
+::: {.notes}
+Git is the underlying technology that makes GitHub work. Git manages information over
+time, enabling collaboration and "time travel" through the history of your work
+products.
+
+At its core, Git is a command-line tool, but there are so many interfaces built on top
+of it to make it more powerful and/or user-friendly. There are editor integrations for
+VIM, emacs, Visual Studio Code; there are websites built on top of it, like GitHub,
+BitBucket, GitLab, 
+:::
+
+
+## ![](/_media/github-mark.svg){width=50 style="vertical-align: middle"} GitHub {.smaller}
+
+GitHub is a hosting service for Git repositories with lots of extra bells and whistles.
+GitHub has competitors like GitLab and Bitbucket which offer similar features, like:
+
+* Back up your work on their servers
+* Facilitating conversations and approval process for changes
+* Bug tracking and associated discussion
+* Documentation with Wiki-like features
+* Project management tools
+* Running automations in response to changes, e.g.:
+    * Build a website and deploy it
+    * Generate a PDF from LaTeX or Markdown
+    * Check code for errors or style compliance
+    * Compile code
+
+::: {.notes}
+We are focusing on GitHub instead of its competitors because it is currently the most
+popular. If you're interested in an alternative which is more open, consider looking
+into GitLab, which offers an open-source core called "Community Edition" and a
+source-available "Enterprise Edition" which provides extra features.
 :::
 
 
