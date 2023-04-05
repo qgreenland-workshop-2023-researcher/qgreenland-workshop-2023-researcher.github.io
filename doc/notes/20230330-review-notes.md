@@ -122,8 +122,8 @@
   encourage them all to do the same steps on their own computers. Or be explicit: Are
   there some exercises that should be done as a group and others that should be
   implemented by everyone?~~
-* We should demo creating a new notebook so everyone knows how. Add a screenshot of the
-  "new tab" button on a "Creating a new Jupyerlab tab/window" slide.
+* ~~We should demo creating a new notebook so everyone knows how. Add a screenshot of the
+  "new tab" button on a "Creating a new Jupyerlab tab/window" slide.~~
 * ~~Ensure each person can have a personal interaction with GitHub, JupyterLab, data. We
   don't want the experts to be the only ones _doing_. Encourage experts in groups to
   play a support role to non-experts.~~
