@@ -51,6 +51,19 @@ server.
 :::
 
 
+# Memory / RAM usage
+
+![JupyterLab](/_media/jupyterlab_memory.png)
+
+:::{.notes}
+Highlight where to monitor memory usage. If a dataset is particularly large
+and/or an operation on the data is getting stuck, check memory usage.
+
+If individuals run into memory issues working with a dataset during the
+workshop, trying the 8GB option is reasonable.
+:::
+
+
 # What can I do in my JupyterLab?
 
 💻 Almost anything you can do on your personal computer!
