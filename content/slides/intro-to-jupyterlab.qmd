@@ -41,7 +41,7 @@ We encourage users to start with the 4GB RAM option to start. If individuals run
 into memory issues working with a dataset during the workshop, trying the 8GB
 option is reasonable.
 
-Although each user has their own dedicated workspace and filesystem, compute
+Although each user has their own dedicated workspace and file system, compute
 resources are not completely isolated. For example, selecting a 4GB RAM server
 size results in a guaranteed allocation of 4GB but if more memory is free on the
 node a user may be able to utilize more than 4GB.
