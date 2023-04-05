@@ -10,3 +10,6 @@ node_modules/
 *.json
 !package.json
 !package-lock.json
+
+# Jupyter notebook epherma
+.ipynb_checkpoints/
