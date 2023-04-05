@@ -56,9 +56,9 @@
 
 * ~~Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
   ADD SPEAKER NOTES!~~
-* Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
+* ~~Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
-  quality?
+  quality?~~
 * ~~Remove "other data types" slide.~~
     * ~~Move to "continued learning"?~~
     * ~~Can we make time on day 3/4 for those "bonus" topics?~~
