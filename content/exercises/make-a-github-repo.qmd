@@ -1,6 +1,5 @@
 # Make a GitHub repository (40 minutes)
 
-
 ## ✨ Create repository for your group
 
 Pick a person in your group to "drive" a screen share and do the following
@@ -29,8 +28,15 @@ support your group if any issues like merge conflicts arise.
   asynchronous discussions within your group during (or after!) the workshop.
 
 
+## ⏱️ Finished early?
+
+* Check out our [continued learning](/content/continued-learning.qmd#gitgithub)
+  resources!
+
+
 ## TODO
 
-* _TODO: Figure out how permissions will be handled._
-* _TODO: Should there be another deliverable here? A GitHub discussion? Some
-  kind of reflection on the day?_
+* Figure out how permissions will be handled.
+* Repo naming convention.
+* Should there be another deliverable here? A GitHub discussion? A reflection on the
+  day?

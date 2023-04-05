@@ -20,7 +20,7 @@
 
 #### Exercise
 
-* Add link to Git-focused continued learning resource
+* ~~Add link to Git-focused continued learning resource~~
 * Change mention of "Data Inspection" exercise to a link
 * Re-estimate the time commitment
 * Suggest choosing a driver who has never created a repo
@@ -30,9 +30,9 @@
       that will show up as their "personal profile" on `github.com/<username>`. Can
       source the content from the introduction they posted to Discussions.
 * Warning about GitHub browser interface: Change wording to `We request that everyone
-    use the GitHub browser interface. If you choose not to, be prepared to support your
-    group if issues like merge conflicts arise. See <link to CryoCloud Git gotchas> for
-    details on using Git in CryoCloud.`
+  use the GitHub browser interface. If you choose not to, be prepared to support your
+  group if issues like merge conflicts arise. See <link to CryoCloud Git gotchas> for
+  details on using Git in CryoCloud.`
 * Add a warning for users who plan to use Git within CryoCloud. How to do credentials
   correctly?
 
