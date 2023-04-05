@@ -6,6 +6,13 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+# Note
+
+We are going to demo a number of features around the use of JupyterLab in the
+following slides. Please plan to watch as we explain various features before
+trying them yourself in a [dedicated
+exercise](/content/exercises/getting-started-with-jupyterlab.html) after.
+
 ## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
 
 CryoCloud: your personal JupyterLab in the cloud
