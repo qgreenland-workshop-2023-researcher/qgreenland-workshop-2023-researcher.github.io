@@ -53,7 +53,7 @@ option is reasonable.
 ![JupyterLab](/_media/jupyterlab.png)
 
 :::{.notes}
-Show what the CryoCloud Jupyterlab looks like after signing in and selecting a
+Show what the CryoCloud JupyterLab looks like after signing in and selecting a
 server.
 :::
 
