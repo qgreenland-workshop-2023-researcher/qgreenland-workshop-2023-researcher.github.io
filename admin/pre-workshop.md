@@ -8,7 +8,7 @@
     * Disable chat? Or say "We're not using it"? May want to leave it open
       just-in-case.
     * Password
-    * Ensure annotations are disabled
+    * Ensure annotations are turned off
 * Invite people to `#qgreenland` channel in CryoCloud Slack
 * Practice breakout room usage patterns
 * Create a document with pre-selected teams
