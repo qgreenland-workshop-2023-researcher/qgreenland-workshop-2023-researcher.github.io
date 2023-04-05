@@ -15,6 +15,9 @@ For continued learning, please consider the following external resources.
 
 ## Git/GitHub
 
+* [GitHub-Flavored Markdown Basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+    * [Full specification](https://github.github.com/gfm/)
+* [Allison Horst's Git/GitHub illustrations](https://allisonhorst.com/git-github)
 * [YouTube: ICESat-2 2020: Git and GitHub (1:38:00)](https://www.youtube.com/watch?v=O2lLC_s_d20)
 
 

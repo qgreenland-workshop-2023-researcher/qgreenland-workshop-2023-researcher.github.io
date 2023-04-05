@@ -120,13 +120,3 @@ Demonstrate creating a git repository in the GitHub interface with a `README.md`
 with the type of knowledge we want groups to record about their dataset. Use an existing
 QGreenland data layer as an example.
 :::
-
-
-## Useful references
-
-* GitHub-Flavored Markdown
-    * [Basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-      [Full specification](https://github.github.com/gfm/)
-* [Allison Horst's Git/Hub illustrations](https://allisonhorst.com/git-github)
-* _TODO: More!_
-* _TODO: More_

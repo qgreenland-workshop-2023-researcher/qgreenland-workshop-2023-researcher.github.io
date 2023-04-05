@@ -11,7 +11,7 @@
     * <https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/>
 * ~~Mention alternatives to GitHub~~
 * How to set up permissions, or set up org-level defaults
-* Useful references slide:
+* ~~Useful references slide~~:
     * GFM doc links are hard to distinguish
     * Link to thinks that will be immediately useful for the upcoming exercises
     * Give a sense of what's possible with Git/Hub
