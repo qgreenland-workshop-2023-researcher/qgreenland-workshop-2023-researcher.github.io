@@ -5,7 +5,7 @@
 * A few e-mail reminders with checklists of prerequisites
     * CryoCloud setup is critical!
 * Set up the workshop Zoom meeting's settings
-    * Disable chat? Or just say "We're not using it"? May want to leave it open
+    * Disable chat? Or say "We're not using it"? May want to leave it open
       just-in-case.
     * Password
 * Invite people to `#qgreenland` channel in CryoCloud Slack
