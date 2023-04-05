@@ -89,10 +89,10 @@ pop-up in CryoCloud.
 
 #
 
-![JupyterLab side-bar](/_media/jupyterlab_side_bar.png)
+![JupyterLab left side panel](/_media/jupyterlab_left_side_panel.png)
 
 :::{.notes}
-We'll talk about the side-bar first.
+We'll talk about the left side panel first.
 :::
 
 
