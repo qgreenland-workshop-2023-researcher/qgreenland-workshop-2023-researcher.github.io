@@ -87,7 +87,7 @@
 * Create an overview checklist with:
     * Discuss the modules we'll cover today
     * Questions from yesterday?
-* Create administrator documentation 
+* Create administrator documentation
     * Daily checklist
         * When/how to record
     * Roles
