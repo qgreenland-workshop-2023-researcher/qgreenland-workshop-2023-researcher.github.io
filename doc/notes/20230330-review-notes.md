@@ -70,9 +70,9 @@
 
 ##### Exercise
 
-* Rephrase "select a dataset" to "select a _main_ dataset". Specify "Your group can use
+* ~~Rephrase "select a dataset" to "select a _main_ dataset". Specify "Your group can use
   a different dataset at different times if it's more appropriate for a specific
-  exercise."
+  exercise."~~
 
 
 #### Inspecting data
