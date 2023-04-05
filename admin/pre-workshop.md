@@ -2,7 +2,7 @@
 
 ## In advance
 
-* A few e-mail reminders with checklists of prereqs
+* A few e-mail reminders with checklists of prerequisites
     * CryoCloud setup is critical!
 * Set up the workshop Zoom meeting's settings
     * Disable chat? Or just say "We're not using it"? May want to leave it open

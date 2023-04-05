@@ -24,12 +24,12 @@ students to look for extra helpers! Alyse to e-mail Mistia, CC Twila_
 
 ## Exercises
 
-* Pre-set the breakout rooms (Alyse is doing the first slide deck, so Matt / Trey will
+* Preset the breakout rooms (Alyse is doing the first slide deck, so Matt / Trey will
   do this, Alyse will do that for other slide decks)
     * Pre-assign them and manually send them into the room
 * Click "Open breakout rooms" and everyone will get sent (after clicking "confirm")
 * Give a 5-minute warning before closing the breakout rooms: There's a "Broadcast a
   message" button we can use in the breakout room submenu.
-* Close the breakout rooms: When we do this, everyone gets a 60-second countdown. Can we
+* Close the breakout rooms: When we do this, everyone gets a 60 second countdown. Can we
   change this in the meeting settings? _Yes, but we're going to stick with the default
   60 seconds._
