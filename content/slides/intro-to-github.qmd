@@ -117,11 +117,12 @@ source-available "Enterprise Edition" which provides extra features.
 * Create a GitHub repository
 * Enable GitHub Discussions
 * Create a README file
+* Add a Jupyter Notebook
 
 ::: {.notes}
 Demonstrate creating a git repository in the GitHub interface with a `README.md` file
-with the type of knowledge we want groups to record about their dataset. Use an existing
-QGreenland data layer as an example.
+with a list of names and chosen dataset. Use an existing QGreenland data layer as an
+example.
 
 _TODO: Create the example README, or update this demo to instead create a "profile"
 repository page._
