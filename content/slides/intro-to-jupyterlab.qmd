@@ -136,6 +136,18 @@ We'll talk about the left side panel first.
 We will not be covering the usage of the final three side panel views.
 :::
 
+#
+
+![JupyterLab Launcher](/_media/jupyterlab_launcher.png)
+
+:::{.notes}
+Applications can be launched from the Launcher, opening a new tab/window for
+that application.
+
+To open a new Launcher, click the "+" tab, `File > New Launcher`, or the Blue
+`+` button in the file browser left side panel.
+:::
+
 ## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 
 * `conda install <package>`
