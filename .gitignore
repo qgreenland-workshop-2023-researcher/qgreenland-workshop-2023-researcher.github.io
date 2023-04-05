@@ -11,5 +11,5 @@ node_modules/
 !package.json
 !package-lock.json
 
-# Jupyter notebook epherma
+# Jupyter notebook ephemera
 .ipynb_checkpoints/
