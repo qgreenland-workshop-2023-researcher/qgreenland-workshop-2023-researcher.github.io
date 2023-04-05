@@ -4,14 +4,14 @@
 
 ### Intro to GitHub
 
-* On the first slide, add an explanation of the scope of this "intro"; we want to give a
+* ~~On the first slide, add an explanation of the scope of this "intro"; we want to give a
   "taste", and to that end we're streamlining this material and not focusing on
-  advanced/intermediate topics.
-* Make a Git vs GitHub slide
+  advanced/intermediate topics.~~
+* ~~Make a Git vs GitHub slide~~
     * <https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/>
-* Mention alternatives to GitHub
+* ~~Mention alternatives to GitHub~~
 * How to set up permissions, or set up org-level defaults
-* Useful references slide:
+* ~~Useful references slide~~:
     * GFM doc links are hard to distinguish
     * Link to thinks that will be immediately useful for the upcoming exercises
     * Give a sense of what's possible with Git/Hub
@@ -20,19 +20,19 @@
 
 #### Exercise
 
-* Add link to Git-focused continued learning resource
-* Change mention of "Data Inspection" exercise to a link
+* ~~Add link to Git-focused continued learning resource~~
+* ~~Change mention of "Data Inspection" exercise to a link~~
 * Re-estimate the time commitment
-* Suggest choosing a driver who has never created a repo
-* 💡 Convert to individual repository exercise? Or start with group repo, then split to
-    create individual repo as a bonus exercise
+* ~~Suggest choosing a driver who has never created a repo~~
+* 💡 ~~Convert to individual repository exercise? Or start with group repo, then split to
+    create individual repo as a bonus exercise~~
     * Create a repo in their own namespace `<username>/<username>` with a `README.md`
       that will show up as their "personal profile" on `github.com/<username>`. Can
       source the content from the introduction they posted to Discussions.
-* Warning about GitHub browser interface: Change wording to `We request that everyone
-    use the GitHub browser interface. If you choose not to, be prepared to support your
-    group if issues like merge conflicts arise. See <link to CryoCloud Git gotchas> for
-    details on using Git in CryoCloud.`
+* ~~Warning about GitHub browser interface: Change wording to `We request that everyone
+  use the GitHub browser interface. If you choose not to, be prepared to support your
+  group if issues like merge conflicts arise. See <link to CryoCloud Git gotchas> for
+  details on using Git in CryoCloud.`~~
 * Add a warning for users who plan to use Git within CryoCloud. How to do credentials
   correctly?
 
