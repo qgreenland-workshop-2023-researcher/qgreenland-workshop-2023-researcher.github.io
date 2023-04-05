@@ -21,14 +21,15 @@ Your repository should be named with convention: _TODO: Convention!_
 
 ## 📂 Add some content
 
-* Add and commit the notebook your team produced during the [Data
-  Inspection](data-inspection-with-jupyterlab/index.qmd) exercise to your
-  repository.
-* Add and commit a `README.md` file:
+* Add the notebook your team produced during the [Data
+  Inspection](data-inspection-with-jupyterlab/index.qmd) exercise to your repository.
+* Add a `README.md` file:
     * List your team members by name.
     * Identify the dataset your group has chosen to explore.
-* Turn on GitHub Discussions for your group repository. Use this space for
-  asynchronous discussions within your group during (or after!) the workshop.
+* [Turn on GitHub
+  Discussions](https://docs.github.com/en/discussions/quickstart#enabling-github-discussions-on-your-repository)
+  for your group repository. Use this space for asynchronous discussions within your
+  group during (or after!) the workshop.
 
 
 ## ✨ Create your personal profile repository
