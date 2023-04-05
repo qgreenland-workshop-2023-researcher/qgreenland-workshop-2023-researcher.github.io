@@ -166,6 +166,10 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 
 ![Desktop](/_media/jupyterlab_desktop.png)
 
+:::{.notes}
+The desktop opens in a new browser tab, not a new tab in JupyterLab.
+:::
+
 ## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
 On first launch, select "Use default config"
