@@ -3,6 +3,7 @@ _At
 _TODO
 _media
 2i2c
+BitBucket
 Colorbrewer
 CryoCloud
 CryoCloudUsers
@@ -10,6 +11,7 @@ DataONE
 DMS_1842643_12758_20180418_18111267_clipped.jpg
 DOIs
 EarthCube
+Emacs
 Flickr
 Foobarbaz
 GCPs
@@ -20,6 +22,7 @@ GeoPackage
 GeoPackages
 GeoTIFF
 GitHub
+GitLab
 HDF-EOS
 ICESat
 ICESat-2
@@ -77,6 +80,7 @@ geolocation
 georegistration
 geospatial
 gitignore
+inclusivity
 jupyter-qgis
 layout-ncol
 lon

@@ -21,8 +21,9 @@ Your repository should be named with convention: _TODO: Convention!_
 
 ## 📂 Add some content
 
-* Add the notebook your team produced during the [Data
-  Inspection](data-inspection-with-jupyterlab/index.qmd) exercise to your repository.
+* Add the notebook your team produced during the
+  [Data Inspection](./data-inspection-with-jupyterlab/index.qmd) exercise to
+  your repository.
 * Add a `README.md` file:
     * List your team members by name.
     * Identify the dataset your group has chosen to explore.
@@ -53,6 +54,6 @@ and see your new content displayed!
 ## TODO
 
 * Figure out how permissions will be handled.
-* Repo naming convention.
+* Repository naming convention.
 * Should there be another deliverable here? A GitHub discussion? A reflection on the
   day?

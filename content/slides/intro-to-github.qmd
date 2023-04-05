@@ -83,7 +83,7 @@ adopted information management tool.
 
 At its core, Git is a command-line interface, but there are so many interfaces built on
 top of it to make it more powerful and/or user-friendly. There are editor integrations
-for VIM, emacs, Visual Studio Code; there are websites built on top of it, like GitHub,
+for VIM, Emacs, Visual Studio Code; there are websites built on top of it, like GitHub,
 BitBucket, GitLab. 
 :::
 
@@ -91,7 +91,7 @@ BitBucket, GitLab.
 ## ![](/_media/github-mark.svg){width=50 style="vertical-align: middle"} GitHub {.smaller}
 
 GitHub is a hosting service for Git repositories with lots of extra bells and whistles.
-GitHub has competitors like GitLab and Bitbucket which offer similar features, like:
+GitHub has competitors like GitLab and BitBucket which offer similar features, like:
 
 * Back up your work on their servers
 * Facilitating conversations and approval process for changes
