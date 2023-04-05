@@ -1,6 +1,5 @@
 # TODO
 
-
 ## CI
 
 * Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
@@ -121,4 +120,4 @@ Can/should we integrate this tool into the workshop?
 
 ## Workshop prep
 
-* Clean up GH Discussions
+* ~~Clean up GH Discussions~~
