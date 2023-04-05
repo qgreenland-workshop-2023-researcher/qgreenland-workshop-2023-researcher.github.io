@@ -27,7 +27,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab/index.qmd)
+[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
 :::
 ::::::
 

@@ -6,26 +6,71 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+# Note
+
+We are going to demo a number of features around the use of JupyterLab in the
+following slides. Please plan to watch as we explain various features before
+trying them yourself in an [exercise](/content/exercises/getting-started-with-jupyterlab.html)
+after the presentation.
+
 ## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
 
-Your personal JupyterLab in the cloud
+CryoCloud: your personal JupyterLab in the cloud
 
-* CryoCloud
-    * JupyterHub: <https://hub.cryointhecloud.com>
-    * Website: <https://book.cryointhecloud.com>
+* JupyterHub: <https://hub.cryointhecloud.com>
+* Website: <https://book.cryointhecloud.com>
 
-* Log in to CryoCloud JupyterHub with your GitHub username
-    * Important: select a _small_ server!
-    * Your JupyterLab is dedicated, _not_ shared!
+![Cryocloud logo](/_media/cryocloud_logo.png){width="25%"}
+
 
 ::: {.notes}
 JupyterHub is a system for creating many JupyterLabs, e.g. for classrooms
+:::
 
-JupyterLab is not shared!
+## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
+
+Log in to CryoCloud JupyterHub with your GitHub username
+
+* Important: select a 4GB server option
+* Your JupyterLab workspace is dedicated, _not_ shared!
+
+![Jupyterhub server selection](/_media/jupyterhub_server_selection.png){width="70%"}
+
+:::{.notes}
+We encourage users to start with the 4GB RAM option to start. If individuals run
+into memory issues working with a dataset during the workshop, trying the 8GB
+option is reasonable.
+
+Although each user has their own dedicated workspace and file system, compute
+resources are not completely isolated. For example, selecting a 4GB RAM server
+size results in a guaranteed allocation of 4GB but if more memory is free on the
+node a user may be able to utilize more than 4GB.
 
 * Other attendees can't see your files (except those in `shared/` dir)
 * No scheduler like on a supercomputer
     * Your computations won't interfere with anyone else's
+:::
+
+#
+
+![JupyterLab](/_media/jupyterlab.png)
+
+:::{.notes}
+Show what the CryoCloud JupyterLab looks like after signing in and selecting a
+server.
+:::
+
+
+# Memory / RAM usage
+
+![JupyterLab](/_media/jupyterlab_memory.png)
+
+:::{.notes}
+Highlight where to monitor memory usage. If a dataset is particularly large
+and/or an operation on the data is getting stuck, check memory usage.
+
+If individuals run into memory issues working with a dataset during the
+workshop, trying the 8GB option is reasonable.
 :::
 
 
@@ -41,10 +86,6 @@ JupyterLab is not shared!
 The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
 pop-up in CryoCloud.
 :::
-
-#
-
-![JupyterLab](/_media/jupyterlab.png)
 
 
 ## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
