@@ -7,9 +7,7 @@ title-slide-attributes:
 ---
 
 <!-- TODO:
-* Add slide on Zenodo
 * Example Open Source research repositories?
-* Add Jupyter Notebook from day 1 to personal repo
 -->
 
 # Intro to GitHub
@@ -34,18 +32,20 @@ learning.
 
 ## Working "in the open"
 
-* Open Science principles can apply to work in progress, too!
-    * Easier if you are open from the beginning.
-* Git/Hub is not just for coders!
-    * Documentation in GitHub as an Open Science methodology
+* Improve reproducibility with open data and open code
+    * Zenodo integrates with GitHub for auto-generating DOIs
+* Increase innovation and quality through inclusivity
+* Facilitate global collaboration
+* Easier and more powerful if you are open from the beginning
+* Git/GitHub are not just for coders!
 
 ::: {.notes}
 Open Science principles can apply to all of the work that you are doing. Now that we
 have some knowledge about the data that we want to keep track of and share with others,
 let's utilize GitHub as the mechanism to translate that knowledge to documentation.
 
-_TODO: Examples of "Git is not just for coders"._
-_TODO: Brief differentiation between Git and GitHub._
+*Git/GitHub are not just for coders!*  You can open your manuscripts, your books, your
+websites, your methodology, and your documentation using these tools.
 :::
 
 
@@ -78,10 +78,13 @@ Git is the underlying technology that makes GitHub work. Git manages information
 time, enabling collaboration and "time travel" through the history of your work
 products.
 
-At its core, Git is a command-line tool, but there are so many interfaces built on top
-of it to make it more powerful and/or user-friendly. There are editor integrations for
-VIM, emacs, Visual Studio Code; there are websites built on top of it, like GitHub,
-BitBucket, GitLab, 
+There are alternatives to Git, like Mercurial and SVN, but Git is the most widely
+adopted information management tool.
+
+At its core, Git is a command-line interface, but there are so many interfaces built on
+top of it to make it more powerful and/or user-friendly. There are editor integrations
+for VIM, emacs, Visual Studio Code; there are websites built on top of it, like GitHub,
+BitBucket, GitLab. 
 :::
 
 
@@ -119,4 +122,7 @@ source-available "Enterprise Edition" which provides extra features.
 Demonstrate creating a git repository in the GitHub interface with a `README.md` file
 with the type of knowledge we want groups to record about their dataset. Use an existing
 QGreenland data layer as an example.
+
+_TODO: Create the example README, or update this demo to instead create a "profile"
+repository page._
 :::
