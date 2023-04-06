@@ -1,5 +1,5 @@
 ---
-title: "Data Scenario: Vector data file needs reprojection"
+title: "Data Scenario: Vector data needs reprojection"
 categories: ["Data transformation"]
 ---
 

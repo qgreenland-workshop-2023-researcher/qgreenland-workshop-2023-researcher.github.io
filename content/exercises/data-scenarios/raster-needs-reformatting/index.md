@@ -1,5 +1,5 @@
 ---
-title: "Data Scenario: Raster Data Needs Reformatting"
+title: "Data Scenario: Raster data needs reformatting"
 categories: ["Data issue"]
 ---
 

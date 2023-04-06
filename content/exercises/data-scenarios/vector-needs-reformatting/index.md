@@ -1,5 +1,5 @@
 ---
-title: "Data Scenario: Vector Data Needs Reformatting"
+title: "Data Scenario: Vector data needs reformatting"
 categories: ["Data issue"]
 ---
 
