@@ -1,5 +1,9 @@
 # 2023-03-30 workshop review
 
+Note: we've completed all of the low-hanging fruit and high prioritiy items from
+this review. There are still a few things left that may deserve continuing
+thinking, or dropping altogether.
+
 ## Site overview
 
 ### Prereqs
