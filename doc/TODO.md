@@ -101,7 +101,7 @@ users who are struggling with installing dependencies.
         * Rasters are grids, where each cell is indexed in 'image coordinate'
           space (rows and columns). We can transform between image and spatial
           coordinates through an affine/geotransform.
-            * _TODO: what about netcdf where the x/y and lat/lon variables are included?_
+            * _TODO: what about NetCDF where the x/y and lat/lon variables are included?_
         * So we need to know where the upper left pixel is located in space,
           what the pixel size is, and the orientation/rotation of those pixels
           (usually none ('north' is 'up').
