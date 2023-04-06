@@ -1,4 +1,8 @@
-# Data Scenario: Vector data file needs reprojection
+---
+title: "Data Scenario: Vector data file needs reprojection"
+categories: ["Data transformation"]
+---
+
 
 A colleague has sent you a CSV file containing the locations of potential field
 study sites in Greenland. The CSV provides coordinates in latitude and longitude

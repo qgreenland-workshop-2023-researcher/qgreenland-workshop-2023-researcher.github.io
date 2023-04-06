@@ -1,4 +1,6 @@
 ---
+title: "Data Scenario: Missing metadata"
+categories: ["Data issue"]
 listing:
   id: "file-listing"
   type: "table"
@@ -8,8 +10,6 @@ listing:
     - "*"
     - "solutions/*"
 ---
-
-# Data Scenario: Missing metadata
 
 ::: {#file-listing}
 :::

@@ -3,4 +3,6 @@ title: "Data scenarios"
 listing:
   type: "table"
   contents: "data-scenarios"
+  categories: true
+  fields: [title, categories]
 ---
