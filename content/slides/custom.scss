@@ -22,3 +22,10 @@ h1, h2, h3, h4, h5, h6, body {
 a {
   color: #c9082a !important;
 }
+
+.v-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
