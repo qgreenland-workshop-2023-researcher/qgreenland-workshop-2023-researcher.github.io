@@ -9,7 +9,17 @@ Explore JupyterLab features.
 
 ## ⚙️ Get set up
 
-* Log in to JupyterLab and start a _small_ server.
+* Log in to the [CryoCloud JupyterHub](https://hub.cryointhecloud.com) with your
+  GitHub username
+* Select the Python Image with a 4GB node share
+
+![Jupyterhub server selection](/_media/jupyterhub_server_selection.png){width="70%"}
+
+
+## Explore JupyterLab
+
+Complete the following tasks. While doing so, take time to explore and become
+familiar with the JupyterLab interface.
 
 
 ## 🗺️ Open QGreenland with QGIS in JupyterLab

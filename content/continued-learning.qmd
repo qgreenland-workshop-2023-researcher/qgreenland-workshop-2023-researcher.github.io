@@ -57,3 +57,24 @@ For continued learning, please consider the following external resources.
   NSIDC's Polar Stereographic North (EPSG:3413) is used as the default
   projection in QGreenland.
 * [Map projections: A working manual (USGS, 1987)](https://pubs.er.usgs.gov/publication/pp1395)
+
+
+## Data formats
+
+* [Library of Congress Digital Formats](https://www.loc.gov/preservation/digital/formats/)
+    * [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
+    * [ESRI World File](https://www.loc.gov/preservation/digital/formats/fdd/fdd000287.shtml)
+    * [ESRI GeoDatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
+    * [Google KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml)
+    * [HDF-EOS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000297.shtml)
+
+## Data and Metadata Standards
+
+* [Unified Metadata Model](https://www.earthdata.nasa.gov/unified-metadata-model-umm)
+* [NetCDF Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org/)
+* [Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata](https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/base-metadata/v2_0698.pdf)
+  * CF conventions use the FGDC standards as a guide.
+* [Cooperative Ocean/Atmosphere Research Data Service (COARDS) NetCDF Conventions](https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions)
+  * CF "[conventions generalize and extend the COARDS conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch01s04.html)"
+* [ISO 19111:2019, Geographic information — Referencing by coordinates](https://www.iso.org/standard/74039.html)
+* [Open Geospatial Consortium (OGC) standards](https://www.ogc.org/standards/)

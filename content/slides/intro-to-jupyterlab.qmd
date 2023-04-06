@@ -61,9 +61,9 @@ server.
 :::
 
 
-# Memory / RAM usage
+# 
 
-![JupyterLab](/_media/jupyterlab_memory.png)
+![JupyterLab - memory/RAM usage](/_media/jupyterlab_memory.png)
 
 :::{.notes}
 Highlight where to monitor memory usage. If a dataset is particularly large
@@ -87,6 +87,14 @@ The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
 pop-up in CryoCloud.
 :::
 
+#
+
+![JupyterLab left side panel](/_media/jupyterlab_left_side_panel.png)
+
+:::{.notes}
+We'll talk about the left side panel first.
+:::
+
 
 ## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
 :::::: {.columns}
@@ -105,6 +113,41 @@ pop-up in CryoCloud.
 
 ::::::
 
+## Running terminals and kernels ![](/_media/jupyterlab_running_terminals_kernels_icon.png){width="3%" style="vertical-align:middle"}
+:::::: {.columns}
+
+::: {.column}
+* Lists currently running Terminals and Kernels.
+
+* If one of these apps gets 'stuck', you may need to shut it down and
+  try again
+
+* If you accidentally close a terminal or notebook tab, you can re-access it by
+  clicking on its entry here.
+:::
+
+::: {.column}
+![JupyterLab Running Terminals and Kernels](/_media/jupyterlab_running_terminals_kernels.png)
+:::
+
+::::::
+
+:::{.notes}
+We will not be covering the usage of the final three side panel views.
+:::
+
+#
+
+![JupyterLab Launcher](/_media/jupyterlab_launcher.png)
+
+:::{.notes}
+Applications can be launched from the Launcher, opening a new tab/window for
+that application.
+
+To open a new Launcher, click the "+" tab, `File > New Launcher`, or the Blue
+`+` button in the file browser left side panel.
+:::
+
 ## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 
 * `conda install <package>`
@@ -122,6 +165,10 @@ Conda and Mamba are already installed, and a `notebook` environment is pre-creat
 ## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
 ![Desktop](/_media/jupyterlab_desktop.png)
+
+:::{.notes}
+The desktop opens in a new browser tab, not a new tab in JupyterLab.
+:::
 
 ## Desktop ![](/_media/jupyterlab_desktop_icon.png){width=5% style="vertical-align:middle"}
 
@@ -146,7 +193,7 @@ GUI environment.
 
 Can open QGreenland!
 
-![Desktop file browser](/_media/jupyterlab_desktop_qgreenland.png)
+![Desktop with QGIS and QGreenland](/_media/jupyterlab_desktop_qgreenland.png)
 
 ::: {.notes}
 Opening QGreenland should take ~2 minutes.
@@ -192,6 +239,11 @@ At this point, do a live demo of the `demo.ipynb` notebook.
 
 When demoing the notebook, ensure that we narrate double-clicking markdown cells
 to show the source of it. And also how to expand/collapse cells.
+
+Also be sure to demonstrate how to create a new cell, change it's type
+(Markdown, Code, ...), and move cells around.
+
+Note that execution order matters.
 :::
 
 

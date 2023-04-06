@@ -1,5 +1,9 @@
 # 2023-03-30 workshop review
 
+Note: we've completed all of the low-hanging fruit and high prioritiy items from
+this review. There are still a few things left that may deserve continuing
+thinking, or dropping altogether.
+
 ## Site overview
 
 ### Prereqs
@@ -56,9 +60,9 @@
 
 * ~~Clarify continuous vs categorical; there's a symbology aspect and a data value aspect.
   ADD SPEAKER NOTES!~~
-* Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
+* ~~Combine "lossy" and "reproject only once" to one bullet. ADD SPEAKER NOTES! What does
   "lossy" mean? How do multiple reprojections increase uncertainty/error, decrease
-  quality?
+  quality?~~
 * ~~Remove "other data types" slide.~~
     * ~~Move to "continued learning"?~~
     * ~~Can we make time on day 3/4 for those "bonus" topics?~~
@@ -70,9 +74,9 @@
 
 ##### Exercise
 
-* Rephrase "select a dataset" to "select a _main_ dataset". Specify "Your group can use
+* ~~Rephrase "select a dataset" to "select a _main_ dataset". Specify "Your group can use
   a different dataset at different times if it's more appropriate for a specific
-  exercise."
+  exercise."~~
 
 
 #### Inspecting data
@@ -85,8 +89,8 @@
     * ~~Code cell with CSV data~~
 * ~~XLS: screenshot of Excel~~
 * ~~ESRI Shapefile: Directory listing of example files (`.prj`, `.?`)~~
-* Others: Remove and add Library of Congress data formats + OGC standards link to
-  continued learning
+* ~~Others: Remove and add Library of Congress data formats + OGC standards link to
+  continued learning~~
 * ~~Rasterio CLI: Mention in speaker notes that it has both a CLI and Python
   interface.~~
 * ~~Consider e.g. in Rasterio slides, having a dedicated slide to showing the "help"
@@ -122,8 +126,8 @@
   encourage them all to do the same steps on their own computers. Or be explicit: Are
   there some exercises that should be done as a group and others that should be
   implemented by everyone?~~
-* We should demo creating a new notebook so everyone knows how. Add a screenshot of the
-  "new tab" button on a "Creating a new Jupyerlab tab/window" slide.
+* ~~We should demo creating a new notebook so everyone knows how. Add a screenshot of the
+  "new tab" button on a "Creating a new Jupyerlab tab/window" slide.~~
 * ~~Ensure each person can have a personal interaction with GitHub, JupyterLab, data. We
   don't want the experts to be the only ones _doing_. Encourage experts in groups to
   play a support role to non-experts.~~

@@ -93,6 +93,19 @@ users who are struggling with installing dependencies.
   come up with one of their own. Check backlog for new layer suggestions.
     * Datasets which have interesting processing in QGreenland
     * See dataset suggestions in Jira
+* Revisit geospatial concepts and terms slides. Answer these questions:
+    * what does it take to make vector data usable in a GIS/alongside other geospatial data
+        * Points contain the coordinates for all features. We need to know the
+          CRS that those coordinates are in.
+    * what does it take to make raster data usable in a GIS/alongside other geospatial data
+        * Rasters are grids, where each cell is indexed in 'image coordinate'
+          space (rows and columns). We can transform between image and spatial
+          coordinates through an affine/geotransform.
+            * _TODO: what about NetCDF where the x/y and lat/lon variables are included?_
+        * So we need to know where the upper left pixel is located in space,
+          what the pixel size is, and the orientation/rotation of those pixels
+          (usually none ('north' is 'up').
+        * We also need to know what the CRS those coordinates.
 
 
 ## Work products

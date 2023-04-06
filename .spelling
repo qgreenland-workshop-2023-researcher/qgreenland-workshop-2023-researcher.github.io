@@ -140,6 +140,7 @@ Mistia
 pre-assign
 submenu
 _yes
+geotransform
  - content/slides/open-science-and-data.qmd
 indable
 ccessible
