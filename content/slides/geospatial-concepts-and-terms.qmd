@@ -298,9 +298,13 @@ Note there are other standard representations as well, e.g., Geography Markup La
 When a dataset follows of one or more common standards, GIS practitioners and
 tools can accurately parse information about CRS, date/time, etc.
 
-See the [Continued learning](/content/continued-learning.html) page for examples of common standards.
+See the [Continued
+learning](/content/continued-learning.html#data-and-metadata-standards) page for
+examples of common standards.
 
 :::{.notes}
-Standards for metadata are often context-dependent. Some standards are developed for particular data formats, others are focused on certain scientific domains (e.g, Ecological Markup Language, EML).
+Standards for metadata are often context-dependent. Some standards are developed
+for particular data formats, others are focused on certain scientific domains
+(e.g, Ecological Markup Language, EML).
 :::
 
