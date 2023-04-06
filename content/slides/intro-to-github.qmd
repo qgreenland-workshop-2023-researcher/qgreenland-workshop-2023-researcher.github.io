@@ -112,18 +112,70 @@ source-available "Enterprise Edition" which provides extra features.
 :::
 
 
-## Demo: Creating a GitHub repository
+# Demo: Setting up a GitHub repository
 
-* Create a GitHub repository
-* Enable GitHub Discussions
-* Create a README file
-* Add a Jupyter Notebook
+## Create a GitHub repository {.smaller}
 
-::: {.notes}
-Demonstrate creating a git repository in the GitHub interface with a `README.md` file
-with a list of names and chosen dataset. Use an existing QGreenland data layer as an
-example.
+![New repository button at top-left of <https://github.com>](/_media/github_new_repo.png)
 
-_TODO: Create the example README, or update this demo to instead create a "profile"
-repository page._
-:::
+![Get the "owner" right and make it public](/_media/github_new_repo_fields.png)
+
+
+## Create a README file
+
+![Add README to an empty repository](/_media/github_empty_repo_add_readme.png)
+
+![GitHub README editor](/_media/github_readme_editor.png)
+
+## Create a README file
+
+To "save" the file, we have to click "Commit new file". It's helpful to write a change
+description, but here, "Create README.md" does the trick.
+
+![Commit new file to the repository](/_media/github_commit_new_file.png)
+
+
+## Edit the README file
+
+I made a mistake: I wanted the "Authors" to be on a separate line from "Selected
+dataset".
+
+![README doesn't look quite right, let's edit it](/_media/github_readme_edit_button.png)
+
+
+## Edit the README file
+
+I need to add a blank line between paragraphs:
+
+![README in the GitHub editor](/_media/github_readme_editor.png)
+
+
+## Edit the README file
+
+Now it's time for a descriptive "commit message"!
+
+![Commit changes](/_media/github_commit_changes.png)
+
+
+## Add a Jupyter Notebook
+
+_TODO: This._
+
+## Review provenance
+
+_TODO: How to view commits._
+
+
+## Enable GitHub Discussions
+
+![GitHub repository settings](/_media/github_repo_settings.png)
+
+
+## Enable GitHub Discussions
+
+![GitHub repository settings > Features](/_media/github_repo_features.png)
+
+
+## Enable GitHub Discussions
+
+![Discussions navbar link](/_media/github_discussions_demo_repo.png)
