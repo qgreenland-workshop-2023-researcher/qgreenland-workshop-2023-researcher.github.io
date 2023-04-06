@@ -116,7 +116,7 @@ source-available "Enterprise Edition" which provides extra features.
 
 ## Create a GitHub repository {.smaller}
 
-![New repository button at top-left of <https://github.com>](/_media/github_new_repo.png)
+![New repository button at top-right of <https://github.com>](/_media/github_new_repo.png)
 
 ![Get the "owner" right and make it public](/_media/github_new_repo_fields.png)
 
@@ -125,7 +125,7 @@ source-available "Enterprise Edition" which provides extra features.
 
 ![Add README to an empty repository](/_media/github_empty_repo_add_readme.png)
 
-![GitHub README editor](/_media/github_readme_editor.png)
+![GitHub README editor](/_media/github_readme_new.png)
 
 ## Create a README file
 
@@ -152,6 +152,13 @@ I need to add a blank line between paragraphs:
 
 ## Edit the README file
 
+This time, I'll check my work:
+
+![Use the preview feature to validate this time](/_media/github_readme_editor_preview.png)
+
+
+## Edit the README file
+
 Now it's time for a descriptive "commit message"!
 
 ![Commit changes](/_media/github_commit_changes.png)
@@ -159,11 +166,43 @@ Now it's time for a descriptive "commit message"!
 
 ## Add a Jupyter Notebook
 
-_TODO: This._
+![Download a notebook from JupyterLab](/_media/jupyterlab_download_notebook.png)
+
+
+## Add a Jupyter Notebook
+
+After selecting "Upload files", you'll be given the opportunity to browser your computer
+or drag-and-drop files into GitHub.
+
+![Upload a file to GitHub repository](/_media/github_upload_file.png)
+
+
+## Add a Jupyter Notebook
+
+After selecting "commit" on the previous page, your files are visible in the repo!
+
+![The notebook is now in your repository!](/_media/github_repo_with_notebook.png)
+
+
+## Add a Jupyter Notebook
+
+When you click to open your notebook, GitHub will display a rich preview!
+
+![View the notebook in GitHub](/_media/github_notebook_view.png)
+
 
 ## Review provenance
 
-_TODO: How to view commits._
+You can view the full provenance of your repo by selecting the "Commits" button.
+
+![Navigate to the commits view](/_media/github_commit_button.png)
+
+
+## Review provenance
+
+Our commit messages tell a story about the history of the repository.
+
+![Commits are listed with newest at the top](/_media/github_commit_view)
 
 
 ## Enable GitHub Discussions
@@ -173,9 +212,12 @@ _TODO: How to view commits._
 
 ## Enable GitHub Discussions
 
-![GitHub repository settings > Features](/_media/github_repo_features.png)
+Scroll down until you see the "Features" section. From there, you can enable
+"Discussions", "Issues", and many other helpful features.
+
+![GitHub Repository > Settings > Features](/_media/github_repo_features.png)
 
 
 ## Enable GitHub Discussions
 
-![Discussions navbar link](/_media/github_discussions_demo_repo.png)
+![Discussions navbar link is visible after enabling](/_media/github_discussions_demo_repo.png)
