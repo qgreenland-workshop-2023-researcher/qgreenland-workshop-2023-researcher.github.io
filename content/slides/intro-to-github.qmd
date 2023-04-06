@@ -30,7 +30,9 @@ learning.
 ![<https://allisonhorst.com>](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e4a11b1f-f235-461f-ab73-ce6128c59e49.png?h=dc95847637c97b0d5f5c993e906f2ccd)
 
 
-## Working "in the open"
+---
+
+### Benefits of working in the open
 
 * Improve reproducibility with open data and open code
     * Zenodo integrates with GitHub for auto-generating DOIs
@@ -127,10 +129,12 @@ source-available "Enterprise Edition" which provides extra features.
 
 ![GitHub README editor](/_media/github_readme_new.png)
 
-## Create a README file
+
+---
 
 To "save" the file, we have to click "Commit new file". It's helpful to write a change
-description, but here, "Create README.md" does the trick.
+description, but in this case the default (`Create README.md`) is already descriptive
+enough.
 
 ![Commit new file to the repository](/_media/github_commit_new_file.png)
 
@@ -143,25 +147,33 @@ dataset".
 ![README doesn't look quite right, let's edit it](/_media/github_readme_edit_button.png)
 
 
-## Edit the README file
+---
 
-I need to add a blank line between paragraphs:
+I need to add a blank line between paragraphs, or Markdown will see them as a single
+paragraph:
 
 ![README in the GitHub editor](/_media/github_readme_editor.png)
 
 
-## Edit the README file
+---
 
 This time, I'll check my work:
 
 ![Use the preview feature to validate this time](/_media/github_readme_editor_preview.png)
 
 
-## Edit the README file
+---
 
 Now it's time for a descriptive "commit message"!
 
 ![Commit changes](/_media/github_commit_changes.png)
+
+::: {.notes}
+The first line is the "subject" of the commit message, and the large text box is the
+"body" of the commit message. Write a descriptive summary for the subject, and if
+necessary, populate details in the body. This will build a rich and readable provenance
+for your repository.
+:::
 
 
 ## Add a Jupyter Notebook
@@ -169,22 +181,27 @@ Now it's time for a descriptive "commit message"!
 ![Download a notebook from JupyterLab](/_media/jupyterlab_download_notebook.png)
 
 
-## Add a Jupyter Notebook
+---
 
 After selecting "Upload files", you'll be given the opportunity to browser your computer
 or drag-and-drop files into GitHub.
 
+::: {.v-centered}
 ![Upload a file to GitHub repository](/_media/github_upload_file.png)
+:::
 
 
-## Add a Jupyter Notebook
+---
 
-After selecting "commit" on the previous page, your files are visible in the repo!
+After selecting "commit" on the previous page, your files are visible in the
+repository!
 
+::: {.v-centered}
 ![The notebook is now in your repository!](/_media/github_repo_with_notebook.png)
+:::
 
 
-## Add a Jupyter Notebook
+---
 
 When you click to open your notebook, GitHub will display a rich preview!
 
@@ -193,12 +210,13 @@ When you click to open your notebook, GitHub will display a rich preview!
 
 ## Review provenance
 
-You can view the full provenance of your repo by selecting the "Commits" button.
+You can view the full provenance of your repository by selecting the "Commits"
+button.
 
 ![Navigate to the commits view](/_media/github_commit_button.png)
 
 
-## Review provenance
+---
 
 Our commit messages tell a story about the history of the repository.
 
@@ -207,17 +225,27 @@ Our commit messages tell a story about the history of the repository.
 
 ## Enable GitHub Discussions
 
+::: {.v-centered}
 ![GitHub repository settings](/_media/github_repo_settings.png)
+:::
 
 
-## Enable GitHub Discussions
+---
 
 Scroll down until you see the "Features" section. From there, you can enable
 "Discussions", "Issues", and many other helpful features.
 
 ![GitHub Repository > Settings > Features](/_media/github_repo_features.png)
 
+::: {.notes}
+Discussions and issues are closely related; discussions are focused around community
+engagement, and issues are focused around project management. A discussion can be
+converted to an issue and vice versa. We recommend using both!
+:::
 
-## Enable GitHub Discussions
 
+---
+
+::: {.v-centered}
 ![Discussions navbar link is visible after enabling](/_media/github_discussions_demo_repo.png)
+:::
