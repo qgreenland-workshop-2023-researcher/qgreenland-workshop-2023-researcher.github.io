@@ -41,8 +41,13 @@ survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDx
 ### 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
 
 
-[Post an introduction on GitHub
-Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions)
+Please [post an introduction on GitHub
+Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions).
+
+For ideas, here are some example posts:
+
+* [Matt Fisher](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/39)
+* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
 
 
 ### ❄️ CryoCloud account
