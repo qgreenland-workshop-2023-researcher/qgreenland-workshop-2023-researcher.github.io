@@ -4,36 +4,28 @@ In order to successfully complete the workshop and receive the $250 stipend,
 participants must complete the following list of prerequisites in advance of the
 workshop:
 
-## Post-selection survey (deadline: April 28, 2023)
-
-Participants who have been notified of acceptance to the workshop will need to
-complete the post-selection survey.
-
-Before taking the survey, please [register for GitHub](https://github.com/join)
-if you do not already have an account. One of the survey questions asks for your
-GitHub username.
-
-[Post-selection
-survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link)
-
-
-## 🕘 Confirm you can attend
-
-Please confirm that you can attend all three days of the workshop and
-actively participate in group activities:
-
-**May 23-25, 2023 from 9:00-13:00 Mountain Daylight Time (UTC-6:00)**
-
-
 ::: {.callout-note}
 All times referred to in workshop materials are in Mountain Daylight Time
 (UTC-6:00).
 :::
 
+## Post-selection survey (deadline: April 28, 2023)
 
-## 📏 Code of Conduct
+Participants who have been notified of acceptance to the workshop will need to
+complete the post-selection survey.
 
-Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
+Before taking the survey, please complete the following actions. You will be
+asked questions related to each of these items in the survey:
+
+* 🕘 Please confirm that you can attend all three days of the workshop and actively
+  participate in group activities:
+
+  **May 23-25, 2023 from 9:00-13:00 Mountain Daylight Time (UTC-6:00)**
+* 🐙 [Register for GitHub](https://github.com/join) if you do not already have an account.
+* 📏 Review our [Code of Conduct](/CODE_OF_CONDUCT.md)
+
+Once you have done the above, complete the [Post-selection
+survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link)
 
 
 ## 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
