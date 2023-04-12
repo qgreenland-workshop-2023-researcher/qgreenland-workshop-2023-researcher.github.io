@@ -1,5 +1,23 @@
 # Prerequisites
 
+In order to successfully complete the workshop and receive the $250 stipend,
+participants must complete the following list of prerequisites in advance of the
+workshop:
+
+## 🕘 Confirm you can attend
+
+Please confirm that you can attend all three days of the workshop and
+actively participate in group activities:
+
+**May 23-25, 2023 from 9:00-13:00 Mountain Daylight Time (UTC-6:00)**
+
+
+::: {.callout-note}
+All times referred to in workshop materials are in Mountain Daylight Time
+(UTC-6:00).
+:::
+
+
 ## 📏 Code of Conduct
 
 Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
