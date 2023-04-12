@@ -37,8 +37,10 @@ metadata](/_media/qgreenland_missing_metadata.png)
 :::
 
 ::: {.column}
-```{.text  code-line-numbers="11"}
-$ gdalinfo dem_without_metadata.tif
+```{.console code-line-numbers="false"}
+gdalinfo dem_without_metadata.tif
+```
+```{.console code-line-numbers="10"}
 Driver: GTiff/GeoTIFF
 Files: dem_without_metadata.tif
 Size is 301, 561
@@ -69,19 +71,19 @@ of data from NSIDC; it's been modified from the original
 ## Missing metadata: Solution
 
 First, make a copy of the data that we will apply edits to:
-```{.console}
-$ cp dem_without_metadata.tif dem_with_metadata.tif
+```{.console code-line-numbers="false"}
+cp dem_without_metadata.tif dem_with_metadata.tif
 ```
 
 Next, use `gdal_edit.py` to edit, in place, the metadata of
 `dem_with_metadata.tif` with the information provided to us in the
 dataset landing page.
 
-```{.console}
-$ gdal_edit.py \
-> -a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
-> -a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
-> dem_with_metadata.tif
+```{.console code-line-numbers="false"}
+gdal_edit.py \
+-a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
+-a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
+dem_with_metadata.tif
 ```
 
 ::: {.notes}
@@ -93,8 +95,10 @@ space.
 
 ## Missing Metadata: All better!
 
-```{.console code-line-numbers="|5-42|44,52-53|45"}
-$ gdalinfo dem_with_metadata.tif
+```{.console code-line-numbers="false"}
+gdalinfo dem_with_metadata.tif
+```
+```{.console code-line-numbers="|4-41|43,51-52|44"}
 Driver: GTiff/GeoTIFF
 Files: dem_with_metadata.tif
 Size is 301, 561
@@ -176,8 +180,11 @@ metadata](/_media/qgreenland_edited_metadata.png)
 :::
 
 ::: {.column}
-```{.console code-line-numbers="|5|6,10-11|8-9"}
-$ ogrinfo -al -so kcbcc_DS4_final_v2_final.xlsx
+```{.console code-line-numbers="false"}
+ogrinfo -al -so \
+kcbcc_DS4_final_v2_final.xlsx
+```
+```{.console code-line-numbers="|4|5,9-10|7-8"}
 INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
       using driver `XLSX' successful.
 
@@ -228,11 +235,11 @@ Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 
 Then, use `ogr2ogr`:
 
-```{.console}
-$ ogr2ogr \
->   -nln "kcbcc" \
->   output.geojson \
->   kcbcc_DS4_final_v2_final.vrt
+```{.console code-line-numbers="false"}
+ogr2ogr \
+-nln "kcbcc" \
+output.geojson \
+kcbcc_DS4_final_v2_final.vrt
 ```
 
 ::::
@@ -251,8 +258,11 @@ uses an SQL query to generate GeoJSON with the correct metadata.
 
 ## Vector data needs reformatting: All better!
 
+```{.console code-line-numbers="false"}
+cat output.geojson | jq
 ```
-$ cat output.geojson | jq
+
+```{console}
 {
   "type": "FeatureCollection",
   "name": "kcbcc",
@@ -292,8 +302,10 @@ that point geometries have been created from the records in the original XLSX fi
 
 ## Vector data needs reformatting: All better!
 
-```{.console code-line-numbers="|5|6-8|9-23"}
-$ ogrinfo -al -so output.geojson
+```{.console code-line-numbers="false"}
+ogrinfo -al -so output.geojson
+```
+```{.console code-line-numbers="|4|5-7|8-22"}
 INFO: Open of `output.geojson'
       using driver `GeoJSON' successful.
 
@@ -345,8 +357,10 @@ layer](/_media/qgreenland_reformatted_vector_map.png)
 :::: {.columns}
 
 :::{.column}
-```{.console code-line-numbers="|10"}
-$ gdalinfo datafile.jpg
+```{.console code-line-numbers="false"}
+gdalinfo datafile.jpg
+```
+```{.console code-line-numbers="|9"}
 Driver: JPEG/JPEG JFIF
 Files: datafile.jpg
 Size is 2813, 1914
@@ -376,8 +390,10 @@ Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
 :::
 
 :::{.column}
+```{.console code-line-numbers="false"}
+gdalsrsinfo -o wkt_simple datafile.prj
+```
 ```{.console}
-$ >> gdalsrsinfo -o wkt_simple datafile.prj
 PROJCS["unnamed",
     GEOGCS["WGS 84",
         DATUM["WGS_1984",
@@ -406,10 +422,11 @@ at the geographic north pole.
 
 ## Raster needs reformatting: solution
 
-```{.console}
-$ gdal_translate -a_srs datafile.prj \
-> -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
-> datafile.jpg datafile.tif
+
+```{.console code-line-numbers="false"}
+gdal_translate -a_srs datafile.prj \
+-a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
+datafile.jpg datafile.tif
 ```
 
 :::{.notes}
@@ -431,8 +448,10 @@ The `-a_ullr` option takes an array of numbers: ulx, uly, lrx, lry
 
 ## Raster needs reformatting: All better!
 
-```{.console code-line-numbers="|5-41|43,49-50"}
-$ gdalinfo datafile.tif
+```{.console code-line-numbers="false"}
+gdalinfo datafile.tif
+```
+```{.console code-line-numbers="|4-40|42,48-49"}
 Driver: GTiff/GeoTIFF
 Files: datafile.tif
 Size is 2813, 1914
@@ -529,11 +548,9 @@ imagery. Lat/lon lines are shown for reference.
 
 
 :::{.column}
-```{.console}
-$ rio info --nodata \
-> bambgrl_dem_5km_corrected.tif
-
-
+```{.console code-line-numbers="false"}
+rio info --nodata \
+bambgrl_dem_5km_corrected.tif
 ```
 Using `rio` shows that there is no `nodata` value set.
 :::
@@ -542,20 +559,22 @@ Using `rio` shows that there is no `nodata` value set.
 ## Data scenario: Solution
 
 First, make a copy of the data that we will apply edits to:
-```{.console}
-$ cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
+```{.console code-line-numbers="false"}
+cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
 ```
 
 Next, use `gdal_edit.py` to set the nodata/ocean value indicated in the user guide for this dataset.
-```{.console}
-$ gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
+```{.console code-line-numbers="false"}
+gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
 ```
 
 ## Data scenario: All better!
 
+```{.console code-line-numbers="false"}
+rio info --nodata \
+with_nodata_value.tif
+```
 ```{.console}
-$ rio info --nodata \
-> with_nodata_value.tif
 -0.10000000149011612
 ```
 
@@ -568,12 +587,6 @@ values can be problematic for encoding flag values.
 the output of `gdalinfo` now also shows that the nodata value is set, although
 it truncates the representation of that value as `-0.1`
 :::
-
-
-
-## TODO: Advanced techniques
-
-* _TODO: briefly mention techniques like georegistration, bias correction?_
 
 
 ## What if I can't find a way to fix my data?
