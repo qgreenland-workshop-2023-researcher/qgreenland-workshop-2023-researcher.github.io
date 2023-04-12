@@ -7,7 +7,8 @@ workshop:
 ## Post-selection survey (deadline: April 28, 2023)
 
 Participants who have been notified of acceptance to the workshop should
-complete the post-selection survey _TODO: link!_.
+complete the [post-selection
+survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link).
 
 
 ## 🕘 Confirm you can attend
