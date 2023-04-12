@@ -4,6 +4,12 @@ In order to successfully complete the workshop and receive the $250 stipend,
 participants must complete the following list of prerequisites in advance of the
 workshop:
 
+## Post-selection survey (deadline: April 28, 2023)
+
+Participants who have been notified of acceptance to the workshop should
+complete the post-selection survey _TODO: link!_.
+
+
 ## 🕘 Confirm you can attend
 
 Please confirm that you can attend all three days of the workshop and
@@ -23,14 +29,14 @@ All times referred to in workshop materials are in Mountain Daylight Time
 Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 
-## 🐙 GitHub Account
+## 🐙 GitHub Account (deadline: April 28, 2023)
 
 * Register an account on GitHub
 * [Post an introduction on GitHub
     Discussions](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=introductions)
 
 
-## ❄️ CryoCloud account
+## ❄️ CryoCloud account (deadline: May 16, 2023)
 
 ::: {.callout-warning}
 Requires a GitHub account first!
