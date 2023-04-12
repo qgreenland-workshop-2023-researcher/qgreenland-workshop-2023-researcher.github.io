@@ -15,6 +15,14 @@ For example, at location (X, Y), the albedo is 39%.
 :::
 
 
+<!-- TODO: Raster vs Vector: Discuss object representation vs field
+representation. PyGIS.io has some really helpful graphics that may be
+permissively licensed.
+
+https://pygis.io/docs/c_features.html#object-vs-field
+--> 
+
+
 ## Vector data
 
 Choose the right feature type:
@@ -60,8 +68,19 @@ non-self-crossing lines)?_
 
 ## Raster data
 
-* Continuous
-* Categorical
+* Continuous: temperature, sea ice concentration, wind speed
+* Categorical: land cover, cloud type, storm category
+
+![RGB Raster Image (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Rgb-raster-image.svg)
+
+:::{.notes}
+* Rasters can sometimes contain a mix of continuous and categorical data (a
+  measure plus flag values, e.g., sea ice concentration with "land", "coast",
+  "lake" flags).
+
+* The symbology of raster data may be categorical while the underlying data is
+  continuous (e.g., high/medium/low sea ice concentration).
+:::
 
 
 ## Continuous raster data
@@ -80,24 +99,24 @@ non-self-crossing lines)?_
     * Use "nearest neighbor" with categorical data, or there will be "smudging" between
       categories.
 * Reprojection
-    * Lossy
-    * Reproject only once, if you have to.
+    * Reproject only once, if you have to. Data values in the output grid are
+      estimated from the input using an interpolation technique like 'nearest
+      neighbor' or 'bilinear', potentially resulting in a loss or transformation
+      of information in the input grid.
 * _TODO: What else?_
 * _TODO: consider moving this discussion to day 3? This is an operation that is more
   aligned with the goal of preparing data for a specific use case._
 
 
-## Other data types
+:::{.notes}
+Raster reprojection results in resampling of the input grid to a new, output
+grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
+etc.). Data values stored in the original grid are transformed to accommodate the
+geometry and spatial positioning of the output grid.
 
-We won't focus on these:
-
-* Point cloud
-* Triangular Irregular Networks (TINs)
-* _TODO: What else?_
-
-::: {.notes}
-_TODO: is it even worth discussing these as 'other' data types? Point clouds are
-just a special case of vector data, as are TINs._
+_TODO: consider incorporating this image of interpolation techniques (maybe just
+crop to bottom half of image?)
+https://en.wikipedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg _
 :::
 
 
@@ -213,7 +232,7 @@ _TODO: how do size images so that they take up the remaining space?_
 Website demonstrates many different projections with an interactive control to change the perspective.
 :::
 
-## Standard representations of geospatial metadata
+## Standard representations of CRS information
 
 ### [Well Known Text (WKT)](https://www.ogc.org/standard/wkt-crs/) 🌎
 ```{.text code-line-numbers="false"}
@@ -262,7 +281,7 @@ WKT is highly verbose and relatively easy to read as a human.
 :::
 
 
-## Standard representations of geospatial metadata
+## Standard representations of CRS information
 ### [Proj parameters](https://proj.org/usage/projections.html)
 ```{.text code-line-numbers="false"}
 +proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
@@ -271,7 +290,7 @@ WKT is highly verbose and relatively easy to read as a human.
 Proj parameters encode CRS parameters as simple key-value pairs.
 :::
 
-## Standard representations of geospatial metadata
+## Standard representations of CRS information
 ### [European Petroleum Survey Group (EPSG) Geodetic Parameter Dataset codes](https://epsg.org/home.html)
 ```{.text code-line-numbers="false"}
 EPSG:3413
@@ -282,27 +301,18 @@ Extremely concise, EPSG maintains a registry of codes that map to CRS definition
 Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
 
-
 ## Metadata standards
 
-* [Unified Metadata Model](https://www.earthdata.nasa.gov/unified-metadata-model-umm)
-* [NetCDF Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org/)
-* [Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata](https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/base-metadata/v2_0698.pdf)
-  * CF conventions use the FGDC standards as a guide.
-* [Cooperative Ocean/Atmosphere Research Data Service (COARDS) NetCDF Conventions](https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions)
-  * CF "[conventions generalize and extend the COARDS conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch01s04.html)"
-* [ISO 19111:2019, Geographic information — Referencing by coordinates](https://www.iso.org/standard/74039.html)
-* [Open Geospatial Consortium (OGC) standards](https://www.ogc.org/standards/) 🌎
+When a dataset follows of one or more common standards, GIS practitioners and
+tools can accurately parse information about CRS, date/time, etc.
 
-::: {.notes}
-When a dataset follows of one or more common standards, GIS practitioners and tools can
-accurately parse information about CRS, date/time, etc.
+See the [Continued
+learning](/content/continued-learning.html#data-and-metadata-standards) page for
+examples of common standards.
+
+:::{.notes}
+Standards for metadata are often context-dependent. Some standards are developed
+for particular data formats, others are focused on certain scientific domains
+(e.g, Ecological Markup Language, EML).
 :::
 
-
-## Tools for inspecting metadata
-
-* `ogrinfo`/`gdalinfo`: CLI & Python
-* `xarray`: Python
-* `ncview`: GUI
-* Panoply: GUI

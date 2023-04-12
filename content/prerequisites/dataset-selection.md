@@ -8,9 +8,9 @@ In order of importance, we're looking for datasets that are:
 
 ## Geospatial
 
-Data that could be visualized on a globe. Preferably 2D data, as we
-don't plan to get in to point-clouds (e.g. a DEM is OK because it's geolocated in 2
-dimensions, but has a height attribute).
+Data that could be visualized on a globe. Preferably 2D data, as we don't plan to get in
+to point-clouds (e.g. a DEM is OK because it's geolocated in 2 dimensions, even though
+it measures height).
 
 
 ## Greenlandic

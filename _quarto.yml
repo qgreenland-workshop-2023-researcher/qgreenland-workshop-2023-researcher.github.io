@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "*.md"
+    - "*.ipynb"
     - "!doc/"
 
 
@@ -41,6 +42,7 @@ website:
       contents:
         - "content/materials.qmd"
         - "content/slides/index.qmd"
+        - "content/group-work-expectations.qmd"
         - "content/exercises/index.qmd"
         - "content/continued-learning.qmd"
         - "content/ideas.qmd"

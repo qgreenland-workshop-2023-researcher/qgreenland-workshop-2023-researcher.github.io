@@ -3,12 +3,15 @@ _At
 _TODO
 _media
 2i2c
+BitBucket
 Colorbrewer
 CryoCloud
+CryoCloudUsers
 DataONE
 DMS_1842643_12758_20180418_18111267_clipped.jpg
 DOIs
 EarthCube
+Emacs
 Flickr
 Foobarbaz
 GCPs
@@ -19,6 +22,7 @@ GeoPackage
 GeoPackages
 GeoTIFF
 GitHub
+GitLab
 HDF-EOS
 ICESat
 ICESat-2
@@ -69,12 +73,14 @@ datums
 dealbreakers
 e.g.
 equirectangular
+esri
 gdalwarp
 geolocated
 geolocation
 georegistration
 geospatial
 gitignore
+inclusivity
 jupyter-qgis
 layout-ncol
 lon
@@ -127,6 +133,14 @@ lrx
 lry
 15m
 nodata
+pre-selected
+Alyse
+this_
+Mistia
+pre-assign
+submenu
+_yes
+geotransform
  - content/slides/open-science-and-data.qmd
 indable
 ccessible

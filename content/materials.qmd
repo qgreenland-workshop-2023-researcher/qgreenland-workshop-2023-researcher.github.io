@@ -6,7 +6,7 @@
 #### Day 1 overview
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/day-1-overview.qmd)
+[Slides](slides/workshop-overview.qmd)
 :::
 
 ::: {.module-resource .exercise}
@@ -66,20 +66,16 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab.qmd)
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab/index.qmd)
 :::
 ::::::
 
 
 ### Day 2
 
-:::::: {.schedule-item .module}
+::: {.schedule-item .module}
 #### Day 2 overview
-
-::: {.module-resource .slides}
-[Slides (WIP)](slides/day-2-overview.qmd)
 :::
-::::::
 
 
 :::::: {.schedule-item .module}
@@ -157,13 +153,9 @@
 
 ### Day 3
 
-:::::: {.schedule-item .module}
+::: {.schedule-item .module}
 #### Day 3 overview
-
-::: {.module-resource .slides}
-[Slides (TODO)](slides/day-3.qmd)
 :::
-::::::
 
 
 :::::: {.schedule-item .module}
