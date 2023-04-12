@@ -45,6 +45,20 @@ experience using QGreenland are assumed.
 
 If you answer to these questions is yes, than this workshop is for YOU!
 
+### What is this workshop?
+
+#### What it is
+
+* How to make data analysis-ready
+* Best practices for formatting data
+* Discussion of open science topics
+* Understand key metadata concepts for geospatial data
+
+#### What it is **NOT**
+
+* We will not be diving into any particular research topics. This workshop is focused on data and how to use it effectively.
+* Programming course. We encourage participants to explore using code in this workshop, but you should not expect to walk away with extensive programming skills.
+* 
 
 ### About QGreenland
 
