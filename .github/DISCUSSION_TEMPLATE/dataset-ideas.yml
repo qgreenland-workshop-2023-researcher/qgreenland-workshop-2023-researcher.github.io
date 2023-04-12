@@ -1,0 +1,16 @@
+title: "<Your dataset's name here>"
+body:
+  - type: "input"
+    id: "url"
+    attributes:
+      label: "Dataset URL"
+      description: "Link to a landing page for the dataset, if one exists."
+    validations:
+      required: false 
+  - type: "textarea"
+    id: "description"
+    attributes:
+      label: "Description"
+      description: "Write a short description of the dataset(s) you have identified and why it interests you."
+    validations:
+      required: true
