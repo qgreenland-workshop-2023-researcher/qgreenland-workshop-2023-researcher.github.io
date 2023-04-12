@@ -6,9 +6,15 @@ workshop:
 
 ## Post-selection survey (deadline: April 28, 2023)
 
-Participants who have been notified of acceptance to the workshop should
-complete the [post-selection
-survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link).
+Participants who have been notified of acceptance to the workshop will need to
+complete the post-selection survey.
+
+Before taking the survey, please [register for GitHub](https://github.com/join)
+if you do not already have an account. One of the survey questions asks for your
+GitHub username.
+
+[Post-selection
+survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link)
 
 
 ## 🕘 Confirm you can attend
@@ -29,11 +35,11 @@ All times referred to in workshop materials are in Mountain Daylight Time
 
 Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
-## 🐙 GitHub Account (deadline: April 28, 2023)
 
-* Register an account on GitHub
-* [Post an introduction on GitHub
-    Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions)
+## 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
+
+[Post an introduction on GitHub
+Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions)
 
 
 ## ❄️ CryoCloud account (deadline: May 16, 2023)
