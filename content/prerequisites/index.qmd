@@ -1,4 +1,11 @@
-# Prerequisites
+---
+title: Prerequisites
+format:
+    html:
+        toc: true
+        toc-depth: 4
+        toc-expand: true
+---
 
 In order to successfully complete the workshop and receive the $250 stipend,
 participants must complete the following list of prerequisites in advance of the
@@ -9,7 +16,10 @@ All times referred to in workshop materials are in Mountain Daylight Time
 (UTC-6:00).
 :::
 
-## Post-selection survey (deadline: April 28, 2023)
+##  Due: April 28, 2023
+
+### 📋 Post-selection survey
+
 
 Participants who have been notified of acceptance to the workshop will need to
 complete the post-selection survey.
@@ -18,9 +28,7 @@ Before taking the survey, please complete the following actions. You will be
 asked questions related to each of these items in the survey:
 
 * 🕘 Please confirm that you can attend all three days of the workshop and actively
-  participate in group activities:
-
-  **May 23-25, 2023 from 9:00-13:00 Mountain Daylight Time (UTC-6:00)**
+  participate in group activities: _**May 23-25, 2023 from 9:00-13:00 Mountain Daylight Time (UTC-6:00)**_
 * 🐙 [Register for GitHub](https://github.com/join) if you do not already have an account.
 * 📏 Review our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
@@ -28,13 +36,17 @@ Once you have done the above, complete the [Post-selection
 survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link)
 
 
-## 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
+##  Due: May 16, 2023
+
+### 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
+
 
 [Post an introduction on GitHub
 Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions)
 
 
-## ❄️ CryoCloud account (deadline: May 16, 2023)
+### ❄️ CryoCloud account
+
 
 ::: {.callout-warning}
 Requires a GitHub account first!
@@ -62,7 +74,7 @@ In addition to these critical steps, we recommend viewing the training recording
 we'd appreciate if you fill out the onboarding survey and anonymous feedback form!
 
 
-## 💾 Select a dataset of interest (deadline: May 16, 2023)
+### 💾 Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
   would like to work with during the workshop. If you struggle to find a
@@ -77,7 +89,7 @@ we'd appreciate if you fill out the onboarding survey and anonymous feedback for
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
 
 
-## 🇬🇱 QGreenland
+### 🇬🇱 QGreenland
 
 * Install QGIS 3.22 or later
 * Install QGreenland: you can open QGreenland in QGIS
