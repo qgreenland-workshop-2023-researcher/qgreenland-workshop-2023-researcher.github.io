@@ -70,7 +70,7 @@ In addition to these critical steps, we recommend viewing the training recording
 we'd appreciate if you fill out the onboarding survey and anonymous feedback form!
 
 
-## 💾 Select a dataset of interest
+## 💾 Select a dataset of interest (deadline: May 16, 2023)
 
 * Select one or more datasets that are not currently a part of QGreenland you
   would like to work with during the workshop. If you struggle to find a
