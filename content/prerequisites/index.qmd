@@ -28,12 +28,11 @@ All times referred to in workshop materials are in Mountain Daylight Time
 
 Agree to our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
-
 ## 🐙 GitHub Account (deadline: April 28, 2023)
 
 * Register an account on GitHub
 * [Post an introduction on GitHub
-    Discussions](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=introductions)
+    Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions)
 
 
 ## ❄️ CryoCloud account (deadline: May 16, 2023)
