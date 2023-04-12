@@ -39,6 +39,7 @@ NetCDF
 NetCDFs
 NoData
 OGC-adopted
+PyGIS
 PyQGIS
 QGreenland
 RPCs
@@ -78,6 +79,7 @@ gdalwarp
 geolocated
 geolocation
 georegistration
+georeferencing
 geospatial
 gitignore
 inclusivity
