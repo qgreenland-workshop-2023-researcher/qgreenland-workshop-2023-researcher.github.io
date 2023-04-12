@@ -38,7 +38,7 @@ survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDx
 
 ##  Due: May 16, 2023
 
-### 🐙 Post an introduction to GitHub Discussions (deadline: May 16, 2023)
+### 🐙 Post an introduction to GitHub Discussions
 
 
 Please [post an introduction on GitHub
