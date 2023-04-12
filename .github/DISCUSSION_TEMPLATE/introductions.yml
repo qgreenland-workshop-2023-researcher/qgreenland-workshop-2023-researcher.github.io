@@ -1,6 +1,6 @@
 title: "<Your name here>"
 body:
-  - type: "input"
+  - type: "textarea"
     id: "main"
     attributes:
       label: "Introduction"
