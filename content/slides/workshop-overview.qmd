@@ -15,7 +15,7 @@ title-slide-attributes:
 
 # Communication
 
-_All times in Mountain Daylight Time (UTC-06:00)!_
+_All times in Mountain Daylight Time (UTC-6:00)!_
 
 
 ## GitHub Discussions
