@@ -1,10 +1,10 @@
 ---
 title: Prerequisites
 format:
-    html:
-        toc: true
-        toc-depth: 4
-        toc-expand: true
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: true
 ---
 
 In order to successfully complete the workshop and receive the $250 stipend,
@@ -15,6 +15,7 @@ workshop:
 All times referred to in workshop materials are in Mountain Daylight Time
 (UTC-6:00).
 :::
+
 
 ##  Due: April 28, 2023
 
@@ -84,8 +85,9 @@ we'd appreciate if you fill out the onboarding survey and anonymous feedback for
 
 * Select one or more datasets that are not currently a part of QGreenland you
   would like to work with during the workshop.
-    * If you struggle to find a dataset, please view our [Having trouble
-      choosing?](dataset-selection.md#having-trouble-choosing) documentation.
+    * If you struggle to find a dataset, please view our
+      [Having trouble choosing?](dataset-selection.md#having-trouble-choosing)
+      documentation.
 * Use these [guidelines](dataset-selection.md) to pick an appropriate dataset.
 * [Post a short description of the dataset(s) you have identified and why it
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
