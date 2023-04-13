@@ -103,3 +103,10 @@ For ideas, here are some example posts:
 * Install QGreenland: you can open QGreenland in QGIS
 * Familiar with concepts in [QGreenland Beginner Tutorial
   Series](https://www.youtube.com/watch?v=gD0vkP5JUmA&list=PLSRiyMridUCwyu-vqpAFtm8bVERgTvs7q)
+
+
+### 🤑 Fill out stipend compensation forms
+
+You will receive an email with a link to financial forms that must be filled out
+via DocuSign in order to receive the $250 stipend. Please keep an eye on your
+inbox!
