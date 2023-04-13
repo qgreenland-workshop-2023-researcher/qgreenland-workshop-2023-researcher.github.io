@@ -38,7 +38,8 @@ Data that is not already present in QGreenland.
 ### Manageable in size
 
 While we will be using cloud processing tools, we are not going to explore
-techniques for working with "big data" in this workshop.
+techniques for working with "big data" in this workshop. Please try to choose a
+dataset <5 GB in size.
 
 
 ## Having trouble choosing?
