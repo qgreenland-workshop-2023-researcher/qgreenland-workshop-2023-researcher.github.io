@@ -34,7 +34,7 @@ asked questions related to each of these items in the survey:
 * 📏 Review our [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 Once you have done the above, complete the [Post-selection
-survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link)
+survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDxb9Lp9c05CgNz3IYJ3A/viewform?usp=sf_link).
 
 
 ##  Due: May 16, 2023
@@ -48,7 +48,7 @@ Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discuss
 For ideas, here are some example posts:
 
 * [Matt Fisher](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/39)
-* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
+* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44) _TODO: Finish._
 
 
 ### ❄️ CryoCloud account
@@ -83,13 +83,9 @@ we'd appreciate if you fill out the onboarding survey and anonymous feedback for
 ### 💾 Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
-  would like to work with during the workshop. If you struggle to find a
-  dataset, consider choosing one from an established data repository such as
-  the [Arctic Data Center's QGreenland data
-  portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the [National
-  Snow and Ice Data Center](https://nsidc.org/data/explore-data). If you are
-  still struggling to choose a dataset, select one from this list. _TODO: link to
-  list!_
+  would like to work with during the workshop.
+    * If you struggle to find a dataset, please view our [Having trouble
+      choosing?](dataset-selection.md#having-trouble-choosing) documentation.
 * Use these [guidelines](dataset-selection.md) to pick an appropriate dataset.
 * [Post a short description of the dataset(s) you have identified and why it
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
