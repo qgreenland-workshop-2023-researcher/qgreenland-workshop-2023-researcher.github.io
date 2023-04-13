@@ -5,7 +5,7 @@ It's OK if you can't tick all these boxes.
 
 ## Criteria
 
-In order of importance, we're looking for datasets that are:
+In order of importance, we are looking for datasets that are:
 
 
 ### Geospatial
@@ -37,8 +37,8 @@ Data that is not already present in QGreenland.
 
 ### Manageable in size
 
-While we will be using cloud processing tools, we're not going to explore techniques for
-working with "big data" in this workshop.
+While we will be using cloud processing tools, we are not going to explore
+techniques for working with "big data" in this workshop.
 
 
 ## Having trouble choosing?
