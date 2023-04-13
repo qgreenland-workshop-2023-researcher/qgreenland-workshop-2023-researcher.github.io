@@ -54,6 +54,7 @@ choose a dataset, select one from this list.
 * [Arctic Observing Sites](https://arcticobservingviewer.org/web-services)
 * [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html)
 * [World Ocean Atlas 2018](https://www.ncei.noaa.gov/access/world-ocean-atlas-2018/)
+* [Iceberg Sightings Database](https://nsidc.org/data/g00807/versions/1)
 
 
 ### TODO
