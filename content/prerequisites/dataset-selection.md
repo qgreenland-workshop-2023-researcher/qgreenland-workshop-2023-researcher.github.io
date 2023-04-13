@@ -3,31 +3,55 @@
 When selecting a dataset for this workshop, please consider the following guidelines.
 It's OK if you can't tick all these boxes.
 
-In order of importance, we're looking for datasets that are:
+## Criteria
+
+In order of importance, we are looking for datasets that are:
 
 
-## Geospatial
+### Geospatial
 
 Data that could be visualized on a globe. Preferably 2D data, as we don't plan to get in
 to point-clouds (e.g. a DEM is OK because it's geolocated in 2 dimensions, even though
 it measures height).
 
 
-## Greenlandic
+### Greenlandic
 
 The data should be relevant to Greenland.
 
 
-## Interesting
+### Interesting
 
 Data you're excited about!
 
 
-## Imperfect
+### Imperfect
 
 Data that has some usability problems. It's OK if you can't load it in QGIS.
 
 
-## "New"
+### "New"
 
 Data that is not already present in QGreenland.
+
+
+### Manageable in size
+
+While we will be using cloud processing tools, we are not going to explore
+techniques for working with "big data" in this workshop. Please try to choose a
+dataset <5 GB in size.
+
+
+## Having trouble choosing?
+
+If you're struggling to pick a dataset, consider choosing one from an established data
+repository such as the [Arctic Data Center's QGreenland data
+portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the [National Snow and
+Ice Data Center](https://nsidc.org/data/explore-data). If you are still struggling to
+choose a dataset, select one from this list.
+
+* [ETOPO1 bedrock elevation / ice surface elevation](https://www.ncei.noaa.gov/products/etopo-global-relief-model)
+* [Arctic Observing Sites](https://arcticobservingviewer.org/web-services)
+* [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html)
+* [World Ocean Atlas 2018](https://www.ncei.noaa.gov/access/world-ocean-atlas-2018/)
+* [Iceberg Sightings Database](https://nsidc.org/data/g00807/versions/1)
