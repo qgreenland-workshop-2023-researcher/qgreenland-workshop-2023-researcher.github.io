@@ -40,23 +40,15 @@ survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDx
 
 ##  Due: May 16, 2023
 
-### 🐙 Post an introduction to GitHub Discussions
-
-
-Please [post an introduction on GitHub
-Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions).
-
-For ideas, here are some example posts:
-
-* [Matt Fisher](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/39)
-* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
-
-
 ### ❄️ CryoCloud account
 
 
 ::: {.callout-warning}
 Requires a GitHub account first!
+
+Signing up for CryoCloud will trigger an approval process. This requires an
+administrator to add your GitHub user to CryoCloud. Please complete this step
+before any of the following prerequisites!
 :::
 
 Follow the [CryoCloud Getting
@@ -81,6 +73,18 @@ In addition to these critical steps, we recommend viewing the training recording
 we'd appreciate if you fill out the onboarding survey and anonymous feedback form!
 
 
+### 🐙 Post an introduction to GitHub Discussions
+
+
+Please [post an introduction on GitHub
+Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=introductions).
+
+For ideas, here are some example posts:
+
+* [Matt Fisher](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/39)
+* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
+
+
 ### 💾 Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
@@ -99,3 +103,10 @@ we'd appreciate if you fill out the onboarding survey and anonymous feedback for
 * Install QGreenland: you can open QGreenland in QGIS
 * Familiar with concepts in [QGreenland Beginner Tutorial
   Series](https://www.youtube.com/watch?v=gD0vkP5JUmA&list=PLSRiyMridUCwyu-vqpAFtm8bVERgTvs7q)
+
+
+### 🤑 Fill out stipend compensation forms
+
+You will receive an email with a link to financial forms that must be filled out
+via DocuSign in order to receive the $250 stipend. Please keep an eye on your
+inbox!
