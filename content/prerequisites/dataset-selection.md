@@ -35,6 +35,12 @@ Data that has some usability problems. It's OK if you can't load it in QGIS.
 Data that is not already present in QGreenland.
 
 
+### Manageable in size
+
+While we will be using cloud processing tools, we're not going to explore techniques for
+working with "big data" in this workshop.
+
+
 ## Having trouble choosing?
 
 If you're struggling to pick a dataset, consider choosing one from an established data
@@ -43,7 +49,9 @@ portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the [National 
 Ice Data Center](https://nsidc.org/data/explore-data). If you are still struggling to
 choose a dataset, select one from this list.
 
-* ...?
+* [ETOPO1 bedrock elevation / ice surface elevation](https://www.ncei.noaa.gov/products/etopo-global-relief-model)
+* [Arctic Observing Sites](https://arcticobservingviewer.org/web-services)
+* [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html)
 
 
 ### TODO
