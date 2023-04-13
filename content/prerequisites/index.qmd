@@ -49,7 +49,7 @@ Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discuss
 For ideas, here are some example posts:
 
 * [Matt Fisher](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/39)
-* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44) _TODO: Finish._
+* [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
 
 
 ### ❄️ CryoCloud account
