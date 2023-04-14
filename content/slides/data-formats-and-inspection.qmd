@@ -93,13 +93,15 @@ of XML.
 :::
 
 
-## [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors)
+## [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors) {.smaller}
 
 * Vector data
-* Collection of multiple files in a `zip`
-* Field names limited to 10 characters
-* Limited to 255 fields
-* 2GB size limitation
+* Lots of downsides:
+    * Collection of multiple files
+    * Field names limited to 10 characters
+    * Limited to 255 fields
+    * 2GB size limitation
+    * More: <http://switchfromshapefile.org/#shapefileisbad>
 
 ```{.console code-line-numbers="false"}
 unzip arctic_sea_routes.zip
