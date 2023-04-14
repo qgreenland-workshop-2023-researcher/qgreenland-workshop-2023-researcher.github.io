@@ -19,7 +19,7 @@ NSIDC](https://nsidc.org/data/nsidc-0092/versions/1) and open it in QGIS. You
 observe that ocean values all appear black. You use the **Identify tool** to
 verify all the black values are the same: `-0.1`.
 
-![`bambgrl_dem_5km_corrected.tif` displayed alongside
+![`bambgrl_dem_5km_corrected.tif` displayed along with
 QGreenland](/_media/qgreenland_missing_nodata_value.png)
 
 At this point, you're not sure what this represents, so you consult the [user
