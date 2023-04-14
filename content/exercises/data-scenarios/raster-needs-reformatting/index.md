@@ -4,9 +4,12 @@ categories: ["Data issue"]
 ---
 
 A colleague e-mails you aerial imagery of a potential study site that you would
-like to view in QGIS alongside some other data. The person who provided the data
-gives you the following details:
+like to view in QGIS alongside some other data.
 
+![datafile.jpg](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="65%"
+fig-align="center"}
+
+The person who provided the data gives you the following details:
 
 Corner coordinates for the data file are:
 
@@ -22,6 +25,15 @@ The projection information is given as "Well Known Text" (WKT) in the provided
 
 Given this information, create a GeoTIFF file that can be loaded into QGIS and
 viewed alongside other data in QGreenland.
+
+
+## Validation
+
+The GeoTIFF should include all of the metadata necessary to correctly position
+it alongside other layers in QGreenland.
+
+![Solution displayed along with QGreenland (`Internet-required data/Greenland
+image mosaic` as base layer)](/_media/qgreenland_raster_reformatted2.png)
 
 
 ## Citation information
