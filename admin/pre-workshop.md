@@ -9,6 +9,7 @@
       just-in-case.
     * Password
     * Ensure annotations are turned off
+    * Ensure captions are enabled and tested
 * Invite people to `#qgreenland` channel in CryoCloud Slack
 * Practice breakout room usage patterns
 * Create a document with pre-selected teams

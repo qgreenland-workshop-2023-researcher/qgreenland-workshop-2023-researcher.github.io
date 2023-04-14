@@ -38,7 +38,8 @@ Data that is not already present in QGreenland.
 ### Manageable in size
 
 While we will be using cloud processing tools, we are not going to explore
-techniques for working with "big data" in this workshop.
+techniques for working with "big data" in this workshop. Please try to choose a
+dataset <5 GB in size.
 
 
 ## Having trouble choosing?
@@ -54,9 +55,4 @@ choose a dataset, select one from this list.
 * [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html)
 * [World Ocean Atlas 2018](https://www.ncei.noaa.gov/access/world-ocean-atlas-2018/)
 * [Greenland ice sheet discharge](https://dataverse.geus.dk/dataverse/ice_discharge)
-
-
-### TODO
-
-* Scrape suggestions from Jira
-* Scrape suggestions from QGreenland
+* [Iceberg Sightings Database](https://nsidc.org/data/g00807/versions/1)
