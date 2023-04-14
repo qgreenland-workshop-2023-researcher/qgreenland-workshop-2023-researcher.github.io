@@ -134,3 +134,9 @@ Can/should we integrate this tool into the workshop?
 ## Workshop prep
 
 * ~~Clean up GH Discussions~~
+
+
+## Quarto issues
+
+* The HTML table of contents for prerequisites can't be made to full expand using
+  `toc-expand: true`. Can we reproduce?

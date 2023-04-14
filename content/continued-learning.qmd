@@ -24,6 +24,7 @@ For continued learning, please consider the following external resources.
 
 ## Geospatial concepts
 
+* [PyGIS](https://pygis.io/): "Open Source Spatial Programming & Remote Sensing"
 * [Esri: Coordinate systems, map projections, and
   transformations](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm)
 
@@ -31,6 +32,7 @@ For continued learning, please consider the following external resources.
 ### Raster data
 
 * [NCAR Regridding Overview](https://climatedataguide.ucar.edu/climate-tools/regridding-overview)
+* [Georegistration / georeferencing](https://docs.qgis.org/3.28/en/docs/training_manual/forestry/map_georeferencing.html)
 
 
 ### Coordinate systems

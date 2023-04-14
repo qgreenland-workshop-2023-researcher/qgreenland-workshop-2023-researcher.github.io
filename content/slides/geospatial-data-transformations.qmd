@@ -28,31 +28,44 @@ your preferred ecosystem and you'll find equivalents.
 ## TODO
 
 <!-- TODO:
-* Discuss geospatial data transformations
-    * Concepts
-        * Reprojection
-            * _TODO: consider discussion about characteristics of common
-              projections and why you might want to use one over another._
-        * Resampling
-        * Subsetting
-        * Conversion (raster <-> vector)
-        * _TODO: Consider discussion about information loss from common
-          transformations (reprojection, resampling, datatype conversion
-          (raster<->vector))_
-    * Tools / Techniques
-        * QGIS Processing Toolbox (brief mention, participants should be
-          familiar with this from the [beginner tutorial
-          series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
-        * gdalwarp, ogr2ogr, ...
-        * Python (rasterio, shapely, Xarray, pyresample, PyQGIS, ...)
-        * _TODO: create notebook examples for various tools_
-    * Pitfalls
-        * Some metadata in the source data may be carried over to the output,
-          resulting in outdated metadata. For example, we have that issue with
-          the bedmachine data produced for QGreenland. We can `gdalwarp` a
-          bedmachine dataset to WGS84 and observe that the `mapping#` namespace
-          continues to specify "polar stereographic" projection. On the plus side,
-          citation and other metadata which we want to keep was also pulled over. This
-          means you may need to do some manual metadata management when you apply
-          transformations.
+* For each concept, talk about it at a high level, then demo what it looks like for
+  raster and vector data.
+* Concepts
+    * Reprojection
+        * _TODO: consider discussion about characteristics of common
+          projections and why you might want to use one over another._
+        * Pitfall: Vector geometry can become invalid after reprojection. Raster
+          data can have a barely-visible "seam" after reprojection. For example, data
+          in EPSG:4326 has edges at the antimeridian, and when reprojecting to 3413
+          those edges have to meet somewhere, and at that location you may see a
+          "seam". Include a screenshot of this phenomenon in Google Earth.
+    * Resampling
+    * Subsetting
+    * Conversion (raster <-> vector)
+        * Do an example of rasterizing categorical vector data; show what happens when
+          you interpolate incorrectly. Make this a data scenario. Add categories to data
+          scenarios to separate transformation scenarios from metadata scenarios.
+    * _TODO: Consider discussion about information loss from common
+      transformations (reprojection, resampling, datatype conversion
+      (raster<->vector))_
+* Tools / Techniques for raster/vector transformations
+    * QGIS Processing Toolbox (brief mention, participants should be
+      familiar with this from the [beginner tutorial
+      series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
+    * gdalwarp, ogr2ogr, ...
+    * Python (rasterio, shapely, Xarray, pyresample, PyQGIS, ...)
+    * _TODO: create notebook examples for various tools_
+* Pitfalls
+    * Some metadata in the source data may be carried over to the output,
+      resulting in outdated metadata. For example, we have that issue with
+      the bedmachine data produced for QGreenland. We can `gdalwarp` a
+      bedmachine dataset to WGS84 and observe that the `mapping#` namespace
+      continues to specify "polar stereographic" projection. On the plus side,
+      citation and other metadata which we want to keep was also pulled over. This
+      means you may need to do some manual metadata management when you apply
+      transformations. `gdalwarp` has a `-nomd` flag to prevent metadata copying, but
+      this can strip away useful metadata!
+        * Integrate this pitfall into an example of transforming a raster; e.g. reformat
+          a NetCDF and then show the carried-over metadata, especially any fields that
+          are now wrong. Demo how to fix that?
 -->

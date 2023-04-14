@@ -1,0 +1,9 @@
+title: "<Your name here>"
+body:
+  - type: "textarea"
+    id: "main"
+    attributes:
+      label: "Introduction"
+      description: "Tell us about yourself! For example, share your area of research/interest, affiliation, and background."
+    validations:
+      required: true
