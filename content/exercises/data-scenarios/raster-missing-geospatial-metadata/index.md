@@ -1,5 +1,5 @@
 ---
-title: "Data Scenario: Missing metadata"
+title: "Data Scenario: Raster missing geospatial metadata"
 categories: ["Data issue"]
 listing:
   id: "file-listing"
