@@ -52,3 +52,7 @@ CRS.from_epsg(3413)
 ```
 
 `ogrinfo` is another appropriate tool, but is much more verbose in its output.
+
+After successful reprojection, the data looks good alongside QGreenland:
+
+![Reprojected data file](/_media/qgreenland_vector_reprojected.png)
