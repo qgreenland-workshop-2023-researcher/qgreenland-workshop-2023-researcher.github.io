@@ -14,7 +14,4 @@ listing:
 :::{#file-listing}
 :::
 
-You completed [Data Scenario: Missing NoData
-value](/content/exercises/data-scenarios/raster-missing-nodata-value/index.qmd) and now
-have a DEM with a NoData value,
-[bambgrl_dem_5km_corrected_with_nodata.tif](/content/exercises/data-scenarios/raster-needs-reprojection/bambgrl_dem_5km_corrected_with_nodata.tif).
+@bamber_2001_greenland_dem

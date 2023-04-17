@@ -7,6 +7,8 @@ project:
     - "*.ipynb"
     - "!doc/"
 
+bibliography: "references.bib"
+
 
 website:
   title: "QGreenland Researcher Workshop 2023"
