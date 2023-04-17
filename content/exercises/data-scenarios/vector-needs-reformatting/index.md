@@ -42,10 +42,8 @@ Dr. Foobarbaz
 
 You download the attachment `kcbcc_DS4_final_v2_final.xlsx`.
 
+![kcbcc_DS4_final_v2_final.xlsx](/_media/qgreenland_scenario1_table.png)
 
-## TODO
+## Validation
 
-* Should we make the data non-tabular so it can't be loaded directly into Pandas without
-  modification? E.g. include "header rows" containing metadata like projection?
-* Build a Jupyter notebook with an example solution? Include an example GeoJSON file (or
-  other format) representing what the final result should look like?
+![Solution shown along with QGreenland](/_media/qgreenland_reformatted_vector_map.png)
