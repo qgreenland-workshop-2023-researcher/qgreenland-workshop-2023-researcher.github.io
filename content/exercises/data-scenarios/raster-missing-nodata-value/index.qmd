@@ -14,10 +14,10 @@ listing:
 ::: {#file-listing}
 :::
 
-You download the dataset `bambgrl_dem_5km_corrected.tif` [from
-NSIDC](https://nsidc.org/data/nsidc-0092/versions/1) and open it in QGIS. You
-observe that ocean values all appear black. You use the **Identify tool** to
-verify all the black values are the same: `-0.1`.
+You download the dataset `bambgrl_dem_5km_corrected.tif`
+[@bamber_2001_greenland_dem] and open it in QGIS. You observe that ocean values
+all appear black. You use the **Identify tool** to verify all the black values
+are the same: `1.1`.
 
 ![`bambgrl_dem_5km_corrected.tif` displayed along with
 QGreenland](/_media/qgreenland_missing_nodata_value.png)

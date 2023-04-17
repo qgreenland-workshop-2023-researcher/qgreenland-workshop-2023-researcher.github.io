@@ -64,7 +64,7 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ::: {.notes}
 The included data file sample (`dem_without_metadata.tif`) is not a real example
 of data from NSIDC; it's been modified from the original
-([here](https://nsidc.org/data/nsidc-0092/versions/1)) to present a challenge.
+[@bamber_2001_greenland_dem] to present a challenge.
 :::
 
 

@@ -14,4 +14,6 @@ listing:
 :::{#file-listing}
 :::
 
-@bamber_2001_greenland_dem
+
+Your team needs a DEM of Greenland for a global analysis project in a WGS-84 geographic
+projection (EPSG:4326), and has selected @bamber_2001_greenland_dem.
