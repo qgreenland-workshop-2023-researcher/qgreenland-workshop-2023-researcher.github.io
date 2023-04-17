@@ -57,4 +57,7 @@ You download the attachment `kcbcc_DS4_final_v2_final.xlsx`.
 
 ## Validation
 
+The resulting solution file should be openable in QGIS and display data points
+over Greenland.
+
 ![Solution shown along with QGreenland](/_media/qgreenland_reformatted_vector_map.png)
