@@ -1,7 +1,18 @@
 ---
 title: "Data Scenario: Vector data needs reformatting"
 categories: ["Data issue"]
+listing:
+  id: "file-listing"
+  type: "table"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "*"
+    - "solutions/*"
 ---
+
+::: {#file-listing}
+:::
 
 You read a research publication about correlation between the chemistry of blood samples
 taken from 12 kittens found on the Greenland Ice Sheet and their subjective cuteness as

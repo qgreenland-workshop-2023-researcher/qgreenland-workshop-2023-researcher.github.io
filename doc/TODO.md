@@ -140,3 +140,8 @@ Can/should we integrate this tool into the workshop?
 
 * The HTML table of contents for prerequisites can't be made to full expand using
   `toc-expand: true`. Can we reproduce?
+
+
+## Exercises
+
+* Consider migrating solutions from shell scripts to notebooks
