@@ -7,3 +7,6 @@ dependencies:
 
   - quarto ~=1.2.335
   - jupyter ~=1.0.0
+  - xarray ~=2023.03
+  - rioxarray ~=0.14.1
+  - matplotlib-base ~=3.7.1
