@@ -32,6 +32,11 @@ your preferred ecosystem and you'll find equivalents.
   raster and vector data.
 * Concepts
     * Reprojection
+        * On-the-fly reprojection: It's useful, but costly especially for large
+          datasets. Could cause unexpected results depending on the level of control
+          provided by the viewing application. Unclear how well-supported
+          on-the-fly-reprojected layers are in processing toolbox (_TODO: Try this
+          out!_).
         * _TODO: consider discussion about characteristics of common
           projections and why you might want to use one over another._
         * Pitfall: Vector geometry can become invalid after reprojection. Raster
