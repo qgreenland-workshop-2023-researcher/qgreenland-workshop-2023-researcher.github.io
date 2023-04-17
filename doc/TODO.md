@@ -145,3 +145,6 @@ Can/should we integrate this tool into the workshop?
 ## Exercises
 
 * Consider migrating solutions from shell scripts to notebooks
+* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
+  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
+  subdivide.
