@@ -1,7 +1,18 @@
 ---
 title: "Data Scenario: Vector data needs reprojection"
 categories: ["Data transformation"]
+listing:
+  id: "file-listing"
+  type: "table"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "*"
+    - "solutions/*"
 ---
+
+::: {#file-listing}
+:::
 
 
 A colleague has sent you a CSV file containing the locations of potential field

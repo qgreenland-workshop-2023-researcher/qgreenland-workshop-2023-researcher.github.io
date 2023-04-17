@@ -1,7 +1,18 @@
 ---
 title: "Data Scenario: Raster data needs reformatting"
 categories: ["Data issue"]
+listing:
+  id: "file-listing"
+  type: "table"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "*"
+    - "solutions/*"
 ---
+
+::: {#file-listing}
+:::
 
 A colleague e-mails you aerial imagery of a potential study site that you would
 like to view in QGIS alongside some other data.
