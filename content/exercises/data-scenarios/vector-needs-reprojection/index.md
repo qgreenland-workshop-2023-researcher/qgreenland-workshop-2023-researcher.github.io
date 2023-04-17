@@ -17,9 +17,21 @@ listing:
 
 A colleague has sent you a CSV file containing the locations of potential field
 study sites in Greenland. The CSV provides coordinates in latitude and longitude
-(EPSG:4326 / WGS84) but your site suitability analysis code expects coordinates
-in NSIDC Polar Stereographic North (EPSG:3413). Furthermore, your code expects
-that the potential sites be provided as a GeoPackage (`.gpkg`) file.
+(EPSG:4326 / WGS84): 
+
+:::: {.code-with-filename .sourceCode}
+::: {.code-with-filename-file}
+<pre>datafile.csv</pre>
+:::
+<pre class="sourceCode default">
+{{< include datafile.csv >}}
+</pre>
+::::
+
+However, your site suitability analysis code expects coordinates in NSIDC Polar
+Stereographic North (EPSG:3413). Furthermore, your code expects that the potential sites
+be provided as a GeoPackage (`.gpkg`) file.
+
 
 Reproject `datafile.csv` from `EPSG:4326` to `EPSG:3413` and convert the format
 to GeoPackage.
