@@ -25,6 +25,19 @@ your preferred ecosystem and you'll find equivalents.
 :::
 
 
+## Data scenario: Raster needs reprojection
+
+<!-- TODO: better title -->
+
+[Link](/content/exercises/data-scenarios/raster-needs-reprojection)
+
+::: {.notes}
+
+...
+:::
+
+
+
 ## TODO
 
 <!-- TODO:

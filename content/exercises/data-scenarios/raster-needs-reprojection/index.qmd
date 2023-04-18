@@ -15,5 +15,20 @@ listing:
 :::
 
 
-Your team needs a DEM of Greenland for a global analysis project in a WGS-84 geographic
-projection (EPSG:4326), and has selected @bamber_2001_greenland_dem.
+Your team needs a DEM of Greenland for a global analysis processing pipeline that
+requires a WGS-84 geographic projection (`EPSG:4326`). Your team selected
+the included modified datafile based on Bamber Greenland DEM
+[-@bamber_2001_greenland_dem].
+
+Reproject this data file to `EPSG:4326` using bilinear interpolation.
+
+
+
+## Validation
+
+_TODO_
+
+
+### Troubleshooting
+
+_TODO_
