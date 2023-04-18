@@ -1,4 +1,6 @@
-# Select and analyze a main dataset (15 minutes)
+---
+title: "Select and analyze a main dataset (15 minutes)"
+---
 
 ## 🤔 Select a dataset as a group
 

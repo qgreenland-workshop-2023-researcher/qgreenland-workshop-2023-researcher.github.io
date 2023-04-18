@@ -32,8 +32,8 @@ your preferred ecosystem and you'll find equivalents.
 [Link](/content/exercises/data-scenarios/raster-needs-reprojection)
 
 ::: {.notes}
-
-...
+* Review the scenario on the website
+* 
 :::
 
 

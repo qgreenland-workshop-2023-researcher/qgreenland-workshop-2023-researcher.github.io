@@ -1,4 +1,6 @@
-# Data inspection with JupyterLab (30 minutes)
+---
+title: "Data inspection with JupyterLab (30 minutes)"
+---
 
 Learn about a dataset and its metadata.
 

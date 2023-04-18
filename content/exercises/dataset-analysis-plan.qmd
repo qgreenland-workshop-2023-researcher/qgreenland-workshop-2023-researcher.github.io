@@ -1,4 +1,6 @@
-# Dataset analysis plan
+---
+title: "Dataset analysis plan"
+---
 
 ## 💬 Discuss your group's ideas for analysis
 

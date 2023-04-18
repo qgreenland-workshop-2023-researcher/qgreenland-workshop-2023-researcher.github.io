@@ -1,4 +1,6 @@
-# Getting started with JupyterLab (30 minutes)
+---
+title: "Getting started with JupyterLab (30 minutes)"
+---
 
 ::: {.callout-note}
 This is an individual exercise. Remaining exercises will be done as a team.

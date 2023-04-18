@@ -1,4 +1,6 @@
-# Make a GitHub repository (40 minutes)
+---
+title: "Make a GitHub repository (40 minutes)"
+---
 
 ::: {.callout-warning}
 We request that everyone use the GitHub browser interface. If you choose not to, be
