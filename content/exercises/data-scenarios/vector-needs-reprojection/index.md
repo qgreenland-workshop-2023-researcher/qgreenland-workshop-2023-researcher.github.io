@@ -37,7 +37,7 @@ Reproject `datafile.csv` from `EPSG:4326` to `EPSG:3413` and convert the format
 to GeoPackage.
 
 
-# Validation
+## Validation
 
 The resulting solution file should be in `EPSG:3413`. Use a tool to confirm this!
 
@@ -56,3 +56,11 @@ CRS.from_epsg(3413)
 After successful reprojection, the data looks good alongside QGreenland:
 
 ![Reprojected data file](/_media/qgreenland_vector_reprojected.png)
+
+
+## TODO
+
+* Consider how to work in other transformations than reprojection
+* Should this be a group exercise? Or a walkthrough? Or both?
+* Change the source data from point data to polygon data. We want to demonstrate the
+  way polygons reproject without accounting for curves.
