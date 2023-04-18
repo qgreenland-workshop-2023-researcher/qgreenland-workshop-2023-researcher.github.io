@@ -33,9 +33,11 @@ your preferred ecosystem and you'll find equivalents.
 
 ::: {.notes}
 * Review the scenario on the website
-* 
+* Point out the ambiguity of the scenario is typical of a real
+  collaboration
+* If anyone asks about interpolation done on plot outputs, point out that
+  `imshow` can take `interpolation='nearest'` argument.
 :::
-
 
 
 ## TODO
