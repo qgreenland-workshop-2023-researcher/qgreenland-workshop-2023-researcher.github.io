@@ -21,11 +21,11 @@ website:
   navbar:
     left:
       - text: "Prerequisites"
-        file: "content/prerequisites/index.qmd"
+        file: "content/prerequisites/index.md"
       - text: "Schedule"
-        file: "content/schedule.qmd"
+        file: "content/schedule.md"
       - text: "Materials"
-        file: "content/materials.qmd"
+        file: "content/materials.md"
     right:
       - icon: "github"
         aria-label: "GitHub"
@@ -42,15 +42,15 @@ website:
   sidebar:
     - title: "Materials"
       contents:
-        - "content/materials.qmd"
-        - "content/slides/index.qmd"
-        - "content/group-work-expectations.qmd"
-        - "content/exercises/index.qmd"
-        - "content/continued-learning.qmd"
-        - "content/ideas.qmd"
+        - "content/materials.md"
+        - "content/slides/index.md"
+        - "content/group-work-expectations.md"
+        - "content/exercises/index.md"
+        - "content/continued-learning.md"
+        - "content/ideas.md"
     - title: "Prerequisites"
       contents:
-        - "content/prerequisites/index.qmd"
+        - "content/prerequisites/index.md"
         - "content/prerequisites/dataset-selection.md"
         - "content/prerequisites/assessment.md"
 

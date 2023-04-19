@@ -75,7 +75,7 @@ already.
 :::
 
 
-{{< include /content/group-work-expectations.qmd >}}
+{{< include /content/group-work-expectations.md >}}
 
 
 # Day 1 overview

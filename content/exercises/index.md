@@ -3,8 +3,7 @@ title: "Exercises index"
 listing:
   type: "table"
   contents:
-    - "/*/index.qmd"
-    - "/*.qmd"
+    - "/*/index.md"
     - "/*.md"
 ---
 

@@ -3,7 +3,6 @@ title: "Data scenarios"
 listing:
   type: "table"
   contents:
-    - "data-scenarios/*/index.qmd"
     - "data-scenarios/*/index.md"
   categories: true
   fields: [title, categories]
