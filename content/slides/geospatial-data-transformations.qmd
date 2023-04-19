@@ -25,49 +25,99 @@ your preferred ecosystem and you'll find equivalents.
 :::
 
 
-## Data scenario: Raster needs reprojection
+# Transformation concepts
 
-<!-- TODO: better title -->
+## Reprojection
+
+<!-- TODO:
+* On-the-fly reprojection: It's useful, but costly especially for large datasets. Could
+  cause unexpected results depending on the level of control provided by the viewing
+  application. Unclear how well-supported on-the-fly-reprojected layers are in
+  processing toolbox (_TODO: Try this out!_).
+* Image
+-->
+
+
+## Reprojection pitfalls
+
+* Reprojection is typically lossy!
+    * When raster data is warped, data points are not mapped 1:1.
+    * Vector reprojection only affects vertices / points.
+
+<!-- TODO: Consider manufacturing an example, e.g. make a raster with 3x3 grid,
+then calculate a polygon matching the shape of each pixel in that grid. Finally,
+reproject both: This will show how the edges of the old pixels don't match the edges of
+the new pixels.
+--->
+
+* Vector geometry can become invalid.
+* Raster data can show a "seam" where edges are warped together.
+ 
+::: {.notes}
+* Once you've reprojected your data once, you can't necessarily go back to the original
+  projection and get the same result. Think about pixel interpolation: it's impossible
+  to mix two colors and then reverse the process. It's also impossible to know the
+  spatial relationship of the original two colors (which was on the left, and which was
+  on the right?). You can estimate, but you can't _know_.
+
+* When reprojecting vector data, the points move, but the edges are still straight lines
+  between the points, even if they should logically be curved after the reprojection.
+  You will lose topological information; e.g. a point could be inside a polygon
+  pre-reprojection, and outside the polygon after.
+
+* Vector geometry can become invalid after reprojection. Imagine a shape in
+  polar stereographic projection which crosses the anti-meridian. Reprojecting
+  that to EPSG:4326 would require splitting that shape in two.
+
+* Raster data can have a barely-visible "seam" after reprojection. For example,
+  data in EPSG:4326 has edges at the antimeridian, and when reprojecting to
+  EPSG:3413 those edges have to meet somewhere, and at that location you may
+  see a seam. You can see these types of artifacts in Google Earth. 
+:::
+
+
+## Resampling
+
+
+## Subsetting
+
+
+## Conversion
+
+<!-- TODO:
+* Do an example of rasterizing categorical vector data; show what happens when
+  you interpolate incorrectly. Make this a data scenario. Add categories to data
+  scenarios to separate transformation scenarios from metadata scenarios.
+-->
+
+
+# Application
+
+
+## Data scenario: Raster needs reprojection
 
 [Link](/content/exercises/data-scenarios/raster-needs-reprojection)
 
 ::: {.notes}
-* Review the scenario on the website
-* Point out the ambiguity of the scenario is typical of a real
-  collaboration
-* If anyone asks about interpolation done on plot outputs, point out that
-  `imshow` can take `interpolation='nearest'` argument.
+* Review the scenario on the website by clicking the link in this slide.
+* Point out the ambiguity of the scenario is typical of a real collaboration. We'll see
+  later that we don't have the information we need and will need to re-evaluate our
+  solution.
+* Open the notebook in JupyterHub; Repository is checked out at `/shared/QGreenland/.`.
+  Notebook is at `content/exercises/data-scenarios/raster-needs-reprojection/solutions`.
+* If anyone asks about interpolation done on zoomed-out interactive plot outputs, point
+  out that `imshow` can take `interpolation='nearest'` argument to eliminate
+  interpolation when not at 100% zoom.
 :::
 
 
 ## TODO
 
 <!-- TODO:
+* Discussion about information loss from common transformations (reprojection,
+  resampling, datatype conversion (raster<->vector))
 * For each concept, talk about it at a high level, then demo what it looks like for
   raster and vector data.
-* Concepts
-    * Reprojection
-        * On-the-fly reprojection: It's useful, but costly especially for large
-          datasets. Could cause unexpected results depending on the level of control
-          provided by the viewing application. Unclear how well-supported
-          on-the-fly-reprojected layers are in processing toolbox (_TODO: Try this
-          out!_).
-        * _TODO: consider discussion about characteristics of common
-          projections and why you might want to use one over another._
-        * Pitfall: Vector geometry can become invalid after reprojection. Raster
-          data can have a barely-visible "seam" after reprojection. For example, data
-          in EPSG:4326 has edges at the antimeridian, and when reprojecting to 3413
-          those edges have to meet somewhere, and at that location you may see a
-          "seam". Include a screenshot of this phenomenon in Google Earth.
-    * Resampling
-    * Subsetting
-    * Conversion (raster <-> vector)
-        * Do an example of rasterizing categorical vector data; show what happens when
-          you interpolate incorrectly. Make this a data scenario. Add categories to data
-          scenarios to separate transformation scenarios from metadata scenarios.
-    * _TODO: Consider discussion about information loss from common
-      transformations (reprojection, resampling, datatype conversion
-      (raster<->vector))_
 * Tools / Techniques for raster/vector transformations
     * QGIS Processing Toolbox (brief mention, participants should be
       familiar with this from the [beginner tutorial

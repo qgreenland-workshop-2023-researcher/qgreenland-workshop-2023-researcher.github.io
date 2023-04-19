@@ -223,7 +223,7 @@ projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coo
 There are MANY map projections. Each has advantages and disadvantages depending
 on use-case and the part of the world being mapped.
 
-_TODO: how do size images so that they take up the remaining space?_
+* _TODO: how do size images so that they take up the remaining space?_
 :::
 
 ## {background-iframe="https://www.jasondavies.com/maps/transition/" background-interactive="true"}
@@ -231,6 +231,13 @@ _TODO: how do size images so that they take up the remaining space?_
 ::: {.notes}
 Website demonstrates many different projections with an interactive control to change the perspective.
 :::
+
+
+## Projection characteristics
+
+_TODO: Add discussion about characteristics of common projections and why you might want
+to use one over another._
+
 
 ## Standard representations of CRS information
 
