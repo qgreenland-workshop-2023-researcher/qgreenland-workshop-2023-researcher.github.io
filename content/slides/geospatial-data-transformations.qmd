@@ -25,34 +25,75 @@ your preferred ecosystem and you'll find equivalents.
 :::
 
 
-# Transformation concepts
+# Transformation concepts {.smaller}
+
+It's important that different datasets are compatible with each-other prior to analysis.
+
+* All datasets should be in the same projection and datum
+* Rasters should be "co-registered": matching grids
+* Understand your transformations! Some can be "lossy"
+* Optional: Don't keep data you don't need
+
+::: {.notes}
+Raster "co-registration" means multiple datasets have the same grid resolution and
+orientation.
+
+"Lossy" transformations can't be reversed.
+:::
+
 
 ## Reprojection
 
-<!-- TODO:
-* On-the-fly reprojection: It's useful, but costly especially for large datasets. Could
-  cause unexpected results depending on the level of control provided by the viewing
-  application. Unclear how well-supported on-the-fly-reprojected layers are in
-  processing toolbox (_TODO: Try this out!_).
-* Image
--->
+![Reprojection (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/d_reprojection_example.jpg){.center}
+
+::: {.notes}
+When reprojecting, we always use geographic coordinates as an intermediate step.
+:::
 
 
-## Reprojection pitfalls
+## On-the-fly reprojection
 
-* Reprojection is typically lossy!
-    * When raster data is warped, data points are not mapped 1:1.
-    * Vector reprojection only affects vertices / points.
+* Useful, but costly especially for large datasets.
 
-<!-- TODO: Consider manufacturing an example, e.g. make a raster with 3x3 grid,
-then calculate a polygon matching the shape of each pixel in that grid. Finally,
-reproject both: This will show how the edges of the old pixels don't match the edges of
-the new pixels.
---->
+* **Could cause unexpected results**: Is your tool acting on reprojected data or source
+  data (what's actually on disk)?
 
-* Vector geometry can become invalid.
-* Raster data can show a "seam" where edges are warped together.
- 
+* [Learn more about how QGIS does on-the-fly reprojection](https://docs.qgis.org/3.28/en/docs/training_manual/vector_analysis/reproject_transform.html?highlight=reprojecting#basic-fa-on-the-fly-reprojection)
+
+::: {.notes}
+On-the-fly reprojection is reprojection that's done implicitly; some GIS tools will use
+OTFR to do an analysis between two datasets, and some other GIS tools will do OTFR to
+facilitate visualization (e.g. QGIS). It's possible reprojection is happening without
+your knowledge.
+
+With OTFR, some choices are likely being made for you: Interpolation algorithm,
+re-sampling algorithm, etc. Therefore, when doing analysis, know your tools! For most
+analyses, it's helpful to ensure all datasets are in a common projection/datum.
+
+In QGIS, OTFR is automatically enabled; all layers will be reprojected to the chosen
+project CRS.
+:::
+
+
+## Reprojection pitfalls {.smaller}
+
+Reprojection is typically lossy!
+
+* When raster data is warped, data points are not mapped 1:1.
+* Vector reprojection only affects vertices / points.
+
+:::::: {.columns}
+::: {.column width="50%"}
+![A "warped" reprojection (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/d_warp.png){width=300px}
+:::
+
+::: {.column width="50%"}
+![QGreenland's "Greenland-focused boundary" polygon](/_media/qgreenland_boundary_3413.png){width=150px}
+
+![Reprojected to EPSG:4326](/_media/qgreenland_boundary_4326.png){width=400px}
+:::
+::::::
+
 ::: {.notes}
 * Once you've reprojected your data once, you can't necessarily go back to the original
   projection and get the same result. Think about pixel interpolation: it's impossible
@@ -64,7 +105,26 @@ the new pixels.
   between the points, even if they should logically be curved after the reprojection.
   You will lose topological information; e.g. a point could be inside a polygon
   pre-reprojection, and outside the polygon after.
+:::
 
+
+## Reprojection pitfalls {.smaller}
+
+Weird things happen at the edges!
+
+* Vector geometry can become invalid.
+* Raster data can show a "seam" where edges are warped together.
+
+![A "seam" along 180 degrees longitude in QGreenland's Natural Earth basemap](/_media/qgreenland_ne_reprojection_seam.png)
+
+<!-- TODO:
+* Consider manufacturing an example, e.g. make a raster with 3x3 grid, then calculate a
+  polygon matching the shape of each pixel in that grid. Finally, reproject both: This
+  will show how the edges of the old pixels don't match the edges of the new pixels.
+* Consider how we could visualize vector geometry invalidating during reproject.
+--->
+
+::: {.notes}
 * Vector geometry can become invalid after reprojection. Imagine a shape in
   polar stereographic projection which crosses the anti-meridian. Reprojecting
   that to EPSG:4326 would require splitting that shape in two.
@@ -72,17 +132,57 @@ the new pixels.
 * Raster data can have a barely-visible "seam" after reprojection. For example,
   data in EPSG:4326 has edges at the antimeridian, and when reprojecting to
   EPSG:3413 those edges have to meet somewhere, and at that location you may
-  see a seam. You can see these types of artifacts in Google Earth. 
+  see a seam. You can see these types of artifacts in Google Earth.
 :::
 
 
 ## Resampling
 
+Raster grids won't always align, even in the same projection & datum.
 
-## Subsetting
+![Resampling - different origin (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation.jpg)
+
+::: {.notes}
+It's important to correct this problem before analysis so that you can be sure that
+your computations across datasets will be successful.
+:::
+
+---
+
+![Resampling - different origin and rotation (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation-origin.jpg)
+
+---
+
+![Resampling - different resolution (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-res.jpg)
+
+
+## Subsetting (clipping)
+
+Consider doing a subset _first_. Don't waste time and computing power doing analysis on
+areas you don't care about!
+
+![QGreenland's Natural Earth 2 basemap without subsetting. QGreenland's area of interest
+is the tiny circle in the center!](/_media/qgreenland_ne_no_subset.png)
+
+::: {.notes}
+Reprojection is expensive. If you subset first, it will take much less time! You may
+want to consider doing a performance-motivated subset, then reprojecting, then
+subsetting again in the new projection to get your final area of interest.
+:::
 
 
 ## Conversion
+
+Does your data provide a suitable representation for your analysis?
+
+![Johannes Rössel, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/c/c2/Raster_vector_tikz.svg)
+
+::: {.notes}
+For example, if you're trying to determine the area of a region or whether two phenomena
+intersect, raster may not be a suitable representation. Similarly, if you're trying to
+calculate an average scalar value, e.g. temperature or ice sheet thickness, over an
+area, vector may not be a suitable representation.
+:::
 
 <!-- TODO:
 * Do an example of rasterizing categorical vector data; show what happens when
@@ -91,8 +191,41 @@ the new pixels.
 -->
 
 
-# Application
+## Conversion: Vector to raster
 
+### Spatial interpolation
+
+![[(a) Ice thickness map from kriging the Lamont-Doherty (black lines) and CReSIS data
+(grey lines). (b) Bed topography calculated from subtracting the interpolated ice
+thickness from the GIMP surface elevation DEM. A in Figure 2b highlights the subglacial
+overdeepening where major water rerouting
+occurs.](https://www.researchgate.net/figure/a-Ice-thickness-map-from-kriging-the-Lamont-Doherty-black-lines-and-CReSIS-data-grey_fig2_301577584)](https://www.researchgate.net/profile/Timothy-Creyts/publication/301577584/figure/fig2/AS:787517137776641@1564770125447/a-Ice-thickness-map-from-kriging-the-Lamont-Doherty-black-lines-and-CReSIS-data-grey.png)
+
+::: {.notes}
+Disregard image (b); In image (a) we can see IceBridge flightlines represented in grey.
+These flightlines are taking continuous measurements of ice thickness underneath the
+plane, so there are no measurements where the plane hasn't flown. Here a process called
+"kriging" is used to estimate ice thickness in between measurements.
+:::
+
+
+## Conversion: Raster to vector
+
+![QGreenland's Heat Flux layer (raster) with contours overlaid](/_media/qgreenland_heat_flux_contours.png)
+
+::: {.notes}
+You may want to do this for:
+
+* Clumping regions of same value, e.g. contours.
+* Clumping regions with similar aggregate value, e.g. find region shapes that each
+  contain ~1000 people.
+* Calculating the shape of an anomalous region and analyzing other attributes of that
+  region.
+* Convert a categorical raster image into vector regions.
+:::
+
+
+# Application
 
 ## Data scenario: Raster needs reprojection
 
