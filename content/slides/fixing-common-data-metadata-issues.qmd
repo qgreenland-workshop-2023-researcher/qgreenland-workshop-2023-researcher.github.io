@@ -597,6 +597,9 @@ Metadata may be undocumented or incorrectly documented; contact data producer!
 It's possible nobody living knows how to fix the problem!
 :::
 
+See [continued learning](/content/continued_learning.md) to learn more about
+how georegistration could help.
+
 ::: {.notes}
 Worst-case scenarios:
 
@@ -604,4 +607,10 @@ Worst-case scenarios:
   configuration. Contacting the originator may be the _only_ way forward.
 * Data originator may have passed away, changed careers, stopped checking their
   email, or forgotten about the data you're working with.
+
+If there are recognizable spatial features in the data, you may be able to georeference
+it. See "continued learning" section to learn more about this.
 :::
+
+
+## References

@@ -58,15 +58,16 @@
 
 ### Fixing common data/metadata
 
-* Remove WIP marker on the slides
-* Add screenshot to the data scenario description; source from slides demonstrating what
-  "missing metadata" looks like in QGIS
-* Apply code cell standards from "inspecting" slide deck
+* ~~Remove WIP marker on the slides~~
+* ~~Add screenshot to the data scenario description; source from slides demonstrating what
+  "missing metadata" looks like in QGIS~~
+* ~~Apply code cell standards from "inspecting" slide deck~~
 * "Vector data needs reformatting" data scenario needs a listing of its files
 * Add syntax highlighting to JSON output on "vector reformatting" slides
 * Remove `>>` from `gdalsrsinfo` code block
 * Remove "Advanced techniques" slides; the info is in continued learning already (or
   should be)
+* ~~On the 🪦 slide, link to continued learning about topics like georegistration.~~
 
 
 ### Exercise
@@ -78,7 +79,6 @@
 * Use extra time to try other scenarios, or try different methods on same scenarios.
 * If your group's dataset is looking great, what about other individuals' personal
   dataset(s)? Look at those as a group.
-* On the 🪦 slide, link to continued learning about topics like georegistration.
 
 
 ## Misc
