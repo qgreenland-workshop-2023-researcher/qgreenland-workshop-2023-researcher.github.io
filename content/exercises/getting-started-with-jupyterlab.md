@@ -42,6 +42,7 @@ familiar with the JupyterLab interface.
 * Run the example notebook from the "Intro to JupyterLab" discussion.
     * Click "Run -> Run all cells"
     * When complete, you should see a map with QGreenland highlighted in red.
+<!-- alex ignore color -->
 * Change the color of the Greenland shape in the last cell of the notebook and
   re-render.
 * Try changing other map parameters in the last cell of the notebook. Can you

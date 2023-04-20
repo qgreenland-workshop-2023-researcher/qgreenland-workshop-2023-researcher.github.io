@@ -95,11 +95,13 @@ Reprojection is typically lossy!
 ::::::
 
 ::: {.notes}
+<!-- alex disable colors -->
 * Once you've reprojected your data once, you can't necessarily go back to the original
   projection and get the same result. Think about pixel interpolation: it's impossible
   to mix two colors and then reverse the process. It's also impossible to know the
   spatial relationship of the original two colors (which was on the left, and which was
   on the right?). You can estimate, but you can't _know_.
+<!-- alex enable colors -->
 
 * When reprojecting vector data, the points move, but the edges are still straight lines
   between the points, even if they should logically be curved after the reprojection.
@@ -112,6 +114,7 @@ Reprojection is typically lossy!
 
 Weird things happen at the edges!
 
+<!-- alex ignore invalid -->
 * Vector geometry can become invalid.
 * Raster data can show a "seam" where edges are warped together.
 
@@ -125,6 +128,7 @@ Weird things happen at the edges!
 --->
 
 ::: {.notes}
+<!-- alex ignore invalid -->
 * Vector geometry can become invalid after reprojection. Imagine a shape in
   polar stereographic projection which crosses the anti-meridian. Reprojecting
   that to EPSG:4326 would require splitting that shape in two.
@@ -195,6 +199,7 @@ area, vector may not be a suitable representation.
 
 ### Spatial interpolation
 
+<!-- alex ignore gimp black -->
 ![[(a) Ice thickness map from kriging the Lamont-Doherty (black lines) and CReSIS data
 (grey lines). (b) Bed topography calculated from subtracting the interpolated ice
 thickness from the GIMP surface elevation DEM. A in Figure 2b highlights the subglacial

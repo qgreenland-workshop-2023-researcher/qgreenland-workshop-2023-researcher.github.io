@@ -14,6 +14,7 @@ listing:
 ::: {#file-listing}
 :::
 
+<!-- alex ignore black -->
 You download the dataset `bambgrl_dem_5km_corrected.tif`
 [@bamber_2001_greenland_dem] and open it in QGIS. You observe that ocean values
 all appear black. You use the **Identify tool** to verify all the black values
@@ -38,7 +39,7 @@ value.
 The dataset should not show ocean values when initially opened in QGIS.
 
 ::: {.callout-note}
-This problem can be solved with symbology, but that's not what we're shooting
+This problem can be solved with symbology, but that's not what we're aiming
 for here. We want a file with the ocean pixels encoded internally as NoData
 values so we can share it with others and they won't have to deal with this
 issue.

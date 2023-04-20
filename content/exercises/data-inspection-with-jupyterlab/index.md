@@ -20,6 +20,7 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
     * Extent (e.g. corner coordinates / edge values)
     * Grid shape
     * Number of features
+<!-- alex ignore easy -->
 * Include Markdown cells to tell a story. Explain what each operation is doing,
   and what your group learned from the results of each operation. Make it easy
   to come back to the notebook and find important attributes of your dataset.

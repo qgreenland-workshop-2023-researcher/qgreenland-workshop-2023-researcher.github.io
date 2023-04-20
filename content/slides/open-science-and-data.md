@@ -34,6 +34,7 @@ title-slide-attributes:
 ## Important data principles: [FAIR](https://www.go-fair.org/fair-principles/)
 
 <!-- TODO: more links! -->
+<!-- alex disable easy -->
 ::: {.incremental .r-fit-text}
 * **<u>F</u>**indable
     * "Metadata and data should be easy to find for both humans **and computers**."
@@ -48,6 +49,7 @@ title-slide-attributes:
       [provenance](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/),
       [community standards](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)
 :::
+<!-- alex enable easy -->
 
 
 ## Important data principles: [CARE](https://www.gida-global.org/care)

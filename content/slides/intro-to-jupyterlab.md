@@ -208,7 +208,7 @@ back into your desktop.
 Do not use "Logout" from the desktop environment!
 :::
 
-To close the desktop, just close the window/tab that the desktop environment is open in.
+To close the desktop, please close the window/tab that the desktop environment is open in.
 
 :::{.notes}
 _TODO: add an image showing a "no" symbol over the logout menu?_
@@ -243,6 +243,7 @@ to show the source of it. And also how to expand/collapse cells.
 Also be sure to demonstrate how to create a new cell, change it's type
 (Markdown, Code, ...), and move cells around.
 
+<!-- alex ignore execution -->
 Note that execution order matters.
 :::
 

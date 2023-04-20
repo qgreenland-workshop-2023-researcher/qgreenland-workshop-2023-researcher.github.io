@@ -14,7 +14,6 @@ Data is actual measurements.
 For example, at location (X, Y), the albedo is 39%.
 :::
 
-
 <!-- TODO: Raster vs Vector: Discuss object representation vs field
 representation. PyGIS.io has some really helpful graphics that may be
 permissively licensed.
@@ -31,7 +30,7 @@ Choose the right feature type:
 * Line
 * Polygon
 
-![Simple vector map (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg)
+![Vector map (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg)
 
 
 ## Vector attributes
@@ -114,8 +113,8 @@ grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
 etc.). Data values stored in the original grid are transformed to accommodate the
 geometry and spatial positioning of the output grid.
 
-_TODO: consider incorporating this image of interpolation techniques (maybe just
-crop to bottom half of image?)
+_TODO: consider incorporating this image of interpolation techniques (maybe crop to
+bottom half of image?)
 https://en.wikipedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg _
 :::
 
@@ -177,6 +176,7 @@ cases).
 _TODO: can we find a better image that shows differences between Earth, ellipsoid, and geoid?_
 :::
 
+
 ## CRS: Geographic Coordinate System (GCS)
 
 Coordinate system that represents locations on the Earth in spherical
@@ -192,6 +192,7 @@ System (unprojected) are shown in an 'equirectangular' projection in which
 latitudes are mapped to the Y axis and longitudes are mapped to the X axis of a
 planar coordinate system.
 :::
+
 
 ## CRS: Projected Coordinate System (PCS)
 
@@ -225,6 +226,7 @@ on use-case and the part of the world being mapped.
 
 * _TODO: how do size images so that they take up the remaining space?_
 :::
+
 
 ## {background-iframe="https://www.jasondavies.com/maps/transition/" background-interactive="true"}
 
@@ -284,20 +286,24 @@ PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
     ID["EPSG",3413]]
 ```
 ::: {.notes}
-WKT is highly verbose and relatively easy to read as a human.
+WKT is highly verbose and relatively readable to humans.
 :::
 
 
 ## Standard representations of CRS information
+
 ### [Proj parameters](https://proj.org/usage/projections.html)
 ```{.text code-line-numbers="false"}
 +proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
 ```
 ::: {.notes}
-Proj parameters encode CRS parameters as simple key-value pairs.
+Proj parameters encode CRS parameters as key-value pairs.
 :::
 
+
 ## Standard representations of CRS information
+
+<!-- alex ignore european -->
 ### [European Petroleum Survey Group (EPSG) Geodetic Parameter Dataset codes](https://epsg.org/home.html)
 ```{.text code-line-numbers="false"}
 EPSG:3413
@@ -307,6 +313,7 @@ Extremely concise, EPSG maintains a registry of codes that map to CRS definition
 
 Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
+
 
 ## Metadata standards
 
@@ -322,4 +329,3 @@ Standards for metadata are often context-dependent. Some standards are developed
 for particular data formats, others are focused on certain scientific domains
 (e.g, Ecological Markup Language, EML).
 :::
-
