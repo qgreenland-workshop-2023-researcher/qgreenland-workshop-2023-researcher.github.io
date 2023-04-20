@@ -104,7 +104,7 @@ Reprojection is typically lossy!
 * When reprojecting vector data, the points move, but the edges are still straight lines
   between the points, even if they should logically be curved after the reprojection.
   You will lose topological information; e.g. a point could be inside a polygon
-  pre-reprojection, and outside the polygon after.
+  prior to reprojection, and outside the polygon after.
 :::
 
 
@@ -202,7 +202,7 @@ overdeepening where major water rerouting
 occurs.](https://www.researchgate.net/figure/a-Ice-thickness-map-from-kriging-the-Lamont-Doherty-black-lines-and-CReSIS-data-grey_fig2_301577584)](https://www.researchgate.net/profile/Timothy-Creyts/publication/301577584/figure/fig2/AS:787517137776641@1564770125447/a-Ice-thickness-map-from-kriging-the-Lamont-Doherty-black-lines-and-CReSIS-data-grey.png)
 
 ::: {.notes}
-Disregard image (b); In image (a) we can see IceBridge flightlines represented in grey.
+Disregard image (b); In image (a) we can see IceBridge flightlines represented in gray.
 These flightlines are taking continuous measurements of ice thickness underneath the
 plane, so there are no measurements where the plane hasn't flown. Here a process called
 "kriging" is used to estimate ice thickness in between measurements.

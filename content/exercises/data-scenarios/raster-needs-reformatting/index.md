@@ -18,7 +18,8 @@ A colleague e-mails you aerial imagery that they extracted from the IceBridge DM
 dataset [@dominguez_2010_icebridge_dms] of a potential study site that you would like to
 view in QGIS alongside some other data.
 
-![datafile.jpg](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="65%" fig-align="center"}
+![datafile.jpg](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg
+){width="65%" fig-align="center"}
 
 The person who provided the data gives you the following details:
 
