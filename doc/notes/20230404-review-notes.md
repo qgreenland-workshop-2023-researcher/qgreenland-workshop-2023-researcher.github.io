@@ -91,7 +91,8 @@
     * Daily checklist
         * When/how to record
     * Roles
-* Communicate clearly that QGreenland inclusion is not guaranteed for chosen datasets.
+* ~~Communicate clearly that QGreenland inclusion is not guaranteed for chosen
+  datasets.~~
 * Show/demo the ADC QGreenland portal? Emphasize that improving this portal is going to
   be one of our major focuses.
 * What does contributor workflow look like if people want to add to the package? We
