@@ -1,6 +1,7 @@
-# Before the workshop
-
-## In advance
+---
+title: "Long before the workshop"
+index: -99
+---
 
 * A few e-mail reminders with checklists of prerequisites
     * CryoCloud setup is critical!
@@ -20,21 +21,3 @@
 * Pre-populate the "Dataset Ideas" section of GH Discussions with multiple posts,
   each detailing one "fallback" dataset for groups that have trouble picking one.
 * Clean up/remove assessment page.
-
-
-## Right before
-
-### Zoom
-
-* Start the Zoom call
-* Give "Host" / "Co-Host" permissions to Matt, Trey, Alyse, ??
-* Assign someone to let people in from waiting room
-* Assign a greeter (Alyse likes this job!)
-    * Immediately ask if CryoCloud is set up. If they haven't done it, move them to a
-      breakout room to fill out the forms.
-    * Mention recording -- we won't use footage publicly without editing out
-      participants.
-* _TODO: What materials do participants need right away? We want to share this in
-  Slack/Zoom as people are joining. Matt & Trey think about this_
-    * Slack setup: Tell people that haven't done setup to do it during the first break.
-* Alyse will start recording

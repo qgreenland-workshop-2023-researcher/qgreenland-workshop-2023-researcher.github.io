@@ -1,4 +1,7 @@
-# Start of module
+---
+title: "Start of module"
+index: 5
+---
 
 ## Slides
 
