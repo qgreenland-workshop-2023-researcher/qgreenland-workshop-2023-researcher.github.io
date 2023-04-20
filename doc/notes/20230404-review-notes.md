@@ -83,7 +83,7 @@
 
 ## Misc
 
-* ‼️ Create space for asking questions in the morning!
+* ~~‼️ Create space for asking questions in the morning!~~
 * Create an overview checklist with:
     * Discuss the modules we'll cover today
     * Questions from yesterday?
