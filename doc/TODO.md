@@ -1,17 +1,17 @@
 # TODO
 
-## CI
+## Infra
+
+### CI
 
 * Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
   and `aspell`.
 
 
-## Slides / presenting
+## Content
 
-* How can we split our pile of slides in to multiple focused decks?
-    * [x] Build a Quarto web page in addition to the slides, and include links to slide
-      decks?
-    * 1 deck per day? Or more focused than that?
+### Slides / presenting
+
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
 * Can we pre-record presentations? More control over timing, more end-user control over
   the presentation, e.g. skipping parts they already understand or rewinding parts when
@@ -24,38 +24,15 @@
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
 
 
-## Timing / scheduling
+### Exercises
 
-* Consider a 4th optional day of workshop with a "hook" to encourage attendance,
-  followed by office hours.
-
-
-## Improve presentation of this Git repository
-
-### Content
-
-* Clean up curriculum: Should be bullet points of topics and time spent on each topic.
-  Extract details for each topic into separate documents.
-
-* Index curriculum into modules, e.g. Day 1's third module could be `1C`.
+* Consider migrating solutions from shell scripts to notebooks
+* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
+  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
+  subdivide.
 
 
-### View
-
-* [x] Consider a SSG for making an improved web-based "view" of this Git repository,
-  e.g. MkDocs
-    <!-- alex ignore special -->
-    * A good demo of something special you can do with CI
-
-
-## Workshop organization
-
-* Consider announcing groups ahead of the workshop. This might allow
-  participants to reach out to each other ahead of time, read introductions for
-  their group members, etc.
-
-
-## Workshop materials
+### Workshop materials
 
 * Rethink the "fixing metadata issues" exercies/scenarios; we can use `gdal_translate`
   for all of them instead of `gdal_edit.py`. `gdal_translate` won't edit in place, so
@@ -79,14 +56,37 @@
         * We also need to know what the CRS those coordinates.
 
 
-## Work products
+### Work products
 
 * Consider establishing a required structure for work products. E.g. your repository
   must include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this
   way, model splitting a problem into parts, and encourage focused, clean notebooks.
 
 
-## Automated FAIR / other quality checks
+### Citation
+
+* For Wikimedia Commons images, use their "embed in site" feature which includes an
+  automatically-generated citation
+
+
+## Run-of-show
+
+### Timing / scheduling
+
+* Consider a 4th optional day of workshop with a "hook" to encourage attendance,
+  followed by office hours.
+
+
+### Workshop organization
+
+* Consider announcing groups ahead of the workshop. This might allow
+  participants to reach out to each other ahead of time, read introductions for
+  their group members, etc.
+
+
+## Misc
+
+### Automated FAIR / other quality checks
 
 The NCEAS has an [automated checking tool](https://github.com/NCEAS/metadig-checks).
 
@@ -96,26 +96,7 @@ It's deployed on DataONE, e.g.
 Can/should we integrate this tool into the workshop?
 
 
-## Citation
-
-* For Wikimedia Commons images, use their "embed in site" feature which includes an
-  automatically-generated citation
-
-
-## Workshop prep
-
-* ~~Clean up GH Discussions~~
-
-
-## Quarto issues
+### Quarto issues
 
 * The HTML table of contents for prerequisites can't be made to full expand using
   `toc-expand: true`. Can we reproduce?
-
-
-## Exercises
-
-* Consider migrating solutions from shell scripts to notebooks
-* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
-  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
-  subdivide.
