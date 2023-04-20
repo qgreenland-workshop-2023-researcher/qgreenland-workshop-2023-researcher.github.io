@@ -5,8 +5,8 @@ It's OK if you can't tick all these boxes.
 
 ::: {.callout-note}
 Please keep in mind that while we're [interested in
-suggestions](https://github.com/nsidc/qgreenland/issues/new), inclusion in QGreenland is
-not guaranteed for your selected dataset!
+suggestions](https://github.com/nsidc/qgreenland/issues/new/choose), inclusion in
+QGreenland is not guaranteed for your selected dataset!
 :::
 
 
