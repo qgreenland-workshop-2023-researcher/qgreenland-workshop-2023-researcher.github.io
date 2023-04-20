@@ -95,9 +95,9 @@
   datasets.~~
 * Show/demo the ADC QGreenland portal? Emphasize that improving this portal is going to
   be one of our major focuses.
-* What does contributor workflow look like if people want to add to the package? We
+* ~~What does contributor workflow look like if people want to add to the package? We
   don't want "inconsequential" layers. E.g. start with an issue to discuss viability of
-  dataset, then open PR.
+  dataset, then open PR.~~
 * ~~Emphasize different chat channels: Try not to use Zoom chat, but we'll be available
   there if needed.~~
 * ~~Demo the different communication methods in Day 1 overview slides~~
