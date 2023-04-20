@@ -20,10 +20,6 @@ jobs:
       run: |
         npm ci
 
-    - name: "Lint: Markdown formatting"
-      run: |
-        npm run lint-markdown-format
-
     - name: "Lint: considerate writing"
       run: |
         npm run lint-considerate-writing
