@@ -51,7 +51,7 @@ users who are struggling with installing dependencies.
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
-* Diversify background imagery; currently have one cropped Icebridge DMS image, but
+* Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
 
