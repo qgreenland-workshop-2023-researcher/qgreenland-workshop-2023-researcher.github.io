@@ -13,6 +13,19 @@ title-slide-attributes:
 * Prepare new datasets for use in the QGreenland QGIS data environment.
 
 
+# Instructors
+
+## Matt Fisher & Trey Stafford
+
+Software Developers @ NSIDC
+
+
+## Alyse Thurber
+
+CIRES Education & Outreach
+
+
+
 # Communication
 
 _All times in Mountain Daylight Time (UTC-6:00)!_
@@ -53,12 +66,32 @@ Join `#qgreenland` channel one of these ways:
 If Slack is new to you, check out the [quick start
 guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide)
 
+::: {.notes}
+Show the `#qgreenland` channel in Slack interface.
+
+Show the "Add channels" interface.
+:::
+
+
+## Zoom
+
+* Please try to use Slack instead of Zoom chat.
+* Please mute when you're not speaking to minimize background noise.
+* _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
+  off."_
+* _TODO: Etiquette for asking questions._
+* We'll use breakout rooms for group exercises / discussions.
+
 
 ## Slack threads
 
 **Use [threads](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) liberally!**
 
 ![Slack threads](/_media/slack_threads.png)
+
+::: {.notes}
+Show a thread in the Slack interface.
+:::
 
 
 # Code of Conduct
