@@ -47,7 +47,6 @@ website:
         - "content/group-work-expectations.md"
         - "content/exercises/index.md"
         - "content/continued-learning.md"
-        - "content/ideas.md"
         - "admin/index.md"
     - title: "Prerequisites"
       contents:

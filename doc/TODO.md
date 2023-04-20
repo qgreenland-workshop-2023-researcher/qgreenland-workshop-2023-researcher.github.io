@@ -1,6 +1,6 @@
 # TODO
 
-## Infra
+## Infrastructure
 
 ### CI
 
@@ -8,7 +8,19 @@
   and `aspell`.
 
 
+### Zoom
+
+* Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
+  working.
+
+
 ## Content
+
+### Goal ideas
+
+* Show data transformation provenance using Jupyter Notebooks
+* Transparently share transformations and provenance using GitHub
+
 
 ### Slides / presenting
 
@@ -22,6 +34,8 @@
 * Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
+* Should we have a module about integrating GitHub with Zenodo to create DOIs?
+* Consider discussion about how data are often organized on disk (granularity)
 
 
 ### Exercises
@@ -30,6 +44,7 @@
 * Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
   You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
   subdivide.
+* Resampling exercise?
 
 
 ### Workshop materials
@@ -75,6 +90,31 @@
 
 * Consider a 4th optional day of workshop with a "hook" to encourage attendance,
   followed by office hours.
+* Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
+  long to break?
+* Consider adding some buffer time before and after break for things to run
+  long. A longer break is better than a shorter break.
+* Keep a timer/alarm for making sure we stay on target and don't miss the break.
+* Think about ways to encourage larger-group discussions following breakout rooms.
+
+
+### Group work
+
+* Encourage rotation of "driver" responsibility in breakout groups.
+* Talk briefly about pair/group programming?
+    * Full module on live group collaboration (in the style of pair/group programming)?
+* Should we expect any attendees to be concerned about credit-sharing for
+  analysis done during workshop? Should we note that any papers produced
+  directly from ideas developed in this workshop should include a citation of
+  QGreenland and the workshop small group as collaborators?
+
+
+#### Breakout room activity ideas
+
+* What approaches to data introspection have you used / are you comfortable with?
+    * What can you teach your teammates?
+    * What can your teammates teach you?
+* Discuss experiences with geospatial data
 
 
 ### Workshop organization
@@ -100,3 +140,10 @@ Can/should we integrate this tool into the workshop?
 
 * The HTML table of contents for prerequisites can't be made to full expand using
   `toc-expand: true`. Can we reproduce?
+
+
+## Post-workshop
+
+* Consider how materials developed for this workshop might be converted into
+  [CIRES data
+  puzzles](https://datapuzzles.org/virtual-workshops/tipping-point-virtual-teacher-workshop).
