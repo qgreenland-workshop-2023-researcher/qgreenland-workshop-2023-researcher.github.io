@@ -39,14 +39,14 @@ learning.
 * Increase innovation and quality through inclusivity
 * Facilitate global collaboration
 * Easier and more powerful if you are open from the beginning
-* Git/GitHub are not just for coders!
+* Git/GitHub are not only for coders!
 
 ::: {.notes}
 Open Science principles can apply to all of the work that you are doing. Now that we
 have some knowledge about the data that we want to keep track of and share with others,
 let's utilize GitHub as the mechanism to translate that knowledge to documentation.
 
-*Git/GitHub are not just for coders!*  You can open your manuscripts, your books, your
+*Git/GitHub are not only for coders!*  You can open your manuscripts, your books, your
 websites, your methodology, and your documentation using these tools.
 :::
 

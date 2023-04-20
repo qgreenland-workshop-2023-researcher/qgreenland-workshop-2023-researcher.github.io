@@ -3,10 +3,8 @@
   "description": "QGreenland 2023 Researcher Workshop",
   "scripts": {
     "lint-considerate-writing": "alex .",
-    "lint-markdown-format": "markdownlint . --ignore node_modules --ignore _site",
-    "lint-markdown-format-fix": "markdownlint --fix . --ignore node_modules --ignore _site",
     "lint-spell-check": "./scripts/spell-check.sh",
-    "lint": "npm run lint-considerate-writing && npm run lint-markdown-format && npm run lint-spell-check"
+    "lint": "npm run lint-considerate-writing && npm run lint-spell-check"
   },
   "repository": {
     "type": "git",
@@ -24,7 +22,6 @@
   "homepage": "https://github.com/nsidc/qgreenland-2023-researcher-workshop#readme",
   "devDependencies": {
     "alex": "^11.0.0",
-    "markdown-spellcheck": "^1.3.1",
-    "markdownlint-cli": "^0.33.0"
+    "markdown-spellcheck": "^1.3.1"
   }
 }

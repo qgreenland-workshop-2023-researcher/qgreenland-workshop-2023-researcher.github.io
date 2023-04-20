@@ -30,7 +30,7 @@ asked questions related to each of these items in the survey:
 * 🕘 Please ensure that you can attend all three days of the workshop and actively
   participate in group activities: _**May 23-25, 2023 from 9:00-13:00 Mountain Daylight
   Time (UTC-6:00)**_
-* 🧠 [Know what to expect](/index.qmd#what-is-this-workshop)
+* 🧠 [Know what to expect](/index.md#what-is-this-workshop)
 * 🐙 [Register for GitHub](https://github.com/join) if you do not already have an account.
 * 📏 Review our [Code of Conduct](/CODE_OF_CONDUCT.md)
 

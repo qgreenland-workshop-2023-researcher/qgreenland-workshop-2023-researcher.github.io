@@ -3,6 +3,7 @@ title: "Slides index"
 listing:
   type: "table"
   contents:
+    - "*.md"
     - "*.qmd"
 format:
   html: default

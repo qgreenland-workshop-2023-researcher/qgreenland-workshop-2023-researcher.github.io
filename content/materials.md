@@ -6,11 +6,11 @@
 #### Day 1 overview
 
 ::: {.module-resource .slides}
-[Slides](slides/workshop-overview.qmd)
+[Slides](slides/workshop-overview.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Team introductions (20 minutes)](exercises/team-introductions.qmd)
+[Exercise: Team introductions (20 minutes)](exercises/team-introductions.md)
 :::
 ::::::
 
@@ -19,7 +19,7 @@
 #### Intro to JupyterLab
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-jupyterlab.qmd)
+[Slides](slides/intro-to-jupyterlab.md)
 :::
 
 ::: {.module-resource .video}
@@ -27,7 +27,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.qmd)
+[Exercise: Getting started with JupyterLab (30 minutes)](exercises/getting-started-with-jupyterlab.md)
 :::
 ::::::
 
@@ -41,7 +41,7 @@
 #### Review geospatial concepts and terms
 
 ::: {.module-resource .slides}
-[Slides](slides/geospatial-concepts-and-terms.qmd)
+[Slides](slides/geospatial-concepts-and-terms.md)
 :::
 
 ::: {.module-resource .video}
@@ -49,7 +49,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.qmd)
+[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.md)
 :::
 ::::::
 
@@ -66,7 +66,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab/index.qmd)
+[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::
 ::::::
 
@@ -82,7 +82,7 @@
 #### Intro to GitHub
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-github.qmd)
+[Slides](slides/intro-to-github.md)
 :::
 
 ::: {.module-resource .video}
@@ -90,7 +90,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.qmd)
+[Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.md)
 :::
 ::::::
 
@@ -99,7 +99,7 @@
 #### Review Open Science (and data) principles
 
 ::: {.module-resource .slides}
-[Slides](slides/open-science-and-data.qmd)
+[Slides](slides/open-science-and-data.md)
 :::
 
 ::: {.module-resource .video}
@@ -107,7 +107,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.qmd)
+[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.md)
 :::
 ::::::
 
@@ -129,7 +129,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Fix data/metadata issues (?? minutes)](exercises/fix-data-metadata-issues.qmd)
+[Exercise: Fix data/metadata issues (?? minutes)](exercises/fix-data-metadata-issues.md)
 :::
 ::::::
 
@@ -138,7 +138,7 @@
 #### Geospatial data transformations
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/geospatial-data-transformations.qmd)
+[Slides (WIP)](slides/geospatial-data-transformations.md)
 :::
 
 ::: {.module-resource .video}
@@ -162,7 +162,7 @@
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/symbology-with-qgis.qmd)
+[Slides (WIP)](slides/symbology-with-qgis.md)
 :::
 
 ::: {.module-resource .video}
@@ -170,7 +170,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: TODO (?? minutes)](exercises/?.qmd)
+[Exercise: TODO (?? minutes)](exercises/?.md)
 :::
 ::::::
 
@@ -184,11 +184,11 @@
 #### Group dataset analysis
 
 ::: {.module-resource .exercise}
-[Exercise: Plan an analysis (?? minutes)](exercises/dataset-analysis-plan.qmd)
+[Exercise: Plan an analysis (?? minutes)](exercises/dataset-analysis-plan.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Implement analysis notebook (?? minutes)](exercises/dataset-analysis-notebook.qmd)
+[Exercise: Implement analysis notebook (?? minutes)](exercises/dataset-analysis-notebook.md)
 :::
 
 ::::::

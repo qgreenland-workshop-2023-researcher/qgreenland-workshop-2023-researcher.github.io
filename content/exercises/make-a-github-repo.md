@@ -24,7 +24,7 @@ Your repository should be named with convention: _TODO: Convention!_
 ## 📂 Add some content
 
 * Add the notebook your team produced during the
-  [Data Inspection](./data-inspection-with-jupyterlab/index.qmd) exercise to
+  [Data Inspection](./data-inspection-with-jupyterlab/index.md) exercise to
   your repository.
 * Add a `README.md` file:
     * List your team members by name.
@@ -51,7 +51,7 @@ and see your new content displayed!
 
 ## ⏱️ Finished early?
 
-* Check out our [continued learning](/content/continued-learning.qmd#gitgithub)
+* Check out our [continued learning](/content/continued-learning.md#gitgithub)
   resources!
 
 
