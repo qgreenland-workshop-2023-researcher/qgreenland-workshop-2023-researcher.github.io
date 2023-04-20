@@ -1,4 +1,6 @@
-# Analyze your dataset
+---
+title: "Analyze your dataset"
+---
 
 ## 📈 Create an analysis narrative
 

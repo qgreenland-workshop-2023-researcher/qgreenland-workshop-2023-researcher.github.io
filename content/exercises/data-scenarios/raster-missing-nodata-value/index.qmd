@@ -1,4 +1,6 @@
 ---
+title: "Data Scenario: Raster missing NoData value"
+categories: ["Data issue"]
 listing:
   id: "file-listing"
   type: "table"
@@ -9,15 +11,16 @@ listing:
     - "solutions/*"
 ---
 
-# Data Scenario: Missing NoData value
-
 ::: {#file-listing}
 :::
 
-You download the dataset `bambgrl_dem_5km_corrected.tif` [from
-NSIDC](https://nsidc.org/data/nsidc-0092/versions/1) and open it in QGIS. You
-observe that ocean values all appear black. You use the **Identify tool** to
-verify all the black values are the same: `-0.1`.
+You download the dataset `bambgrl_dem_5km_corrected.tif`
+[@bamber_2001_greenland_dem] and open it in QGIS. You observe that ocean values
+all appear black. You use the **Identify tool** to verify all the black values
+are the same: `1.1`.
+
+![`bambgrl_dem_5km_corrected.tif` displayed along with
+QGreenland](/_media/qgreenland_missing_nodata_value.png)
 
 At this point, you're not sure what this represents, so you consult the [user
 guide](https://nsidc.org/sites/default/files/nsidc-0092-v001-userguide.pdf) to find this
@@ -40,3 +43,6 @@ for here. We want a file with the ocean pixels encoded internally as NoData
 values so we can share it with others and they won't have to deal with this
 issue.
 :::
+
+![Solution displayed along with
+QGreenland](/_media/qgreenland_dem_with_nodata.png)

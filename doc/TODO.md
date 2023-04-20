@@ -51,7 +51,7 @@ users who are struggling with installing dependencies.
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
-* Diversify background imagery; currently have one cropped Icebridge DMS image, but
+* Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
 
@@ -140,3 +140,11 @@ Can/should we integrate this tool into the workshop?
 
 * The HTML table of contents for prerequisites can't be made to full expand using
   `toc-expand: true`. Can we reproduce?
+
+
+## Exercises
+
+* Consider migrating solutions from shell scripts to notebooks
+* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
+  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
+  subdivide.

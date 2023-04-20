@@ -1,9 +1,27 @@
-# Data Scenario: Raster Data Needs Reformatting
+---
+title: "Data Scenario: Raster data needs reformatting"
+categories: ["Data issue"]
+listing:
+  id: "file-listing"
+  type: "table"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "*"
+    - "solutions/*"
+---
 
-A colleague e-mails you aerial imagery of a potential study site that you would
-like to view in QGIS alongside some other data. The person who provided the data
-gives you the following details:
+::: {#file-listing}
+:::
 
+A colleague e-mails you aerial imagery that they extracted from the IceBridge DMS
+dataset [@dominguez_2010_icebridge_dms] of a potential study site that you would like to
+view in QGIS alongside some other data.
+
+![datafile.jpg](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg
+){width="65%" fig-align="center"}
+
+The person who provided the data gives you the following details:
 
 Corner coordinates for the data file are:
 
@@ -21,17 +39,17 @@ Given this information, create a GeoTIFF file that can be loaded into QGIS and
 viewed alongside other data in QGreenland.
 
 
+## Validation
+
+The GeoTIFF should include all of the metadata necessary to correctly position
+it alongside other layers in QGreenland.
+
+![Solution displayed along with QGreenland (`Internet-required data/Greenland
+image mosaic` as base layer)](/_media/qgreenland_raster_reformatted2.png)
+
+
 ## Citation information
 
-The provided `datafile.jpg` was extracted from NASA Operation Icebridge DMS
-imagery. Specifically, the `DMS_1000211_02076_20100409_17225023.tif` file was
-subsetted and converted to JPG for the purposes of this exercise.
-
-Credit is given to:
-
-```text
-Dominguez, R. (2010). IceBridge DMS L1B Geolocated and Orthorectified Images,
-Version 1 [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data
-Center Distributed Active Archive
-Center. https://doi.org/10.5067/OZ6VNOPMPRJ0. Date Accessed 01-26-2023.
-```
+The provided `datafile.jpg` was extracted from [@dominguez_2010_icebridge_dms] imagery.
+Specifically, the `DMS_1000211_02076_20100409_17225023.tif` file was subsetted and
+converted to JPG for the purposes of this exercise.

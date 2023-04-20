@@ -1,4 +1,6 @@
-# FAIR/CARE discussion (30 minutes)
+---
+title: "FAIR/CARE discussion (30 minutes)"
+---
 
 ## 🤗 How do FAIR/CARE principles relate to your research?
 

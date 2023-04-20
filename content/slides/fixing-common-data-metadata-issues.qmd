@@ -25,9 +25,9 @@ your preferred ecosystem and you'll find equivalents.
 :::
 
 
-## Data scenario: Missing metadata
+## Data scenario: Raster missing geospatial metadata
 
-[Link](/content/exercises/data-scenarios/missing-metadata)
+[Link](/content/exercises/data-scenarios/raster-missing-geospatial-metadata)
 
 :::: {.columns}
 
@@ -64,11 +64,11 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ::: {.notes}
 The included data file sample (`dem_without_metadata.tif`) is not a real example
 of data from NSIDC; it's been modified from the original
-([here](https://nsidc.org/data/nsidc-0092/versions/1)) to present a challenge.
+[@bamber_2001_greenland_dem] to present a challenge.
 :::
 
 
-## Missing metadata: Solution
+## Raster missing geospatial metadata: Solution
 
 First, make a copy of the data that we will apply edits to:
 ```{.console code-line-numbers="false"}
@@ -93,7 +93,7 @@ space.
 :::
 
 
-## Missing Metadata: All better!
+## Raster missing geospatial metadata: All better!
 
 ```{.console code-line-numbers="false"}
 gdalinfo dem_with_metadata.tif
@@ -164,7 +164,7 @@ present, an origin is established (the upper-left-hand-corner), and the pixel si
 is 5000 meters (5 km).
 :::
 
-## Missing Metadata: All better!
+## Raster missing geospatial metadata: All better!
 
 ![QGreenland screenshot of layer with edited
 metadata](/_media/qgreenland_edited_metadata.png)
@@ -536,9 +536,9 @@ and the "Internet-required data/Greenland image mosaic 2015 (15m)" as background
 imagery. Lat/lon lines are shown for reference.
 :::
 
-## Data scenario: Missing NoData value
+## Data scenario: Raster missing NoData value
 
-[Link](/content/exercises/data-scenarios/missing-nodata-value)
+[Link](/content/exercises/data-scenarios/raster-missing-nodata-value)
 
 :::: {.columns}
 
@@ -556,7 +556,7 @@ Using `rio` shows that there is no `nodata` value set.
 :::
 ::::
 
-## Data scenario: Solution
+## Raster missing NoData value: Solution
 
 First, make a copy of the data that we will apply edits to:
 ```{.console code-line-numbers="false"}
@@ -568,7 +568,7 @@ Next, use `gdal_edit.py` to set the nodata/ocean value indicated in the user gui
 gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
 ```
 
-## Data scenario: All better!
+## Raster missing NoData value: All better!
 
 ```{.console code-line-numbers="false"}
 rio info --nodata \

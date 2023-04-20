@@ -1,4 +1,6 @@
 ---
+title: "Data Scenario: Raster missing geospatial metadata"
+categories: ["Data issue"]
 listing:
   id: "file-listing"
   type: "table"
@@ -8,8 +10,6 @@ listing:
     - "*"
     - "solutions/*"
 ---
-
-# Data Scenario: Missing metadata
 
 ::: {#file-listing}
 :::
@@ -24,6 +24,8 @@ You download a dataset (`dem_without_metadata.tif`, found in this directory) whi
 doesn't load as expected in QGIS. When loaded alongside QGreenland, instead of
 overlaying the DEM on Greenland, it can be found near the North pole using the "Zoom to
 Layer" feature.
+
+![`dem_without_metadata.tif` displayed along with QGreenland](/_media/qgreenland_missing_metadata.png)
 
 The landing page from which you downloaded this DEM states the dataset's [proj4
 string](https://proj.org/usage/) is:
@@ -42,3 +44,11 @@ And the corner coordinates are:
 Upper Left  ( -802500.000, -597500.000)
 Lower Right (  702500.000,-3402500.000)
 ```
+
+## Validation
+
+The dataset should include all of the metadata necessary to correctly position
+it alongside other layers in QGreenland.
+
+![Solution displayed along with
+QGreenland](/_media/qgreenland_edited_metadata.png)
