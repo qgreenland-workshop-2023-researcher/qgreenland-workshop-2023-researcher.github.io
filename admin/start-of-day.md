@@ -26,3 +26,4 @@ index: 5
 
 - [ ] Create space for questions or discussion.
 - [ ] Review the modules we'll be tackling today.
+- [ ] Review communication guidelines from the workshop overview slides.
