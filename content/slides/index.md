@@ -5,6 +5,9 @@ listing:
   contents:
     - "*.md"
     - "*.qmd"
+  fields:
+    - "title"
+  sort: ["index", "title"]
 format:
   html: default
   revealjs:

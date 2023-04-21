@@ -1,6 +1,7 @@
 ---
 title: "Intro to GitHub"
 subtitle: "QGreenland Researcher Workshop 2023"
+index: 40
 background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
