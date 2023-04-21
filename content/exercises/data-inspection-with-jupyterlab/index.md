@@ -1,5 +1,6 @@
 ---
 title: "Data inspection with JupyterLab (30 minutes)"
+index: 40
 ---
 
 Learn about a dataset and its metadata.
