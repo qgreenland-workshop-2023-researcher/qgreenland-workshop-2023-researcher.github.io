@@ -20,7 +20,7 @@ You download the dataset `bambgrl_dem_5km_corrected.tif`
 all appear black. You use the **Identify tool** to verify all the black values
 are the same: `1.1`.
 
-![`bambgrl_dem_5km_corrected.tif` displayed along with
+![`bambgrl_dem_5km_corrected.tif` displayed in
 QGreenland](/_media/qgreenland_missing_nodata_value.png)
 
 At this point, you're not sure what this represents, so you consult the [user
@@ -45,5 +45,11 @@ values so we can share it with others and they won't have to deal with this
 issue.
 :::
 
-![Solution displayed along with
-QGreenland](/_media/qgreenland_dem_with_nodata.png)
+::: {.callout-warning}
+The floating point `nodata` value used for this dataset illustrates how floating point
+values can be problematic for encoding flag values. Some tools will identify the nodata
+cells as `-0.1`, a truncated representation, and others will identify the value as
+`-0.10000000149011612`. Consider `NaN` instead!
+:::
+
+![Solution displayed in QGreenland](/_media/qgreenland_dem_with_nodata.png)
