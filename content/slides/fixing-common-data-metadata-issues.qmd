@@ -155,9 +155,9 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ```
 
 :::{.notes}
-The output of our `gdal_edit.py` operation has the metadata we expect: a CRS is
-present, an origin is established (the upper-left-hand-corner), and the pixel size
-is 5000 meters (5 km).
+The output of our `gdal_translate` operation has the metadata we expect: a CRS is
+present, an origin is established (the upper-left-hand-corner), and the pixel size is
+5000 meters (5 km).
 :::
 
 ## Raster missing geospatial metadata: All better!
