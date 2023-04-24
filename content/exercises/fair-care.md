@@ -1,5 +1,6 @@
 ---
 title: "FAIR/CARE discussion (30 minutes)"
+index: 60
 ---
 
 ## 🤗 How do FAIR/CARE principles relate to your research?

@@ -1,5 +1,6 @@
 ---
 title: "Make a GitHub repository (40 minutes)"
+index: 50
 ---
 
 ::: {.callout-warning}

@@ -1,5 +1,6 @@
 ---
 title: "Data scenarios"
+index: 0
 listing:
   type: "table"
   contents:

@@ -1,5 +1,6 @@
 ---
 title: "Team introductions (20 minutes)"
+index: 10
 ---
 
 ## ❤️ Get to know your team

@@ -1,5 +1,6 @@
 ---
 title: "Select and analyze a main dataset (15 minutes)"
+index: 30
 ---
 
 ## 🤔 Select a dataset as a group

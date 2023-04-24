@@ -43,11 +43,11 @@ website:
     - title: "Materials"
       contents:
         - "content/materials.md"
-        - "content/slides/index.md"
         - "content/group-work-expectations.md"
+        - "content/slides/index.md"
         - "content/exercises/index.md"
         - "content/continued-learning.md"
-        - "content/ideas.md"
+        - "admin/index.md"
     - title: "Prerequisites"
       contents:
         - "content/prerequisites/index.md"

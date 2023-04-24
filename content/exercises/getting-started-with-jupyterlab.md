@@ -1,5 +1,6 @@
 ---
 title: "Getting started with JupyterLab (30 minutes)"
+index: 20
 ---
 
 ::: {.callout-note}

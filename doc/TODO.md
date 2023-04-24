@@ -1,49 +1,29 @@
 # TODO
 
-## CI
+## Infrastructure
+
+### CI
 
 * Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
   and `aspell`.
 
 
-## Compute environment
+### Zoom
 
-How do we solve the problem of diverse computing environments? We want to minimize the
-support burden because we have poor Windows/MacOS knowledge, but also want to make
-completing exercises and viewing results graphically (in QGIS) as convenient as
-possible.
-
-* Provide Linux VMs with pre-configured tooling to upload to / download from the VMs
-  disk
-    * Pros: Consistent compute environment, transferrable Linux skills
-    * Cons: Convenience of accessing/sharing data, bandwidth
-* Provide VMs with graphical desktop to perform all operations (e.g. Amazon Workspaces)
-    * Pros: Full standardization of compute environment, transferrable Linux skills
-    * Cons: Bandwidth
-* Require as a prerequisite that users install and configure a conda environment on
-  their local computer
-    * Pros: Less infrastructure required (time and $ cost), everything happens in a
-      familiar environment
-    * Cons: Large number of confounding variables we not be able to support
-* Use JupyterHub to interact with compute resources? `%%shell` enables running bash
-  (`gdal`/`ogr` commands) in notebook cells. Can we run desktop GUI apps like QGIS?
-  [jupyter-qgis](https://github.com/giswqs/jupyter-qgis). We can sync data with
-  Syncthing. Could use <https://github.com/berkeley-dsep-infra/datahub> as a resource.
-  Could [contact 2i2c](https://2i2c.org/service/#getahub) to investigate whether their
-  service would be a good fit.
-    * Pros: Consistent Python environment
-    * Cons: ???
-
-If we require local configuration, we should provide in-advance office hours to support
-users who are struggling with installing dependencies.
+* Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
+  working.
 
 
-## Slides / presenting
+## Content
 
-* How can we split our pile of slides in to multiple focused decks?
-    * [x] Build a Quarto web page in addition to the slides, and include links to slide
-      decks?
-    * 1 deck per day? Or more focused than that?
+### Goal ideas
+
+* Show data transformation provenance using Jupyter Notebooks
+* Transparently share transformations and provenance using GitHub
+
+
+### Slides / presenting
+
 * Does our conda environment need the whole `jupyter` metapackage, or just one piece?
 * Can we pre-record presentations? More control over timing, more end-user control over
   the presentation, e.g. skipping parts they already understand or rewinding parts when
@@ -54,41 +34,24 @@ users who are struggling with installing dependencies.
 * Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
+* Should we have a module about integrating GitHub with Zenodo to create DOIs?
+* Consider discussion about how data are often organized on disk (granularity)
 
 
-## Timing / scheduling
+### Exercises
 
-* Consider a 4th optional day of workshop with a "hook" to encourage attendance,
-  followed by office hours.
-
-
-## Improve presentation of this Git repository
-
-### Content
-
-* Clean up curriculum: Should be bullet points of topics and time spent on each topic.
-  Extract details for each topic into separate documents.
-
-* Index curriculum into modules, e.g. Day 1's third module could be `1C`.
+* Consider migrating solutions from shell scripts to notebooks
+* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
+  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
+  subdivide.
+* Resampling exercise?
 
 
-### View
+### Workshop materials
 
-* [x] Consider a SSG for making an improved web-based "view" of this Git repository,
-  e.g. MkDocs
-    <!-- alex ignore special -->
-    * A good demo of something special you can do with CI
-
-
-## Workshop organization
-
-* Consider announcing groups ahead of the workshop. This might allow
-  participants to reach out to each other ahead of time, read introductions for
-  their group members, etc.
-
-
-## Workshop materials
-
+* Rethink the "fixing metadata issues" exercises/scenarios; we can use `gdal_translate`
+  for all of them instead of `gdal_edit.py`. `gdal_translate` won't edit in place, so
+  that would be an improvement.
 * Generate a list (at least a few) of dataset suggestions in case groups cannot
   come up with one of their own. Check backlog for new layer suggestions.
     * Datasets which have interesting processing in QGreenland
@@ -108,14 +71,62 @@ users who are struggling with installing dependencies.
         * We also need to know what the CRS those coordinates.
 
 
-## Work products
+### Work products
 
 * Consider establishing a required structure for work products. E.g. your repository
   must include: `README.md`, `wrangle_data.ipynb`, and `analyze_data.ipynb`. In this
   way, model splitting a problem into parts, and encourage focused, clean notebooks.
 
 
-## Automated FAIR / other quality checks
+### Citation
+
+* For Wikimedia Commons images, use their "embed in site" feature which includes an
+  automatically-generated citation
+
+
+## Run-of-show
+
+### Timing / scheduling
+
+* Consider a 4th optional day of workshop with a "hook" to encourage attendance,
+  followed by office hours.
+* Include a break (or two) in each day's schedule. Break every hour? 90 minutes? How
+  long to break?
+* Consider adding some buffer time before and after break for things to run
+  long. A longer break is better than a shorter break.
+* Keep a timer/alarm for making sure we stay on target and don't miss the break.
+* Think about ways to encourage larger-group discussions following breakout rooms.
+
+
+### Group work
+
+* Encourage rotation of "driver" responsibility in breakout groups.
+* Talk briefly about pair/group programming?
+    * Full module on live group collaboration (in the style of pair/group programming)?
+* Should we expect any attendees to be concerned about credit-sharing for
+  analysis done during workshop? Should we note that any papers produced
+  directly from ideas developed in this workshop should include a citation of
+  QGreenland and the workshop small group as collaborators?
+
+
+#### Breakout room activity ideas
+
+* What approaches to data introspection have you used / are you comfortable with?
+    * What can you teach your teammates?
+    * What can your teammates teach you?
+* Discuss experiences with geospatial data
+
+
+### Workshop organization
+
+* Consider announcing groups ahead of the workshop. This might allow
+  participants to reach out to each other ahead of time, read introductions for
+  their group members, etc.
+
+
+## Misc
+
+### Automated FAIR / other quality checks
 
 The NCEAS has an [automated checking tool](https://github.com/NCEAS/metadig-checks).
 
@@ -125,26 +136,14 @@ It's deployed on DataONE, e.g.
 Can/should we integrate this tool into the workshop?
 
 
-## Citation
-
-* For Wikimedia Commons images, use their "embed in site" feature which includes an
-  automatically-generated citation
-
-
-## Workshop prep
-
-* ~~Clean up GH Discussions~~
-
-
-## Quarto issues
+### Quarto issues
 
 * The HTML table of contents for prerequisites can't be made to full expand using
   `toc-expand: true`. Can we reproduce?
 
 
-## Exercises
+## Post-workshop
 
-* Consider migrating solutions from shell scripts to notebooks
-* Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
-  You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
-  subdivide.
+* Consider how materials developed for this workshop might be converted into
+  [CIRES data
+  puzzles](https://datapuzzles.org/virtual-workshops/tipping-point-virtual-teacher-workshop).
