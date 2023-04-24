@@ -13,17 +13,13 @@
 
 * Order of themes makes sense, builds on itself.
 * If we need to cut a theme, suggests visualization.
-* Intro to Jupyter feels out of place on 2nd day. Can we move to first day?
-* Consider videos in advance of workshop: GitHub and JupyterHub. Can we make an exercise
-    to "smoke test" JupyterHub setup?
 * Timing ideas:
     * Consider two-hour breaks each day, with one hour of office hours? Pushes the end
       of workshop 1 hour later, e.g. 6pm Greenland time?
     * Consider 1-hour office hours after each workshop?
 * Icebreaker:
     * Prefers "Story about Greenland"; what if an attendee has never been? Maybe a story
-        about your connection with Greenland?
-* TODO: Include timing for each slide in presenter notes
+      about your connection with Greenland?
 * Breakout: Select and analyze a dataset
     * Concerned about spending too much time choosing;
     * Can send out a message to all breakout rooms after 3-4 minutes saying "You should
@@ -38,9 +34,17 @@
     * License as a safety mechanism. What licenses can we recommend that protect
       research products?
     * Is this a "modern" concern?
-* Community guidelines: Steal from Alyse!
+* Ask Alyse for photo backgrounds, or steal from QGreenland website
+
+
+#### TODO
+
+* ~~Intro to Jupyter feels out of place on 2nd day. Can we move to first day?~~
+* Consider videos in advance of workshop: GitHub and JupyterHub.
+* ~~Can we make an exercise to "smoke test" JupyterHub setup?~~
+* Include timing for each slide in presenter notes
+* ~~Community guidelines: Steal from Alyse!~~
     * Expectations for how to use Zoom
     * Be up-front about use of breakout rooms
     * Behavior guidelines
-* Ask Alyse for photo backgrounds, or steal from QGreenland website
-* Pre-workshop checklist
+* ~~Pre-workshop checklist~~
