@@ -4,7 +4,6 @@
 
 ### Major incomplete sections
 
-* Exercise: FAIR/CARE discussion
 * Exercise: Fixing an issue with data/metadata
 * Slides: Geospatial transformation
 * Slides: QGIS symbology
