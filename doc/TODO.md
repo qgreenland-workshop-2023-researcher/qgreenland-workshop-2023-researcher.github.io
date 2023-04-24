@@ -1,20 +1,21 @@
 # TODO
 
-## Infrastructure
-
-### CI
-
-* Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
-  and `aspell`.
-
-
-### Zoom
-
-* Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
-  working.
-
-
 ## Content
+
+### Major incomplete sections
+
+* Exercise: FAIR/CARE discussion
+* Exercise: Fixing an issue with data/metadata
+* Slides: Geospatial transformation
+* Slides: QGIS symbology
+* Exercise: QGIS symbology
+* "Final" exercise(s):
+    * Co-registering with other teams' data?
+* Flesh out and document office hours:
+    * Beginner Git/GitHub
+    * Technical support
+    * Anything else
+
 
 ### Goal ideas
 
@@ -122,6 +123,20 @@
 * Consider announcing groups ahead of the workshop. This might allow
   participants to reach out to each other ahead of time, read introductions for
   their group members, etc.
+
+
+## Infrastructure
+
+### CI
+
+* Consider `pyspelling` instead of `markdown-spellcheck`? Supports `hunspell` (current)
+  and `aspell`.
+
+
+### Zoom
+
+* Consider having a "quiet" breakout room in Zoom for those who prefer to not talk while
+  working.
 
 
 ## Misc
