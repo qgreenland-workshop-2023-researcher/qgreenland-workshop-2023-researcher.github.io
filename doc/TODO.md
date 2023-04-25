@@ -4,11 +4,11 @@
 
 ### Major incomplete sections
 
-* Slides: Geospatial transformation
+* Slides & exercise: Geospatial transformation
+    * Build out final scenario in slides, consider removing
+    * Figure out what parts of the exercise to keep or move
 * Slides: QGIS symbology
 * Exercise: QGIS symbology
-* "Final" exercise(s):
-    * Co-registering with other teams' data?
 * Flesh out and document office hours:
     * Beginner Git/GitHub
     * Technical support
