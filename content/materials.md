@@ -192,3 +192,23 @@
 :::
 
 ::::::
+
+
+### Day 4
+
+:::::: {.schedule-item .module}
+#### Office hours
+
+You're welcome to join us on Zoom for open-ended discussion and support:
+
+* Git & GitHub for beginners and beyond
+* Continued dataset analysis
+* Publishing derived data
+* Questions & continued discussion
+* Planned modules if we run low on time:
+    * QGIS symbology
+
+<!-- TODO:
+What other modules can be moved to day 4 if we're running low on time?
+--->
+::::::
