@@ -56,14 +56,5 @@ This schedule is a work-in-progress and is subject to change!
 
 ## Day 4 - Office hours
 
-Use this time to discuss continued learning opportunities, for example:
-
-* If we run low on time:
-    * QGIS symbology
-* Advanced Git/GitHub usage
-* Continued dataset analysis
-* Publishing derived data
-
-<!-- TODO:
-What other modules can be moved to day 4 if we're running low on time?
---->
+Instructors will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
+to support continued learning. [Read more](materials.md#office-hours)!

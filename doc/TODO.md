@@ -9,10 +9,6 @@
     * Figure out what parts of the exercise to keep or move
 * Slides: QGIS symbology
 * Exercise: QGIS symbology
-* Flesh out and document office hours:
-    * Beginner Git/GitHub
-    * Technical support
-    * Anything else
 
 
 ### Goal ideas
