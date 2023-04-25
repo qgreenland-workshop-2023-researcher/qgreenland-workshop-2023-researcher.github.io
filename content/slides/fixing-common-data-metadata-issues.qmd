@@ -30,18 +30,18 @@ your preferred ecosystem and you'll find equivalents.
 
 [Link](/content/exercises/data-scenarios/raster-missing-geospatial-metadata)
 
-:::: {.columns}
-
+:::::: {.columns}
 ::: {.column}
 ![QGreenland screenshot of layer with missing
 metadata](/_media/qgreenland_missing_metadata.png)
 :::
 
 ::: {.column}
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalinfo dem_without_metadata.tif
 ```
-```{.console code-line-numbers="10"}
+
+```{.default code-line-numbers="10"}
 Driver: GTiff/GeoTIFF
 Files: dem_without_metadata.tif
 Size is 301, 561
@@ -59,8 +59,7 @@ Center      (  150.5,  280.5)
 Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ```
 :::
-
-::::
+::::::
 
 ::: {.notes}
 The included data file sample (`dem_without_metadata.tif`) is not a real example
@@ -71,35 +70,31 @@ of data from NSIDC; it's been modified from the original
 
 ## Raster missing geospatial metadata: Solution
 
-First, make a copy of the data that we will apply edits to:
-```{.console code-line-numbers="false"}
-cp dem_without_metadata.tif dem_with_metadata.tif
-```
-
-Next, use `gdal_edit.py` to edit, in place, the metadata of
-`dem_with_metadata.tif` with the information provided to us in the
+Use `gdal_translate` to edit the metadata with the information provided to us in the
 dataset landing page.
 
-```{.console code-line-numbers="false"}
-gdal_edit.py \
--a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
--a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
-dem_with_metadata.tif
+```{.default code-line-numbers="false" code-overflow="scroll"}
+gdal_translate \
+  -a_srs "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=-39 +x_0=0 +y_0=0 +a=6378137 +rf=298.257024882273 +units=m +no_defs" \
+  -a_ullr -802500.000 -597500.000 702500.000 -3402500.000 \
+  dem_without_metadata.tif dem_with_metadata.tif
 ```
 
 ::: {.notes}
-`gdal_edit.py` is well-suited for this task: the data is already a `.tif`, which
-supports metadata required by tools like `qgis` to correctly locate the data in
+`gdal_translate` or `gdal_edit.py` are both well-suited for this task. `gdal_translate`
+can change the file format, but doesn't need to here. The data is already a `.tif`,
+which supports metadata required by tools like `qgis` to correctly locate the data in
 space.
 :::
 
 
 ## Raster missing geospatial metadata: All better!
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalinfo dem_with_metadata.tif
 ```
-```{.console code-line-numbers="|4-41|43,51-52|44"}
+
+```{.default code-line-numbers="|4-41|43,51-52|44"}
 Driver: GTiff/GeoTIFF
 Files: dem_with_metadata.tif
 Size is 301, 561
@@ -160,32 +155,32 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ```
 
 :::{.notes}
-The output of our `gdal_edit.py` operation has the metadata we expect: a CRS is
-present, an origin is established (the upper-left-hand-corner), and the pixel size
-is 5000 meters (5 km).
+The output of our `gdal_translate` operation has the metadata we expect: a CRS is
+present, an origin is established (the upper-left-hand-corner), and the pixel size is
+5000 meters (5 km).
 :::
 
 ## Raster missing geospatial metadata: All better!
 
-![QGreenland screenshot of layer with edited
+![QGreenland screenshot of layer with fixed 
 metadata](/_media/qgreenland_edited_metadata.png)
 
 ## Data scenario: Vector data needs reformatting
 
 [Link](/content/exercises/data-scenarios/vector-needs-reformatting)
 
-:::: {.columns}
-
+:::::: {.columns}
 ::: {.column}
 ![xlsx vector data](/_media/qgreenland_scenario1_table.png)
 :::
 
 ::: {.column}
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 ogrinfo -al -so \
-kcbcc_DS4_final_v2_final.xlsx
+  kcbcc_DS4_final_v2_final.xlsx
 ```
-```{.console code-line-numbers="|4|5,9-10|7-8"}
+
+```{.default code-line-numbers="|4|5,9-10|7-8"}
 INFO: Open of `kcbcc_DS4_final_v2_final.xlsx'
       using driver `XLSX' successful.
 
@@ -201,8 +196,7 @@ blood_acetone_grams_per_ml: Real (0.0)
 blood_acetylcholine_grams_per_ml: Real (0.0)
 ```
 :::
-
-::::
+::::::
 
 :::{.notes}
 The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
@@ -216,13 +210,12 @@ indicates the data is in a "WGS84" projection.
 
 ## Vector data needs reformatting: Solution
 
-:::: {.r-fit-text}
-
+:::::: {.r-fit-text}
 The `gdal` [VRT](https://gdal.org/drivers/vector/vrt.html) driver can be used.
 
 Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 
-```{.text}
+```{.default}
 <OGRVRTDataSource>
     <OGRVRTLayer name="Sheet1">
         <SrcDataSource>kcbcc_DS4_final_v2_final.xlsx</SrcDataSource>
@@ -236,14 +229,13 @@ Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 
 Then, use `ogr2ogr`:
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 ogr2ogr \
--nln "kcbcc" \
-output.geojson \
-kcbcc_DS4_final_v2_final.vrt
+  -nln "kcbcc" \
+  output.geojson \
+  kcbcc_DS4_final_v2_final.vrt
 ```
-
-::::
+::::::
 
 :::{.notes}
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
@@ -259,11 +251,11 @@ uses an SQL query to generate GeoJSON with the correct metadata.
 
 ## Vector data needs reformatting: All better!
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 cat output.geojson | jq
 ```
 
-```{console}
+```json
 {
   "type": "FeatureCollection",
   "name": "kcbcc",
@@ -303,10 +295,11 @@ that point geometries have been created from the records in the original XLSX fi
 
 ## Vector data needs reformatting: All better!
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 ogrinfo -al -so output.geojson
 ```
-```{.console code-line-numbers="|4|5-7|8-22"}
+
+```{.default code-line-numbers="|4|5-7|8-22"}
 INFO: Open of `output.geojson'
       using driver `GeoJSON' successful.
 
@@ -351,17 +344,17 @@ layer](/_media/qgreenland_reformatted_vector_map.png)
 
 ## Data scenario: Raster needs reformatting
 
-::::: {.r-fit-text}
+::::::::: {.r-fit-text}
 
 [Link](/content/exercises/data-scenarios/raster-needs-reformatting)
 
-:::: {.columns}
-
+:::::: {.columns}
 :::{.column}
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalinfo datafile.jpg
 ```
-```{.console code-line-numbers="|9"}
+
+```{.default code-line-numbers="|9"}
 Driver: JPEG/JPEG JFIF
 Files: datafile.jpg
 Size is 2813, 1914
@@ -391,10 +384,11 @@ Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
 :::
 
 :::{.column}
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalsrsinfo -o wkt_simple datafile.prj
 ```
-```{.console}
+
+```{.default}
 PROJCS["unnamed",
     GEOGCS["WGS 84",
         DATUM["WGS_1984",
@@ -410,10 +404,8 @@ PROJCS["unnamed",
 ```
 ![](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="65%" fig-align="center"}
 :::
-
-::::
-
-:::::
+::::::
+:::::::::
 
 :::{.notes}
 Just like our first scenario, `gdalinfo` shows no CRS information and the UL
@@ -421,38 +413,37 @@ corner coordinates is (0, 0). If we plotted this in QGIS, it would place the ULC
 at the geographic north pole.
 :::
 
-## Raster needs reformatting: solution
+## Raster needs reformatting: solution {.smaller}
 
-
-```{.console code-line-numbers="false"}
-gdal_translate -a_srs datafile.prj \
--a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
-datafile.jpg datafile.tif
-```
-
-:::{.notes}
-Our colleague from the data scenario gave us the projection information as WKT
-in the provided `.proj` file, so we can pass that directly to `gdal_translate`
-with the `-a_srs` option.
+Our colleague from the data scenario gave us the projection information as WKT in the
+provided `.proj` file, so we can pass that file directly to `gdal_translate` with the
+`-a_srs` option.
 
 Our colleague also provided us with information about the location of the corner coordinates:
 
-```text
+```default
 Upper Left  ( -334334.200,-1855796.425) ( 55d12'45.62"W, 72d43'11.00"N)
 Lower Left  ( -334334.200,-1860658.423) ( 55d11'11.56"W, 72d40'35.44"N)
 Upper Right ( -327188.537,-1855796.425) ( 54d59'55.86"W, 72d43'51.77"N)
 Lower Right ( -327188.537,-1860658.423) ( 54d58'23.69"W, 72d41'16.09"N)
 ```
 
-The `-a_ullr` option takes an array of numbers: ulx, uly, lrx, lry
-:::
+The `-a_ullr` option takes an array of numbers: `ulx`, `uly`, `lrx`, `lry`
+
+```{.default code-line-numbers="2|3"}
+gdal_translate \
+  -a_srs datafile.prj \
+  -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
+  datafile.jpg datafile.tif
+```
+
 
 ## Raster needs reformatting: All better!
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalinfo datafile.tif
 ```
-```{.console code-line-numbers="|4-40|42,48-49"}
+```{.default code-line-numbers="|4-40|42,48-49"}
 Driver: GTiff/GeoTIFF
 Files: datafile.tif
 Size is 2813, 1914
@@ -518,8 +509,8 @@ looks correct.
 
 
 ## Raster needs reformatting: All better!
-:::: {.columns}
 
+:::::: {.columns}
 ::: {.column}
 ![](/_media/qgreenland_raster_reformatted1.png)
 :::
@@ -527,66 +518,13 @@ looks correct.
 ::: {.column}
 ![](/_media/qgreenland_raster_reformatted2.png){fig-align="center"}
 :::
-
-::::
+::::::
 
 :::{.notes}
 The image data is now correctly positioned, as shown in these screenshots from
 QGreenland which has the "Reference/Borders/Greenland coastlines 2017" overlaid
 and the "Internet-required data/Greenland image mosaic 2015 (15m)" as background
 imagery. Lat/lon lines are shown for reference.
-:::
-
-## Data scenario: Raster missing NoData value
-
-[Link](/content/exercises/data-scenarios/raster-missing-nodata-value)
-
-:::: {.columns}
-
-:::{.column}
-![](/_media/qgreenland_missing_nodata_value.png)
-:::
-
-
-:::{.column}
-```{.console code-line-numbers="false"}
-rio info --nodata \
-bambgrl_dem_5km_corrected.tif
-```
-Using `rio` shows that there is no `nodata` value set.
-:::
-::::
-
-## Raster missing NoData value: Solution
-
-First, make a copy of the data that we will apply edits to:
-```{.console code-line-numbers="false"}
-cp bambgrl_dem_5km_corrected.tif with_nodata_value.tif
-```
-
-Next, use `gdal_edit.py` to set the nodata/ocean value indicated in the user guide for this dataset.
-```{.console code-line-numbers="false"}
-gdal_edit.py -a_nodata -0.1 with_nodata_value.tif
-```
-
-## Raster missing NoData value: All better!
-
-```{.console code-line-numbers="false"}
-rio info --nodata \
-with_nodata_value.tif
-```
-```{.console}
--0.10000000149011612
-```
-
-![](/_media/qgreenland_dem_with_nodata.png){fig-align="center"}
-
-:::{.notes}
-The echo-ed `nodata` value provided by `rio` illustrates how floating point
-values can be problematic for encoding flag values.
-
-the output of `gdalinfo` now also shows that the nodata value is set, although
-it truncates the representation of that value as `-0.1`
 :::
 
 

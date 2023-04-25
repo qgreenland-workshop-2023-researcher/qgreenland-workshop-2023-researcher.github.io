@@ -4,7 +4,6 @@
 
 ### Major incomplete sections
 
-* Exercise: Fixing an issue with data/metadata
 * Slides: Geospatial transformation
 * Slides: QGIS symbology
 * Exercise: QGIS symbology
@@ -49,9 +48,9 @@
 
 ### Workshop materials
 
-* Rethink the "fixing metadata issues" exercises/scenarios; we can use `gdal_translate`
+* ~~Rethink the "fixing metadata issues" exercises/scenarios; we can use `gdal_translate`
   for all of them instead of `gdal_edit.py`. `gdal_translate` won't edit in place, so
-  that would be an improvement.
+  that would be an improvement.~~
 * Generate a list (at least a few) of dataset suggestions in case groups cannot
   come up with one of their own. Check backlog for new layer suggestions.
     * Datasets which have interesting processing in QGreenland
