@@ -9,9 +9,10 @@ title-slide-attributes:
 
 ## What tool should I use?
 
-The best one for the job.
+The best one for the job. Explore your ecosystem!
 
-Explore the alternatives available in the ecosystem you want to work!
+* [GDAL tools](https://gdal.org/programs/index.html)
+* Python: Rasterio, Shapely, Xarray, Geopandas, and more!
 
 ::: {.notes}
 You may recognize this slide from the "data inspection" deck.
@@ -39,11 +40,14 @@ It's important that different datasets are compatible with each-other prior to a
 Raster "co-registration" means multiple datasets have the same grid resolution and
 orientation.
 
-"Lossy" transformations can't be reversed.
+"Lossy" transformations can't be reversed. Potentially lossy operations include
+reprojection, resampling, and conversion between raster and vector.
 :::
 
 
 ## Reprojection
+
+`gdal_warp`, `ogr2ogr`
 
 ![Reprojection (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/d_reprojection_example.jpg){.center}
 
@@ -143,6 +147,8 @@ Weird things happen at the edges!
 
 ## Resampling
 
+`gdalwarp`
+
 Raster grids won't always align, even in the same projection & datum.
 
 ![Resampling - different origin (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation.jpg)
@@ -163,6 +169,8 @@ your computations across datasets will be successful.
 
 ## Subsetting (clipping)
 
+`gdalwarp`, `ogr2ogr`
+
 Consider doing a subset _first_. Don't waste time and computing power doing analysis on
 areas you don't care about!
 
@@ -177,6 +185,8 @@ subsetting again in the new projection to get your final area of interest.
 
 
 ## Conversion
+
+`gdal_rasterize`, `gdal_polygonize.py`, `gdal_contour`
 
 Does your data provide a suitable representation for your analysis?
 
@@ -210,8 +220,8 @@ occurs.](https://www.researchgate.net/figure/a-Ice-thickness-map-from-kriging-th
 ::: {.notes}
 Disregard image (b); In image (a) we can see IceBridge flightlines represented in gray.
 These flightlines are taking continuous measurements of ice thickness underneath the
-plane, so there are no measurements where the plane hasn't flown. Here a process called
-"kriging" is used to estimate ice thickness in between measurements.
+airplane, so there are no measurements where the plane hasn't flown. Here a process
+called "kriging" is used to estimate ice thickness in between measurements.
 :::
 
 
@@ -231,11 +241,36 @@ You may want to do this for:
 :::
 
 
+## General transformation pitfalls
+
+* Some metadata in the source data may be carried over to the output. Use tools like
+  `gdalinfo` or `ogrinfo` to inspect your metadata before publishing.
+
+::: {.notes}
+* This can result in good metadata *or* outdated metadata. For example, we have that
+  issue with the bedmachine data produced for QGreenland. We can `gdalwarp` a bedmachine
+  dataset to WGS84 and observe that the `mapping#` namespace continues to specify "polar
+  stereographic" projection. On the plus side, citation and other metadata which we want
+  to keep was also pulled over. This means you may need to do some manual metadata
+  management when you apply transformations. `gdalwarp` has a `-nomd` flag to prevent
+  metadata copying, but this can strip away useful metadata!
+:::
+
+<!-- TODO:
+Integrate this metadata carryover pitfall into an example of transforming a raster; e.g.
+reformat a NetCDF and then show the carried-over metadata, especially any fields that
+are now wrong. Demo how to fix that?
+-->
+
+
 # Application
 
 ## Data scenario: Raster needs reprojection
 
 [Link](/content/exercises/data-scenarios/raster-needs-reprojection)
+
+Review solution at
+`content/exercises/data-scenarios/raster-needs-reprojection/solutions`.
 
 ::: {.notes}
 * Review the scenario on the website by clicking the link in this slide.
@@ -250,31 +285,6 @@ You may want to do this for:
 :::
 
 
-## TODO
+## Data scenario: Co-registering two rasters
 
-<!-- TODO:
-* Discussion about information loss from common transformations (reprojection,
-  resampling, datatype conversion (raster<->vector))
-* For each concept, talk about it at a high level, then demo what it looks like for
-  raster and vector data.
-* Tools / Techniques for raster/vector transformations
-    * QGIS Processing Toolbox (brief mention, participants should be
-      familiar with this from the [beginner tutorial
-      series](https://www.youtube.com/watch?v=znKeiV3-Amo&amp;index=5)).
-    * gdalwarp, ogr2ogr, ...
-    * Python (rasterio, shapely, Xarray, pyresample, PyQGIS, ...)
-    * _TODO: create notebook examples for various tools_
-* Pitfalls
-    * Some metadata in the source data may be carried over to the output,
-      resulting in outdated metadata. For example, we have that issue with
-      the bedmachine data produced for QGreenland. We can `gdalwarp` a
-      bedmachine dataset to WGS84 and observe that the `mapping#` namespace
-      continues to specify "polar stereographic" projection. On the plus side,
-      citation and other metadata which we want to keep was also pulled over. This
-      means you may need to do some manual metadata management when you apply
-      transformations. `gdalwarp` has a `-nomd` flag to prevent metadata copying, but
-      this can strip away useful metadata!
-        * Integrate this pitfall into an example of transforming a raster; e.g. reformat
-          a NetCDF and then show the carried-over metadata, especially any fields that
-          are now wrong. Demo how to fix that?
--->
+_TODO: Build a scenario_
