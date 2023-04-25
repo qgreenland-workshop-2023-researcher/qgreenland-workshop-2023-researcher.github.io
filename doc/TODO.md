@@ -39,7 +39,7 @@
 * Consider data scenario: Reproject a vector rectangle with 4 points from 3413 <-> 4326.
   You'd expect a curved shape, but you get a straight-sided shape. Discuss the need to
   subdivide.
-* Resampling exercise?
+* Resampling / co-registration exercise?
 
 
 ### Workshop materials
