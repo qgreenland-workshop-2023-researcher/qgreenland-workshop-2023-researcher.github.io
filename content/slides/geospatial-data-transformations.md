@@ -12,7 +12,7 @@ title-slide-attributes:
 The best one for the job. Explore your ecosystem!
 
 * [GDAL tools](https://gdal.org/programs/index.html)
-* Python: Rasterio, Shapely, Xarray, Geopandas, and more!
+* Python: Rasterio, Shapely, Xarray, GeoPandas, and more!
 
 ::: {.notes}
 You may recognize this slide from the "data inspection" deck.
@@ -248,7 +248,7 @@ You may want to do this for:
 
 ::: {.notes}
 * This can result in good metadata *or* outdated metadata. For example, we have that
-  issue with the bedmachine data produced for QGreenland. We can `gdalwarp` a bedmachine
+  issue with the BedMachine data produced for QGreenland. We can `gdalwarp` a BedMachine
   dataset to WGS84 and observe that the `mapping#` namespace continues to specify "polar
   stereographic" projection. On the plus side, citation and other metadata which we want
   to keep was also pulled over. This means you may need to do some manual metadata
