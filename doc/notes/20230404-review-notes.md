@@ -72,13 +72,13 @@
 
 ### Exercise
 
-* Turn "Missing NoData value" slides into an exercise?
+* ~~Turn "Missing NoData value" slides into an exercise?~~
 * Consider rating each scenario's difficulty?
 * Choose a scenario, but solve it differently than the demo?
-* More time focusing on own data, less time on this exercise.
+* ~~More time focusing on own data, less time on this exercise.~~
 * Use extra time to try other scenarios, or try different methods on same scenarios.
-* If your group's dataset is looking great, what about other individuals' personal
-  dataset(s)? Look at those as a group.
+* ~~If your group's dataset is looking great, what about other individuals' personal
+  dataset(s)? Look at those as a group.~~
 
 
 ## Misc
