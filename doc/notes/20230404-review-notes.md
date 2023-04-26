@@ -62,23 +62,23 @@
 * ~~Add screenshot to the data scenario description; source from slides demonstrating what
   "missing metadata" looks like in QGIS~~
 * ~~Apply code cell standards from "inspecting" slide deck~~
-* "Vector data needs reformatting" data scenario needs a listing of its files
-* Add syntax highlighting to JSON output on "vector reformatting" slides
-* Remove `>>` from `gdalsrsinfo` code block
-* Remove "Advanced techniques" slides; the info is in continued learning already (or
-  should be)
+* ~~"Vector data needs reformatting" data scenario needs a listing of its files~~
+* ~~Add syntax highlighting to JSON output on "vector reformatting" slides~~
+* ~~Remove `>>` from `gdalsrsinfo` code block~~
+* ~~Remove "Advanced techniques" slides; the info is in continued learning already (or
+  should be)~~
 * ~~On the 🪦 slide, link to continued learning about topics like georegistration.~~
 
 
 ### Exercise
 
-* Turn "Missing NoData value" slides into an exercise?
+* ~~Turn "Missing NoData value" slides into an exercise?~~
 * Consider rating each scenario's difficulty?
 * Choose a scenario, but solve it differently than the demo?
-* More time focusing on own data, less time on this exercise.
+* ~~More time focusing on own data, less time on this exercise.~~
 * Use extra time to try other scenarios, or try different methods on same scenarios.
-* If your group's dataset is looking great, what about other individuals' personal
-  dataset(s)? Look at those as a group.
+* ~~If your group's dataset is looking great, what about other individuals' personal
+  dataset(s)? Look at those as a group.~~
 
 
 ## Misc
