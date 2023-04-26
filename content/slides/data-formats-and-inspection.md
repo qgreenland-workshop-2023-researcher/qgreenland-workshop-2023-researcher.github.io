@@ -34,6 +34,7 @@ formats](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
     * In these slides, 🌎 indicates an OGC-adopted standard.
 
 ::: {.notes}
+<!-- alex ignore desire -->
 From the [OGC website](https://www.ogc.org): "We represent over 500 businesses,
 government agencies, research organizations, and universities united with a desire to
 make location information FAIR – Findable, Accessible, Interoperable, and Reusable."
@@ -1584,6 +1585,7 @@ CRS.from_epsg(3413)
 * `man ogrinfo`
 
 ::: {.notes}
+<!-- alex ignore simple -->
 "OGR" used to stand for "OpenGIS Simple Features Reference Implementation" but
 is now the name is "OGR Simple Features Library". "OGR" is left for historical
 reasons. [OSGeo GDAL
@@ -1688,8 +1690,8 @@ label: String (0.0)
 ::: {.notes}
 * `-al`: All layers
 * `-so`: Summary only; don't list individual features.
-* GeoPackages (`GPKG`) are a special extension to SQLite databases.
-* There may be many layers, but this particular GeoPackage just has one called
+* GeoPackages (`GPKG`) are a specialized extension to SQLite databases.
+* There may be many layers, but this particular GeoPackage has only one called
   "SELECT", which is a poor name.
 * Like `gdalinfo`, the CRS is in WKT. First thing to look for is a "top-level"
   EPSG code.
