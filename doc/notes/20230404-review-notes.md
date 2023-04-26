@@ -64,9 +64,9 @@
 * ~~Apply code cell standards from "inspecting" slide deck~~
 * ~~"Vector data needs reformatting" data scenario needs a listing of its files~~
 * ~~Add syntax highlighting to JSON output on "vector reformatting" slides~~
-* Remove `>>` from `gdalsrsinfo` code block
-* Remove "Advanced techniques" slides; the info is in continued learning already (or
-  should be)
+* ~~Remove `>>` from `gdalsrsinfo` code block~~
+* ~~Remove "Advanced techniques" slides; the info is in continued learning already (or
+  should be)~~
 * ~~On the 🪦 slide, link to continued learning about topics like georegistration.~~
 
 
