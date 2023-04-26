@@ -8,11 +8,8 @@
     * Build out final scenario in slides, consider removing
     * Figure out what parts of the exercise to keep or move
 * Slides: QGIS symbology
-    * Document setting up QGIS to use alternative colormaps
     * Document symbolizing vector attributes, accessibility concerns, speaker notes
     * Document exporting QGIS symbology
-
-* Exercise: QGIS symbology
 
 
 ### Goal ideas
