@@ -4,11 +4,16 @@
 
 ### Major incomplete sections
 
+* Exercise: Fixing an issue with data/metadata
+    * Only complete one scenario? Should there be more to choose from? What about
+      applying the skills to the group's (or individuals') selected dataset(s)?
 * Slides & exercise: Geospatial transformation
     * Build out final scenario in slides, consider removing
     * Figure out what parts of the exercise to keep or move
 * Slides: QGIS symbology
 * Exercise: QGIS symbology
+* Exercises: Ensure that all exercises after "Intro to GitHub" have a deliverable being
+  pushed to GitHub.
 
 
 ### Goal ideas
