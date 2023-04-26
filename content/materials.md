@@ -58,7 +58,7 @@
 #### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides](slides/data-formats-and-inspection.qmd)
+[Slides](slides/data-formats-and-inspection.md)
 :::
 
 ::: {.module-resource .video}

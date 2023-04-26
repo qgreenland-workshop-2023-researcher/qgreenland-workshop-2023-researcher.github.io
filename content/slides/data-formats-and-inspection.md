@@ -104,10 +104,11 @@ of XML.
     * 2GB size limitation
     * More: <http://switchfromshapefile.org/#shapefileisbad>
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 unzip arctic_sea_routes.zip
 ```
-```console
+
+```default
 Archive:  arctic_sea_routes.zip
   inflating: Arctic_Sea_Routes.prj
   inflating: Arctic_Sea_Routes.shx
@@ -337,11 +338,11 @@ your preferred ecosystem and you'll find equivalents.
 
 The first thing to try is `<command> --help`:
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 gdalinfo --help
 ```
 
-```console
+```default
 Usage: gdalinfo [--help-general] [-json] [-mm] [-stats] [-hist] [-nogcp] [-nomd]
                 [-norat] [-noct] [-nofl] [-checksum] [-proj4]
                 [-listmdd] [-mdd domain|`all`] [-wkt_format WKT1|WKT2|...]*
@@ -353,7 +354,7 @@ Usage: gdalinfo [--help-general] [-json] [-mm] [-stats] [-hist] [-nogcp] [-nomd]
 
 If the `--help` output isn't useful, try the "manual pages" with the `man` command.
 
-```{.console code-line-numbers="false"}
+```{.default code-line-numbers="false"}
 man gdalinfo
 ```
 
@@ -1358,11 +1359,11 @@ tools.
 and actually run these operations at Quarto render-time? Or one that can be
 downloaded to `/tmp` at render-time? -->
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 gdalinfo bedmachine_bed.tif
 ```
 
-``` {.text code-line-numbers="1-3|4|5,6|44|47|48-86|96|99|100|101|102-114"}
+``` {.default code-line-numbers="1-3|4|5,6|44|47|48-86|96|99|100|101|102-114"}
 Driver: GTiff/GeoTIFF
 Files: bedmachine_bed.tif
        bedmachine_bed.tif.aux.xml
@@ -1497,7 +1498,7 @@ Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
 
 `rio info --help`
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 $ rio info --crs bedmachine_bed.tif
 EPSG:3413
 
@@ -1521,11 +1522,11 @@ next.
 
 `import rasterio; help(rasterio)`
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 python
 ```
 
-``` {.text}
+```default
 Python 3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import rasterio
@@ -1551,7 +1552,7 @@ we didn't do that here, we must manually close the file.
 
 `import xarray; help(xarray)`
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 >>> import rioxarray
 >>> import xarray as xra
 >>> ds = xra.open_dataset('bedmachine_bed.tif')
@@ -1592,11 +1593,11 @@ FAQ](https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatdoesOGRstandfor)
 
 ## Vector data inspection: `ogrinfo`
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 gdalinfo -al -so populated_places.gpkg
 ```
 
-``` {.text code-line-numbers="1-2|4|5|6|7|8|55|57-85"}
+``` {.default code-line-numbers="1-2|4|5|6|7|8|55|57-85"}
 INFO: Open of `populated_places.gpkg'
       using driver `GPKG' successful.
 
@@ -1700,11 +1701,11 @@ label: String (0.0)
 
 _TODO: Verify Fiona is in our JupyterHub environment._
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 python
 ```
 
-``` {.text code-line-numbers="3-4|5-6|7-8|10-19|20"}
+``` {.default code-line-numbers="3-4|5-6|7-8|10-19|20"}
 Python 3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import fiona
@@ -1742,11 +1743,11 @@ _Please note: This dataset was intentionally modified to remove metadata. This e
 does not reflect the quality of the [original
 dataset](https://nsidc.org/data/nsidc-0092/versions/1)._
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 gdalinfo content/examples/data-scenarios/missing-metadata/dem_without_metadata.tif
 ```
 
-``` {.text code-line-numbers="1-2|3|9-13"}
+``` {.default code-line-numbers="1-2|3|9-13"}
 Driver: GTiff/GeoTIFF
 Files: dem_without_metadata.tif
 Size is 301, 561
@@ -1777,11 +1778,11 @@ No Coordinate Reference System is specified!
 
 ## Raster with no metadata: Rasterio CLI
 
-``` {.text code-line-numbers="false"}
+``` {.default code-line-numbers="false"}
 rio info --crs dem_without_metadata.tif
 ```
 
-``` {text}
+```default
 /home/mfisher/miniconda3/envs/xarray/lib/python3.11/site-packages/rasterio/__init__.py:304:
 NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix
 will be returned.
