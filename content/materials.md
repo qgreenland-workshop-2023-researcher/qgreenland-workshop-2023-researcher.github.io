@@ -121,7 +121,7 @@
 #### Fixing common data/metadata issues
 
 ::: {.module-resource .slides}
-[Slides](slides/fixing-common-data-metadata-issues.qmd)
+[Slides](slides/fixing-common-data-metadata-issues.md)
 :::
 
 ::: {.module-resource .video}

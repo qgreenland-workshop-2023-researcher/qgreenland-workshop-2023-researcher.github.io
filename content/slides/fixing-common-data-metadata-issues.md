@@ -215,7 +215,7 @@ The `gdal` [VRT](https://gdal.org/drivers/vector/vrt.html) driver can be used.
 
 Add a `kcbcc_DS4_final_v2_final.vrt` with the following content:
 
-```{.default}
+```xml
 <OGRVRTDataSource>
     <OGRVRTLayer name="Sheet1">
         <SrcDataSource>kcbcc_DS4_final_v2_final.xlsx</SrcDataSource>
@@ -388,7 +388,7 @@ Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
 gdalsrsinfo -o wkt_simple datafile.prj
 ```
 
-```{.default}
+```default
 PROJCS["unnamed",
     GEOGCS["WGS 84",
         DATUM["WGS_1984",
