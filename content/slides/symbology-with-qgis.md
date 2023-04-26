@@ -7,6 +7,8 @@ title-slide-attributes:
   data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
 ---
 
+<!-- alex disable color colors -->
+
 ## Symbology is important
 
 Symbology is [critical](https://www.kennethmoreland.com/color-advice/BadColorMaps.pdf)
@@ -164,6 +166,8 @@ _TODO: This slide._
 _TODO: Scale-dependent rendering._
 
 _TODO: Accessibility concerns?_
+
+<!-- alex enable color colors -->
 
 
 ## Exporting QGIS symbology
