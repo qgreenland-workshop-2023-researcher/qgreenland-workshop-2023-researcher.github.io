@@ -287,11 +287,12 @@ cat output.geojson | jq
 ```
 
 :::{.notes}
-We could have output this reformatted data as a GeoPackage like we do for other
-vector layers in QGreenland but GeoJSON is easily human readable, and the output
-as formatted by `jq` shows that the required CRS information is now present and
-that point geometries have been created from the records in the original XLSX file.
+We could have output this reformatted data as a GeoPackage like we do for other vector
+layers in QGreenland but GeoJSON is human readable, and the output as formatted by `jq`
+shows that the required CRS information is now present and that point geometries have
+been created from the records in the original XLSX file.
 :::
+
 
 ## Vector data needs reformatting: All better!
 
@@ -408,7 +409,7 @@ PROJCS["unnamed",
 :::::::::
 
 :::{.notes}
-Just like our first scenario, `gdalinfo` shows no CRS information and the UL
+Like our first scenario, `gdalinfo` shows no CRS information and the UL
 corner coordinates is (0, 0). If we plotted this in QGIS, it would place the ULC
 at the geographic north pole.
 :::
