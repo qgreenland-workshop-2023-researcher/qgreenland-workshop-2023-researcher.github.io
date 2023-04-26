@@ -106,9 +106,37 @@ Reminder: CVD stands for Color Vision Deficiency!
 :::
 
 
-## Set up in QGIS
+# Colormap set up in QGIS
 
-_TODO: Document setting up these colormap sources in QGIS._
+Some high quality colormaps (e.g. Viridis, Cividis, Magma, Inferno, and Plasma), are
+built in, others need to be installed.
+
+
+## cpt-city and ColorBrewer in QGIS
+
+*Settings > Style Manager > "+" button > Catalog: cpt-city*
+
+![Add a style](/_media/qgis_style_manager_plus.png)
+
+::: {.notes}
+Follow these same steps but select the ColorBrewer catalog if you prefer those
+colormaps.
+:::
+
+
+---
+
+*List styles by author, then select `cmocean`*
+
+![Adding "deep" colormap](/_media/qgis_style_catalog_deep.png)
+
+
+## SVG colormaps in QGIS
+
+Try the
+[SVG2ColoR](https://cbsuygulama.wordpress.com/2014/06/26/svg2color-qgis-color-ramp-plugin/)
+plugin available from the official QGIS plugin repository. All colormaps in cpt-city are
+available for download as SVG.
 
 
 # Vector symbology
