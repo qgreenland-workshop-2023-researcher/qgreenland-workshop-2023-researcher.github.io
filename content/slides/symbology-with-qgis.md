@@ -82,7 +82,7 @@ Viridis is completely perceptually uniform and CVD-friendly.
 
 ## Good places to start
 
-* [ColorCET](https://colorcet.com/): All perceptually uniform,
+* [Colorcet](https://colorcet.com/): All perceptually uniform,
   [some](https://peterkovesi.com/papers/ColourMapsForColourBlindIAMG2017.pdf)
   CVD-first.
 * [ColorBrewer](https://colorbrewer2.org): All perceptually uniform, most 
@@ -152,7 +152,7 @@ some other unique concerns.
 * Fill: color, pattern
 
 
-## Symbolozing attributes
+## Symbolizing attributes
 
 _TODO: This slide._
 
