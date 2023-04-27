@@ -9,6 +9,7 @@
 * Geospatial analysis
 * Data visualization / presentation
 
+
 #### Notes
 
 * Order of themes makes sense, builds on itself.
@@ -22,13 +23,13 @@
       about your connection with Greenland?~~
 * Breakout: Select and analyze a dataset
     * Concerned about spending too much time choosing;
-    * Can send out a message to all breakout rooms after 3-4 minutes saying "You should
-      have chosen a dataset by now, please proceed to other tasks!"
-* Going in and out of breakout rooms has a ~5 minute cost.
+    * ~~Can send out a message to all breakout rooms after 3-4 minutes saying "You should
+      have chosen a dataset by now, please proceed to other tasks!"~~
+* ~~Going in and out of breakout rooms has a ~5 minute cost.~~
 * ~~Can we set up timed breakout rooms? Or e.g. a 2-minute warning before the activity is
   over?~~ Yes, can broadcast messages and send a countdown.
-* Can we assign individuals to breakout rooms and auto-send everyone with a single
-  click? What's this look like?
+* ~~Can we assign individuals to breakout rooms and auto-send everyone with a single
+  click? What's this look like?~~ Handled in admin documentation
 * "Working in the open": Common concern about being "scooped" before publication.
   Discuss the realities; how often does that happen? What protections do you have?
     * License as a safety mechanism. What licenses can we recommend that protect
