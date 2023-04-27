@@ -320,3 +320,18 @@ suggestions on this page. A good first tag is `v0.1.0`.
 ---
 
 ![Our badge is looking fresh!](/_media/github_zenodo_badge.png)
+
+
+## What next?
+
+- [ ] [Add a `CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
+      to the repository to help Zenodo generate a better citation.
+- [ ] [Create a `CHANGELOG.md` file](https://keepachangelog.com/en/1.0.0/) and update it
+      with every release.
+- [ ] Consider other "badges" you can add, e.g.
+      [NSF award badge](https://www.earthcube.org/post/make-your-github-repository-more-discoverable).
+- [ ] Consider using
+      [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)
+      and
+      [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
+      to enable community involvement and awareness from the beginning.
