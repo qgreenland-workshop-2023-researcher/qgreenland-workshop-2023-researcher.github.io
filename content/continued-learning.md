@@ -16,6 +16,7 @@ For continued learning, please consider the following external resources.
 ## Git/GitHub
 
 * [Pro Git](https://git-scm.com/book/en/v2): the official Git book
+* [Integration with Zenodo for DOIs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 * [GitHub-Flavored Markdown Basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
     * [Full specification](https://github.github.com/gfm/)
 * [Allison Horst's Git/GitHub illustrations](https://allisonhorst.com/git-github)
