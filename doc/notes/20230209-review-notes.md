@@ -12,21 +12,21 @@
 #### Notes
 
 * Order of themes makes sense, builds on itself.
-* If we need to cut a theme, suggests visualization.
+    * If we need to cut a theme, suggests visualization.
 * Timing ideas:
     * Consider two-hour breaks each day, with one hour of office hours? Pushes the end
       of workshop 1 hour later, e.g. 6pm Greenland time?
-    * Consider 1-hour office hours after each workshop?
-* Icebreaker:
-    * Prefers "Story about Greenland"; what if an attendee has never been? Maybe a story
-      about your connection with Greenland?
+    * ~~Consider 1-hour office hours after each workshop?~~
+* ~~Icebreaker~~:
+    * ~~Prefers "Story about Greenland"; what if an attendee has never been? Maybe a story
+      about your connection with Greenland?~~
 * Breakout: Select and analyze a dataset
     * Concerned about spending too much time choosing;
     * Can send out a message to all breakout rooms after 3-4 minutes saying "You should
       have chosen a dataset by now, please proceed to other tasks!"
 * Going in and out of breakout rooms has a ~5 minute cost.
-* Can we set up timed breakout rooms? Or e.g. a 2-minute warning before the activity is
-  over?
+* ~~Can we set up timed breakout rooms? Or e.g. a 2-minute warning before the activity is
+  over?~~ Yes, can broadcast messages and send a countdown.
 * Can we assign individuals to breakout rooms and auto-send everyone with a single
   click? What's this look like?
 * "Working in the open": Common concern about being "scooped" before publication.

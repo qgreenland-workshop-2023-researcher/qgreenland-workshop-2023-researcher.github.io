@@ -14,6 +14,9 @@
 * Exercise: QGIS symbology
 * Exercises: Ensure that all exercises after "Intro to GitHub" have a deliverable being
   pushed to GitHub.
+* Office hours: Do we want to offer a period of office hours at the end of each day? If
+  so, we need to explicitly mention that in the daily overview and the workshop overview
+  slides.
 
 
 ### Goal ideas
