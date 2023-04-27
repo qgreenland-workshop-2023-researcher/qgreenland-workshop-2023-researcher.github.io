@@ -37,7 +37,6 @@
 * Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
   account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
-* Should we have a module about integrating GitHub with Zenodo to create DOIs?
 * Consider discussion about how data are often organized on disk (granularity)
 
 
