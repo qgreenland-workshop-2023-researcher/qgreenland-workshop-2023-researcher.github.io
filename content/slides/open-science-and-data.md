@@ -53,6 +53,20 @@ title-slide-attributes:
 <!-- alex enable easy -->
 
 
+## FAIR: DataOne
+
+Datasets registered with DataOne include a _Metadata Assessment Report_ that
+rates the dataset on FAIR complianace.
+
+![DataOne FAIR assessment](/_media/data_one_fair_assessment.png)
+
+::: {.notes}
+The Arctic Data Center, as a participating DataOne repository, also has FAIR
+data assessments. Additionally, the ADC has it's own assessment suite.
+:::
+
+
+
 ## Important data principles: [CARE](https://www.gida-global.org/care)
 
 ::: {.incremental .r-fit-text}
