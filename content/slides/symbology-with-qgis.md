@@ -208,10 +208,22 @@ else. However, it is often helpful to share addtiional properties (e.g.,
 :::
 
 
-## Exporting QGIS layer configuration
+## Exporting QGIS layer definition
 
 
-QGIS supports importing and exporting layer configuration (pointer to data and
-symbology) as
+QGIS supports importing and exporting a layer's definition (pointer to the data
+and symbology) as
 [QLR](https://docs.qgis.org/3.28/en/docs/user_manual/appendices/qgis_file_formats.html#qlr-the-qgis-layer-definition-file)
 files.
+
+Particularly useful for layers that you want to share that are accessed via the
+internet (e.g., a WMS layer).
+
+* To create a QLR file, right-click on a layer in the **Layers Panel**, then
+select "Export > Save as Layer Definition File".
+
+* To import a QLR file, use the **Layer** menu ("Layer > Add From Layer Definition File")
+
+:::{.notes}
+Style files (QML) can also be exported this way ("Export > Save as QGIS Layer Style File")
+:::
