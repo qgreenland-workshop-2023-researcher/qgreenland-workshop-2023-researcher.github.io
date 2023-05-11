@@ -257,16 +257,24 @@ Note that execution order matters.
 :::
 
 
-# Log Out when done!
+## Shut down your server!
 
 ::: {.callout-important}
-_At the end of each day, click `File > Log Out`_
+_At the end of each day, click `File > Hub Control Panel` and then click `Stop My Server`_
 :::
 
-![Log Out](/_media/jupyterlab_log_out.png){width=40%}
+:::::: {.columns}
+::: {.column width="50%"}
+![Control Panel](/_media/jupyterhub_control_panel.png){width=80%}
+:::
+
+::: {.column width="50%"}
+![Stop My Server](/_media/jupyterhub_stop_my_server.png){width=80%}
+:::
+::::::
 
 ::: {.notes}
-Log out at the end of each day to save on cloud costs.
+Shut down your server at the end of each day to save on cloud costs.
 
-Any files you've created will remain next time you log in.
+Any files you've created will remain next time you log in!
 :::
