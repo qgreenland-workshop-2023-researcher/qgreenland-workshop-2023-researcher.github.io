@@ -149,11 +149,19 @@ some other unique concerns.
 
 ## Symbolizing shape
 
+:::::: {.columns}
+::: {.column width="50%"}
 * Markers: color, shape, size
 * Lines: color, thickness, pattern
 * Fill: color, pattern
 * Grouping: physical proximity
+:::
 
+::: {.column width="50%"}
+![The Bird protected areas layers use hatch-filled polygons to indicate areas
+that may have restricted access](/_media/bird_protected_areas_symbology.png)
+:::
+::::::
 
 ## Symbolizing attributes
 
