@@ -35,6 +35,13 @@ to understanding data! Consider:
 
 # Colormaps
 
+::: {.notes}
+Colormaps are the primary way we visualize raster data. Colormaps are also
+useful in visualization of vector data in cases where we want to color vector
+features according to an attribute (e.g., magnitude of earthquakes). More on
+vector-specific symbology considerations in upcoming slides!
+:::
+
 ## Perceptual uniformity {.smaller}
 
 Jet and Rainbow are common, but "lie" about your data.
@@ -58,6 +65,10 @@ change others (green)](/_media/perceptual_derivative_jet.png)
 :::
 ::::::
 
+[viscm](https://github.com/matplotlib/viscm), software used for analyzing
+colormap quality, was used to generate these images.
+
+
 ::: {.notes}
 The colormaps on the left column are test images showing vertical lines that emphasize
 the rate of change in the colormap. If some vertical lines stand out more than others,
@@ -71,19 +82,18 @@ Jet's lack of uniformity creates false features and hides real features in your 
 Turbo is slightly better, but not completely perceptually uniform.
 
 Viridis is completely perceptually uniform and CVD-friendly.
+
+Note that `viscm` is currently broken but we expect a fix soon!
 :::
-
-
-## Resources
-
-* [cpt-city](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) is a website with lots of
-  colormaps, some better than others.
-* [viscm](https://github.com/matplotlib/viscm) is software used for analyzing colormap
-  quality.
 
 
 ## Good places to start
 
+* [cpt-city](http://soliton.vm.bytemark.co.uk/pub/cpt-city/): A website with lots of
+  colormaps, some better than others.
+* [SVG2ColoR](https://cbsuygulama.wordpress.com/2014/06/26/svg2color-qgis-color-ramp-plugin/):
+  A plugin available from the official QGIS plugin repository for loading SVG
+  styles from various sources (e.g., `cpt-city`).
 * [Colorcet](https://colorcet.com/): All perceptually uniform,
   [some](https://peterkovesi.com/papers/ColourMapsForColourBlindIAMG2017.pdf)
   CVD-first.
@@ -118,6 +128,7 @@ built in, others need to be installed.
 
 *Settings > Style Manager > "+" button > Catalog: cpt-city*
 
+_TODO: add a highlight around the correct "+" button!_
 ![Add a style](/_media/qgis_style_manager_plus.png)
 
 ::: {.notes}
@@ -131,14 +142,6 @@ colormaps.
 *List styles by author, then select `cmocean`*
 
 ![Adding "deep" colormap](/_media/qgis_style_catalog_deep.png)
-
-
-## SVG colormaps in QGIS
-
-Try the
-[SVG2ColoR](https://cbsuygulama.wordpress.com/2014/06/26/svg2color-qgis-color-ramp-plugin/)
-plugin available from the official QGIS plugin repository. All colormaps in cpt-city are
-available for download as SVG.
 
 
 # Vector symbology
@@ -211,8 +214,8 @@ else. However, it is often helpful to share addtiional properties (e.g.,
 ## Exporting QGIS layer definition
 
 
-QGIS supports importing and exporting a layer's definition (pointer to the data
-and symbology) as
+QGIS supports importing and exporting a layer's definition (symbology and
+pointer to the data ) as
 [QLR](https://docs.qgis.org/3.28/en/docs/user_manual/appendices/qgis_file_formats.html#qlr-the-qgis-layer-definition-file)
 files.
 
@@ -225,5 +228,7 @@ select "Export > Save as Layer Definition File".
 * To import a QLR file, use the **Layer** menu ("Layer > Add From Layer Definition File")
 
 :::{.notes}
-Style files (QML) can also be exported this way ("Export > Save as QGIS Layer Style File")
+*This is a good slide to skip if we're short on time.*
+
+Style files (QML) can also be exported this way ("Export > Save as QGIS Layer Style File").
 :::
