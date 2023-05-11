@@ -124,11 +124,16 @@ Show a thread in the Slack interface.
 * Actively work to hear all voices and perspectives
 * Be generous and collaborative
 
-View the [full Code of Conduct](/CODE_OF_CONDUCT.md)
+*Contact any workshop administrator directly in Slack to report any concerns.*
+
+View the [full Code of Conduct](/CODE_OF_CONDUCT.html)
 
 ::: {.notes}
 This is only a high-level summary, please review the full code of conduct if you haven't
 already.
+
+*Presenter: Open the code of conduct now and review examples of positive and negative
+behaviors in the "Our Standards" section.*
 :::
 
 
