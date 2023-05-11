@@ -81,4 +81,4 @@ For continued learning, please consider the following external resources.
   * CF "[conventions generalize and extend the COARDS conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch01s04.html)"
 * [ISO 19111:2019, Geographic information — Referencing by coordinates](https://www.iso.org/standard/74039.html)
 * [Open Geospatial Consortium (OGC) standards](https://www.ogc.org/standards/)
-* [NASA ESDIS Standards and Practics](https://www.earthdata.nasa.gov/esdis/esco/standards-and-practices)
+* [NASA ESDIS Standards and Practices](https://www.earthdata.nasa.gov/esdis/esco/standards-and-practices)

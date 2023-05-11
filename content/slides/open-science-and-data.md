@@ -56,7 +56,7 @@ title-slide-attributes:
 ## FAIR: DataOne
 
 Datasets registered with DataOne include a _Metadata Assessment Report_ that
-rates the dataset on FAIR complianace.
+rates the dataset on FAIR compliance.
 
 ![DataOne FAIR assessment](/_media/data_one_fair_assessment.png)
 
@@ -89,7 +89,7 @@ data assessments. Additionally, the ADC has it's own assessment suite.
 ## Communication is key
 
 If you are actively engaged in research in the Arctic, make yourself familiar
-with reccomended communication channels and programs for interfacing with local
+with recommended communication channels and programs for interfacing with local
 communities.
 
 ::: {.r-fit-text}
