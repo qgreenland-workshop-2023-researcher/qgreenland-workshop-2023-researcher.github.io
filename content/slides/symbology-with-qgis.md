@@ -152,20 +152,15 @@ some other unique concerns.
 * Markers: color, shape, size
 * Lines: color, thickness, pattern
 * Fill: color, pattern
+* Grouping: physical proximity
 
 
 ## Symbolizing attributes
 
-_TODO: This slide._
-
 * Labels: e.g. placenames
 * Marker size: e.g. scalar value
 * Color: e.g. scalar value
-* Grouping: physical proximity
-
-_TODO: Scale-dependent rendering._
-
-_TODO: Accessibility concerns?_
+* Scale-dependent rendering
 
 <!-- alex enable color colors -->
 
