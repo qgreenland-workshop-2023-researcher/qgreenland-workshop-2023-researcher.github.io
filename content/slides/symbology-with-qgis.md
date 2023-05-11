@@ -184,6 +184,34 @@ magnitude.](/_media/earthquakes_symbology.png)
 
 ## Exporting QGIS symbology
 
-_TODO: Exporting styles as QML._
+QGIS supports importing and exporting symbology choices as
+[QML](https://docs.qgis.org/3.28/en/docs/user_manual/appendices/qgis_file_formats.html#qml-the-qgis-style-file-format)
+files.
 
-_TODO: Exporting all layer config as QLR._
+:::::: {.columns}
+::: {.column width="50%"}
+![Use the "Style" dropdown in the layer's Properties window](/_media/style_dropdown.png)
+:::
+
+::: {.column width="50%"}
+![The "Save Layer Style" interface. Note that the "Load Style" interface looks
+similar.](/_media/save_layer_style.png){width="65%"}
+:::
+
+::::::
+
+:::{.notes}
+Choose which categories you want to save to the style in the "Save Layer Style"
+interface. If you just want to share symbology, uncheck everything
+else. However, it is often helpful to share addtiional properties (e.g.,
+`Labels`, which is a component of how data is visualized!) too!
+:::
+
+
+## Exporting QGIS layer configuration
+
+
+QGIS supports importing and exporting layer configuration (pointer to data and
+symbology) as
+[QLR](https://docs.qgis.org/3.28/en/docs/user_manual/appendices/qgis_file_formats.html#qlr-the-qgis-layer-definition-file)
+files.
