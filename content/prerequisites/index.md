@@ -60,8 +60,9 @@ request an account. The following steps are **critical** to workshop participati
   This survey will start the process of creating your account.
 
 ::: {.callout-note}
-For the "Award Number" question in the survey, answer with "QGreenland workshop
-participant".
+For the "Award Number" question in the survey, answer with any award number(s)
+your research is currently supported by. If you have none, answer with
+"QGreenland workshop participant".
 :::
 
 * E-mail <cryocloud@mines.edu> to request account activation (provide your GitHub
