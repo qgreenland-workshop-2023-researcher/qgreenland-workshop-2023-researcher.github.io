@@ -72,11 +72,8 @@ title-slide-attributes:
 :::
 
 
+
 ## Other data principles
 
 * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
-* [STREAM](https://www.itu.int/en/journal/002/Documents/ITU2018-12.pdf)?
-  * _TODO: is this actually relevant? It's talking about data practices in the
-    context of markets / commodification of data._
 * [International Open Data Charter](https://opendatacharter.net/)
-* _TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this. Ask?_
