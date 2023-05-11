@@ -119,6 +119,9 @@ We'll talk about the left side panel first.
 Your home directory is dedicated to you. You won't be able to overwrite anyone else's
 files, and vice versa. The `shared*` directories are the only common files.
 
+Be _very_ careful when deleting files from `shared-public/`, it's possible to delete
+other people's data.
+
 If you need to delete a file in the file browser, select it and press the `Delete` key,
 or right-click a file and select "Delete" from the menu.
 :::
