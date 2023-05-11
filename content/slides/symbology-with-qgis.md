@@ -157,10 +157,19 @@ some other unique concerns.
 
 ## Symbolizing attributes
 
+:::::: {.columns}
+::: {.column width="50%"}
 * Labels: e.g. placenames
 * Marker size: e.g. scalar value
 * Color: e.g. scalar value
 * Scale-dependent rendering
+:::
+
+::: {.column width="50%"}
+![The Earthquakes layer uses size and color to indicate
+magnitude.](/_media/earthquakes_symbology.png)
+:::
+::::::
 
 <!-- alex enable color colors -->
 
