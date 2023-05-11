@@ -99,7 +99,7 @@ We'll talk about the left side panel first.
 :::
 
 
-## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
+## File Browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
 
 :::::: {.columns}
 ::: {.column}
@@ -111,7 +111,7 @@ We'll talk about the left side panel first.
 :::
 
 ::: {.column}
-![JupyterLab file browser](/_media/jupyter_lab_file_browser.png)
+![JupyterLab file browser](/_media/jupyterlab_file_browser.png)
 :::
 ::::::
 
