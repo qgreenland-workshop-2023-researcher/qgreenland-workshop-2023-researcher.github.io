@@ -86,6 +86,34 @@ data assessments. Additionally, the ADC has it's own assessment suite.
 :::
 
 
+## Communication is key
+
+If you are actively engaged in research in the Arctic, make yourself familiar
+with reccomended communication channels and programs for interfacing with local
+communities.
+
+::: {.r-fit-text}
+* [Issaffik Arctic Gateway](https://isaaffik.org/): user driven web platform
+  supporting Arctic research and collaboration.
+* [Arctic Hub](https://arctichub.gl/): a space where researchers can connect,
+  institutions can collaborate, and citizens can engage in Greenlandic research.
+* [Navigating the New Arctic Community Office](https://nna-co.org/): building
+  awareness, partnerships, opportunities, and resources for collaboration and
+  equitable knowledge generation within, between, and beyond the research
+  projects funded by the [NSF] [NNA
+  Initiative](https://www.nsf.gov/news/special_reports/big_ideas/arctic.jsp).
+:::
+
+
+::: {.notes}
+Open sci is not just putting things out there, it's about communicating and
+making connections with others, including local communities.
+
+By engaging with existing networks/programs, the research community can benefit
+through discovery of new opportunities for collaborations.
+:::
+
+
 
 ## Other data principles
 
