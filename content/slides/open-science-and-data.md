@@ -106,8 +106,8 @@ communities.
 
 
 ::: {.notes}
-Open sci is not just putting things out there, it's about communicating and
-making connections with others, including local communities.
+Open sci is not only putting software/data/etc out there, it is about
+communicating and making connections with others, including local communities.
 
 By engaging with existing networks/programs, the research community can benefit
 through discovery of new opportunities for collaborations.
