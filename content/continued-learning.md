@@ -10,6 +10,8 @@ For continued learning, please consider the following external resources.
 
 ## JupyterHub/Lab
 
+* [CryoCloud Tutorials](https://book.cryointhecloud.com/tutorials)
+    * [Opening non-cloud datasets uploaded to JupyterHub](https://book.cryointhecloud.com/tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.html#opening-non-cloud-hosted-data-uploaded-to-your-cryocloud-jupyter-hub)
 * [YouTube: CryoCloud onboarding training (1:59:00)](https://www.youtube.com/watch?v=QNrDlwiomgc&feature=youtu.be)
 
 

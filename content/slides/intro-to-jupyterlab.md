@@ -99,7 +99,7 @@ We'll talk about the left side panel first.
 :::
 
 
-## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
+## File Browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
 
 :::::: {.columns}
 ::: {.column}
@@ -111,13 +111,19 @@ We'll talk about the left side panel first.
 :::
 
 ::: {.column}
-![JupyterLab file browser](/_media/jupyter_lab_file_browser.png)
+![JupyterLab file browser](/_media/jupyterlab_file_browser.png)
 :::
 ::::::
 
 ::: {.notes}
 Your home directory is dedicated to you. You won't be able to overwrite anyone else's
 files, and vice versa. The `shared*` directories are the only common files.
+
+Be _very_ careful when deleting files from `shared-public/`, it's possible to delete
+other people's data.
+
+If you need to delete a file in the file browser, select it and press the `Delete` key,
+or right-click a file and select "Delete" from the menu.
 :::
 
 
@@ -257,16 +263,24 @@ Note that execution order matters.
 :::
 
 
-# Log Out when done!
+## Shut down your server!
 
 ::: {.callout-important}
-_At the end of each day, click `File > Log Out`_
+_At the end of each day, click `File > Hub Control Panel` and then click `Stop My Server`_
 :::
 
-![Log Out](/_media/jupyterlab_log_out.png){width=40%}
+:::::: {.columns}
+::: {.column width="50%"}
+![Control Panel](/_media/jupyterhub_control_panel.png){width=80%}
+:::
+
+::: {.column width="50%"}
+![Stop My Server](/_media/jupyterhub_stop_my_server.png){width=80%}
+:::
+::::::
 
 ::: {.notes}
-Log out at the end of each day to save on cloud costs.
+Shut down your server at the end of each day to save on cloud costs.
 
-Any files you've created will remain next time you log in.
+Any files you've created will remain next time you log in!
 :::

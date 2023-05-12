@@ -233,6 +233,10 @@ on use-case and the part of the world being mapped.
 
 ::: {.notes}
 Website demonstrates many different projections with an interactive control to change the perspective.
+
+You may have trouble advancing this slide. Try clicking in the title bar of the
+application or on the slide "page number" in the top-right. You should also be able to
+advance the deck from the speaker notes window.
 :::
 
 
