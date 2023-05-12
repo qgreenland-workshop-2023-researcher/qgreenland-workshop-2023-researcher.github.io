@@ -1,5 +1,5 @@
 ---
-title: "Geospatial transformation practice"
+title: "Geospatial transformation practice (30 minutes)"
 index: 80
 ---
 

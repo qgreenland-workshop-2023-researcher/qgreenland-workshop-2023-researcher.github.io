@@ -129,7 +129,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Fix data/metadata issues (?? minutes)](exercises/fix-data-metadata-issues.md)
+[Exercise: Fix data/metadata issues (30 minutes)](exercises/fix-data-metadata-issues.md)
 :::
 ::::::
 
@@ -138,7 +138,7 @@
 #### Geospatial data transformations
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/geospatial-data-transformations.md)
+[Slides](slides/geospatial-data-transformations.md)
 :::
 
 ::: {.module-resource .video}
@@ -146,7 +146,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Geospatial transformation practice (?? minutes)](exercises/geospatial-transformation.md)
+[Exercise: Geospatial transformation practice (30 minutes)](exercises/geospatial-transformation.md)
 :::
 ::::::
 
@@ -162,7 +162,7 @@
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides (WIP)](slides/symbology-with-qgis.md)
+[Slides](slides/symbology-with-qgis.md)
 :::
 
 ::: {.module-resource .video}
@@ -170,7 +170,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: TODO (?? minutes)](exercises/?.md)
+[Exercise: Discuss (20 minutes)](exercises/symbology.md)
 :::
 ::::::
 
