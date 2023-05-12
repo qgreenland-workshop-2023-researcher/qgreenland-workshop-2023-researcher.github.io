@@ -7,9 +7,14 @@ Alyse
 Bamber
 BedMachine
 BitBucket
-Colorbrewer
+CMasher
+ColorBrewer
+Colorcet
 CryoCloud
 CryoCloudUsers
+CVD-first
+CVD-friendly
+CVD-safe
 DMS_1842643_12758_20180418_18111267_clipped.jpg
 DOIs
 DataONE
@@ -56,6 +61,7 @@ SPD-41a
 SQLite
 Shapefile
 Shapefiles
+SVG2ColoR
 Syncthing
 TODO
 U.S.
@@ -70,6 +76,7 @@ _At
 _TODO
 _media
 _yes
+a.k.a.
 antimeridian
 automations
 background-iframe
@@ -79,10 +86,13 @@ bilinearly
 bulleted
 callout
 center
+cividis
+cmocean
 colormap
 colormaps
 conda
 config
+cpt-city
 datascience-box
 dataset
 datasets
@@ -113,6 +123,7 @@ lon
 lossy
 lrx
 lry
+matplotlib
 metadata
 metapackage
 modeline
@@ -123,6 +134,7 @@ ogr2ogr
 ogrinfo
 onboarding
 openable
+placenames
 plaintext
 pre-assign
 pre-configured
@@ -159,10 +171,13 @@ uly
 uncategorized
 unprojected
 viewport
+viridis
+viscm
 walkthrough
 wellbeing
 xls
 xlsx
+uncheck
 DataOne
 Issaffik
  - content/slides/open-science-and-data.md

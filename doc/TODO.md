@@ -11,7 +11,9 @@
     * Build out final scenario in slides, consider removing
     * Figure out what parts of the exercise to keep or move
 * Slides: QGIS symbology
-* Exercise: QGIS symbology
+    * Document symbolizing vector attributes, accessibility concerns, speaker notes
+    * Document exporting QGIS symbology
+* Exercise: QGIS symbology needs more structure
 * Exercises: Ensure that all exercises after "Intro to GitHub" have a deliverable being
   pushed to GitHub.
 * Office hours: Do we want to offer a period of office hours at the end of each day? If
