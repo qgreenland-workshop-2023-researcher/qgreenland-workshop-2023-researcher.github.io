@@ -19,5 +19,5 @@
 
 ## TODO
 
-* Mark the Word Doc about assessment OBE and move content into GitHub. Add link to the
-    doc.
+* ~~Mark the Word Doc about assessment OBE and move content into GitHub. Add link to the
+  doc.~~

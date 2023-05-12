@@ -2,9 +2,9 @@
 title: "Workshop overview"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 0
-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "https://live.staticflickr.com/65535/50268354463_60d684d945_k.jpg"
 title-slide-attributes:
-  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+  data-background-image: "https://live.staticflickr.com/65535/50268354463_60d684d945_k.jpg"
 ---
 
 ## Workshop goals

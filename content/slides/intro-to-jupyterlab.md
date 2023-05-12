@@ -2,9 +2,9 @@
 title: "Intro to JupyterLab"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 10
-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "https://live.staticflickr.com/65535/50237921218_962ba3da87_k.jpg"
 title-slide-attributes:
-  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+  data-background-image: "https://live.staticflickr.com/65535/50237921218_962ba3da87_k.jpg"
 ---
 
 # Note
@@ -13,6 +13,21 @@ We are going to demo a number of features around the use of JupyterLab in the
 following slides. Please plan to watch as we explain various features before
 trying them yourself in an [exercise](/content/exercises/getting-started-with-jupyterlab.html)
 after the presentation.
+
+
+# What is JupyterLab?
+
+👪 JupyterLab is a human-friendly interface to computation resources.
+
+💻 You can do almost anything you can do on your personal computer!
+
+![JupyterLab logo](/_media/jupyterlab_about_logo.png)
+
+:::{.notes}
+The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
+pop-up in CryoCloud.
+:::
+
 
 ## JupyterHub ![](/_media/jupyterhub_icon.png){width="5%" style="vertical-align:middle"}
 
@@ -47,12 +62,12 @@ resources are not completely isolated. For example, selecting a 4GB RAM server
 size results in a guaranteed allocation of 4GB but if more memory is free on the
 node a user may be able to utilize more than 4GB.
 
-* Other attendees can't see your files (except those in `shared/` dir)
 * No scheduler like on a supercomputer
     * Your computations won't interfere with anyone else's
 :::
 
-#
+
+# JupyterLab features
 
 ![JupyterLab](/_media/jupyterlab.png)
 
@@ -75,19 +90,6 @@ workshop, trying the 8GB option is reasonable.
 :::
 
 
-# What can I do in my JupyterLab?
-
-💻 Almost anything you can do on your personal computer!
-
-👪 JupyterLab is a human-friendly interface to computation resources.
-
-![JupyterLab logo](/_media/jupyterlab_about_logo.png)
-
-:::{.notes}
-The JupyterLab logo is a screenshot from JupyterLab's "Help -> About JupyterLab"
-pop-up in CryoCloud.
-:::
-
 #
 
 ![JupyterLab left side panel](/_media/jupyterlab_left_side_panel.png)
@@ -98,8 +100,8 @@ We'll talk about the left side panel first.
 
 
 ## File browser ![](/_media/jupyterlab_file_browser_icon.png){width="3%" style="vertical-align:middle"}
-:::::: {.columns}
 
+:::::: {.columns}
 ::: {.column}
 * Drag & drop from your desktop
 * Open many types of files and get a useful display
@@ -111,8 +113,13 @@ We'll talk about the left side panel first.
 ::: {.column}
 ![JupyterLab file browser](/_media/jupyter_lab_file_browser.png)
 :::
-
 ::::::
+
+::: {.notes}
+Your home directory is dedicated to you. You won't be able to overwrite anyone else's
+files, and vice versa. The `shared*` directories are the only common files.
+:::
+
 
 ## Running terminals and kernels ![](/_media/jupyterlab_running_terminals_kernels_icon.png){width="3%" style="vertical-align:middle"}
 :::::: {.columns}
@@ -145,9 +152,10 @@ We will not be covering the usage of the final three side panel views.
 Applications can be launched from the Launcher, opening a new tab/window for
 that application.
 
-To open a new Launcher, click the "+" tab, `File > New Launcher`, or the Blue
+To open a new Launcher, click the `+` tab, `File > New Launcher`, or the Blue
 `+` button in the file browser left side panel.
 :::
+
 
 ## Terminal ![](/_media/jupyterlab_terminal_icon.png){width=5% style="vertical-align:middle"}
 

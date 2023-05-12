@@ -16,6 +16,9 @@
 * Exercise: QGIS symbology needs more structure
 * Exercises: Ensure that all exercises after "Intro to GitHub" have a deliverable being
   pushed to GitHub.
+* Office hours: Do we want to offer a period of office hours at the end of each day? If
+  so, we need to explicitly mention that in the daily overview and the workshop overview
+  slides.
 
 
 ### Goal ideas
@@ -33,10 +36,9 @@
 * Limit live presentations to brief overviews of topics, providing supporting materials,
   e.g. pre-recorded topic presentations. Focus on solving problems as a group and
   directly supporting groups.
-* Diversify background imagery; currently have one cropped IceBridge DMS image, but
+* ~~Diversify background imagery; currently have one cropped IceBridge DMS image, but
   could also use images from [NSIDC's Flickr
-  account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)
-* Should we have a module about integrating GitHub with Zenodo to create DOIs?
+  account](https://www.flickr.com/photos/nsidc/albums/72157715526805678)~~
 * Consider discussion about how data are often organized on disk (granularity)
 
 

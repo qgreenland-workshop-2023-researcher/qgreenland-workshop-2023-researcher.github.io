@@ -2,9 +2,9 @@
 title: "Review of Open Science and Data Principles"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 50
-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+background-image: "https://live.staticflickr.com/65535/50238785027_7afce99e9c_k.jpg"
 title-slide-attributes:
-  data-background-image: "/_media/DMS_1842643_12758_20180418_18111267_clipped.jpg"
+  data-background-image: "https://live.staticflickr.com/65535/50238785027_7afce99e9c_k.jpg"
 ---
 
 ## Open Science is here this year, get used to it!
@@ -53,6 +53,20 @@ title-slide-attributes:
 <!-- alex enable easy -->
 
 
+## FAIR: DataOne
+
+Datasets registered with DataOne include a _Metadata Assessment Report_ that
+rates the dataset on FAIR compliance.
+
+![DataOne FAIR assessment](/_media/data_one_fair_assessment.png)
+
+::: {.notes}
+The Arctic Data Center, as a participating DataOne repository, also has FAIR
+data assessments. Additionally, the ADC has it's own assessment suite.
+:::
+
+
+
 ## Important data principles: [CARE](https://www.gida-global.org/care)
 
 ::: {.incremental .r-fit-text}
@@ -72,11 +86,36 @@ title-slide-attributes:
 :::
 
 
+## Communication is key
+
+If you are actively engaged in research in the Arctic, make yourself familiar
+with recommended communication channels and programs for interfacing with local
+communities.
+
+::: {.r-fit-text}
+* [Issaffik Arctic Gateway](https://isaaffik.org/): user driven web platform
+  supporting Arctic research and collaboration.
+* [Arctic Hub](https://arctichub.gl/): a space where researchers can connect,
+  institutions can collaborate, and citizens can engage in Greenlandic research.
+* [Navigating the New Arctic Community Office](https://nna-co.org/): building
+  awareness, partnerships, opportunities, and resources for collaboration and
+  equitable knowledge generation within, between, and beyond the research
+  projects funded by the [NSF] [NNA
+  Initiative](https://www.nsf.gov/news/special_reports/big_ideas/arctic.jsp).
+:::
+
+
+::: {.notes}
+Open sci is not only putting software/data/etc out there, it is about
+communicating and making connections with others, including local communities.
+
+By engaging with existing networks/programs, the research community can benefit
+through discovery of new opportunities for collaborations.
+:::
+
+
+
 ## Other data principles
 
 * [FAIR4RS](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
-* [STREAM](https://www.itu.int/en/journal/002/Documents/ITU2018-12.pdf)?
-  * _TODO: is this actually relevant? It's talking about data practices in the
-    context of markets / commodification of data._
 * [International Open Data Charter](https://opendatacharter.net/)
-* _TODO: FAIR/CARE data checker? Arctic Data Center maybe has something like this. Ask?_

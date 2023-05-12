@@ -58,6 +58,13 @@ request an account. The following steps are **critical** to workshop participati
 * Fill out the [Getting Started
   Survey](https://docs.google.com/forms/d/e/1FAIpQLScb2B5LRy7qU9qDfUp5a51n87sumOxivXbQhc02wFX_FxEbXg/viewform).
   This survey will start the process of creating your account.
+
+::: {.callout-note}
+For the "Award Number" question in the survey, answer with any award number(s)
+your research is currently supported by. If you have none, answer with
+"QGreenland workshop participant".
+:::
+
 * E-mail <cryocloud@mines.edu> to request account activation (provide your GitHub
   username).
     * You will shortly receive an invite (by e-mail from GitHub) to the CryoCloud GitHub
