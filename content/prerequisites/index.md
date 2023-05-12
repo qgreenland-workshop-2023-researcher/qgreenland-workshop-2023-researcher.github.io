@@ -92,6 +92,10 @@ For ideas, here are some example posts:
 * [Trey Stafford](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/44)
 
 
+See all introductions from participants
+[here](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/introductions).
+
+
 ### 💾 Select a dataset of interest
 
 * Select one or more datasets that are not currently a part of QGreenland you
@@ -102,6 +106,8 @@ For ideas, here are some example posts:
 * Use these [guidelines](dataset-selection.md) to pick an appropriate dataset.
 * [Post a short description of the dataset(s) you have identified and why it
   interests you](https://github.com/nsidc/qgreenland-2023-researcher-workshop/discussions/new?category=dataset-ideas)
+* Review other participants' dataset ideas
+  [here](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/dataset-ideas).
 
 
 ### 🇬🇱 QGreenland
