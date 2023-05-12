@@ -205,8 +205,8 @@ similar.](/_media/save_layer_style.png){width="65%"}
 
 :::{.notes}
 Choose which categories you want to save to the style in the "Save Layer Style"
-interface. If you just want to share symbology, uncheck everything
-else. However, it is often helpful to share addtiional properties (e.g.,
+interface. If you only want to share symbology, uncheck everything
+else. However, it is often helpful to share additional properties (e.g.,
 `Labels`, which is a component of how data is visualized!) too!
 :::
 
