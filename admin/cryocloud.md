@@ -13,6 +13,7 @@ https://github.com/orgs/CryoInTheCloud/people
 New users should be set to "Member" and added to the "CryoCloudUsers" team.
 
 
+<!-- alex ignore crashes -->
 ## What if everyone crashes?
 
 It's possible someone used more memory than they've allocated, which could result in the
