@@ -3,14 +3,14 @@
 ### Day 1
 
 :::::: {.schedule-item .module}
-#### Day 1 overview
+#### Workshop overview
 
 ::: {.module-resource .slides}
-[Slides](slides/workshop-overview.md)
+[Slides (15 minutes)](slides/workshop-overview.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Team introductions (20 minutes)](exercises/team-introductions.md)
+[Exercise: Team introductions (25 minutes)](exercises/team-introductions.md)
 :::
 ::::::
 
@@ -19,11 +19,7 @@
 #### Intro to JupyterLab
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-jupyterlab.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
+[Slides (20 minutes)](slides/intro-to-jupyterlab.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -44,12 +40,8 @@
 [Slides](slides/geospatial-concepts-and-terms.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
-[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.md)
+[Exercise: Select a dataset (20 minutes)](exercises/select-a-dataset.md)
 :::
 ::::::
 
@@ -61,32 +53,19 @@
 [Slides](slides/data-formats-and-inspection.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
+[Exercise: Data inspection with JupyterLab (30-35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::
 ::::::
 
 
 ### Day 2
 
-::: {.schedule-item .module}
-#### Day 2 overview
-:::
-
-
 :::::: {.schedule-item .module}
 #### Intro to GitHub
 
 ::: {.module-resource .slides}
 [Slides](slides/intro-to-github.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
 :::
 
 ::: {.module-resource .exercise}
@@ -100,10 +79,6 @@
 
 ::: {.module-resource .slides}
 [Slides](slides/open-science-and-data.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
 :::
 
 ::: {.module-resource .exercise}
@@ -124,10 +99,6 @@
 [Slides](slides/fixing-common-data-metadata-issues.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
 [Exercise: Fix data/metadata issues (30 minutes)](exercises/fix-data-metadata-issues.md)
 :::
@@ -141,10 +112,6 @@
 [Slides](slides/geospatial-data-transformations.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
 [Exercise: Geospatial transformation practice (30 minutes)](exercises/geospatial-transformation.md)
 :::
@@ -153,20 +120,11 @@
 
 ### Day 3
 
-::: {.schedule-item .module}
-#### Day 3 overview
-:::
-
-
 :::::: {.schedule-item .module}
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
 [Slides](slides/symbology-with-qgis.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
 :::
 
 ::: {.module-resource .exercise}

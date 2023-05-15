@@ -1,5 +1,5 @@
 ---
-title: "Team introductions (20 minutes)"
+title: "Team introductions"
 index: 10
 ---
 
