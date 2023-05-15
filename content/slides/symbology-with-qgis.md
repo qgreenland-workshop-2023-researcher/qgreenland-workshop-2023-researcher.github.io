@@ -3,8 +3,6 @@ title: "Symbolizing geospatial data with QGIS"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 80
 background-image: "https://live.staticflickr.com/65535/50268975211_f55d6b4e1c_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50268975211_f55d6b4e1c_k.jpg"
 ---
 
 <!-- alex disable color colors -->

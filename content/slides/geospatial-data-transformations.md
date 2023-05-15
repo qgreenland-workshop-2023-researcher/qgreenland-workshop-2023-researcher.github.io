@@ -3,8 +3,6 @@ title: "Geospatial data transformations"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 70
 background-image: "https://live.staticflickr.com/65535/50268301128_34e0e30e82_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50268301128_34e0e30e82_k.jpg"
 ---
 
 ## What tool should I use?

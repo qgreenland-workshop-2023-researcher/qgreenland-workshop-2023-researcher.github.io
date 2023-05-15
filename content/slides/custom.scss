@@ -10,6 +10,28 @@ h1, h2, h3, h4, h5, h6, body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
 }
 
+/*
+blur, desaturate, and dim backgrounds to make text easier to read
+
+NOTE: This is currently _not supported_ in Firefox because Firefox does not
+support the `:has()` selector (for the last 16 years:
+https://bugzilla.mozilla.org/show_bug.cgi?id=418039).
+*/
+html .backgrounds {
+   -webkit-filter: blur(4px) saturate(.5) brightness(.8);
+   -moz-filter: blur(4px) saturate(.7) brightness(.9);
+   -o-filter: blur(4px) saturate(.7) brightness(.9);
+   -ms-filter: blur(4px) saturate(.7) brightness(.9);
+   filter: blur(4px) saturate(.7) brightness(.9);
+}
+.slides:has(> #title-slide:not([hidden])) ~ .backgrounds {
+   -webkit-filter: blur(0px) saturate(1) brightness(1);
+   -moz-filter: blur(0px) saturate(1) brightness(1);
+   -o-filter: blur(0px) saturate(1) brightness(1);
+   -ms-filter: blur(0px) saturate(1) brightness(1);
+   filter: blur(0px) saturate(1) brightness(1);
+}
+
 .backgrounds {
   background-size: cover;
 }

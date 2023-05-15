@@ -3,8 +3,6 @@ title: "Data/metadata inspection"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 30
 background-image: "https://live.staticflickr.com/65535/50238782702_020e861875_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50238782702_020e861875_k.jpg"
 ---
 
 # Geospatial data formats

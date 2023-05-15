@@ -3,8 +3,6 @@ title: "Review: Geospatial concepts and terms"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 20
 background-image: "https://live.staticflickr.com/65535/50237698987_d346b23e9b_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50237698987_d346b23e9b_k.jpg"
 ---
 
 # Data
