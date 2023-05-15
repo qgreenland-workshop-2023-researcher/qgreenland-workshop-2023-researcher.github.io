@@ -23,4 +23,9 @@ boundary` layer in QGreenland) for a global analysis. Reproject that layer to `E
 The output file should accurately represent the shape of the QGreenland boundary in
 `EPSG:4326`. Check to make sure it doesn't intersect with Greenland!
 
-![The original boundary in yellow; incorrectly reprojected boundary in red](/_media/qgreenland_boundary_4326_raster_vector.png)
+![The correctly reprojected boundary in yellow; incorrectly reprojected boundary in red](/_media/qgreenland_boundary_4326_raster_vector.png)
+
+Intersection occurs in the incorrect reprojection because the original 4 points that
+made up the boundary were reprojected and connected by straight edges. In reality, the
+original edges would be curved in this projection. With more vertices, the curve can be
+approximated.
