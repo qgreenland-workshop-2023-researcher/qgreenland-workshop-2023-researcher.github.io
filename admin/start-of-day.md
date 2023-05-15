@@ -4,6 +4,8 @@ index: 5
 ---
 
 - [ ] Review [roles](roles.md) for today
+- [ ] Prepare a run of show document in Google Docs for today (by copying relevant
+      sections from this `admin/` section
 
 
 ## Set up Zoom
