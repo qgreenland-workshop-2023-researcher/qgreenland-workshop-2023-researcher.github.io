@@ -25,12 +25,14 @@ example, if you team name is "red", your repository should be named `team-red`.
 
 ## 📂 Add some content
 
-* Add the notebook your team produced during the
-  [Data Inspection](./data-inspection-with-jupyterlab/index.md) exercise to
-  your repository.
 * Add a `README.md` file:
     * List your team members by name.
     * Identify the dataset your group has chosen to explore.
+    * Add your notes describing your dataset from the [Select a
+      dataset](./select-a-dataset.md) exercise.
+* Add the notebook your team produced during the
+  [Data Inspection](./data-inspection-with-jupyterlab/index.md) exercise to
+  your repository.
 * [Turn on GitHub
   Discussions](https://docs.github.com/en/discussions/quickstart#enabling-github-discussions-on-your-repository)
   for your group repository. Use this space for asynchronous discussions within your
