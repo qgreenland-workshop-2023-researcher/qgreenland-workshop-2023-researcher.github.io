@@ -127,14 +127,14 @@ Discussion (10 minutes)
 ### Day 3
 
 :::::: {.schedule-item .module}
-#### Symbolizing geospatial data in QGIS
+#### Data cross-compatibility
 
-::: {.module-resource .slides}
-[Slides](slides/symbology-with-qgis.md)
+::: {.module-resource .discussion}
+[Discussion: Introduce your dataset to another team (20 minutes)](exercises/data-compatibility-introductions.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Discuss (20 minutes)](exercises/symbology.md)
+[Exercise: Data cross-compatibility (60 minutes)](exercises/data-compatibility.md)
 :::
 ::::::
 
@@ -145,16 +145,19 @@ Discussion (10 minutes)
 
 
 :::::: {.schedule-item .module}
-#### Group dataset analysis
+#### Symbolizing geospatial data in QGIS
 
-::: {.module-resource .exercise}
-[Exercise: Plan an analysis (?? minutes)](exercises/dataset-analysis-plan.md)
+::: {.module-resource .slides}
+[Slides](slides/symbology-with-qgis.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Implement analysis notebook (?? minutes)](exercises/dataset-analysis-notebook.md)
+[Exercise: Symbolizing datasets together (30 minutes)](exercises/?.md)
 :::
 
+::: {.module-resource .discussion}
+[Discussion: On symbology decisions (20 minutes)](exercises/?.md)
+:::
 ::::::
 
 
