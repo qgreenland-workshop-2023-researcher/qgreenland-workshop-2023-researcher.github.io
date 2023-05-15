@@ -8,13 +8,13 @@ background-image: "https://live.staticflickr.com/65535/50268354463_60d684d945_k.
 ## Workshop goals
 
 * Build a shared familiarity with standard/open tools, formats, and practices.
-* Create a more collaborative/open environment for researchers.
-* Prepare new datasets for use in the QGreenland QGIS data environment.
+* Create a more collaborative/open work environment for researchers.
+* Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
 
 ## ❤️  Built on open-source tools
 
-📜 [Git](https://git-scm.com/downloads/logos): Manages workshop content and its history
+📜 [Git](https://git-scm.com/): Manages workshop content and its history
 
 🐙 [GitHub](https://github.com): Tools for developing in public and community
 interaction
@@ -78,7 +78,8 @@ Open up GitHub Discussions and demo the interface:
 
 ## Slack
 
-Use the [CryoCloud Slack](https://cryospherecloud.slack.com/) for **real-time** communication.
+Use the [CryoCloud Slack](https://cryospherecloud.slack.com/) for all **real-time**
+communication.
 
 Join `#qgreenland` channel one of these ways:
 
@@ -86,23 +87,13 @@ Join `#qgreenland` channel one of these ways:
 * Click "Add channels" in the sidebar.
 
 If Slack is new to you, check out the [quick start
-guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide)
+guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide)!
 
 ::: {.notes}
 Show the `#qgreenland` channel in Slack interface.
 
 Show the "Add channels" interface.
 :::
-
-
-## Zoom
-
-* Please try to use Slack instead of Zoom chat.
-* Please mute when you're not speaking to minimize background noise.
-* _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
-  off."_
-* _TODO: Etiquette for asking questions._
-* We'll use breakout rooms for group exercises / discussions.
 
 
 ## Slack threads
@@ -114,6 +105,16 @@ Show the "Add channels" interface.
 ::: {.notes}
 Show a thread in the Slack interface.
 :::
+
+
+## Zoom
+
+* Please try to use Slack instead of Zoom chat.
+* Please mute when you're not speaking to minimize background noise.
+* _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
+  off."_
+* _TODO: Etiquette for asking questions._
+* We'll use breakout rooms for group exercises / discussions.
 
 
 # Code of Conduct
