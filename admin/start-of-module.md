@@ -5,6 +5,8 @@ index: 5
 
 ## Slides
 
+- [ ] Use a browser other than Firefox for the prettiest slides experience (this is
+      *not* critical)
 - [ ] Ensure browser zoom is set to 100%
 
 
