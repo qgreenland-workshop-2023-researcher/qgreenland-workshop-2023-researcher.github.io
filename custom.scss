@@ -64,6 +64,13 @@ ul ul, ol ol, ul ol, ol ul {
   position: absolute;
 }
 
+.discussion:before {
+  content: "💬";
+  font-family: var(--bs-body-font-family);
+  left: 5px;
+  position: absolute;
+}
+
 /* Highlight target when using an anchor link */
 .schedule-item:target {
    animation-name: ref-animation;

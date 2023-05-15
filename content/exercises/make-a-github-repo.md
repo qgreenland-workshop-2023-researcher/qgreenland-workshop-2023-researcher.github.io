@@ -1,5 +1,5 @@
 ---
-title: "Make a GitHub repository (40 minutes)"
+title: "Make a GitHub repository"
 index: 50
 ---
 

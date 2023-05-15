@@ -91,6 +91,12 @@
 #### 🥪 Break: 60 minutes
 :::
 
+:::::: {.schedule-item .module}
+#### Workshop discussion: FAIR/CARE
+::: {.module-resource .discussion}
+Discussion (10 minutes)
+:::
+::::::
 
 :::::: {.schedule-item .module}
 #### Fixing common data/metadata issues
