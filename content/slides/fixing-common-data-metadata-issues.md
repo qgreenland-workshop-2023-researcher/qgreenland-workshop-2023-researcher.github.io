@@ -3,8 +3,6 @@ title: "Fixing common data/metadata issues"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 60
 background-image: "https://live.staticflickr.com/65535/50237921938_0e9dc8978a_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50237921938_0e9dc8978a_k.jpg"
 ---
 
 ## What tool should I use?

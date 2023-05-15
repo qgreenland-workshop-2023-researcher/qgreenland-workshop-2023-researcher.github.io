@@ -3,8 +3,6 @@ title: "Intro to JupyterLab"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 10
 background-image: "https://live.staticflickr.com/65535/50237921218_962ba3da87_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50237921218_962ba3da87_k.jpg"
 ---
 
 # Note

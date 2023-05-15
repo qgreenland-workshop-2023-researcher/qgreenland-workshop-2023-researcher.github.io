@@ -3,8 +3,6 @@ title: "Review of Open Science and Data Principles"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 50
 background-image: "https://live.staticflickr.com/65535/50238785027_7afce99e9c_k.jpg"
-title-slide-attributes:
-  data-background-image: "https://live.staticflickr.com/65535/50238785027_7afce99e9c_k.jpg"
 ---
 
 ## Open Science is here this year, get used to it!
