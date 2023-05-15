@@ -4,11 +4,11 @@ index: 50
 ---
 
 ::: {.callout-warning}
-We request that everyone use the GitHub browser interface. If you choose not to, be
-prepared to support your group if issues like merge conflicts arise. See <link to
-CryoCloud Git gotchas> for details on using Git in CryoCloud.
-
-_TODO: CryoCloud link. Ask Tasha how we should handle auth_
+We request that everyone use the GitHub browser interface. If you choose not to,
+be prepared to support your group if issues like merge conflicts arise. See
+[this
+page](https://book.cryointhecloud.com/how_tos/background/git.html?highlight=authenticate#authenticating-with-github)
+for details on using Git in CryoCloud.
 :::
 
 ## ✨ Create repository for your group
@@ -19,7 +19,8 @@ We suggest someone who has never created a GitHub repository before.
 Create a new GitHub repository under the `qgreenland-workshop-2023-researcher`
 organization.
 
-Your repository should be named with convention: _TODO: Convention!_
+Your repository should be named with convention: `team-{team_name}`. For
+example, if you team name is "red", your repository should be named `team-red`.
 
 
 ## 📂 Add some content
@@ -36,7 +37,13 @@ Your repository should be named with convention: _TODO: Convention!_
   group during (or after!) the workshop.
 
 
-## ✨ Create your personal profile repository
+
+## ⏱️ Finished early?
+
+### ✨ Create your personal profile repository
+
+If you have time after completing the group-work component of this exercise,
+work as individuals to create your own personal profile repositories.
 
 Follow [GitHub's
 instructions](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme#adding-a-profile-readme)
@@ -50,15 +57,7 @@ When you're done, you should be able to navigate to `https://github.com/<your-us
 and see your new content displayed!
 
 
-## ⏱️ Finished early?
+### 📚 Explore additional learning resources
 
-* Check out our [continued learning](/content/continued-learning.md#gitgithub)
-  resources!
-
-
-## TODO
-
-* Figure out how permissions will be handled.
-* Repository naming convention.
-* Should there be another deliverable here? A GitHub discussion? A reflection on the
-  day?
+Check out our [continued learning](/content/continued-learning.md#gitgithub)
+resources!
