@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
+# Calculate the directory this script is in
 THIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 INPUT_FILE="${THIS_DIR}/../bambgrl_dem_5km_corrected.tif"

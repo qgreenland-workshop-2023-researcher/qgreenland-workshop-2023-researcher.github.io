@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# Calculate the directory this script is in
 THIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 INPUT_FILE="${THIS_DIR}/../datafile.jpg"
 OUTPUT_FILE="${THIS_DIR}/datafile.tif"
 PROJECTION_DEFINITION_FILE="${THIS_DIR}/../datafile.prj"

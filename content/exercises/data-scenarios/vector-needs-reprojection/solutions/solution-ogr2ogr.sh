@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Calculate the directory this script is in
 THIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 INPUT_FILE="${THIS_DIR}/../qgr_boundary_data.gpkg"
