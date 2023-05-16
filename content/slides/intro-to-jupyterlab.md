@@ -236,7 +236,7 @@ _TODO: add an image showing a "no" symbol over the logout menu?_
     * Showing your work
     * Tracking provenance
     * Telling a story
-    
+
 * See also:
     * Quarto
     * JupyterBook
