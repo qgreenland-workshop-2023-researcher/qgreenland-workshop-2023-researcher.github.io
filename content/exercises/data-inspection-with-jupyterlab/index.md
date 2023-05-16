@@ -27,8 +27,9 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
   to come back to the notebook and find important attributes of your dataset.
 
 ::: {.callout-note}
-Don't forget, you can put `%%bash` at the top of a notebook cell to enable use of
-command-line utilities in that cell.
+Don't forget, you can put `%%bash`
+["magic"](https://ipython.readthedocs.io/en/stable/interactive/magics.html#cell-magics)
+at the top of a notebook cell to enable use of command-line utilities in that cell.
 :::
 
 ::: {.callout-warning}
