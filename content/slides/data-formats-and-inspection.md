@@ -329,7 +329,7 @@ Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
 examples use Python because that is what we are most familiar with, but explore
-your preferred ecosystem and you'll find equivalents.
+your preferred ecosystem and you will find equivalents.
 :::
 
 
@@ -351,7 +351,8 @@ Usage: gdalinfo [--help-general] [-json] [-mm] [-stats] [-hist] [-nogcp] [-nomd]
 
 ## Learning more about CLI tool (`man`)
 
-If the `--help` output isn't useful, try the "manual pages" with the `man` command.
+If the `--help` output is not useful, try the "manual pages" with the `man`
+command.
 
 ```{.default code-line-numbers="false"}
 man gdalinfo
@@ -1792,6 +1793,6 @@ will be returned.
 This error message tells us that geolocation metadata was not found in the dataset.
 
 ::: {.notes}
-We won't talk about "GCPs" (Ground Control Points) or "RPCs" (Rational Polynomial
+We will not talk about "GCPs" (Ground Control Points) or "RPCs" (Rational Polynomial
 Coefficients).
 :::

@@ -110,7 +110,7 @@ Show a thread in the Slack interface.
 ## Zoom
 
 * Please try to use Slack instead of Zoom chat.
-* Please mute when you're not speaking to minimize background noise.
+* Please mute when you are not speaking to minimize background noise.
 * _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
   off."_
 * _TODO: Etiquette for asking questions._
@@ -128,8 +128,8 @@ Show a thread in the Slack interface.
 View the [full Code of Conduct](/CODE_OF_CONDUCT.html)
 
 ::: {.notes}
-This is only a high-level summary, please review the full code of conduct if you haven't
-already.
+This is only a high-level summary, please review the full code of conduct if you
+have not already.
 
 *Presenter: Open the code of conduct now and review examples of positive and negative
 behaviors in the "Our Standards" section.*

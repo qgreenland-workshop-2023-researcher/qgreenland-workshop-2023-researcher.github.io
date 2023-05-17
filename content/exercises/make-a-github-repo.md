@@ -55,7 +55,7 @@ You may want to use your introductory post to [GitHub
 Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/introductions)
 to inspire the contents of this README.
 
-When you're done, you should be able to navigate to `https://github.com/<your-username>`
+When you are done, you should be able to navigate to `https://github.com/<your-username>`
 and see your new content displayed!
 
 

@@ -166,7 +166,7 @@ Discussion (10 minutes)
 :::::: {.schedule-item .module}
 #### Office hours
 
-You're welcome to join us on Zoom for open-ended discussion and support:
+You are welcome to join us on Zoom for open-ended discussion and support:
 
 * Git & GitHub for beginners and beyond
 * Continued dataset analysis

@@ -54,7 +54,7 @@
 ### Workshop materials
 
 * ~~Rethink the "fixing metadata issues" exercises/scenarios; we can use `gdal_translate`
-  for all of them instead of `gdal_edit.py`. `gdal_translate` won't edit in place, so
+  for all of them instead of `gdal_edit.py`. `gdal_translate` will not edit in place, so
   that would be an improvement.~~
 * Generate a list (at least a few) of dataset suggestions in case groups cannot
   come up with one of their own. Check backlog for new layer suggestions.
@@ -156,7 +156,7 @@ Can/should we integrate this tool into the workshop?
 
 ### Quarto issues
 
-* The HTML table of contents for prerequisites can't be made to full expand using
+* The HTML table of contents for prerequisites cannot be made to full expand using
   `toc-expand: true`. Can we reproduce?
 
 

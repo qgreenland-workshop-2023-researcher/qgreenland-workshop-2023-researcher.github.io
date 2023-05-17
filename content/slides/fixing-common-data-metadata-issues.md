@@ -20,7 +20,7 @@ Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
 examples use Python because that is what we are most familiar with, but explore
-your preferred ecosystem and you'll find equivalents.
+your preferred ecosystem and you will find equivalents.
 :::
 
 
@@ -527,7 +527,7 @@ imagery. Lat/lon lines are shown for reference.
 :::
 
 
-## What if I can't find a way to fix my data?
+## What if I can not find a way to fix my data?
 
 Metadata may be undocumented or incorrectly documented; contact data producer!
 
@@ -544,7 +544,7 @@ Worst-case scenarios:
 * If the metadata is incorrectly documented, there may be no way to "guess" the correct
   configuration. Contacting the originator may be the _only_ way forward.
 * Data originator may have passed away, changed careers, stopped checking their
-  email, or forgotten about the data you're working with.
+  email, or forgotten about the data you are working with.
 
 If there are recognizable spatial features in the data, you may be able to georeference
 it. See "continued learning" section to learn more about this.
