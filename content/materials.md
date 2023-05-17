@@ -176,6 +176,6 @@ You're welcome to join us on Zoom for open-ended discussion and support:
     * QGIS symbology
 
 <!-- TODO:
-What other modules can be moved to day 4 if we're running low on time?
+What other modules can be moved to day 4 if we are running low on time?
 --->
 ::::::

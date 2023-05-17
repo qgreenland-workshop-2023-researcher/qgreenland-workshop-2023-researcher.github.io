@@ -6,7 +6,7 @@ index: -99
 - [ ] A few e-mail reminders with checklists of prerequisites
     * CryoCloud setup is critical!
 - [ ] Set up the workshop Zoom meeting's settings
-    * Disable chat? Or say "We're not using it"? May want to leave it open
+    * Disable chat? Or say "We are not using it"? May want to leave it open
       just-in-case.
     * Password
     * Ensure annotations are turned off

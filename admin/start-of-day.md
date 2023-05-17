@@ -28,5 +28,5 @@ index: 5
 ## Daily overview
 
 - [ ] Create space for questions or discussion.
-- [ ] Review the modules we'll be tackling today.
+- [ ] Review the modules we will be tackling today.
 - [ ] Review communication guidelines from the workshop overview slides.

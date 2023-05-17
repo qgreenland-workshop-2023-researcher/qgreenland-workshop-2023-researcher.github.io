@@ -5,14 +5,14 @@ index: 10
 background-image: "https://live.staticflickr.com/65535/50237921218_962ba3da87_k.jpg"
 title-slide-attributes:
   data-notes: |-
-    In this workshop, we're going to be using JupyterLab for our hands-on work because
+    In this workshop, we are going to be using JupyterLab for our hands-on work because
     it provides a convenient and consistent computing environment that eliminates
     distracting challenges caused by differing operating systems.
 
-    We'll use JupyterLab in the cloud via a service called "CryoCloud", which everyone
+    We will use JupyterLab in the cloud via a service called "CryoCloud", which everyone
     should already be registered for. If you're not, please use the break time following
     this module to register! Send a message to Matt or Trey on Slack with your GitHub
-    username as soon as possible and we'll ensure your registration goes through
+    username as soon as possible and we will ensure your registration goes through
     quickly.
 ---
 
@@ -104,7 +104,7 @@ workshop, trying the 8GB option is reasonable.
 ![JupyterLab left side panel](/_media/jupyterlab_left_side_panel.png)
 
 :::{.notes}
-We'll talk about the left side panel first.
+We will talk about the left side panel first.
 :::
 
 

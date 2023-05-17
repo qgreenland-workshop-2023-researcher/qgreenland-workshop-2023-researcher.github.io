@@ -19,7 +19,7 @@ Tool selection is context-dependent.
 Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
-examples use Python because that's what we're most familiar with, but explore
+examples use Python because that is what we are most familiar with, but explore
 your preferred ecosystem and you'll find equivalents.
 :::
 
