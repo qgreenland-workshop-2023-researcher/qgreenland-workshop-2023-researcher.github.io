@@ -1,7 +1,7 @@
 # Dataset selection guidelines
 
 When selecting a dataset for this workshop, please consider the following
-guidelines.  It is OK if you cannot tick all these boxes.
+guidelines.  It is OK if you can not tick all these boxes.
 
 ::: {.callout-note}
 Please keep in mind that while we are [interested in
@@ -34,7 +34,7 @@ Data you are excited about!
 
 ### Imperfect
 
-Data that has some usability problems. It is OK if you cannot load it in QGIS.
+Data that has some usability problems. It is OK if you can not load it in QGIS.
 
 
 ### "New"

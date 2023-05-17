@@ -38,7 +38,7 @@ It's important that different datasets are compatible with each-other prior to a
 Raster "co-registration" means multiple datasets have the same grid resolution and
 orientation.
 
-"Lossy" transformations cannot be reversed. Potentially lossy operations include
+"Lossy" transformations can not be reversed. Potentially lossy operations include
 reprojection, resampling, and conversion between raster and vector.
 :::
 
@@ -99,11 +99,11 @@ Reprojection is typically lossy!
 
 ::: {.notes}
 <!-- alex disable colors -->
-* Once you have reprojected your data once, you cannot necessarily go back to the original
-  projection and get the same result. Think about pixel interpolation: it's impossible
-  to mix two colors and then reverse the process. It's also impossible to know the
-  spatial relationship of the original two colors (which was on the left, and which was
-  on the right?). You can estimate, but you cannot _know_.
+* Once you have reprojected your data once, you can not necessarily go back to the
+  original projection and get the same result. Think about pixel interpolation: it's
+  impossible to mix two colors and then reverse the process. It's also impossible to
+  know the spatial relationship of the original two colors (which was on the left, and
+  which was on the right?). You can estimate, but you can not _know_.
 <!-- alex enable colors -->
 
 * When reprojecting vector data, the points move, but the edges are still straight lines

@@ -527,7 +527,7 @@ imagery. Lat/lon lines are shown for reference.
 :::
 
 
-## What if I cannot find a way to fix my data?
+## What if I can not find a way to fix my data?
 
 Metadata may be undocumented or incorrectly documented; contact data producer!
 
