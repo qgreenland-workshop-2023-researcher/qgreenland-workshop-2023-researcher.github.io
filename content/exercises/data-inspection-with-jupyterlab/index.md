@@ -43,3 +43,8 @@ Download it to your computer as a backup.
 If you are looking for clarity or inspiration, please see our [example
 notebook](./data-inspection-with-jupyterlab.ipynb) based on
 a layer that is already in QGreenland.
+
+
+## ⏱️ Finished early?
+
+Try inspecting one or more of the [example datasets](/content/example-data/).

@@ -276,8 +276,8 @@ to enable third-party application access.*
 
 ## Input a title and "tag"
 
-A tag is a unique string that we'll use to identify the new release. GitHub makes useful
-suggestions on this page. A good first tag is `v0.1.0`.
+A tag is a unique string that we will use to identify the new release. GitHub
+makes useful suggestions on this page. A good first tag is `v0.1.0`.
 
 :::::: {.columns}
 ::: {.column width="50%"}

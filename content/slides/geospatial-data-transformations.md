@@ -20,7 +20,7 @@ Tool selection is context-dependent.
 Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
-examples use Python because that's what we're most familiar with, but explore
+examples use Python because that is what we are most familiar with, but explore
 your preferred ecosystem and you'll find equivalents.
 :::
 
@@ -272,7 +272,7 @@ Review solution at
 
 ::: {.notes}
 * Review the scenario on the website by clicking the link in this slide.
-* Point out the ambiguity of the scenario is typical of a real collaboration. We'll see
+* Point out the ambiguity of the scenario is typical of a real collaboration. We will see
   later that we don't have the information we need and will need to re-evaluate our
   solution.
 * Open the notebook in JupyterHub; Repository is checked out at `/shared/QGreenland/.`.

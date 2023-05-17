@@ -74,7 +74,7 @@ your research is currently supported by. If you have none, answer with
   credentials.
 * [Join the CryoCloud
   Slack](https://join.slack.com/t/cryospherecloud/shared_invite/zt-1isgbeuhh-q~cYYKtn_6i3PR1alGca_g).
-  We'll be using this for interactive chat.
+  We will be using this for interactive chat.
 
 In addition to these critical steps, we recommend viewing the training recording and
 we'd appreciate if you fill out the onboarding survey and anonymous feedback form!

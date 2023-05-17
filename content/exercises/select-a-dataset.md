@@ -33,7 +33,10 @@ Do not take notes in Zoom chat; they will disappear.
           represent? What are some attributes?
     * File type (XLSX, CSV, Shapefile, NetCDF, etc)
 
-## Follow-up exercise 
+
+## ⏱️ Finished early?
 
 Time allowing, switch roles and explore one or more other datasets individuals
-in the group have identified that were not chosen as the 'main' group dataset.
+in the group have identified that were not chosen as the 'main' group
+dataset. Alternatively, choose to explore one of the [example
+datasets](/content/example-data/).

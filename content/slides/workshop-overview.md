@@ -114,7 +114,7 @@ Show a thread in the Slack interface.
 * _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
   off."_
 * _TODO: Etiquette for asking questions._
-* We'll use breakout rooms for group exercises / discussions.
+* We will use breakout rooms for group exercises / discussions.
 
 
 # Code of Conduct
