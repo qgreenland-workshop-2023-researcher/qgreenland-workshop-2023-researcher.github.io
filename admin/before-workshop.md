@@ -20,3 +20,4 @@ index: -99
     * Test that non-members of our org can post to Discussions
 - [x] Pre-populate the "Dataset Ideas" section of GH Discussions with multiple posts,
       each detailing one "fallback" dataset for groups that have trouble picking one.
+- [x] Create a space for daily run-of-show documents (e.g. Google Docs)
