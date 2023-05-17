@@ -1,8 +1,10 @@
 # Arctic Observing Viewer Sites
 
-The included `arctic_data_collection_sites.gpkg` was obtained from the [Arctic
-Observing Viewer](https://arcticobservingviewer.org/web-services) using the
-following command on 2023-05-12:
+The included
+[arctic_data_collection_sites.gpkg](/content/example-data/arctic-observing-sites/arctic_data_collection_sites.gpkg)
+was obtained from the [Arctic Observing
+Viewer](https://arcticobservingviewer.org/web-services) using the following
+command on 2023-05-12:
 
 ```
 ogr2ogr arctic_data_collection_sites.gpkg "WFS:http://arcticgeoservices.org/arcgis/services/public/Arctic_Data_Collection_Sites/MapServer/WFSServer?request=GetCapabilities&service=WFS"

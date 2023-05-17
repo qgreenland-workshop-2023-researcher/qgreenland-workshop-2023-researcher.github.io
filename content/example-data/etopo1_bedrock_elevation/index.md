@@ -1,7 +1,8 @@
 # ETOPO1 bedrock elevation data for Greenland
 
-The included GeoTiff data file, `ETOPO_2022_v1_60s_greenland_surface.tif`, is
-[ETOPO Global Relief
+The included GeoTiff data file,
+[ETOPO_2022_v1_60s_greenland_surface.tif](/content/example-data/etopo1_bedrock_elevation/ETOPO_2022_v1_60s_greenland_surface.tif),
+is [ETOPO Global Relief
 Model](https://www.ncei.noaa.gov/products/etopo-global-relief-model) Ice surface
 data for Greenland downloaded through the [National Centers for Environmental
 Information's Grid Extract tool](https://www.ncei.noaa.gov/maps/grid-extract/).

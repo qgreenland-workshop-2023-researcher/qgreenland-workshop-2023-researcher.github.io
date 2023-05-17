@@ -58,9 +58,12 @@ Ice Data Center](https://nsidc.org/data/explore-data). If you are still struggli
 choose a dataset, select one from this list.
 
 * [ETOPO1 bedrock elevation / ice surface elevation](https://www.ncei.noaa.gov/products/etopo-global-relief-model)
+  * [Example data](/content/example-data/etopo1_bedrock_elevation/)
 * [Arctic Observing Sites](https://arcticobservingviewer.org/web-services)
+  * [Example data](/content/example-data/arctic-observing-sites/)
 * [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html)
 * [World Ocean Atlas 2018](https://www.ncei.noaa.gov/access/world-ocean-atlas-2018/)
 * [Greenland ice sheet discharge](https://dataverse.geus.dk/dataverse/ice_discharge)
 * [Iceberg Sightings Database](https://nsidc.org/data/g00807/versions/1)
 * [Greenland Geothermal Heat Flow Database and Map](https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/F9P03L&version=2.1)
+  * [Example data](/content/example-data/greenland-hot-springs/)
