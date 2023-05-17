@@ -13,10 +13,10 @@ This schedule is a work-in-progress and is subject to change!
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:45 | [Workshop overview and introductions](materials.md#day-1-overview) |
-| 09:45 - ??:?? | [Intro to JupyterLab](materials.md#intro-to-jupyterlab) |
-| ??:?? - ??:?? | 🥙 **Break** |
-| ??:?? - ??:?? | [Review geospatial concepts and terms](materials.md#review-geospatial-concepts-and-terms) |
+| 09:00 - 09:40 | [Workshop overview and introductions](materials.md#day-1-overview) |
+| 09:40 - 10:30 | [Intro to JupyterLab](materials.md#intro-to-jupyterlab) |
+| 10:30 - 11:30 | 🥙 **Break** |
+| 11:30 - ??:?? | [Review geospatial concepts and terms](materials.md#review-geospatial-concepts-and-terms) |
 | ??:?? - 13:00 | [Data formats and data inspection](materials.md#data-formats-and-data-inspection) |
 
 : {tbl-colwidths="[25,75]"}

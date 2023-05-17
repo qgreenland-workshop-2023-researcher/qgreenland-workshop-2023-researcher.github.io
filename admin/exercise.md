@@ -9,6 +9,11 @@ the "Breakout rooms" section of this doc :)
 
 ## Exercises
 
+- [ ] If the exercise is to complete a scenario, issue a reminder when 10 minutes are
+      left: if you don't have significant progress towards the solution, please look at
+      the included solution script for ideas!
+
+
 ### Intro to JupyterLab
 
 - [ ] The exploration part of this exercise may take longer than expected. Provide a

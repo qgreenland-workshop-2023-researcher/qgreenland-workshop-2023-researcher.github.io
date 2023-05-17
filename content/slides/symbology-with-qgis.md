@@ -226,7 +226,7 @@ select "Export > Save as Layer Definition File".
 * To import a QLR file, use the **Layer** menu ("Layer > Add From Layer Definition File")
 
 :::{.notes}
-*This is a good slide to skip if we're short on time.*
+*This is a good slide to skip if we are short on time.*
 
 Style files (QML) can also be exported this way ("Export > Save as QGIS Layer Style File").
 :::

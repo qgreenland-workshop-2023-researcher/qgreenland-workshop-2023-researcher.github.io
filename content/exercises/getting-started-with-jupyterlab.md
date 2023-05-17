@@ -1,5 +1,5 @@
 ---
-title: "Getting started with JupyterLab (30 minutes)"
+title: "Getting started with JupyterLab"
 index: 20
 ---
 

@@ -328,7 +328,7 @@ Tool selection is context-dependent.
 Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
-examples use Python because that's what we're most familiar with, but explore
+examples use Python because that is what we are most familiar with, but explore
 your preferred ecosystem and you'll find equivalents.
 :::
 
@@ -1485,7 +1485,7 @@ Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
   nicely indents for us. The "top-level" EPSG is shown as 3413.
 * Pixel size, in projected units
 * Global metadata: These are metadata that were included in the original NetCDF
-  source dataset. We'll discuss more about this pitfall in the
+  source dataset. We will discuss more about this pitfall in the
   "Transformations" module.
 * Band metadata
 * Overviews: Various down-sampled versions of the data for performance when
@@ -1512,8 +1512,8 @@ $ rio info --shape bedmachine_bed.tif
 ```
 
 ::: {.notes}
-Rasterio provides both a CLI and Python interface. We'll look at the Python interface
-next.
+Rasterio provides both a CLI and Python interface. We will look at the Python
+interface next.
 :::
 
 

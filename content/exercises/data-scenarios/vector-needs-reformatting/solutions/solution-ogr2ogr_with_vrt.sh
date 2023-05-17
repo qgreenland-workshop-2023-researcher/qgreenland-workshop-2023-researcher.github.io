@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
+# Calculate the directory this script is in
 THIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 INPUT_FILE="${THIS_DIR}/kcbcc_DS4_final_v2_final.vrt"
 OUTPUT_FILE="${THIS_DIR}/output.geojson"
 

@@ -26,6 +26,12 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
   and what your group learned from the results of each operation. Make it easy
   to come back to the notebook and find important attributes of your dataset.
 
+::: {.callout-note}
+Don't forget, you can put `%%bash`
+["magic"](https://ipython.readthedocs.io/en/stable/interactive/magics.html#cell-magics)
+at the top of a notebook cell to enable use of command-line utilities in that cell.
+:::
+
 ::: {.callout-warning}
 Don't lose track of this notebook. We will use it again in a future exercise.
 Download it to your computer as a backup.
@@ -37,3 +43,8 @@ Download it to your computer as a backup.
 If you are looking for clarity or inspiration, please see our [example
 notebook](./data-inspection-with-jupyterlab.ipynb) based on
 a layer that is already in QGreenland.
+
+
+## ⏱️ Finished early?
+
+Try inspecting one or more of the [example datasets](/content/example-data/).

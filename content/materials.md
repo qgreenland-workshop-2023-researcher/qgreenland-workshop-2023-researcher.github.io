@@ -3,14 +3,14 @@
 ### Day 1
 
 :::::: {.schedule-item .module}
-#### Day 1 overview
+#### Workshop overview
 
 ::: {.module-resource .slides}
-[Slides](slides/workshop-overview.md)
+[Slides (15 minutes)](slides/workshop-overview.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Team introductions (20 minutes)](exercises/team-introductions.md)
+[Exercise: Team introductions (25 minutes)](exercises/team-introductions.md)
 :::
 ::::::
 
@@ -19,11 +19,7 @@
 #### Intro to JupyterLab
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-jupyterlab.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
+[Slides (20 minutes)](slides/intro-to-jupyterlab.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -44,12 +40,8 @@
 [Slides](slides/geospatial-concepts-and-terms.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
-[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.md)
+[Exercise: Select a dataset (20 minutes)](exercises/select-a-dataset.md)
 :::
 ::::::
 
@@ -61,32 +53,19 @@
 [Slides](slides/data-formats-and-inspection.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
+[Exercise: Data inspection with JupyterLab (30-35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::
 ::::::
 
 
 ### Day 2
 
-::: {.schedule-item .module}
-#### Day 2 overview
-:::
-
-
 :::::: {.schedule-item .module}
 #### Intro to GitHub
 
 ::: {.module-resource .slides}
 [Slides](slides/intro-to-github.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
 :::
 
 ::: {.module-resource .exercise}
@@ -102,10 +81,6 @@
 [Slides](slides/open-science-and-data.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
 [Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.md)
 :::
@@ -116,16 +91,18 @@
 #### 🥪 Break: 60 minutes
 :::
 
+:::::: {.schedule-item .module}
+#### Workshop discussion: FAIR/CARE
+::: {.module-resource .discussion}
+Discussion (10 minutes)
+:::
+::::::
 
 :::::: {.schedule-item .module}
 #### Fixing common data/metadata issues
 
 ::: {.module-resource .slides}
 [Slides](slides/fixing-common-data-metadata-issues.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
 :::
 
 ::: {.module-resource .exercise}
@@ -141,10 +118,6 @@
 [Slides](slides/geospatial-data-transformations.md)
 :::
 
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
-:::
-
 ::: {.module-resource .exercise}
 [Exercise: Geospatial transformation practice (30 minutes)](exercises/geospatial-transformation.md)
 :::
@@ -153,24 +126,15 @@
 
 ### Day 3
 
-::: {.schedule-item .module}
-#### Day 3 overview
-:::
-
-
 :::::: {.schedule-item .module}
-#### Symbolizing geospatial data in QGIS
+#### Data cross-compatibility
 
-::: {.module-resource .slides}
-[Slides](slides/symbology-with-qgis.md)
-:::
-
-::: {.module-resource .video}
-[Video (TODO)](https://example.com)
+::: {.module-resource .discussion}
+[Discussion: Introduce your dataset to another team (20 minutes)](exercises/data-compatibility-introductions.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Discuss (20 minutes)](exercises/symbology.md)
+[Exercise: Data cross-compatibility (60 minutes)](exercises/data-compatibility.md)
 :::
 ::::::
 
@@ -181,16 +145,19 @@
 
 
 :::::: {.schedule-item .module}
-#### Group dataset analysis
+#### Symbolizing geospatial data in QGIS
 
-::: {.module-resource .exercise}
-[Exercise: Plan an analysis (?? minutes)](exercises/dataset-analysis-plan.md)
+::: {.module-resource .slides}
+[Slides](slides/symbology-with-qgis.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Implement analysis notebook (?? minutes)](exercises/dataset-analysis-notebook.md)
+[Exercise: Symbolizing datasets together (30 minutes)](exercises/?.md)
 :::
 
+::: {.module-resource .discussion}
+[Discussion: On symbology decisions (20 minutes)](exercises/?.md)
+:::
 ::::::
 
 
@@ -209,6 +176,6 @@ You're welcome to join us on Zoom for open-ended discussion and support:
     * QGIS symbology
 
 <!-- TODO:
-What other modules can be moved to day 4 if we're running low on time?
+What other modules can be moved to day 4 if we are running low on time?
 --->
 ::::::

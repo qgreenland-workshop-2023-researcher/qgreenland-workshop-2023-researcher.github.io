@@ -39,7 +39,7 @@ value.
 The dataset should not show ocean values when initially opened in QGIS.
 
 ::: {.callout-note}
-This problem can be solved with symbology, but that's not what we're aiming
+This problem can be solved with symbology, but that is not what we are aiming
 for here. We want a file with the ocean pixels encoded internally as NoData
 values so we can share it with others and they won't have to deal with this
 issue.
