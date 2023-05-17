@@ -27,7 +27,7 @@ to understanding data! Consider:
   (colorful) light values, and a dark basemap requires a colormap with saturated dark
   values.
 * Ensure contrast with your other data elements. Red dots representing ice core
-  locations won't show up well over temperature data displayed with the `heat` colormap.
+  locations will not show up well over temperature data displayed with the `heat` colormap.
 :::
 
 

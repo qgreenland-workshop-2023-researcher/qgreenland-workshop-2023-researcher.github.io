@@ -23,7 +23,7 @@ are the same: `1.1`.
 ![`bambgrl_dem_5km_corrected.tif` displayed in
 QGreenland](/_media/qgreenland_missing_nodata_value.png)
 
-At this point, you're not sure what this represents, so you consult the [user
+At this point, you are not sure what this represents, so you consult the [user
 guide](https://nsidc.org/sites/default/files/nsidc-0092-v001-userguide.pdf) to find this
 important phrase at the top of page 4:
 
@@ -41,7 +41,7 @@ The dataset should not show ocean values when initially opened in QGIS.
 ::: {.callout-note}
 This problem can be solved with symbology, but that is not what we are aiming
 for here. We want a file with the ocean pixels encoded internally as NoData
-values so we can share it with others and they won't have to deal with this
+values so we can share it with others and they will not have to deal with this
 issue.
 :::
 

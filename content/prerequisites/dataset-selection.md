@@ -1,7 +1,7 @@
 # Dataset selection guidelines
 
-When selecting a dataset for this workshop, please consider the following guidelines.
-It's OK if you can't tick all these boxes.
+When selecting a dataset for this workshop, please consider the following
+guidelines.  It is OK if you cannot tick all these boxes.
 
 ::: {.callout-note}
 Please keep in mind that while we are [interested in
@@ -29,12 +29,12 @@ The data should be relevant to Greenland.
 
 ### Interesting
 
-Data you're excited about!
+Data you are excited about!
 
 
 ### Imperfect
 
-Data that has some usability problems. It's OK if you can't load it in QGIS.
+Data that has some usability problems. It is OK if you cannot load it in QGIS.
 
 
 ### "New"
@@ -51,7 +51,7 @@ dataset <5 GB in size.
 
 ## Having trouble choosing?
 
-If you're struggling to pick a dataset, consider choosing one from an established data
+If you are struggling to pick a dataset, consider choosing one from an established data
 repository such as the [Arctic Data Center's QGreenland data
 portal](https://arcticdata.io/catalog/portals/QGreenland/Data) or the [National Snow and
 Ice Data Center](https://nsidc.org/data/explore-data). If you are still struggling to

@@ -109,7 +109,7 @@ GitHub has competitors like GitLab and BitBucket which offer similar features, l
 
 ::: {.notes}
 We are focusing on GitHub instead of its competitors because it is currently the most
-popular. If you're interested in an alternative which is more open, consider looking
+popular. If you are interested in an alternative which is more open, consider looking
 into GitLab, which offers an open-source core called "Community Edition" and a
 source-available "Enterprise Edition" which provides extra features.
 :::
@@ -184,8 +184,8 @@ for your repository.
 
 ---
 
-After selecting "Upload files", you'll be given the opportunity to browser your computer
-or drag-and-drop files into GitHub.
+After selecting "Upload files", you will be given the opportunity to browser
+your computer or drag-and-drop files into GitHub.
 
 ::: {.v-centered}
 ![Upload a file to GitHub repository](/_media/github_upload_file.png)

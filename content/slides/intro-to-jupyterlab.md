@@ -10,7 +10,7 @@ title-slide-attributes:
     distracting challenges caused by differing operating systems.
 
     We will use JupyterLab in the cloud via a service called "CryoCloud", which everyone
-    should already be registered for. If you're not, please use the break time following
+    should already be registered for. If you are not, please use the break time following
     this module to register! Send a message to Matt or Trey on Slack with your GitHub
     username as soon as possible and we will ensure your registration goes through
     quickly.
@@ -72,7 +72,7 @@ size results in a guaranteed allocation of 4GB but if more memory is free on the
 node a user may be able to utilize more than 4GB.
 
 * No scheduler like on a supercomputer
-    * Your computations won't interfere with anyone else's
+    * Your computations will not interfere with anyone else's
 :::
 
 
@@ -125,7 +125,7 @@ We will talk about the left side panel first.
 ::::::
 
 ::: {.notes}
-Your home directory is dedicated to you. You won't be able to overwrite anyone else's
+Your home directory is dedicated to you. You will not be able to overwrite anyone else's
 files, and vice versa. The `shared*` directories are the only common files.
 
 Be _very_ careful when deleting files from `shared-public/`, it's possible to delete
@@ -291,5 +291,5 @@ _At the end of each day, click `File > Hub Control Panel` and then click `Stop M
 ::: {.notes}
 Shut down your server at the end of each day to save on cloud costs.
 
-Any files you've created will remain next time you log in!
+Any files you have created will remain next time you log in!
 :::

@@ -21,7 +21,7 @@ Command-line tools are especially useful for getting a quick answer.
 
 Language-specific tools are good for automations or research code. These
 examples use Python because that is what we are most familiar with, but explore
-your preferred ecosystem and you'll find equivalents.
+your preferred ecosystem and you will find equivalents.
 :::
 
 
@@ -38,7 +38,7 @@ It's important that different datasets are compatible with each-other prior to a
 Raster "co-registration" means multiple datasets have the same grid resolution and
 orientation.
 
-"Lossy" transformations can't be reversed. Potentially lossy operations include
+"Lossy" transformations cannot be reversed. Potentially lossy operations include
 reprojection, resampling, and conversion between raster and vector.
 :::
 
@@ -99,11 +99,11 @@ Reprojection is typically lossy!
 
 ::: {.notes}
 <!-- alex disable colors -->
-* Once you've reprojected your data once, you can't necessarily go back to the original
+* Once you have reprojected your data once, you cannot necessarily go back to the original
   projection and get the same result. Think about pixel interpolation: it's impossible
   to mix two colors and then reverse the process. It's also impossible to know the
   spatial relationship of the original two colors (which was on the left, and which was
-  on the right?). You can estimate, but you can't _know_.
+  on the right?). You can estimate, but you cannot _know_.
 <!-- alex enable colors -->
 
 * When reprojecting vector data, the points move, but the edges are still straight lines
@@ -147,7 +147,7 @@ Weird things happen at the edges!
 
 `gdalwarp`
 
-Raster grids won't always align, even in the same projection & datum.
+Raster grids will not always align, even in the same projection & datum.
 
 ![Resampling - different origin (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation.jpg)
 
@@ -191,8 +191,8 @@ Does your data provide a suitable representation for your analysis?
 ![Johannes Rössel, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/c/c2/Raster_vector_tikz.svg)
 
 ::: {.notes}
-For example, if you're trying to determine the area of a region or whether two phenomena
-intersect, raster may not be a suitable representation. Similarly, if you're trying to
+For example, if you are trying to determine the area of a region or whether two phenomena
+intersect, raster may not be a suitable representation. Similarly, if you are trying to
 calculate an average scalar value, e.g. temperature or ice sheet thickness, over an
 area, vector may not be a suitable representation.
 :::
@@ -218,7 +218,7 @@ occurs.](https://www.researchgate.net/figure/a-Ice-thickness-map-from-kriging-th
 ::: {.notes}
 Disregard image (b); In image (a) we can see IceBridge flightlines represented in gray.
 These flightlines are taking continuous measurements of ice thickness underneath the
-airplane, so there are no measurements where the plane hasn't flown. Here a process
+airplane, so there are no measurements where the plane has not flown. Here a process
 called "kriging" is used to estimate ice thickness in between measurements.
 :::
 

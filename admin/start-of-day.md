@@ -17,7 +17,7 @@ index: 5
 - [ ] Assign a greeter (Alyse likes this job!)
     * Immediately ask if CryoCloud is set up. If they haven't done it, move them to a
       breakout room to fill out the forms.
-    * Mention recording -- we won't use footage publicly without editing out
+    * Mention recording -- we will not use footage publicly without editing out
       participants.
 - [ ] _TODO: What materials do participants need right away? We want to share this in
   Slack/Zoom as people are joining. Matt & Trey think about this_

@@ -2,7 +2,7 @@
 
 ## Discuss (**be constructive!**):
 
-* What are some particularly good/bad datasets you've been exposed to?
+* What are some particularly good/bad datasets you have been exposed to?
     <!-- alex ignore easy -->
 * What attributes of that dataset make it easy/hard to work with?
 

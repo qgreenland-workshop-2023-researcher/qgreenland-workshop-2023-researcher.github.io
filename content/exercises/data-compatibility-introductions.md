@@ -5,8 +5,8 @@ index: 90
 
 ## 💬 Introduce your dataset to another team
 
-You'll be paired with another team in a breakout room. Take turns introducing your
-dataset to the other team. Make sure you mention:
+You will be paired with another team in a breakout room. Take turns introducing
+your dataset to the other team. Make sure you mention:
 
 * Coordinate Reference System
 * Raster or vector?
@@ -16,9 +16,9 @@ dataset to the other team. Make sure you mention:
 Please reference or demonstrate the exploratory notebooks you created in previous
 exercises when introducing your dataset.
 
-Take notes about the other team's dataset; you'll need them later!
+Take notes about the other team's dataset; you will need them later!
 
 
 ## 🗃️ Add your notes to your team's GitHub repository
 
-Later on, you'll use these notes to create a new Notebook.
+Later on, you will use these notes to create a new Notebook.
