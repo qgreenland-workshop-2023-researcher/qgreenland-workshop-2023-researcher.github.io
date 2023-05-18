@@ -9,7 +9,7 @@ index: 90
 Add the datasets you looked at in the [Data cross-compatibility
 exercise](exercises/data-compatibility.md) to QGIS. Use the **Symbology** tab in
 each layer's **Properties** window to adjust the symbology so that the two
-dataests are visualized together in a meaningful way.
+datasets are visualized together in a meaningful way.
 
 Items to consider: 
 
