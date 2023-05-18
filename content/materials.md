@@ -27,12 +27,6 @@
 :::
 ::::::
 
-
-::: {.schedule-item .break}
-#### 🥪 Break: 60 minutes
-:::
-
-
 :::::: {.schedule-item .module}
 #### Review geospatial concepts and terms
 
@@ -41,16 +35,21 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Select a dataset (20 minutes)](exercises/select-a-dataset.md)
+[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.md)
 :::
 ::::::
+
+
+::: {.schedule-item .break}
+#### 🥪 Break: 60 minutes
+:::
 
 
 :::::: {.schedule-item .module}
 #### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides (15 minutes)](slides/data-formats-and-inspection.md)
+[Slides (20 minutes)](slides/data-formats-and-inspection.md)
 :::
 
 ::: {.module-resource .exercise}
