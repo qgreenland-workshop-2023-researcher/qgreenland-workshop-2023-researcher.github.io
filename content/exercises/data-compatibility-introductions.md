@@ -12,7 +12,7 @@ your dataset to the other team. Make sure you mention:
 * Raster or vector?
 * What is being measured and what are the units?
 * What challenges did you have to overcome to make this data usable? For
-  example, did you need to edit the dataset's metadta? Change it's file format?
+  example, did you need to edit the dataset's metadata? Change it's file format?
 
 Please reference or demonstrate the exploratory notebook you created in the
 [Data inspection with
