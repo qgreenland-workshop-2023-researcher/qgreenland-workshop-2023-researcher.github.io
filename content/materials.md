@@ -149,11 +149,11 @@ Discussion (10 minutes)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Symbolizing datasets together (20 minutes)](exercises/?.md)
+[Exercise: Symbolizing datasets together (20 minutes)](exercises/symbology.md)
 :::
 
 ::: {.module-resource .discussion}
-[Discussion: On symbology decisions (20 minutes)](exercises/?.md)
+[Discussion: On symbology decisions (20 minutes)](exercises/symbology-discussion.md)
 :::
 ::::::
 
