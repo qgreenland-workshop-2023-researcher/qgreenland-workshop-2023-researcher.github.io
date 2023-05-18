@@ -27,6 +27,18 @@
 :::
 ::::::
 
+:::::: {.schedule-item .module}
+#### Review geospatial concepts and terms
+
+::: {.module-resource .slides}
+[Slides (15 minutes)](slides/geospatial-concepts-and-terms.md)
+:::
+
+::: {.module-resource .exercise}
+[Exercise: Select a dataset (15 minutes)](exercises/select-a-dataset.md)
+:::
+::::::
+
 
 ::: {.schedule-item .break}
 #### 🥪 Break: 60 minutes
@@ -34,30 +46,20 @@
 
 
 :::::: {.schedule-item .module}
-#### Review geospatial concepts and terms
-
-::: {.module-resource .slides}
-[Slides](slides/geospatial-concepts-and-terms.md)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Select a dataset (20 minutes)](exercises/select-a-dataset.md)
-:::
-::::::
-
-
-:::::: {.schedule-item .module}
 #### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides](slides/data-formats-and-inspection.md)
+[Slides (20 minutes)](slides/data-formats-and-inspection.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30-35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
+[Exercise: Data inspection with JupyterLab (35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::
 ::::::
 
+:::::: {.schedule-item .module}
+#### End of day wrap-up (5 minutes)
+::::::
 
 ### Day 2
 
@@ -65,7 +67,7 @@
 #### Intro to GitHub
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-github.md)
+[Slides (20 minutes)](slides/intro-to-github.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -78,7 +80,7 @@
 #### Review Open Science (and data) principles
 
 ::: {.module-resource .slides}
-[Slides](slides/open-science-and-data.md)
+[Slides (15 minutes)](slides/open-science-and-data.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -102,7 +104,7 @@ Discussion (10 minutes)
 #### Fixing common data/metadata issues
 
 ::: {.module-resource .slides}
-[Slides](slides/fixing-common-data-metadata-issues.md)
+[Slides (20 minutes)](slides/fixing-common-data-metadata-issues.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -110,27 +112,22 @@ Discussion (10 minutes)
 :::
 ::::::
 
-
 :::::: {.schedule-item .module}
-#### Geospatial data transformations
-
-::: {.module-resource .slides}
-[Slides](slides/geospatial-data-transformations.md)
-:::
-
-::: {.module-resource .exercise}
-[Exercise: Geospatial transformation practice (30 minutes)](exercises/geospatial-transformation.md)
-:::
+#### End of day wrap-up (5 minutes)
 ::::::
 
 
 ### Day 3
 
 :::::: {.schedule-item .module}
-#### Data cross-compatibility
+#### Geospatial data transformations and data cross-compatibility
+
+::: {.module-resource .slides}
+[Slides (20 minutes)](slides/geospatial-data-transformations.md)
+:::
 
 ::: {.module-resource .discussion}
-[Discussion: Introduce your dataset to another team (20 minutes)](exercises/data-compatibility-introductions.md)
+[Discussion: Introduce your dataset to another team (25 minutes)](exercises/data-compatibility-introductions.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -148,16 +145,20 @@ Discussion (10 minutes)
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides](slides/symbology-with-qgis.md)
+[Slides (15 minutes)](slides/symbology-with-qgis.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Symbolizing datasets together (30 minutes)](exercises/?.md)
+[Exercise: Symbolizing datasets together (20 minutes)](exercises/?.md)
 :::
 
 ::: {.module-resource .discussion}
 [Discussion: On symbology decisions (20 minutes)](exercises/?.md)
 :::
+::::::
+
+:::::: {.schedule-item .module}
+#### End of day wrap-up (5 minutes)
 ::::::
 
 
