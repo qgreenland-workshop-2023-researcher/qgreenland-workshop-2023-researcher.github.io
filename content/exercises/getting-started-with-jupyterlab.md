@@ -37,6 +37,13 @@ familiar with the JupyterLab interface.
 * Open QGreenland from `shared/QGreenland`.
 * Explore QGreenland layers and turn on some layers.
 
+:::{.callout-note}
+The QGreenland project file and data are stored on the `shared/` directory and
+cannot be edited directly. Consider saving your own version of the project file
+to your home directory (e.g., `/home/jovian/qgreenland_personal.qgs`) so that
+you can make and save changes to e.g., layer order and symbology.
+:::
+
 
 ## 🧪 Try out a Notebook
 
