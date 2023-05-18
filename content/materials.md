@@ -37,7 +37,7 @@
 #### Review geospatial concepts and terms
 
 ::: {.module-resource .slides}
-[Slides](slides/geospatial-concepts-and-terms.md)
+[Slides (15 minutes)](slides/geospatial-concepts-and-terms.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -50,14 +50,17 @@
 #### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides](slides/data-formats-and-inspection.md)
+[Slides (15 mintues)](slides/data-formats-and-inspection.md)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Data inspection with JupyterLab (30-35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
+[Exercise: Data inspection with JupyterLab (35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::
 ::::::
 
+:::::: {.schedule-item .module}
+#### End of day wrap-up (5 minutes)
+::::::
 
 ### Day 2
 
