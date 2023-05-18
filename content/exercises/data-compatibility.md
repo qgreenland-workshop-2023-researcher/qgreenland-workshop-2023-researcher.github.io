@@ -23,7 +23,9 @@ Other transformations to consider for each dataset:
 * Buffer vector features
 * Polygons -> points (find the centroid)
 * Dissolve overlapping polygons
-* Many more! Explore the [processing toolbox](https://docs.qgis.org/3.16/en/docs/user_manual/processing/toolbox.html) tools!
+* Many more! Explore the
+  [processing toolbox](https://docs.qgis.org/3.28/en/docs/user_manual/processing/toolbox.html)
+  tools!
 
 Build this transformation process out in a Jupyter Notebook that guides the reader
 through each step.
