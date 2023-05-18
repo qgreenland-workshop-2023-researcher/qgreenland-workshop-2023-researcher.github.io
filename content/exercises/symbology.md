@@ -20,6 +20,7 @@ Items to consider:
   * Contrast with other map elements?
   * 
 * For vector features:
+  <!-- alex ignore color -->
   * Color
   * Marker shape/pattern
   * Size/thickness of points/lines
