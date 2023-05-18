@@ -8,7 +8,7 @@ index: 70
 Pick someone to "drive" with a screen share. Please rotate this responsibility!
 
 
-## 💽 ❤️‍🩹 Resolve any data/metadata issues with your group's dataset
+## ❤️‍🩹 Resolve any data/metadata issues with your group's dataset
 
 Review the information you gathered in the [Data inspection with
 JupyterLab](exercises/data-inspection-with-jupyterlab/index.md)
