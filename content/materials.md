@@ -50,7 +50,7 @@
 #### Data formats and data inspection
 
 ::: {.module-resource .slides}
-[Slides (15 mintues)](slides/data-formats-and-inspection.md)
+[Slides (15 minutes)](slides/data-formats-and-inspection.md)
 :::
 
 ::: {.module-resource .exercise}
