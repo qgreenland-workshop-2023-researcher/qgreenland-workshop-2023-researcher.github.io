@@ -155,7 +155,7 @@ Discussion (10 minutes)
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides](slides/symbology-with-qgis.md (15 minutes))
+[Slides (15 minutes)](slides/symbology-with-qgis.md)
 :::
 
 <!-- TODO:
