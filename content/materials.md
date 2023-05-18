@@ -68,7 +68,7 @@
 #### Intro to GitHub
 
 ::: {.module-resource .slides}
-[Slides](slides/intro-to-github.md)
+[Slides (20 minutes)](slides/intro-to-github.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -81,7 +81,7 @@
 #### Review Open Science (and data) principles
 
 ::: {.module-resource .slides}
-[Slides](slides/open-science-and-data.md)
+[Slides (15 minutes)](slides/open-science-and-data.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -105,7 +105,7 @@ Discussion (10 minutes)
 #### Fixing common data/metadata issues
 
 ::: {.module-resource .slides}
-[Slides](slides/fixing-common-data-metadata-issues.md)
+[Slides (20 minutes)](slides/fixing-common-data-metadata-issues.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -113,12 +113,18 @@ Discussion (10 minutes)
 :::
 ::::::
 
+:::::: {.schedule-item .module}
+#### End of day wrap-up (5 minutes)
+::::::
+
+
+### Day 3
 
 :::::: {.schedule-item .module}
 #### Geospatial data transformations
 
 ::: {.module-resource .slides}
-[Slides](slides/geospatial-data-transformations.md)
+[Slides (20 minutes)](slides/geospatial-data-transformations.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -126,8 +132,6 @@ Discussion (10 minutes)
 :::
 ::::::
 
-
-### Day 3
 
 :::::: {.schedule-item .module}
 #### Data cross-compatibility
@@ -151,16 +155,29 @@ Discussion (10 minutes)
 #### Symbolizing geospatial data in QGIS
 
 ::: {.module-resource .slides}
-[Slides](slides/symbology-with-qgis.md)
+[Slides](slides/symbology-with-qgis.md (15 minutes))
 :::
 
+<!-- TODO:
+We originally had 30 min set aside for this but we clearly don't have that much
+time.
+--->
 ::: {.module-resource .exercise}
-[Exercise: Symbolizing datasets together (30 minutes)](exercises/?.md)
+[Exercise: Symbolizing datasets together (15 minutes)](exercises/?.md)
 :::
 
+<!-- TODO:
+We currently don't have time for this discussion component. Maybe we could
+combine the data cross-compatibility exercise with the geospatial transformation
+practice?
+--->
 ::: {.module-resource .discussion}
 [Discussion: On symbology decisions (20 minutes)](exercises/?.md)
 :::
+::::::
+
+:::::: {.schedule-item .module}
+#### End of day wrap-up (5 minutes)
 ::::::
 
 

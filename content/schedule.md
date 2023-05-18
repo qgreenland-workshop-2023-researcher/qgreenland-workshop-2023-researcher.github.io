@@ -28,19 +28,13 @@ This schedule is a work-in-progress and is subject to change!
 | Time          | Activity         |
 | :------------ | :--------------- |
 | 09:00 - 09:15 | [Daily overview](materials.md#day-2-overview) |
-| 09:15 - ??:?? | [Intro to GitHub](materials.md#intro-to-github) |
-| ??:?? - ??:?? | [Review Open Science (and data) principles](materials.md#review-open-science-and-data-principles) |
-| ??:?? - ??:?? | 🍜 **Break** |
-| ??:?? - ??:?? | [Fixing common data/metadata issues](materials.md#fixing-common-datametadata-issues) |
-| ??:?? - 13:00 | [Geospatial data transformations](materials.md#geospatial-data-transformations) |
+| 09:15 - 10:15 | [Intro to GitHub](materials.md#intro-to-github) |
+| 10:15 - 11:00 | [Review Open Science (and data) principles](materials.md#review-open-science-and-data-principles) |
+| 11:00 - 12:00 | 🍜 **Break** |
+| 12:00 - 12:55 | [Fixing common data/metadata issues](materials.md#fixing-common-datametadata-issues) |
+| 12:55 - 13:00 | End of day wrap-up |
 
 : {tbl-colwidths="[25,75]"}
-
-<!-- TODO:
-* Homework? Think about how you could perform an analysis with your chosen dataset
-* Is the lecture/discussion part of the morning too long? Can we break it up with
-  exercises?
--->
 
 
 ### Day 3
@@ -48,9 +42,11 @@ This schedule is a work-in-progress and is subject to change!
 | Time          | Activity         |
 | :------------ | :--------------- |
 | 09:00 - 09:15 | [Daily overview](materials.md#day-3-overview) |
-| 09:15 - ??:?? | [Symbolizing geospatial data in QGIS](materials.md#symbolizing-geospatial-data-in-qgis) |
-| ??:?? - ??:?? | 🌶️ **Break** |
-| ??:?? - 13:00 | [Group dataset analysis](materials.md#group-dataset-analysis) |
+| 09:15 - 10:05 | [Geospatial data transformations](materials.md#geospatial-data-transformations) |
+| 10:05 - 11:25 | [Data cross-compatibility](materials.md#data-cross-compatibility) |
+| 11:25 - 12:25 | 🌶️ **Break** |
+| 12:25 - 12:55 | [Symbolizing geospatial data in QGIS](materials.md#symbolizing-geospatial-data-in-qgis) |
+| 12:55 - 13:00 | End of day wrap-up |
 
 : {tbl-colwidths="[25,75]"}
 
