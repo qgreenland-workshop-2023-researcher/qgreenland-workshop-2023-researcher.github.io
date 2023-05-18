@@ -42,16 +42,15 @@ This schedule is a work-in-progress and is subject to change!
 | Time          | Activity         |
 | :------------ | :--------------- |
 | 09:00 - 09:15 | [Daily overview](materials.md#day-3-overview) |
-| 09:15 - 10:05 | [Geospatial data transformations](materials.md#geospatial-data-transformations) |
-| 10:05 - 11:25 | [Data cross-compatibility](materials.md#data-cross-compatibility) |
-| 11:25 - 12:25 | 🌶️ **Break** |
-| 12:25 - 12:55 | [Symbolizing geospatial data in QGIS](materials.md#symbolizing-geospatial-data-in-qgis) |
+| 09:15 - 11:00 | [Geospatial data transformations and data cross-compatibility](materials.md#geospatial-data-transformations-and-data-cross-compatibility) |
+| 11:00 - 12:00 | 🌶️ **Break** |
+| 12:00 - 12:55 | [Symbolizing geospatial data in QGIS](materials.md#symbolizing-geospatial-data-in-qgis) |
 | 12:55 - 13:00 | End of day wrap-up |
 
 : {tbl-colwidths="[25,75]"}
 
 
-## Day 4 - Office hours
+### Day 4 - Office hours
 
 Instructors will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
 to support continued learning. [Read more](materials.md#office-hours)!

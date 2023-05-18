@@ -121,23 +121,14 @@ Discussion (10 minutes)
 ### Day 3
 
 :::::: {.schedule-item .module}
-#### Geospatial data transformations
+#### Geospatial data transformations and data cross-compatibility
 
 ::: {.module-resource .slides}
 [Slides (20 minutes)](slides/geospatial-data-transformations.md)
 :::
 
-::: {.module-resource .exercise}
-[Exercise: Geospatial transformation practice (30 minutes)](exercises/geospatial-transformation.md)
-:::
-::::::
-
-
-:::::: {.schedule-item .module}
-#### Data cross-compatibility
-
 ::: {.module-resource .discussion}
-[Discussion: Introduce your dataset to another team (20 minutes)](exercises/data-compatibility-introductions.md)
+[Discussion: Introduce your dataset to another team (25 minutes)](exercises/data-compatibility-introductions.md)
 :::
 
 ::: {.module-resource .exercise}
@@ -158,19 +149,10 @@ Discussion (10 minutes)
 [Slides (15 minutes)](slides/symbology-with-qgis.md)
 :::
 
-<!-- TODO:
-We originally had 30 min set aside for this but we clearly don't have that much
-time.
---->
 ::: {.module-resource .exercise}
-[Exercise: Symbolizing datasets together (15 minutes)](exercises/?.md)
+[Exercise: Symbolizing datasets together (20 minutes)](exercises/?.md)
 :::
 
-<!-- TODO:
-We currently don't have time for this discussion component. Maybe we could
-combine the data cross-compatibility exercise with the geospatial transformation
-practice?
---->
 ::: {.module-resource .discussion}
 [Discussion: On symbology decisions (20 minutes)](exercises/?.md)
 :::
