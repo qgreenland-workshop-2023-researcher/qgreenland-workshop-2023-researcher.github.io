@@ -1,7 +1,7 @@
 format:
   revealjs:
     strip-comments: true
-    toc: true
+    toc: false
     toc-depth: 2
     overview: true
 
