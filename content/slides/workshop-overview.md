@@ -111,9 +111,8 @@ Show a thread in the Slack interface.
 
 * Please try to use Slack instead of Zoom chat.
 * Please mute when you are not speaking to minimize background noise.
-* _TODO: Camera etiquette? E.g. "while we'd love to see you, it's OK to have your camera
-  off."_
-* _TODO: Etiquette for asking questions._
+* If you feel comfortable doing so, please turn your cameras on!
+* Use the "Raise Hand" reaction to ask a question during presentations.
 * We will use breakout rooms for group exercises / discussions.
 
 
