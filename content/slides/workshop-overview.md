@@ -174,6 +174,12 @@ behaviors in the "Our Standards" section.*
 
 # Day 1 overview
 
+[Workshop schedule](/content/schedule.html)
+
 ::: {.notes}
-Walk through Day 1 materials page on the website
+1. Start on the workshop schedule page. 
+2. Click on the "Workshop overview and introductions" link.
+3. Walk through Day 1 on materials page.
+4. Transition to group introductions by clicking on the link to the group
+   introductions exercise.
 :::
