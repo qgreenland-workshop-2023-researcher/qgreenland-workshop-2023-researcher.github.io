@@ -38,6 +38,8 @@ We will start by introducing ourselves, the organizers of the workshop.
 
 ## Workshop structure: Days 1-3
 
+_All times in Mountain Daylight Time (UTC-6:00)!_
+
 * 🔎 Modules covering specific topics.
     * 🖥️ Sidehshow presentation by the organizers
     * 💪 Exercises
@@ -83,8 +85,6 @@ some of which are undergoing rapid development (e.g. Quarto).
 
 
 # Communication
-
-_All times in Mountain Daylight Time (UTC-6:00)!_
 
 
 ## GitHub Discussions
