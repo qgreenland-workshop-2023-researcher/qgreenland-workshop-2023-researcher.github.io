@@ -7,9 +7,9 @@ background-image: "https://live.staticflickr.com/65535/50268354463_60d684d945_k.
 
 ## Workshop goals
 
-* Build a shared familiarity with standard/open tools, formats, and practices.
-* Create a more collaborative/open work environment for researchers.
-* Learn to prepare datasets for use in the QGreenland QGIS data environment.
+* ⚙️ Build a shared familiarity with standard/open tools, formats, and practices.
+* 🤝 Create a more collaborative/open work environment for researchers.
+* 🌐 Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
 
 ## ❤️  Built on open-source tools
