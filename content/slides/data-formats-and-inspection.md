@@ -1321,12 +1321,6 @@ FILE
 * You can use QGIS to inspect both raster and vector data
 * You can compare this data to other layers, e.g. basemap.
 
-::: {.notes}
-This can be a pitfall; if the datum differs from other layers, there could be
-discrepancies that are hard to detect. When doing an analysis, transform all layers to
-the same datum using e.g. `gdalwarp`, `ogr2ogr`.
-:::
-
 
 ## QGIS Layer Properties
 
@@ -1338,6 +1332,8 @@ In QGIS, right click a layer -> "Properties"
 Here you can find abstract, file format ("Storage"), CRS, spatial extent, distance
 units, feature count, geometry type(s), grid width & height, data type, fill value,
 grid pixel size, grid origin, and more.
+
+Make sure to double-check the CRS of data matches that you wish to compare it to!
 :::
 
 
