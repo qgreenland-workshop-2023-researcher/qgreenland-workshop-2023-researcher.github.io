@@ -52,5 +52,5 @@ This schedule is a work-in-progress and is subject to change!
 
 ### Day 4 - Office hours
 
-Instructors will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
+Organizers will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
 to support continued learning. [Read more](materials.md#office-hours)!
