@@ -36,6 +36,28 @@ We will start by introducing ourselves, the organizers of the workshop.
 * 🌐 Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
 
+## Workshop structure: Days 1-3
+
+* 🔎 Modules covering specific topics.
+    * 🖥️ Sidehshow presentation by the organizers
+    * 💪 Exercises
+    * 💬 Discussions
+* 🪁 60 minute break each day at 11:00 MDT.
+* 🎁 5-minute end-of-day wrapup (12:55-13:00 MDT).
+
+See the [workshop schedule](/content/schedule.html) for a complete overview.
+
+## Workshop structure: Day 4
+
+### Office hours
+
+Organizers will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
+to support continued learning. [Read more](materials.md#office-hours)!
+
+We strongly encourage participants to attend office hours, but it is not
+requried!
+
+
 ## ❤️  Built on open-source tools
 
 📜 [Git](https://git-scm.com/): Manages workshop content and its history
