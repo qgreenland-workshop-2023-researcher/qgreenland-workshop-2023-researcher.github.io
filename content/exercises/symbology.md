@@ -1,12 +1,37 @@
 ---
-title: "Symbology discussion (20 minutes)"
+title: "Symbolizing datasets together"
 index: 90
 ---
 
-_TODO: What should this exercise look like?_
+## 🌐 Symbolize data in QGIS
 
 
-## 💬 Discuss
+Add the datasets you looked at in the [Data cross-compatibility
+exercise](exercises/data-compatibility.md) to QGIS. Use the **Symbology** tab in
+each layer's **Properties** window to adjust the symbology so that the two
+datasets are visualized together in a meaningful way.
 
-* What symbology problems have you struggled with in the past? Did you solve them? How?
-* What improvements to QGreenland's symbology would you propose?
+Items to consider: 
+
+* For colormaps: 
+  * Color-blind friendly? 
+  * Perceptually uniform?
+  * Contrast with basemap?
+  * Contrast with other map elements?
+  * 
+* For vector features:
+  <!-- alex ignore color -->
+  * Color
+  * Marker shape/pattern
+  * Size/thickness of points/lines
+  * Fill/transparency of polygons
+  * Grouping of many features in close proximity
+  * Labels (See the **Labels** tab in the layer's **Properties** window)
+* Scale-dependent rendering (See the **Rendering** tab in the layer's
+  **Properties** window).
+
+
+##  🗃️ Save your symbology choices
+
+For both layers, save your symbology choices as a `.qml` file with a meaningful
+name. Add these style files to your team’s GitHub repository.
