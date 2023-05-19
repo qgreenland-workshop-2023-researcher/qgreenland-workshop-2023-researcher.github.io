@@ -126,6 +126,12 @@ Show a thread in the Slack interface.
 * Use the "Raise Hand" reaction to ask a question during presentations.
 * We will use breakout rooms for group exercises / discussions.
 
+## Zoom: recording
+
+:::{.callout-note}
+We will be recording presentations by the organizers via zoom. We do not plan to
+redistribute any recordings featuring the names or images of participants.
+:::
 
 # Code of Conduct
 
