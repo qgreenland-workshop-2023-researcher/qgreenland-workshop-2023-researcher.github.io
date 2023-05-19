@@ -1,5 +1,5 @@
 ---
-title: "Data/metadata inspection"
+title: "Geospatial data formats and metadata inspection"
 subtitle: "QGreenland Researcher Workshop 2023"
 index: 30
 background-image: "https://live.staticflickr.com/65535/50238782702_020e861875_k.jpg"
@@ -21,7 +21,6 @@ The best formats for storing geospatial data have been designed for this purpose
 Some general-purpose formats like CSV may be okay, but not great.
 :::
 
-
 ## Finding information about formats
 
 * [Library of Congress list of digital
@@ -29,9 +28,14 @@ formats](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
     * Check the "Licensing and patents" section to learn about openness of a format.
 
 * [Open Geospatial Consortium (OGC)-adopted standards](https://www.ogc.org/standards/)
-    * In these slides, 🌎 indicates an OGC-adopted standard.
+  * In these slides, 🌎 indicates an [OGC-adopted
+    standard](https://www.ogc.org/standards/).
+    
+* [More slides on common data formats](/content/slides/more-slides-on-data-formats.html)!
 
 ::: {.notes}
+We are only going to cover a few examples of common data formats in these slides.
+
 <!-- alex ignore desire -->
 From the [OGC website](https://www.ogc.org): "We represent over 500 businesses,
 government agencies, research organizations, and universities united with a desire to
@@ -39,96 +43,23 @@ make location information FAIR – Findable, Accessible, Interoperable, and Reus
 Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 :::
 
+## Vector data formats {.smaller}
 
-## Comma/Tab Separated Values ([CSV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000323.shtml)/[TSV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000533.shtml))
-
+::::::{.columns}
+:::{.column}
+#### Microsoft [.xls](https://www.loc.gov/preservation/digital/formats/fdd/fdd000510.shtml)/[.xlsx](https://www.loc.gov/preservation/digital/formats/fdd/fdd000401.shtml)
 * General-purpose
-    * Use case: vector data
-* Highly interoperable
-* Lacks metadata support
-
-```{.csv filename="subset_towns_and_settlements.csv"}
-name,old_greenlandic,designation,lon,lat
-Ittaajimmiit,Igtâjimmiut,settlement,22.32133,70.459295
-Nuuk,Nûk,town,51.737382,64.177058
-Uunartoq,Ûnarteq,settlement,21.975401,70.414252
-```
-
-::: {.notes}
-The advantage of CSV is that it's a "lowest common denominator" format that has broad
-support. However, lack of metadata support is a deal-breaker for CSV as an interoperable
-geospatial information format.
-
-CSV can be fine for _some_ non-geospatial data. Without standardized support for
-metadata (e.g. data types) you will sometimes find CSV authors "wing it" and write
-metadata into CSV files in non-standard format, e.g. by adding lines to the end
-of the file.  [W3 suggests](https://www.w3.org/TR/tabular-data-model/#embedded-metadata)
-one method of embedding metadata into a CSV file, but it must be supported by the
-processing software.
-:::
-
-
-## Microsoft [.xls](https://www.loc.gov/preservation/digital/formats/fdd/fdd000510.shtml)/[.xlsx](https://www.loc.gov/preservation/digital/formats/fdd/fdd000401.shtml)
-
-:::: {.columns}
-::: {.column}
-* General-purpose
-    * Use case: vector data
 * Lacks metadata support
 * No support for data types
 * Proprietary (.xls)
-:::
-
-::: {.column}
 ![Microsoft Excel 2010 © Microsoft Corporation](/_media/Excel_2010.png)
 :::
-::::
+:::{.column}
+#### [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml) 🌎 {.smaller}
 
-::: {.notes}
-No support for data types: "[The display of stored numbers as integers or currency is
-through display format options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)"
-
-XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing) extension
-of XML.
-:::
-
-
-## [ESRI Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml#factors) {.smaller}
-
-* Vector data
-* Lots of downsides:
-    * Collection of multiple files
-    * Field names limited to 10 characters
-    * Limited to 255 fields
-    * 2GB size limitation
-    * More: <http://switchfromshapefile.org/#shapefileisbad>
-
-```{.default code-line-numbers="false"}
-unzip arctic_sea_routes.zip
-```
-
-```default
-Archive:  arctic_sea_routes.zip
-  inflating: Arctic_Sea_Routes.prj
-  inflating: Arctic_Sea_Routes.shx
- extracting: Arctic_Sea_Routes.cpg
-  inflating: Arctic_Sea_Routes.dbf
-  inflating: Arctic_Sea_Routes.shp
-```
-
-::: {.notes}
-ESRI shapefiles are actually a collection of files stored in a directory (or zip
-file). E.g., `.shp`, `.prj`, etc.
-:::
-
-
-## [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml) 🌎 {.smaller}
-
-* Vector data
+* One of [OGC](https://www.ogc.org/standards/)'s standard formats
 * An extension of the JSON standard supporting geospatial metadata
 * Text-based, can be read by humans
-* Supports any CRS; defaults to `urn:ogc:def:crs:OGC::CRS84`
-    * Same as `EPSG:4326` but reverse coordinate order `lon, lat`
 
 ```{.json filename="greenland-border.geojson" style="height: 300px;"}
 {
@@ -279,39 +210,98 @@ file). E.g., `.shp`, `.prj`, etc.
   ],
 }
 ```
+:::
+::::::
 
+::: {.notes}
+Two examples of vector data foramts. Microsoft excel formatted data is common
+but suffers from some drawbacks.
 
-## [GeoTIFF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml) 🌎
+Prefer something like `GeoJSON` instead, which is an adopted OGC standard and
+supports CRS metadata.
 
+* XLS/XLSX: 
+    * No support for data types: "[The display of stored numbers as integers or
+      currency is through display format
+      options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)"
+    * XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing) extension
+of XML.
+
+* GeoJSON:
+  * CRS defaults to `urn:ogc:def:crs:OGC::CRS84`. The only difference between
+    `CRS84` and `EPSG:4326` is that the coordinates are reversed order (`lon,
+    lat`).
+:::
+
+## Raster data formats {.smaller}
+
+::::::{.columns}
+:::{.column}
+#### [ESRI ASCII Grid](https://www.loc.gov/preservation/digital/formats/fdd/fdd000421.shtml)
+* Text-based, can be read by humans
+* Limited metadata support: CRS and measurement-related information cannot be
+  stored in the file alongside the data.
+  
+```{.default code-line-numbers="false"}
+$ cat example_data.asc 
+```
+```default
+ncols         5
+nrows         3
+xllcorner     -30.0
+yllcorner     75.0
+cellsize      10.183314
+NODATA_value  -9999
+100 -9999 7 3 -9999
+-9999 14 5 0 1
+-9999 11 23 12 -9999
+```
+:::
+:::{.column}
+#### [GeoTIFF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml) 🌎
 * Raster data
 * An extension of the TIFF standard supporting geospatial metadata
 * Works with almost all image viewer software
 
+![QGreenland's raster datasets are stored as GeoTiffs](/_media/qgreenland_geotiff.png){width="45%"}
+:::
+::::::
 
-## [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) 🌎
+:::{.notes}
+Two examples of raster data formats. ESRI ASCII Grid format is human readable
+and widely supported but has limited metadata support.
 
-* Raster (and vector) data
+GeoTIFFs are OGC standard data formats.
+:::
+
+
+## Flexible data formats {.smaller}
+
+Examples of modern data formats that are open, interoperable, and have rich
+metadata support include `NetCDF` and `GeoPackage`.
+
+::::::{.columns}
+:::{.column}
+#### [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) 🌎
+
+* Raster ([and vector](https://gdal.org/drivers/vector/netcdf.html)) data
 * Extension of [HDF5](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml) 🌎
 * Self-Describing
 * Efficient storage of multi-dimensional arrays of data (e.g., `time`,
   `elevation`, `longitude`, `latitude` as dimensions of a `temperature`
   variable)
-
-::: {.notes}
-Most commonly used to store raster datasets, often with additional dimensions
-(e.g., `time`, `scenario`, etc), however, [NetCDFs can store vector
-data](https://gdal.org/drivers/vector/netcdf.html)
+* [NetCDF Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org) are widely adopted in the science community.
 :::
-
-
-## [GeoPackage](https://www.loc.gov/preservation/digital/formats/fdd/fdd000520.shtml) 🌎
+:::{.column}
+#### [GeoPackage](https://www.loc.gov/preservation/digital/formats/fdd/fdd000520.shtml) 🌎
 
 * Raster, vector, and more...
 * A specialized SQLite database supporting geospatial metadata
 * Can store datasets of different types in a single file
+* QGreenland's vector datasets are stored as GeoPackages.
+:::
+::::::
 
-
-<!-- TODO: Slide on `gdalsrsinfo`? -->
 
 
 # Inspecting Data
