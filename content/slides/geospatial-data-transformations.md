@@ -113,6 +113,32 @@ Reprojection is typically lossy!
 :::
 
 
+## Raster data considerations
+
+_TODO: incorporate this slide into the surrounding presentation. This was taken from the geospatial concepts slide deck_
+
+* Interpolation
+    * Use "nearest neighbor" with categorical data, or there will be "smudging" between
+      categories.
+* Reprojection
+    * Reproject only once, if you have to. Data values in the output grid are
+      estimated from the input using an interpolation technique like 'nearest
+      neighbor' or 'bilinear', potentially resulting in a loss or transformation
+      of information in the input grid.
+
+
+:::{.notes}
+Raster reprojection results in resampling of the input grid to a new, output
+grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
+etc.). Data values stored in the original grid are transformed to accommodate the
+geometry and spatial positioning of the output grid.
+
+_TODO: consider incorporating this image of interpolation techniques (maybe crop to
+bottom half of image?)
+https://en.wikipedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg _
+:::
+
+
 ## Reprojection pitfalls {.smaller}
 
 Weird things happen at the edges!

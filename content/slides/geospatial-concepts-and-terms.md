@@ -84,33 +84,6 @@ non-self-crossing lines)?_
 ![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
 
 
-## Raster data considerations
-
-* Interpolation
-    * Use "nearest neighbor" with categorical data, or there will be "smudging" between
-      categories.
-* Reprojection
-    * Reproject only once, if you have to. Data values in the output grid are
-      estimated from the input using an interpolation technique like 'nearest
-      neighbor' or 'bilinear', potentially resulting in a loss or transformation
-      of information in the input grid.
-* _TODO: What else?_
-* _TODO: consider moving this discussion to day 3? This is an operation that is more
-  aligned with the goal of preparing data for a specific use case._
-
-
-:::{.notes}
-Raster reprojection results in resampling of the input grid to a new, output
-grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
-etc.). Data values stored in the original grid are transformed to accommodate the
-geometry and spatial positioning of the output grid.
-
-_TODO: consider incorporating this image of interpolation techniques (maybe crop to
-bottom half of image?)
-https://en.wikipedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg _
-:::
-
-
 # Metadata
 
 Data about data
