@@ -104,7 +104,7 @@ For example, this data is in "North Polar Stereographic" projection.
   * What units of measure is the feature recorded in?
   * "Missing/No Data" and other flags
 
-## Coordinate Reference System (CRS) information
+# Coordinate Reference System (CRS) information
 
 Includes all of the information necessary to accurately locate features on Earth.
 
@@ -113,7 +113,7 @@ Includes all of the information necessary to accurately locate features on Earth
 :::
 
 
-## CRS: Geodetic Datums
+## Geodetic Datums
 
 ::: {.r-fit-text}
 A model representation of the Earth serving as a reference for locating features.
@@ -138,7 +138,7 @@ _TODO: can we find a better image that shows differences between Earth, ellipsoi
 :::
 
 
-## CRS: Geographic Coordinate System (GCS)
+## Geographic Coordinate System (GCS)
 
 Coordinate system that represents locations on the Earth in spherical
 coordinates of latitudes and longitudes.
@@ -155,7 +155,7 @@ planar coordinate system.
 :::
 
 
-## CRS: Projected Coordinate System (PCS)
+## Projected Coordinate System (PCS)
 
 ::: {.r-fit-text}
 Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
