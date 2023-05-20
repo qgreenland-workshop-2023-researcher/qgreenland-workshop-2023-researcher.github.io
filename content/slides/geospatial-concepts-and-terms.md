@@ -200,12 +200,6 @@ advance the deck from the speaker notes window.
 :::
 
 
-## Projection characteristics
-
-_TODO: Add discussion about characteristics of common projections and why you might want
-to use one over another._
-
-
 ## Standard representations of CRS information
 
 ### [Well Known Text (WKT)](https://www.ogc.org/standard/wkt-crs/) 🌎
