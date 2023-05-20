@@ -165,14 +165,18 @@ Coordinate system that represents locations on the Earth in planar coordinates (
 * Projection results in one or more distortions: shape, area, distance, direction
 :::
 
-::: {#figs layout-ncol=2}
-![Comparison of tangent and secant forms of normal, oblique and transverse
-Mercator projections with standard parallels in red (Wikimedia
-Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Mercator_projections.svg)
+:::::: {.columns}
+:::{.column}
 
-![Tissot's Indicatrices on the Mercator projection (Wikimedia
-Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png)
+![Comparison of different forms of Mercator projections (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Mercator_projections.svg){width="60%"}
 :::
+
+:::{.column}
+![Tissot's Indicatrices on the Mercator projection (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png){width="60%"}
+:::
+::::::
 
 
 ::: {.notes}
