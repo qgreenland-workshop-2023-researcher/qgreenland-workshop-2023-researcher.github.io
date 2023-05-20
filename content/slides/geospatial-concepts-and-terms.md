@@ -57,12 +57,30 @@ non-self-crossing lines)?_
 :::
 
 
-## Raster data
-
-* Continuous: temperature, sea ice concentration, wind speed
-* Categorical: land cover, cloud type, storm category
+## Raster data {.smaller}
 
 ![RGB Raster Image (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Rgb-raster-image.svg)
+
+:::{.notes}
+The most ubiquitous form of raster data are RGB images! Rasters are arrays of
+values gridded in a regular way over an area of space.
+:::
+
+## Raster data: continuous and categorical
+
+::::: {.columns}
+:::{.column}
+Continuous: temperature, sea ice concentration, wind speed
+
+![Continuous data image](/_media/qgreenland_seaice_concentration_feb2015.png)
+:::
+
+:::{.column}
+Categorical: land cover, cloud type, storm category
+
+![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
+:::
+::::::
 
 :::{.notes}
 * Rasters can sometimes contain a mix of continuous and categorical data (a
@@ -70,18 +88,9 @@ non-self-crossing lines)?_
   "lake" flags).
 
 * The symbology of raster data may be categorical while the underlying data is
-  continuous (e.g., high/medium/low sea ice concentration).
+  continuous (e.g., high/medium/low sea ice concentration). We will talk more
+  about symbology on day 3.
 :::
-
-
-## Continuous raster data
-
-![Continuous data image](/_media/qgreenland_seaice_concentration_feb2015.png)
-
-
-## Categorical raster data
-
-![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
 
 
 # Metadata
@@ -178,7 +187,6 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_wit
 :::
 ::::::
 
-
 ::: {.notes}
 A projection is an algorithm (e.g., stereographic) and its parameters (e.g,
 lat/lon of origin, units, etc).
@@ -188,8 +196,6 @@ projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coo
 
 There are MANY map projections. Each has advantages and disadvantages depending
 on use-case and the part of the world being mapped.
-
-* _TODO: how do size images so that they take up the remaining space?_
 :::
 
 
