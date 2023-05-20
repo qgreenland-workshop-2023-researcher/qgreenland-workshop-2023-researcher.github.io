@@ -5,20 +5,13 @@ index: 20
 background-image: "https://live.staticflickr.com/65535/50237698987_d346b23e9b_k.jpg"
 ---
 
-# Data
+# Geospatial data
+
+![Vector vs Raster](https://pygis.io/_images/vector_vs_raster.jpg)
 
 ::: {.notes}
-Data is actual measurements.
-
-For example, at location (X, Y), the albedo is 39%.
+Two main representations of geospatial data: vector and raster.
 :::
-
-<!-- TODO: Raster vs Vector: Discuss object representation vs field
-representation. PyGIS.io has some really helpful graphics that may be
-permissively licensed.
-
-https://pygis.io/docs/c_features.html#object-vs-field
---> 
 
 
 ## Vector data
