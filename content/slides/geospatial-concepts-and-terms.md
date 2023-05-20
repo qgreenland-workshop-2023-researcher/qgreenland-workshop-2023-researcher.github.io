@@ -193,7 +193,11 @@ on use-case and the part of the world being mapped.
 :::
 
 
-## {background-iframe="https://www.jasondavies.com/maps/transition/" background-interactive="true"}
+## {.smaller}
+
+<iframe width="100%" height="80%" src="https://www.jasondavies.com/maps/transition/"></iframe>
+
+[https://www.jasondavies.com/maps/transition/](https://www.jasondavies.com/maps/transition/)
 
 ::: {.notes}
 Website demonstrates many different projections with an interactive control to change the perspective.
