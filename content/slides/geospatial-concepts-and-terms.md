@@ -112,10 +112,6 @@ Includes all of the information necessary to accurately locate features on Earth
 **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**
 :::
 
-::: {.notes}
-A coordinate reference system (CRS) / spatial reference system (SRS) includes
-the information necessary for accurately locating geospatial data on the Earth.
-:::
 
 ## CRS: Geodetic Datums
 
