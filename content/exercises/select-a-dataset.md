@@ -13,6 +13,28 @@ You are not stuck with the dataset you choose! Your group can use a different
 dataset at different times if it's more appropriate for a specific exercise.
 :::
 
+## Upload data
+
+Upload data from your group's chosen dataset to Jupyterhub. Note that some
+datasets may have many data files (e.g., one for each day over a
+timeseries). Choose just one or two to upload in this case.
+
+::: {.callout-warning}
+If your chosen data is >2GB in size, please consider a different dataset or
+contact an organizer for help! There is limited space available on our shared
+CryoCloud.
+:::
+
+Use the JupyterHub File Browser interface to upload the data to
+`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}`.  For
+example, if you group number is "one", your data should be uploaded to
+`/shared/public/QGreenland-Researcher-Workshop/group-one/`.
+
+![Upload your data to
+`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}` using the
+"Upload Files" interface (indicated by red
+square)](/_media/file-browser-data-upload.png)
+
 
 ## 🧭 Explore your dataset
 
