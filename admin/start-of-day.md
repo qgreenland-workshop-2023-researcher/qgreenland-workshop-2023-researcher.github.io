@@ -6,7 +6,7 @@ index: 5
 - [ ] Prepare a run of show document in a shared Google Docs for today (by copying
       relevant sections from this `admin/` section. In this document, the team can mark
       steps as complete or otherwise track things specific to that day.
-      - [ ] Document [roles](roles.md) for each module!
+    - [ ] Document [roles](roles.md) for each module!
 
 
 ## Zoom
