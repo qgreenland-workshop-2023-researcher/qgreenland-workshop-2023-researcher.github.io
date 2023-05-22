@@ -50,12 +50,6 @@ QGreenland](/_media/qgreenland_GEM-research-stations_attribute_table.png)
 ![Examples of topological spatial relations (Wikimedia
 Commons)](https://upload.wikimedia.org/wikipedia/commons/5/55/TopologicSpatialRelarions2.png)
 
-::: {.notes}
-_TODO: keep this slide here? Day 3? Or remove? This is more about analysis with
-vector features. Another thing to think about: vector validity (e.g.,
-non-self-crossing lines)?_
-:::
-
 
 ## Raster data {.smaller}
 
@@ -100,8 +94,6 @@ Data about data
 ::: {.notes}
 Metadata is "data about data", and is how standards-compliant data files
 "self-describe".
-
-For example, this data is in "North Polar Stereographic" projection.
 :::
 
 ## Geospatial metadata concepts
@@ -129,7 +121,8 @@ A model representation of the Earth serving as a reference for locating features
 
 * Often a spherical or ellipsoidal representation.
 * Horizontal and/or vertical.
-* `WGS84` is a common global datum, but many others (including locally best-fitting models).
+* `WGS84` is a common global datum, but many others exist (including locally
+  best-fitting models).
 * Differences between datums can be significant (> 100 meters in some cases).
 :::
 
@@ -140,12 +133,10 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_R
 
 
 ::: {.notes}
-_Datum shift_ is the difference in lat/lon of a location between different
-datums. E.g., a surveyed location will have different lat/lon values under
-different datums, sometimes resulting in significant differences (> 100 meters in some
-cases).
+When there's a difference between datums, that's called _Datum shift_.
 
-_TODO: can we find a better image that shows differences between Earth, ellipsoid, and geoid?_
+Point out the different regions in the graphic. Illustrate how the different ellipsoids
+fit different areas of the bumpy Earth.
 :::
 
 
@@ -184,7 +175,7 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Merc
 :::
 
 :::{.column}
-![Tissot's Indicatrices on the Mercator projection (Wikimedia
+![Equal-area circles (Tissot's Indicatrices) on the Mercator projection (Wikimedia
 Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png){width="60%"}
 :::
 ::::::
@@ -192,9 +183,6 @@ Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_wit
 ::: {.notes}
 A projection is an algorithm (e.g., stereographic) and its parameters (e.g,
 lat/lon of origin, units, etc).
-
-[A PCS is a GCS with a map
-projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm).
 
 There are MANY map projections. Each has advantages and disadvantages depending
 on use-case and the part of the world being mapped.
@@ -210,6 +198,9 @@ on use-case and the part of the world being mapped.
 ::: {.notes}
 Website demonstrates many different projections with an interactive control to
 change the perspective. Note differences in where/how distortions are introduced!
+
+These maps slowly change their origin coordinates to produce the animation effect. Try
+clicking and dragging!
 :::
 
 
@@ -259,6 +250,9 @@ PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
 ```
 ::: {.notes}
 WKT is highly verbose and relatively readable to humans.
+
+Point out `DATUM` and `CONVERSION` (contains projection algorithm, `METHOD`, and
+parameters, `PARAMETER`).
 :::
 
 
@@ -269,7 +263,10 @@ WKT is highly verbose and relatively readable to humans.
 +proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
 ```
 ::: {.notes}
-Proj parameters encode CRS parameters as key-value pairs.
+Proj parameters encode CRS parameters as key-value pairs. As you can see, this is much
+more succinct than the `WKT` representation.
+
+You may have heard of `proj4`, which is just one version of "Proj".
 :::
 
 
@@ -281,9 +278,15 @@ Proj parameters encode CRS parameters as key-value pairs.
 EPSG:3413
 ```
 ::: {.notes}
-Extremely concise, EPSG maintains a registry of codes that map to CRS definitions in a standard database used by tools like `gdal`.
+EPSG is extremely concise. A registry of short-codes that map to full CRS definitions
+enables tools like QGIS to work with short, easy-to-remember values to represent
+Coordinate Reference Systems.
 
-Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
+This is not very human-readable (unless you're familiar with a specific code). This also
+relies on the correctness of the EPSG database, which is sometimes a problem.
+
+Note there are other standard representations as well, e.g., Geography Markup Language
+(GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
 
 
