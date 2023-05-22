@@ -37,6 +37,10 @@ We will start by introducing ourselves, the organizers of the workshop.
 * 🤝 Create a more collaborative/open work environment for researchers.
 * 🌐 Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
+:::{.notes}
+Note that red text are links ("built with open source tools" in this slide)
+:::
+
 
 # Communication
 
