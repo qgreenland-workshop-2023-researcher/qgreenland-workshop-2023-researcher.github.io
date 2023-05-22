@@ -266,7 +266,7 @@ parameters, `PARAMETER`).
 Proj parameters encode CRS parameters as key-value pairs. As you can see, this is much
 more succinct than the `WKT` representation.
 
-You may have heard of `proj4`, which is just one version of "Proj".
+You may have heard of `proj4`, which is one version of "Proj".
 :::
 
 
