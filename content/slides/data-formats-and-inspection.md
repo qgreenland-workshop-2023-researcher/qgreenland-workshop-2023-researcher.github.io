@@ -340,6 +340,7 @@ tools.
    QGIS.
 * Also utilized by many python-based geospatial libraries like `rasterio` and `shapely`.
 
+<!-- alex ignore simple -->
 * "OGR" used to stand for "OpenGIS Simple Features Reference Implementation" but
   is now the name is "OGR Simple Features Library". "OGR" is left for historical
   reasons. [OSGeo GDAL
