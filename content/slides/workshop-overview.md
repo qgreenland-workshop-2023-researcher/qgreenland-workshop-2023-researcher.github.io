@@ -149,7 +149,7 @@ See the [workshop schedule](/content/schedule.html) for a complete overview.
 ### Office hours
 
 Organizers will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
-to support continued learning. [Read more](materials.md#office-hours)!
+to support continued learning. [Read more](/content/materials.html#office-hours)!
 
 We strongly encourage participants to attend office hours, but it is not
 required!
