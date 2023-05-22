@@ -42,9 +42,9 @@ familiar with the JupyterLab interface.
 
 :::{.callout-note}
 Consider saving your own version of the project file (e.g.,
-`/home/jovian/qgis-data/qgreenland_personal.qgs`) so that you can make and save
-changes to e.g., layer order and symbology without overwriting the original
-project file.
+`/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/qgreenland_personal.qgs`) so
+that you can make and save changes to e.g., layer order and symbology without
+overwriting the original project file.
 :::
 
 

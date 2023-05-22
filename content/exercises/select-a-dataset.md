@@ -47,6 +47,12 @@ Do not take notes in Zoom chat; they will disappear.
 
 * Try to open your data in QGIS alongside QGreenland (`Layer` > `Add Layer`). Is that
   possible?
+
+::: {.callout-note}
+Remember that the QGreenland data package is available at
+`/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/` in CryoCloud.
+:::
+
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
     * Data type (raster, vector, etc.).
         * For rasters: is it categorical or continuous data? What are some of
