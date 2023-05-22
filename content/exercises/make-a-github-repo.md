@@ -19,18 +19,18 @@ We suggest someone who has never created a GitHub repository before.
 Create a new GitHub repository under the `qgreenland-workshop-2023-researcher`
 organization.
 
-Your repository should be named with convention: `team-{team_number}`. For
-example, if you team number is "one", your repository should be named `team-one`.
+Your repository should be named with convention: `group-{group-number}`. For
+example, if you group number is "one", your repository should be named `group-one`.
 
 
 ## 📂 Add some content
 
 * Add a `README.md` file:
-    * List your team members by name.
+    * List your group members by name.
     * Identify the dataset your group has chosen to explore.
     * Add your notes describing your dataset from the [Select a
       dataset](./select-a-dataset.md) exercise.
-* Add the notebook your team produced during the
+* Add the notebook your group produced during the
   [Data Inspection](./data-inspection-with-jupyterlab/index.md) exercise to
   your repository.
 * [Turn on GitHub
