@@ -5,9 +5,9 @@ index: 20
 background-image: "https://live.staticflickr.com/65535/50237698987_d346b23e9b_k.jpg"
 ---
 
-# Geospatial data
+# Geospatial data {.nostretch}
 
-![Vector vs Raster](https://pygis.io/_images/vector_vs_raster.jpg)
+![Vector vs Raster ([PyGIS](pygis.io))](https://pygis.io/_images/vector_vs_raster.jpg)
 
 ::: {.notes}
 Two main representations of geospatial data: vector and raster.
