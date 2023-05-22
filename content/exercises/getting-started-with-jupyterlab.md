@@ -18,6 +18,9 @@ Explore JupyterLab features.
 
 ![Jupyterhub server selection](/_media/jupyterhub_server_selection.png){width="70%"}
 
+* Run the setup script
+  * _TODO: finish setting this point up_
+
 
 ## Explore JupyterLab
 
@@ -34,14 +37,14 @@ familiar with the JupyterLab interface.
     ![Use default config](/_media/xfce_first_launch.png)
 
 * Open QGIS from the desktop icon.
-* Open QGreenland from `shared/QGreenland`.
+* Open QGreenland from `/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/`.
 * Explore QGreenland layers and turn on some layers.
 
 :::{.callout-note}
-The QGreenland project file and data are stored on the `shared/` directory and
-cannot be edited directly. Consider saving your own version of the project file
-to your home directory (e.g., `/home/jovian/qgreenland_personal.qgs`) so that
-you can make and save changes to e.g., layer order and symbology.
+Consider saving your own version of the project file (e.g.,
+`/home/jovian/qgis-data/qgreenland_personal.qgs`) so that you can make and save
+changes to e.g., layer order and symbology without overwriting the original
+project file.
 :::
 
 
