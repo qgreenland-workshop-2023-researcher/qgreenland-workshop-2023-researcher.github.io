@@ -50,6 +50,12 @@ ul ul, ol ol, ul ol, ol ul {
   position: absolute;
 }
 
+.slides-extra:before {
+  content: "➕";
+  left: 5px;
+  position: absolute;
+}
+
 .video:before {
   content: "🎥";
   font-family: var(--bs-body-font-family);

@@ -52,6 +52,10 @@
 [Slides (20 minutes)](slides/data-formats-and-inspection.md)
 :::
 
+::: {.module-resource .slides-extra}
+[Extra (more content to explore on your own time!)](slides/more-slides-on-data-formats.md)
+:::
+
 ::: {.module-resource .exercise}
 [Exercise: Data inspection with JupyterLab (35 minutes)](exercises/data-inspection-with-jupyterlab/index.md)
 :::

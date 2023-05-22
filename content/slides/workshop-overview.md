@@ -37,6 +37,10 @@ We will start by introducing ourselves, the organizers of the workshop.
 * 🤝 Create a more collaborative/open work environment for researchers.
 * 🌐 Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
+:::{.notes}
+Note that red text are links ("built with open source tools" in this slide)
+:::
+
 
 # Communication
 
@@ -97,9 +101,9 @@ Show a thread in the Slack interface.
 ## Zoom
 
 * Please try to use Slack instead of Zoom chat.
+    * If you have a question during a presentation, please post on Slack.
 * Please mute when you are not speaking to minimize background noise.
 * If you feel comfortable doing so, please turn your cameras on!
-* Ask questions on Slack.
 * We will use breakout rooms for group exercises / discussions.
 
 ## Zoom: recording
@@ -115,7 +119,7 @@ redistribute any recordings featuring the names or images of participants.
 * Actively work to hear all voices and perspectives
 * Be generous and collaborative
 
-*Contact any workshop administrator directly in Slack to report any concerns.*
+*Contact any workshop organizer directly in Slack to report any concerns.*
 
 View the [full Code of Conduct](/CODE_OF_CONDUCT.html)
 
@@ -128,7 +132,7 @@ behaviors in the "Our Standards" section.*
 :::
 
 
-{{< include /content/group-work-expectations.md >}}
+{{< include /content/group-work-expectations-summary.md >}}
 
 
 ## Workshop structure: Days 1-3
@@ -149,7 +153,7 @@ See the [workshop schedule](/content/schedule.html) for a complete overview.
 ### Office hours
 
 Organizers will be available on Zoom during the usual workshop hours (9:00-13:00 MDT)
-to support continued learning. [Read more](materials.md#office-hours)!
+to support continued learning. [Read more](/content/materials.html#office-hours)!
 
 We strongly encourage participants to attend office hours, but it is not
 required!

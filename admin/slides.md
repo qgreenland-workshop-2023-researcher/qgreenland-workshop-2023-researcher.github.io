@@ -11,3 +11,11 @@ index: 8
       vibe-check (look for people who are struggling)
 - [ ] At the end of each slide deck, presenter will review the exercises by screen sharing
       the webpage
+
+
+## Appearance
+
+- [ ] Use a browser other than Firefox for the prettiest slides experience (this is
+      *not* critical)
+- [ ] Ensure browser zoom is set to 100%
+- [ ] Use `F11` to display the slides in full screen
