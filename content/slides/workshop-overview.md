@@ -9,7 +9,7 @@ background-image: "https://live.staticflickr.com/65535/50268354463_60d684d945_k.
 
 :::::: {.columns}
 ::: {.column width="30%"}
-![Matt Fisher^1,2^ - [Software Developer](https://github.com/nsidc/)](https://qgreenland.org/files/styles/medium/public/2020-04/Matt_Fisher.jpg?itok=M_0tk6BC)
+![Matt Fisher^1,2^ - [Software Developer](https://github.com/nsidc/)](/_media/matt-portrait.png)
 :::
 ::: {.column width="30%"}
 ![Trey Stafford^1,2^ - [Software Developer](https://github.com/nsidc/)](https://qgreenland.org/files/styles/medium/public/2020-04/TreyStafford.jpg?itok=dEfhdcba)
