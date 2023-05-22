@@ -133,8 +133,10 @@ A model representation of the Earth serving as a reference for locating features
 * Differences between datums can be significant (> 100 meters in some cases).
 :::
 
+::: {.light-background}
 ![Global and regional ellipsoids (Wikimedia
 Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_Regional_Ellipsoids.svg/256px-Gloabl_and_Regional_Ellipsoids.svg.png)
+:::
 
 
 ::: {.notes}
