@@ -19,8 +19,8 @@ We suggest someone who has never created a GitHub repository before.
 Create a new GitHub repository under the `qgreenland-workshop-2023-researcher`
 organization.
 
-Your repository should be named with convention: `team-{team_name}`. For
-example, if you team name is "red", your repository should be named `team-red`.
+Your repository should be named with convention: `team-{team_number}`. For
+example, if you team number is "one", your repository should be named `team-one`.
 
 
 ## 📂 Add some content
