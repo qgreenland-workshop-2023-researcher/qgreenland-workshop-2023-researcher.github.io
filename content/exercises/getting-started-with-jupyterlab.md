@@ -50,7 +50,14 @@ overwriting the original project file.
 
 ## 🧪 Try out a Notebook
 
-* Run the example notebook from the "Intro to JupyterLab" discussion.
+* Run the example notebook from the [Intro to
+  JupyterLab](/content/slides/intro-to-jupyterlab.html) slides.
+    * Open the `demo.ipynb` notebook from your CryoCloud home directory
+      (`/home/jovian/demo.ipynb`) by double-clicking on it in the JupyterLab
+      File Browser.
+
+        ![](/_media/jupyterlab-demo-notebook-file-browser.png)
+
     * Click "Run -> Run all cells"
     * When complete, you should see a map with QGreenland highlighted in red.
 <!-- alex ignore color -->
