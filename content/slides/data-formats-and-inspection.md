@@ -212,7 +212,7 @@ Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 ::::::
 
 ::: {.notes}
-Two examples of vector data foramts. Microsoft excel formatted data is common
+Two examples of vector data formats. Microsoft excel formatted data is common
 but suffers from some drawbacks.
 
 Prefer something like `GeoJSON` instead, which is an adopted OGC standard and
@@ -336,7 +336,7 @@ We are going to focus on the [GDAL/OGR](https://gdal.org/) command-line
 tools.
 
 :::{.notes}
-*  GDAL/OGR underly many of the raster and vector data processing functions in
+*  GDAL/OGR underlie many of the raster and vector data processing functions in
    QGIS.
 * Also utilized by many python-based geospatial libraries like `rasterio` and `shapely`.
 
@@ -494,7 +494,7 @@ Band 1 Block=256x256 Type=Float32, ColorInterp=Gray
 ::: {.notes}
 Using `gdalinfo` to inspect the metadata in a GeoTiff.
 
-Hilighted information, in order:
+Highlighted information, in order:
 
 * Driver & associated files
 * Grid size, in "pixels"

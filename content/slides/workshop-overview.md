@@ -43,11 +43,11 @@ We will start by introducing ourselves, the organizers of the workshop.
 _All times in Mountain Daylight Time (UTC-6:00)!_
 
 * 🔎 Modules covering specific topics.
-    * 🖥️ Sidehshow presentation by the organizers
+    * 🖥️ Slideshow presentation by the organizers
     * 💪 Exercises
     * 💬 Discussions
 * 🪁 60 minute break each day at 11:00 MDT.
-* 🎁 5-minute end-of-day wrapup (12:55-13:00 MDT).
+* 🎁 5-minute end-of-day wrap-up (12:55-13:00 MDT).
 
 See the [workshop schedule](/content/schedule.html) for a complete overview.
 
@@ -59,7 +59,7 @@ Organizers will be available on Zoom during the usual workshop hours (9:00-13:00
 to support continued learning. [Read more](materials.md#office-hours)!
 
 We strongly encourage participants to attend office hours, but it is not
-requried!
+required!
 
 
 # Communication
