@@ -4,10 +4,6 @@
 All times in Mountain Daylight Time (UTC-6:00).
 :::
 
-::: {.callout-warning}
-This schedule is a work-in-progress and is subject to change!
-:::
-
 
 ### Day 1
 

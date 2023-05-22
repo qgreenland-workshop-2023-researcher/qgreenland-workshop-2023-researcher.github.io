@@ -47,7 +47,7 @@ survey](https://docs.google.com/forms/d/e/1FAIpQLScnphMXGvCk2_qWDLTTuKTJvEbIvGDx
 Requires a GitHub account first!
 
 Signing up for CryoCloud will trigger an approval process. This requires an
-administrator to add your GitHub user to CryoCloud. Please complete this step
+organizer to add your GitHub user to CryoCloud. Please complete this step
 before any of the following prerequisites!
 :::
 
