@@ -1,3 +1,7 @@
+---
+title: "Group work expectations"
+---
+
 {{< include group-work-expectations-summary.md >}}
 
 

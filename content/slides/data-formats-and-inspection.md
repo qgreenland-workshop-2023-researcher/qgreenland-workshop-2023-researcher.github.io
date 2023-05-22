@@ -15,7 +15,7 @@ In general, we suggest formats that:
 
 ::: {.notes}
 There are various data file formats for storing geospatial data and the
-selection of a format depends on use case and data type.
+selection of a format depends on use case and data type (raster vs vector).
 
 The best formats for storing geospatial data have been designed for this purpose.
 Some general-purpose formats like CSV may be okay, but not great.
@@ -28,18 +28,22 @@ formats](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
     * Check the "Licensing and patents" section to learn about openness of a format.
 
 * [Open Geospatial Consortium (OGC)-adopted standards](https://www.ogc.org/standards/)
-  * In these slides, 🌎 indicates an [OGC-adopted
-    standard](https://www.ogc.org/standards/).
+    * In these slides, 🌎 indicates an OGC-adopted standard.
+
+* For information on other formats not covered in the following slides, please see our
+  [extra slides](/content/slides/data-formats-and-inspection-extra.html).
+
 
 ::: {.notes}
-We are only going to cover a few examples of common data formats in these slides.
+The OGC is a consortium that represents a large number of private and public
+organizations (including USGS, NOAA, Esri, AWS)  with the goal to make geospatial data
+more "FAIR" (Findable, Accessible, Interoperable, and Reusable). More on this concept
+tomorrow!
 
-<!-- alex ignore desire -->
-From the [OGC website](https://www.ogc.org): "We represent over 500 businesses,
-government agencies, research organizations, and universities united with a desire to
-make location information FAIR – Findable, Accessible, Interoperable, and Reusable."
-Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
+We are only going to cover a few examples of common data formats in these slides. See
+our extra slides for more example formats.
 :::
+
 
 ## Vector data formats {.smaller}
 
@@ -52,6 +56,7 @@ Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 * Proprietary (.xls)
 ![Microsoft Excel 2010 © Microsoft Corporation](/_media/Excel_2010.png)
 :::
+
 :::{.column}
 #### [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml) 🌎 {.smaller}
 
@@ -212,8 +217,11 @@ Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 ::::::
 
 ::: {.notes}
-Two examples of vector data formats. Microsoft excel formatted data is common
-but suffers from some drawbacks.
+Two examples of vector data formats, one is less-suited for the task than the other. If
+you're looking for more examples, please find the "extra" slide deck for this module on
+the workshop website.
+
+Microsoft Excel formatted data is common but suffers from some drawbacks.
 
 Prefer something like `GeoJSON` instead, which is an adopted OGC standard and
 supports CRS metadata.
@@ -222,13 +230,9 @@ supports CRS metadata.
     * No support for data types: "[The display of stored numbers as integers or
       currency is through display format
       options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)"
-    * XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing) extension
-of XML.
-
-* GeoJSON:
-  * CRS defaults to `urn:ogc:def:crs:OGC::CRS84`. The only difference between
-    `CRS84` and `EPSG:4326` is that the coordinates are reversed order (`lon,
-    lat`).
+    * XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing)
+      extension of XML.
+    * Like CSV, has no standard metadata support.
 :::
 
 ## Raster data formats {.smaller}
@@ -361,6 +365,164 @@ Usage: gdalinfo [--help-general] [-json] [-mm] [-stats] [-hist] [-nogcp] [-nomd]
                 [-listmdd] [-mdd domain|`all`] [-wkt_format WKT1|WKT2|...]*
                 [-sd subdataset] [-oo NAME=VALUE]* datasetname
 ```
+
+## Learning more about CLI tools (`man`)
+
+If the `--help` output is not useful, try the "manual pages" with the `man`
+command.
+
+```{.default code-line-numbers="false"}
+man gdalinfo
+```
+
+```{.man style="height: 300px;"}
+gdalinfo(1)            General Commands Manual            gdalinfo(1)
+
+NAME
+       gdalinfoLists information about a raster dataset.
+
+SYNOPSIS
+       gdalinfo [--help-general] [-json] [-mm] [-stats] [-hist] [-nogcp] [-nomd]
+                [-norat] [-noct] [-nofl] [-checksum] [-proj4]
+                [-listmdd] [-mdd domain|`all`]* [-wkt_format WKT1|WKT2|...]
+                [-sd subdataset] [-oo NAME=VALUE]* datasetname
+
+DESCRIPTION
+       The gdalinfo program lists various information about a GDAL
+       supported raster dataset.
+
+       -json
+           Display the output in json format.
+
+       -mm
+           Force computation of the actual min/max values for each
+           band in the dataset.
+
+       -stats
+           Read and display image statistics. Force computation if no
+           statistics are stored in an image.
+
+       -approx_stats
+           Read and display image statistics. Force computation if no
+           statistics are stored in an image. However, they may be
+           computed based on overviews or a subset of all tiles.
+           Useful if you are in a hurry and don't want precise stats.
+
+       -hist
+           Report histogram information for all bands.
+
+       -nogcp
+           Suppress ground control points list printing. It may be
+           useful for datasets with huge amount of GCPs, such as L1B
+           AVHRR or HDF4 MODIS which contain thousands of them.
+
+       -nomd
+           Suppress metadata printing. Some datasets may contain a
+           lot of metadata strings.
+
+       -norat
+           Suppress printing of raster attribute table.
+
+       -noct
+           Suppress printing of color table.
+
+       -checksum
+           Force computation of the checksum for each band in the
+           dataset.
+
+       -listmdd
+           (GDAL >= 1.11) List all metadata domains available for the
+           dataset.
+
+       -mdd domain
+           Report metadata for the specified domain. Starting with
+           GDAL 1.11, 'all' can be used to report metadata in all
+           domains
+
+       -nofl
+           (GDAL >= 1.9.0) Only display the first file of the file
+           list.
+
+       -wkt_format WKT1/WKT2/...
+           (GDAL >= 3.0.0) WKT format used to display the SRS.
+           Currently supported values are: WKT1, WKT2 (latest WKT
+           version, currently WKT2_2018), WKT2_2015, WKT2_2018
+
+       -sd subdataset
+           (GDAL >= 1.9.0) If the input dataset contains several
+           subdatasets read and display a subdataset with specified
+           number (starting from 1). This is an alternative of giving
+           the full subdataset name.
+
+       -proj4
+           (GDAL >= 1.9.0) Report a PROJ.4 string corresponding to
+           the file's coordinate system.
+
+       -oo NAME=VALUE:
+           (starting with GDAL 2.0) Dataset open option (format
+           specific)
+
+       The gdalinfo will report all of the following (if known):
+
+       • The format driver used to access the file.
+       • Raster size (in pixels and lines).
+       • The coordinate system for the file (in OGC WKT).
+       • The geotransform associated with the file (rotational
+         coefficients are currently not reported).
+       • Corner coordinates in georeferenced, and if possible
+         lat/long based on the full geotransform (but not GCPs).
+       • Ground control points.
+       • File wide (including subdatasets) metadata.
+       • Band data types.
+       • Band color interpretations.
+       • Band block size.
+       • Band descriptions.
+       • Band min/max values (internally known and possibly
+         computed).
+       • Band checksum (if computation asked).
+       • Band NODATA value.
+       • Band overview resolutions available.
+       • Band unit type (i.e.. 'meters' or 'feet' for elevation
+         bands).
+       • Band pseudo-color tables.
+C API
+       Starting with GDAL 2.1, this utility is also callable from C
+       with GDALInfo().
+EXAMPLE
+       gdalinfo ~/openev/utm.tif
+       Driver: GTiff/GeoTIFF
+       Size is 512, 512
+       Coordinate System is:
+       PROJCS["NAD27 / UTM zone 11N",
+           GEOGCS["NAD27",
+               DATUM["North_American_Datum_1927",
+                   SPHEROID["Clarke 1866",6378206.4,294.978698213901]],
+               PRIMEM["Greenwich",0],
+               UNIT["degree",0.0174532925199433]],
+           PROJECTION["Transverse_Mercator"],
+           PARAMETER["latitude_of_origin",0],
+           PARAMETER["central_meridian",-117],
+           PARAMETER["scale_factor",0.9996],
+           PARAMETER["false_easting",500000],
+           PARAMETER["false_northing",0],
+           UNIT["metre",1]]
+       Origin = (440720.000000,3751320.000000)
+       Pixel Size = (60.000000,-60.000000)
+       Corner Coordinates:
+       Upper Left  (  440720.000, 3751320.000) (117d38'28.21"W, 33d54'8.47"N)
+       Lower Left  (  440720.000, 3720600.000) (117d38'20.79"W, 33d37'31.04"N)
+       Upper Right (  471440.000, 3751320.000) (117d18'32.07"W, 33d54'13.08"N)
+       Lower Right (  471440.000, 3720600.000) (117d18'28.50"W, 33d37'35.61"N)
+       Center      (  456080.000, 3735960.000) (117d28'27.39"W, 33d45'52.46"N)
+       Band 1 Block=512x16 Type=Byte, ColorInterp=Gray
+AUTHORS
+       Frank Warmerdam warmerdam@pobox.com, Silke Reimer
+       silke@intevation.de
+
+GDAL                       Sun Mar 29 2020                gdalinfo(1)
+```
+
+
 
 :::{.notes}
 If you still get stuck, check for official documentation pages online, forums
@@ -671,4 +833,4 @@ handle situations like this in an upcoming module.
 ## Additional resources
 
 More examples of common data formats and methods of inspecting data are in the
-[Additional slides: Geospatial Data Formats and Inspection](/content/slides/more-slides-on-data-formats.html).
+[Additional slides: Geospatial Data Formats and Inspection](/content/slides/data-formats-and-inspection-extra.html).

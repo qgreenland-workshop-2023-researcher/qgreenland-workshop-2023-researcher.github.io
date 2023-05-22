@@ -23,7 +23,8 @@ comfortable. We will come back to these notes later!
 Do not take notes in Zoom chat; they will disappear.
 :::
 
-* Try to open your data in QGIS. Is that possible?
+* Try to open your data in QGIS alongside QGreenland (`Layer` > `Add Layer`). Is that
+  possible?
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
     * Data type (raster, vector, etc.).
         * For rasters: is it categorical or continuous data? What are some of

@@ -132,6 +132,8 @@ behaviors in the "Our Standards" section.*
 :::
 
 
+## Group work expectations
+
 {{< include /content/group-work-expectations-summary.md >}}
 
 

@@ -5,20 +5,13 @@ index: 20
 background-image: "https://live.staticflickr.com/65535/50237698987_d346b23e9b_k.jpg"
 ---
 
-# Data
+# Geospatial data {.nostretch}
+
+![Vector vs Raster ([PyGIS](pygis.io))](https://pygis.io/_images/vector_vs_raster.jpg)
 
 ::: {.notes}
-Data is actual measurements.
-
-For example, at location (X, Y), the albedo is 39%.
+Two main representations of geospatial data: vector and raster.
 :::
-
-<!-- TODO: Raster vs Vector: Discuss object representation vs field
-representation. PyGIS.io has some really helpful graphics that may be
-permissively licensed.
-
-https://pygis.io/docs/c_features.html#object-vs-field
---> 
 
 
 ## Vector data
@@ -57,19 +50,31 @@ QGreenland](/_media/qgreenland_GEM-research-stations_attribute_table.png)
 ![Examples of topological spatial relations (Wikimedia
 Commons)](https://upload.wikimedia.org/wikipedia/commons/5/55/TopologicSpatialRelarions2.png)
 
-::: {.notes}
-_TODO: keep this slide here? Day 3? Or remove? This is more about analysis with
-vector features. Another thing to think about: vector validity (e.g.,
-non-self-crossing lines)?_
-:::
 
-
-## Raster data
-
-* Continuous: temperature, sea ice concentration, wind speed
-* Categorical: land cover, cloud type, storm category
+## Raster data {.smaller}
 
 ![RGB Raster Image (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Rgb-raster-image.svg)
+
+:::{.notes}
+The most ubiquitous form of raster data are RGB images! Rasters are arrays of
+values gridded in a regular way over an area of space.
+:::
+
+## Raster data: continuous and categorical
+
+::::: {.columns}
+:::{.column}
+Continuous: temperature, sea ice concentration, wind speed
+
+![Continuous data image](/_media/qgreenland_seaice_concentration_feb2015.png)
+:::
+
+:::{.column}
+Categorical: land cover, cloud type, storm category
+
+![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
+:::
+::::::
 
 :::{.notes}
 * Rasters can sometimes contain a mix of continuous and categorical data (a
@@ -77,44 +82,8 @@ non-self-crossing lines)?_
   "lake" flags).
 
 * The symbology of raster data may be categorical while the underlying data is
-  continuous (e.g., high/medium/low sea ice concentration).
-:::
-
-
-## Continuous raster data
-
-![Continuous data image](/_media/qgreenland_seaice_concentration_feb2015.png)
-
-
-## Categorical raster data
-
-![US Land Cover Classification](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/NLCD_2016_Landcover.jpg)
-
-
-## Raster data considerations
-
-* Interpolation
-    * Use "nearest neighbor" with categorical data, or there will be "smudging" between
-      categories.
-* Reprojection
-    * Reproject only once, if you have to. Data values in the output grid are
-      estimated from the input using an interpolation technique like 'nearest
-      neighbor' or 'bilinear', potentially resulting in a loss or transformation
-      of information in the input grid.
-* _TODO: What else?_
-* _TODO: consider moving this discussion to day 3? This is an operation that is more
-  aligned with the goal of preparing data for a specific use case._
-
-
-:::{.notes}
-Raster reprojection results in resampling of the input grid to a new, output
-grid (e.g., using interpolation techniques like 'nearest neighbor', 'bilinear',
-etc.). Data values stored in the original grid are transformed to accommodate the
-geometry and spatial positioning of the output grid.
-
-_TODO: consider incorporating this image of interpolation techniques (maybe crop to
-bottom half of image?)
-https://en.wikipedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg _
+  continuous (e.g., high/medium/low sea ice concentration). We will talk more
+  about symbology on day 3.
 :::
 
 
@@ -125,8 +94,6 @@ Data about data
 ::: {.notes}
 Metadata is "data about data", and is how standards-compliant data files
 "self-describe".
-
-For example, this data is in "North Polar Stereographic" projection.
 :::
 
 ## Geospatial metadata concepts
@@ -138,7 +105,7 @@ For example, this data is in "North Polar Stereographic" projection.
   * What units of measure is the feature recorded in?
   * "Missing/No Data" and other flags
 
-## Coordinate Reference System (CRS) information
+# Coordinate Reference System (CRS) information
 
 Includes all of the information necessary to accurately locate features on Earth.
 
@@ -146,37 +113,34 @@ Includes all of the information necessary to accurately locate features on Earth
 **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**
 :::
 
-::: {.notes}
-A coordinate reference system (CRS) / spatial reference system (SRS) includes
-the information necessary for accurately locating geospatial data on the Earth.
-:::
 
-## CRS: Geodetic Datums
+## Geodetic Datums
 
 ::: {.r-fit-text}
 A model representation of the Earth serving as a reference for locating features.
 
 * Often a spherical or ellipsoidal representation.
 * Horizontal and/or vertical.
-* `WGS84` is a common global datum, but many others (including locally best-fitting models).
+* `WGS84` is a common global datum, but many others exist (including locally
+  best-fitting models).
 * Differences between datums can be significant (> 100 meters in some cases).
 :::
 
+::: {.light-background}
 ![Global and regional ellipsoids (Wikimedia
 Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_Regional_Ellipsoids.svg/256px-Gloabl_and_Regional_Ellipsoids.svg.png)
-
-
-::: {.notes}
-_Datum shift_ is the difference in lat/lon of a location between different
-datums. E.g., a surveyed location will have different lat/lon values under
-different datums, sometimes resulting in significant differences (> 100 meters in some
-cases).
-
-_TODO: can we find a better image that shows differences between Earth, ellipsoid, and geoid?_
 :::
 
 
-## CRS: Geographic Coordinate System (GCS)
+::: {.notes}
+When there's a difference between datums, that's called _Datum shift_.
+
+Point out the different regions in the graphic. Illustrate how the different ellipsoids
+fit different areas of the bumpy Earth.
+:::
+
+
+## Geographic Coordinate System (GCS)
 
 Coordinate system that represents locations on the Earth in spherical
 coordinates of latitudes and longitudes.
@@ -193,7 +157,7 @@ planar coordinate system.
 :::
 
 
-## CRS: Projected Coordinate System (PCS)
+## Projected Coordinate System (PCS)
 
 ::: {.r-fit-text}
 Coordinate system that represents locations on the Earth in planar coordinates (X, Y).
@@ -203,45 +167,41 @@ Coordinate system that represents locations on the Earth in planar coordinates (
 * Projection results in one or more distortions: shape, area, distance, direction
 :::
 
-::: {#figs layout-ncol=2}
-![Comparison of tangent and secant forms of normal, oblique and transverse
-Mercator projections with standard parallels in red (Wikimedia
-Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Mercator_projections.svg)
+:::::: {.columns}
+:::{.column}
 
-![Tissot's Indicatrices on the Mercator projection (Wikimedia
-Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png)
+![Comparison of different forms of Mercator projections (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/b/b5/Comparison_of_Mercator_projections.svg){width="60%"}
 :::
 
+:::{.column}
+![Equal-area circles (Tissot's Indicatrices) on the Mercator projection (Wikimedia
+Commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg/1024px-Mercator_with_Tissot%27s_Indicatrices_of_Distortion.svg.png){width="60%"}
+:::
+::::::
 
 ::: {.notes}
 A projection is an algorithm (e.g., stereographic) and its parameters (e.g,
 lat/lon of origin, units, etc).
 
-[A PCS is a GCS with a map
-projection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm).
-
 There are MANY map projections. Each has advantages and disadvantages depending
 on use-case and the part of the world being mapped.
-
-* _TODO: how do size images so that they take up the remaining space?_
 :::
 
 
-## {background-iframe="https://www.jasondavies.com/maps/transition/" background-interactive="true"}
+## {.smaller}
+
+<iframe width="100%" height="80%" src="https://www.jasondavies.com/maps/transition/"></iframe>
+
+[https://www.jasondavies.com/maps/transition/](https://www.jasondavies.com/maps/transition/)
 
 ::: {.notes}
-Website demonstrates many different projections with an interactive control to change the perspective.
+Website demonstrates many different projections with an interactive control to
+change the perspective. Note differences in where/how distortions are introduced!
 
-You may have trouble advancing this slide. Try clicking in the title bar of the
-application or on the slide "page number" in the top-right. You should also be able to
-advance the deck from the speaker notes window.
+These maps slowly change their origin coordinates to produce the animation effect. Try
+clicking and dragging!
 :::
-
-
-## Projection characteristics
-
-_TODO: Add discussion about characteristics of common projections and why you might want
-to use one over another._
 
 
 ## Standard representations of CRS information
@@ -290,6 +250,9 @@ PROJCRS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",
 ```
 ::: {.notes}
 WKT is highly verbose and relatively readable to humans.
+
+Point out `DATUM` and `CONVERSION` (contains projection algorithm, `METHOD`, and
+parameters, `PARAMETER`).
 :::
 
 
@@ -300,7 +263,10 @@ WKT is highly verbose and relatively readable to humans.
 +proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
 ```
 ::: {.notes}
-Proj parameters encode CRS parameters as key-value pairs.
+Proj parameters encode CRS parameters as key-value pairs. As you can see, this is much
+more succinct than the `WKT` representation.
+
+You may have heard of `proj4`, which is one version of "Proj".
 :::
 
 
@@ -312,9 +278,15 @@ Proj parameters encode CRS parameters as key-value pairs.
 EPSG:3413
 ```
 ::: {.notes}
-Extremely concise, EPSG maintains a registry of codes that map to CRS definitions in a standard database used by tools like `gdal`.
+EPSG is extremely concise. A registry of short-codes that map to full CRS definitions
+enables tools like QGIS to work with short, easy-to-remember values to represent
+Coordinate Reference Systems.
 
-Note there are other standard representations as well, e.g., Geography Markup Language (GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
+This is not very human-readable (unless you're familiar with a specific code). This also
+relies on the correctness of the EPSG database, which is sometimes a problem.
+
+Note there are other standard representations as well, e.g., Geography Markup Language
+(GML). The three listed here (WKT, Proj, EPSG codes) are some of the most common.
 :::
 
 
