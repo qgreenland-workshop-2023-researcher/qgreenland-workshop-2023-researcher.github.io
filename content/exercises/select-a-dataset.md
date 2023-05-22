@@ -16,8 +16,8 @@ dataset at different times if it's more appropriate for a specific exercise.
 ## Upload data
 
 Upload data from your group's chosen dataset to JupyterHub. Note that some
-datasets may have many data files (e.g., one for each day over a
-time series). Choose just one or two to upload in this case.
+datasets may have many data files (e.g., one for each day over a time
+series). Choose one or two representative data files to upload in this case.
 
 ::: {.callout-warning}
 If your chosen data is >2GB in size, please consider a different dataset or
