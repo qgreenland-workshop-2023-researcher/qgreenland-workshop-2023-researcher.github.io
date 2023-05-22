@@ -26,12 +26,12 @@ CryoCloud.
 :::
 
 Use the JupyterHub File Browser interface to upload the data to
-`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}`.  For
+`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}`.  For
 example, if you group number is "one", your data should be uploaded to
 `/shared/public/QGreenland-Researcher-Workshop/group-one/`.
 
 ![Upload your data to
-`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}` using the
+`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}` using the
 "Upload Files" interface (indicated by red
 square)](/_media/file-browser-data-upload.png)
 
