@@ -50,8 +50,10 @@
 
 ::: {.module-resource .slides}
 [Slides (20 minutes)](slides/data-formats-and-inspection.md)
+:::
 
-* [Extra (more content to explore on your own time!)](slides/more-slides-on-data-formats.md)
+::: {.module-resource .slides-extra}
+[Extra (more content to explore on your own time!)](slides/more-slides-on-data-formats.md)
 :::
 
 ::: {.module-resource .exercise}
