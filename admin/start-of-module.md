@@ -6,13 +6,6 @@ index: 5
 - [ ] Link to module in Slack with `@channel` mention to notify everyone.
 
 
-## Slides
-
-- [ ] Use a browser other than Firefox for the prettiest slides experience (this is
-      *not* critical)
-- [ ] Ensure browser zoom is set to 100%
-
-
 ## Prep for breakout rooms
 
 - [ ] Set up the breakout rooms (Alyse is doing the first slide deck, so Matt / Trey /
