@@ -119,7 +119,7 @@ redistribute any recordings featuring the names or images of participants.
 * Actively work to hear all voices and perspectives
 * Be generous and collaborative
 
-*Contact any workshop administrator directly in Slack to report any concerns.*
+*Contact any workshop organizer directly in Slack to report any concerns.*
 
 View the [full Code of Conduct](/CODE_OF_CONDUCT.html)
 
