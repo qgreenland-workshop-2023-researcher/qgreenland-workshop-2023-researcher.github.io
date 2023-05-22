@@ -132,8 +132,6 @@ behaviors in the "Our Standards" section.*
 :::
 
 
-{{< include /content/group-work-expectations.md >}}
-
 
 ## Workshop structure: Days 1-3
 
