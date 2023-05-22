@@ -101,7 +101,7 @@ Show a thread in the Slack interface.
 ## Zoom
 
 * Please try to use Slack instead of Zoom chat.
-    * Ask questions on Slack.
+    * If you have a question during a presentation, please post on Slack.
 * Please mute when you are not speaking to minimize background noise.
 * If you feel comfortable doing so, please turn your cameras on!
 * We will use breakout rooms for group exercises / discussions.
