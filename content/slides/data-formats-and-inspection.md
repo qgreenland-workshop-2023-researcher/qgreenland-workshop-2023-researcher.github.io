@@ -828,4 +828,4 @@ handle situations like this in an upcoming module.
 ## Additional resources
 
 More examples of common data formats and methods of inspecting data are in the
-[Additional slides: Geospatial Data Formats and Inspection](/content/slides/more-slides-on-data-formats.html).
+[Additional slides: Geospatial Data Formats and Inspection](/content/slides/data-formats-and-inspection-extra.html).
