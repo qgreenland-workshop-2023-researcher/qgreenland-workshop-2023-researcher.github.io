@@ -15,7 +15,7 @@ In general, we suggest formats that:
 
 ::: {.notes}
 There are various data file formats for storing geospatial data and the
-selection of a format depends on use case and data type.
+selection of a format depends on use case and data type (raster vs vector).
 
 The best formats for storing geospatial data have been designed for this purpose.
 Some general-purpose formats like CSV may be okay, but not great.
@@ -28,18 +28,22 @@ formats](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
     * Check the "Licensing and patents" section to learn about openness of a format.
 
 * [Open Geospatial Consortium (OGC)-adopted standards](https://www.ogc.org/standards/)
-  * In these slides, 🌎 indicates an [OGC-adopted
-    standard](https://www.ogc.org/standards/).
+    * In these slides, 🌎 indicates an OGC-adopted standard.
+
+* For information on other formats not covered in the following slides, please see our
+  [extra slides](/content/slides/data-formats-and-inspection-extra.html).
+
 
 ::: {.notes}
-We are only going to cover a few examples of common data formats in these slides.
+The OGC is a consortium that represents a large number of private and public
+organizations (including USGS, NOAA, Esri, AWS)  with the goal to make geospatial data
+more "FAIR" (Findable, Accessible, Interoperable, and Reusable). More on this concept
+tomorrow!
 
-<!-- alex ignore desire -->
-From the [OGC website](https://www.ogc.org): "We represent over 500 businesses,
-government agencies, research organizations, and universities united with a desire to
-make location information FAIR – Findable, Accessible, Interoperable, and Reusable."
-Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
+We are only going to cover a few examples of common data formats in these slides. See
+our extra slides for more example formats.
 :::
+
 
 ## Vector data formats {.smaller}
 
@@ -52,6 +56,7 @@ Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 * Proprietary (.xls)
 ![Microsoft Excel 2010 © Microsoft Corporation](/_media/Excel_2010.png)
 :::
+
 :::{.column}
 #### [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml) 🌎 {.smaller}
 
@@ -212,8 +217,11 @@ Among those organizations represented are USGS, NOAA, ESA, AWS, and Esri.
 ::::::
 
 ::: {.notes}
-Two examples of vector data formats. Microsoft excel formatted data is common
-but suffers from some drawbacks.
+Two examples of vector data formats, one is less-suited for the task than the other. If
+you're looking for more examples, please find the "extra" slide deck for this module on
+the workshop website.
+
+Microsoft Excel formatted data is common but suffers from some drawbacks.
 
 Prefer something like `GeoJSON` instead, which is an adopted OGC standard and
 supports CRS metadata.
@@ -222,13 +230,9 @@ supports CRS metadata.
     * No support for data types: "[The display of stored numbers as integers or
       currency is through display format
       options.](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)"
-    * XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing) extension
-of XML.
-
-* GeoJSON:
-  * CRS defaults to `urn:ogc:def:crs:OGC::CRS84`. The only difference between
-    `CRS84` and `EPSG:4326` is that the coordinates are reversed order (`lon,
-    lat`).
+    * XLSX is an ["open"](https://en.wikipedia.org/wiki/Office_Open_XML#Licensing)
+      extension of XML.
+    * Like CSV, has no standard metadata support.
 :::
 
 ## Raster data formats {.smaller}
