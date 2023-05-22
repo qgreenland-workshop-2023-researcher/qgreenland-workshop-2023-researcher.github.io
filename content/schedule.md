@@ -13,7 +13,7 @@ This schedule is a work-in-progress and is subject to change!
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:40 | [Workshop overview and introductions](materials.md#day-1-overview) |
+| 09:00 - 09:40 | [Workshop overview and introductions](materials.md#workshop-overview) |
 | 09:40 - 10:30 | [Intro to JupyterLab](materials.md#intro-to-jupyterlab) |
 | 10:30 - 11:00 | [Review geospatial concepts and terms](materials.md#review-geospatial-concepts-and-terms) |
 | 11:00 - 12:00 | 🥙 **Break** |
@@ -27,7 +27,7 @@ This schedule is a work-in-progress and is subject to change!
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:15 | [Daily overview](materials.md#day-2-overview) |
+| 09:00 - 09:15 | Daily overview |
 | 09:15 - 10:15 | [Intro to GitHub](materials.md#intro-to-github) |
 | 10:15 - 11:00 | [Review Open Science (and data) principles](materials.md#review-open-science-and-data-principles) |
 | 11:00 - 12:00 | 🍜 **Break** |
@@ -41,7 +41,7 @@ This schedule is a work-in-progress and is subject to change!
 
 | Time          | Activity         |
 | :------------ | :--------------- |
-| 09:00 - 09:15 | [Daily overview](materials.md#day-3-overview) |
+| 09:00 - 09:15 | Daily overview |
 | 09:15 - 11:00 | [Geospatial data transformations and data cross-compatibility](materials.md#geospatial-data-transformations-and-data-cross-compatibility) |
 | 11:00 - 12:00 | 🌶️ **Break** |
 | 12:00 - 12:55 | [Symbolizing geospatial data in QGIS](materials.md#symbolizing-geospatial-data-in-qgis) |
