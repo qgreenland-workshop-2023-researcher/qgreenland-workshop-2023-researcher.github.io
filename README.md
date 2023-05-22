@@ -7,7 +7,7 @@ A workshop run by the QGreenland team targeting researchers as the primary audie
 [`quarto`](https://quarto.org/) is used to generate the [workshop
 website](https://qgreenland-workshop-2023-researcher.github.io/) from this
 repository via [GitHub Actions](.github/workflows/publish-to-quarto-website.yml)
-on pushes to the `main` branch.
+on pushes / merges to the `main` branch.
 
 
 ## Level of Support
