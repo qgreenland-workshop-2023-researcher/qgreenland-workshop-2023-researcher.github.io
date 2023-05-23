@@ -105,9 +105,14 @@ Metadata is "data about data", and is how standards-compliant data files
   * What units of measure is the feature recorded in?
   * "Missing/No Data" and other flags
 
-# Coordinate Reference System (CRS) information
+## Coordinate Reference System (CRS) information {.smaller}
 
 Includes all of the information necessary to accurately locate features on Earth.
+
+* Geodetic datum
+* Coordinate system
+  * Geographic (latitude/longitude)
+  * Projected (planar coordinates, usually in meters)
 
 ::: {.callout-note}
 **Coordinate Reference System (CRS)** == **Spatial Reference System (SRS)**
