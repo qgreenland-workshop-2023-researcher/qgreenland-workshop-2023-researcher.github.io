@@ -269,6 +269,13 @@ Also be sure to demonstrate how to create a new cell, change it's type
 
 <!-- alex ignore execution -->
 Note that execution order matters.
+
+Finally, demo the `sync.sh` script which moves some data to fast local storage
+(`qgis-data/`). Before running, execute `rm -rf ~/qgis-data/* && rm ~/demo.ipynb`.
+
+```
+/home/jovyan/shared/QGreenland/sync.sh
+```
 :::
 
 
