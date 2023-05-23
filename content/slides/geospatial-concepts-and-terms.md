@@ -304,3 +304,7 @@ Standards for metadata are often context-dependent. Some standards are developed
 for particular data formats, others are focused on certain scientific domains
 (e.g, Ecological Markup Language, EML).
 :::
+
+# Exercise
+
+💪 [Select a dataset](/content/exercises/select-a-dataset.html)

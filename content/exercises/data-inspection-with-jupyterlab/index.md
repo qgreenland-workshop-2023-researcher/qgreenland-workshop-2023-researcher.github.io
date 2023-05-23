@@ -14,6 +14,13 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
 ## 🔍 Inspect some data
 
 * Create a new Jupyter Notebook to inspect your group's chosen dataset.
+
+::: {.callout-note}
+Remember that you uploaded example data from your group's chosen dataset to
+`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}` in
+CryoCloud.
+:::
+
 * Use `ogrinfo`, `gdalinfo`, `ncdump -h`, `ncinfo`, `xarray`, or a tool of your
   choice in a Jupyter Notebook. Try some different methods. Find information
   like:

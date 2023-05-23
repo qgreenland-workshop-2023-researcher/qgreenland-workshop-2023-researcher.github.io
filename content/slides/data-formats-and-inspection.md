@@ -834,3 +834,8 @@ handle situations like this in an upcoming module.
 
 More examples of common data formats and methods of inspecting data are in the
 [Additional slides: Geospatial Data Formats and Inspection](/content/slides/data-formats-and-inspection-extra.html).
+
+# Exercise
+
+💪 [Data inspection with
+JupyterLab](/content/exercises/data-inspection-with-jupyterlab/index.html)

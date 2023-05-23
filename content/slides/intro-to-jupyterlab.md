@@ -303,3 +303,8 @@ Shut down your server at the end of each day to save on cloud costs.
 
 Any files you have created will remain next time you log in!
 :::
+
+# Exercise
+
+💪 [Getting started with
+JupyterLab](/content/exercises/getting-started-with-jupyterlab.html)
