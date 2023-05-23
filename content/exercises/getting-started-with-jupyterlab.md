@@ -19,7 +19,7 @@ Explore JupyterLab features.
 ![Jupyterhub server selection](/_media/jupyterhub_server_selection.png){width="70%"}
 
 * Run the sync script to setup your working environment for the workshop. Open a
-  Terminal in JupyterLab and run the follwing:
+  Terminal in JupyterLab and run the following:
 
     ```
     $ /home/jovyan/shared/QGreenland/sync.sh
