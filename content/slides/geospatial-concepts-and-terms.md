@@ -125,7 +125,6 @@ Includes all of the information necessary to accurately locate features on Earth
 A model representation of the Earth serving as a reference for locating features.
 
 * Often a spherical or ellipsoidal representation.
-* Horizontal and/or vertical.
 * `WGS84` is a common global datum, but many others exist (including locally
   best-fitting models).
 * Differences between datums can be significant (> 100 meters in some cases).
