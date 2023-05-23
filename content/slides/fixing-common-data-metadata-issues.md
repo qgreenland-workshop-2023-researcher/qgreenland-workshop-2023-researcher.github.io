@@ -5,21 +5,34 @@ index: 60
 background-image: "https://live.staticflickr.com/65535/50237921938_0e9dc8978a_k.jpg"
 ---
 
+## Common data/metadata issues?
+
+It's common for data to be missing metadata. We often see:
+
+* CRS information missing
+* Flag values (e.g. `NoData`) not set
+* In a format without metadata support
+
+It's also not uncommon for data or metadata to be incorrect or in conflict with the
+dataset's user guide. Fixing these issues requires thought and judgement calls.
+
+
 ## What tool should I use?
 
-The best one for the job.
+The best one for the job. Explore the alternatives available in the ecosystem you want
+to work!
 
-Explore the alternatives available in the ecosystem you want to work!
+* GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
+  in
+  comparison with other layers like a basemap.
+* Command-line tools are especially useful for getting a quick answer. 
+* Language-specific (e.g., Python) tools are good for automations or research
+  code.
 
 ::: {.notes}
 You may recognize this slide from the "data inspection" deck.
 
-Tool selection is context-dependent.
-
-Command-line tools are especially useful for getting a quick answer.
-
-Language-specific tools are good for automations or research code. These
-examples use Python because that is what we are most familiar with, but explore
+These examples use Python because that is what we are most familiar with, but explore
 your preferred ecosystem and you will find equivalents.
 :::
 
