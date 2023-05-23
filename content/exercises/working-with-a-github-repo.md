@@ -1,5 +1,5 @@
 ---
-title: "Make a GitHub repository"
+title: "Working with a GitHub repository"
 index: 50
 ---
 
@@ -11,19 +11,23 @@ page](https://book.cryointhecloud.com/how_tos/background/git.html?highlight=auth
 for details on using Git in CryoCloud.
 :::
 
-## ✨ Create repository for your group
+We have **pre-created GitHub repositories for each group**. The URL for your group's
+repository will be
+`https://github.com/qgreenland-workshop-2023-researcher/group-{your-group-number-spelled-out}`,
+e.g. `https://github.com/qgreenland-workshop-2023-researcher/group-two`. You can find
+all repositories
+[here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group).
 
-Pick a person in your group to "drive" a screen share and set up your group repository.
-We suggest someone who has never created a GitHub repository before.
-
-Create a new GitHub repository under the `qgreenland-workshop-2023-researcher`
-organization.
-
-Your repository should be named with convention: `group-{group-number}`. For
-example, if you group number is "one", your repository should be named `group-one`.
+Everyone in your group should have access to write to and administrate your repository. **If you have any
+issues with permissions, please contact an organizer!**
 
 
-## 📂 Add some content
+## 📂 Add some content to your team repository
+
+Pick a person in your group to "drive" a screen share
+(please review group roles [here](/content/group-work-expecations.md#group-roles)!). We
+suggest picking someone who has never used GitHub before, or who has never created a
+repository.
 
 * Add a `README.md` file:
     * List your group members by name.
@@ -38,10 +42,6 @@ example, if you group number is "one", your repository should be named `group-on
   for your group repository. Use this space for asynchronous discussions within your
   group during (or after!) the workshop.
 
-
-
-## ⏱️ Finished early?
-
 ### ✨ Create your personal profile repository
 
 If you have time after completing the group-work component of this exercise,
@@ -49,14 +49,26 @@ work as individuals to create your own personal profile repositories.
 
 Follow [GitHub's
 instructions](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme#adding-a-profile-readme)
-to create a profile repository with a profile README.
+to create a profile repository with a profile `README`.
 
 You may want to use your introductory post to [GitHub
 Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/introductions)
-to inspire the contents of this README.
+to inspire the contents of this `README`.
 
 When you are done, you should be able to navigate to `https://github.com/<your-username>`
 and see your new content displayed!
+
+
+## ⏱️ Finished early?
+
+### 🇿 Enhance your team's repository
+
+* If you have extra time, enable
+  [Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+  for archiving and generating DOIs for your repository!
+* If you still have more time, set up a [citation
+  file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
+  for your repository, listing all members of your group.
 
 
 ### 📚 Explore additional learning resources

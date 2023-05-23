@@ -333,3 +333,8 @@ makes useful suggestions on this page. A good first tag is `v0.1.0`.
       and
       [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
       to enable community involvement and awareness from the beginning.
+
+
+# Exercise
+
+💪 [Working with a GitHub repository](/content/exercises/working-with-a-github-repo.html)
