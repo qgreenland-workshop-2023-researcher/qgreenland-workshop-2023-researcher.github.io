@@ -24,6 +24,11 @@ issues with permissions, please contact an organizer!**
 
 ## 📂 Add some content to your team repository
 
+Pick a person in your group to "drive" a screen share
+(please review group roles [here](/content/group-work-expecations.md#group-roles)!). We
+suggest picking someone who has never used GitHub before, or who has never created a
+repository.
+
 * Add a `README.md` file:
     * List your group members by name.
     * Identify the dataset your group has chosen to explore.
