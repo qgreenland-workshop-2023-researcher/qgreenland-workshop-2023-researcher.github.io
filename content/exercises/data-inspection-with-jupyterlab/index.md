@@ -17,7 +17,7 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
 
 ::: {.callout-note}
 Remember that you uploaded example data from your group's chosen dataset to
-`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}` in
+`/home/jovyan/shared-public/QGreenland-Researcher-Workshop/group-{your-group-number}` in
 CryoCloud.
 :::
 
