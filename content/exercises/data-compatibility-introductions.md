@@ -16,9 +16,9 @@ your dataset to the other team. Make sure you mention:
 
 Please reference or demonstrate the exploratory notebook you created in the
 [Data inspection with
-JupyterLab](exercises/data-inspection-with-jupyterlab/index.md) exercise and any
+JupyterLab](./data-inspection-with-jupyterlab/index.md) exercise and any
 changes to the data/metadata you made in the [Fix data/metadata
-issues](exercises/fix-data-metadata-issues.md) exercise when introducing your
+issues](./fix-data-metadata-issues.md) exercise when introducing your
 dataset.
 
 Take notes about the other team's dataset; you will need them soon!

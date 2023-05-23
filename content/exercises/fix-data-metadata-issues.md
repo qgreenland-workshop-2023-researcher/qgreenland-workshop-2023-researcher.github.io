@@ -11,7 +11,7 @@ Pick someone to "drive" with a screen share. Please rotate this responsibility!
 ## ❤️‍🩹 Resolve any data/metadata issues with your group's dataset
 
 Review the information you gathered in the [Data inspection with
-JupyterLab](exercises/data-inspection-with-jupyterlab/index.md)
+JupyterLab](./data-inspection-with-jupyterlab/index.md)
 exercise. Develop a Jupyter Notebook to fix any issues that you discovered.
 
 Consider:

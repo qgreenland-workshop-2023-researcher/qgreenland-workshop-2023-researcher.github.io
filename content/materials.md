@@ -53,7 +53,7 @@
 :::
 
 ::: {.module-resource .slides-extra}
-[Extra (more content to explore on your own time!)](slides/more-slides-on-data-formats.md)
+[Extra (more content to explore on your own time!)](slides/data-formats-and-inspection-extra.md)
 :::
 
 ::: {.module-resource .exercise}
