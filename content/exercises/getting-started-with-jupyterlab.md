@@ -22,7 +22,7 @@ Explore JupyterLab features.
   Terminal in JupyterLab and run the following:
 
     ```
-    $ /home/jovyan/shared/QGreenland/sync.sh
+    /home/jovyan/shared/QGreenland/sync.sh
     ```
 
     ![Run the `sync.sh` script](/_media/run-sync-script.png)
