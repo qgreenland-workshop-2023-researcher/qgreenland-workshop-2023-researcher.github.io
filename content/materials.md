@@ -111,6 +111,10 @@ Discussion (10 minutes)
 [Slides (20 minutes)](slides/fixing-common-data-metadata-issues.md)
 :::
 
+::: {.module-resource .slides-extra}
+[Extra (more content to explore on your own time!)](slides/fixing-common-data-metadata-issues-extra.md)
+:::
+
 ::: {.module-resource .exercise}
 [Exercise: Fix data/metadata issues (30 minutes)](exercises/fix-data-metadata-issues.md)
 :::
