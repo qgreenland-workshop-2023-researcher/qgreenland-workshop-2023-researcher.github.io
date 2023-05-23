@@ -65,7 +65,7 @@ and see your new content displayed!
 
 * If you have extra time, enable
   [Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
-  for archiving and generating DOIs for your repo!
+  for archiving and generating DOIs for your repository!
 * If you still have more time, set up a [citation
   file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
   for your repository, listing all members of your group.
