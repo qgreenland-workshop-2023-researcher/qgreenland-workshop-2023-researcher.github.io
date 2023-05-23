@@ -269,6 +269,16 @@ Also be sure to demonstrate how to create a new cell, change it's type
 
 <!-- alex ignore execution -->
 Note that execution order matters.
+
+Finally, demo the `sync.sh` script which moves some data to fast local storage
+(`qgis-data/`). Before running, do `rm -rf ~/qgis-data/* && rm ~/demo.ipynb`.
+This step is important; without it, opening QGreenland could take multiple minutes. The
+`qgis-data` directory is where you should store any data if speed matters. E.g. if you
+have a 1GB dataset, it'll be very important that it lives in fast storage!
+
+```
+/home/jovyan/shared/QGreenland/sync.sh
+```
 :::
 
 

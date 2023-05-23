@@ -13,6 +13,8 @@ index: -99
 - [x] Pre-populate the "Dataset Ideas" section of GH Discussions with multiple posts,
       each detailing one "fallback" dataset for groups that have trouble picking one.
 - [x] Create a space for daily run-of-show documents (e.g. Google Docs)
+- [x] symlink / copy setup/sync script from repository location to
+      `/home/jovian/shared-readwrite/QGreenland/sync.sh`)
 
 
 ## Zoom setup

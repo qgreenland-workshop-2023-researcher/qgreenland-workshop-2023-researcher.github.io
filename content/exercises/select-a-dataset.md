@@ -26,12 +26,12 @@ CryoCloud.
 :::
 
 Use the JupyterHub File Browser interface to upload the data to
-`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}`.  For
+`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}`.  For
 example, if you group number is "one", your data should be uploaded to
 `/shared/public/QGreenland-Researcher-Workshop/group-one/`.
 
 ![Upload your data to
-`/shared/public/QGreenland-Researcher-Workshop/{your-group-number}` using the
+`/shared/public/QGreenland-Researcher-Workshop/group-{your-group-number}` using the
 "Upload Files" interface (indicated by red
 square)](/_media/file-browser-data-upload.png)
 
@@ -47,6 +47,12 @@ Do not take notes in Zoom chat; they will disappear.
 
 * Try to open your data in QGIS alongside QGreenland (`Layer` > `Add Layer`). Is that
   possible?
+
+::: {.callout-note}
+Remember that the QGreenland data package is available at
+`/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/` in CryoCloud.
+:::
+
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)
     * Data type (raster, vector, etc.).
         * For rasters: is it categorical or continuous data? What are some of
