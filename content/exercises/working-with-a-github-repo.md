@@ -16,7 +16,7 @@ repository will be
 `https://github.com/qgreenland-workshop-2023-researcher/group-{your-group-number-spelled-out}`,
 e.g. `https://github.com/qgreenland-workshop-2023-researcher/group-two`. You can find
 all repositories
-[here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories).
+[here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group).
 
 Everyone in your group should have access to write to and administrate your repository. **If you have any
 issues with permissions, please contact an organizer!**
