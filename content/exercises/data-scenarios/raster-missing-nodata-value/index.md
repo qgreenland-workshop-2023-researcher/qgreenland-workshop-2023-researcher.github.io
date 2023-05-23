@@ -30,7 +30,7 @@ important phrase at the top of page 4:
 >DEM values of -0.1 m represent ocean
 
 Since you don't need this dataset to represent ocean locations (and it covers up your
-basemap), you decide you'd like to encode this ocean value in the metadata as a NoData
+basemap), you decide you would like to encode this ocean value in the metadata as a NoData
 value.
 
 
