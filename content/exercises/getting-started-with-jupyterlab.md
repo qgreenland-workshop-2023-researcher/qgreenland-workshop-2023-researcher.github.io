@@ -18,8 +18,8 @@ Explore JupyterLab features.
 
 ![Jupyterhub server selection](/_media/jupyterhub_server_selection.png){width="70%"}
 
-* Run the setup script
-  * _TODO: finish setting this point up_
+* Run the sync script at `/home/jovian/shared-readwrite/QGreenland/sync.sh` to
+  setup your working environment for the workshop.
 
 
 ## Explore JupyterLab
