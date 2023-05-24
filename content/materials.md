@@ -75,7 +75,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Make a GitHub repository (40 minutes)](exercises/make-a-github-repo.md)
+[Exercise: Working with a GitHub repository (40 minutes)](exercises/working-with-a-github-repo.md)
 :::
 ::::::
 
