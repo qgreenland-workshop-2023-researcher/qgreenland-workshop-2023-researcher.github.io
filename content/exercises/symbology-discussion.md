@@ -6,8 +6,9 @@ index: 91
 ## 💬 Discuss symbology choices
 
 You will be paired with the same team as in the [Data compatibility introduction
-exercise](./data-compatibility-introductions.md). Take turns showing the
-other team your symbology choices and explain why you made the choices you did.
+discussion](./data-compatibility-introductions.md). Take turns showing the other team
+your symbology choices and explain why you made the choices you did.
+
 
 ## ⏱️ Finished early?
 
