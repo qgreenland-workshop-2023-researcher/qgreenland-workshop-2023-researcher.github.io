@@ -1,5 +1,5 @@
 ---
-title: "Symbolizing datasets together: discussion"
+title: "Discussion on symbology choices"
 index: 91
 ---
 

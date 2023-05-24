@@ -14,20 +14,23 @@ to understanding data! Consider:
 
 * Does your colormap look uniform across your values?
 * Do your symbology choices unintentionally exclude any users, for example people with
-  Color Vision Deficiency (CVD), a.k.a. colorblindness?
+  Color Vision Deficiency (CVD), a.k.a. "colorblindness"?
 * What, aside from your data, will be in your visualization?
     * Basemap?
     * Other data elements?
 
 ::: {.notes}
 * "Perceptual uniformity" is important for even users with perfect sight. The "Jet"
-  colormap suffers
-* Look for colormaps that are friendly to all forms of color deficiency
+  colormap suffers from poor perceptual uniformity, and that creates features in the
+  data where there are none, or hides features that would otherwise be seen.
+* There are many types of Color Vision Deficiency. Look for colormaps that are friendly
+  to all forms of CVD.
 * Ensure contrast with your basemap: A light basemap requires a colormap with saturated
   (colorful) light values, and a dark basemap requires a colormap with saturated dark
   values.
 * Ensure contrast with your other data elements. Red dots representing ice core
-  locations will not show up well over temperature data displayed with the `heat` colormap.
+  locations will not show up well over temperature data displayed with the `heat`
+  colormap, which is also red.
 :::
 
 
@@ -48,9 +51,10 @@ Jet and Rainbow are common, but "lie" about your data.
 ::: {.column width="34%"}
 ![Jet](/_media/cmap_jet.png)
 
-![Turbo, a Google alternative to Jet](/_media/cmap_turbo.png)
+![Turbo, a [Google alternative to
+Jet](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)](/_media/cmap_turbo.png)
 
-![Viridis](/_media/cmap_viridis.png)
+![[Viridis](https://bids.github.io/colormap/)](/_media/cmap_viridis.png)
 :::
 
 ::: {.column width="33%"}
@@ -77,11 +81,18 @@ derivative).
 
 Jet's lack of uniformity creates false features and hides real features in your data.
 
-Turbo is slightly better, but not completely perceptually uniform.
+Turbo was developed by Google to replace Jet/Rainbow. It is slightly better, but not
+perceptually uniform.
 
-Viridis is completely perceptually uniform and CVD-friendly.
+Viridis is perceptually uniform and CVD-friendly, and was developed for the `matplotlib`
+project by Stéfan van der Walt and Nathaniel Smith (they created `viscm` [for this
+purpose](https://bids.github.io/colormap/)).
 
-Note that `viscm` is currently broken but we expect a fix soon!
+*Presenter clicks the "Viridis" link (or the "for this purpose" link) and recommends
+reading the blog post by Stéfan and Nathaniel.*
+
+Note that `viscm` is currently broken but I've become a project maintainer and am hoping
+to release a fixed version in coming weeks.
 :::
 
 
@@ -109,8 +120,10 @@ Any of these sites are good places to start looking for the right colormap for y
 visualization.
 
 ColorBrewer colormaps are research-based, of high quality, largely CVD-safe, but are
-built for a specific purpose. They have low saturation in their light colors and high
-saturation in their dark colors, so they're not well-suited for use on a light basemap.
+built for a specific purpose: [choropleth
+maps](https://en.wikipedia.org/wiki/Choropleth_map). They have low saturation in their
+light colors and high saturation in their dark colors, so they're not well-suited for
+use on a light basemap.
 
 Reminder: CVD stands for Color Vision Deficiency!
 :::
@@ -126,12 +139,15 @@ built in, others need to be installed.
 
 *Settings > Style Manager > "+" button > Catalog: cpt-city*
 
-_TODO: add a highlight around the correct "+" button!_
 ![Add a style](/_media/qgis_style_manager_plus.png)
 
 ::: {.notes}
 Follow these same steps but select the ColorBrewer catalog if you prefer those
 colormaps.
+
+If you prefer to browse colormaps on the cpt-city website, you can use the "SVG2ColoR"
+QGIS plugin mentioned on a previous slide to load their colormap SVG files in to QGIS as
+color ramps.
 :::
 
 
@@ -140,6 +156,13 @@ colormaps.
 *List styles by author, then select `cmocean`*
 
 ![Adding "deep" colormap](/_media/qgis_style_catalog_deep.png)
+
+::: {.notes}
+Once the colormap is added, you'll be able to find it when selecting a "color ramp" in
+the layer symbology editor.
+
+There are other ways to access these colormaps in the QGIS interface.
+:::
 
 
 # Vector symbology
@@ -155,7 +178,7 @@ some other unique concerns.
 * Markers: color, shape, size
 * Lines: color, thickness, pattern
 * Fill: color, pattern
-* Grouping: physical proximity
+* Clustering: physical proximity
 :::
 
 ::: {.column width="50%"}
@@ -163,6 +186,15 @@ some other unique concerns.
 that may have restricted access](/_media/bird_protected_areas_symbology.png)
 :::
 ::::::
+
+::: {.notes}
+Line pattern could include dashed, dotted.
+
+"Clustering" can be accessed with the "Point Cluster" vector symbology type.
+
+*Presenter reads the image caption.*
+:::
+
 
 ## Symbolizing attributes
 
@@ -176,9 +208,21 @@ that may have restricted access](/_media/bird_protected_areas_symbology.png)
 
 ::: {.column width="50%"}
 ![The Earthquakes layer uses size and color to indicate
-magnitude.](/_media/earthquakes_symbology.png)
+magnitude.](/_media/earthquakes_symbology.png){height=500}
 :::
 ::::::
+
+::: {.notes}
+* Labels: Previous slide for example, the name of the place is an "attribute" in the
+  vector data.
+* Marker size: In the image, larger points indicate larger earthquakes.
+* Color: In the image, darker red points also indicate larger earthquakes.
+* Scale-dependent rendering enables you, for example, to hide labels when zoomed out too
+  far (where the text might overlap).
+
+QGIS symbology features are deep, and the documentation is very good. Please use the
+exercise time to explore!
+:::
 
 <!-- alex enable color colors -->
 
@@ -205,12 +249,11 @@ similar.](/_media/save_layer_style.png){width="65%"}
 Choose which categories you want to save to the style in the "Save Layer Style"
 interface. If you only want to share symbology, uncheck everything
 else. However, it is often helpful to share additional properties (e.g.,
-`Labels`, which is a component of how data is visualized!) too!
+`Labels`, which are also an important component of how data is visualized).
 :::
 
 
 ## Exporting QGIS layer definition
-
 
 QGIS supports importing and exporting a layer's definition (symbology and
 pointer to the data ) as
@@ -230,3 +273,16 @@ select "Export > Save as Layer Definition File".
 
 Style files (QML) can also be exported this way ("Export > Save as QGIS Layer Style File").
 :::
+
+
+## Exercises
+
+
+### 💪 [Exercise: Symbolizing datasets together](/content/exercises/symbology.html)
+
+20 minutes
+
+
+### 💬 [Discussion: On symbology decisions](/content/exercises/symbology-discussion.html)
+
+20 minutes
