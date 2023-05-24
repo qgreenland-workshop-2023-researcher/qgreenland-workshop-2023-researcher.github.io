@@ -96,19 +96,19 @@ to release a fixed version in coming weeks.
 :::
 
 
-## Good places to start
+## Good places to start {.smaller}
 
 * [cpt-city](http://soliton.vm.bytemark.co.uk/pub/cpt-city/): A website with lots of
   colormaps, some better than others.
 * [SVG2ColoR](https://cbsuygulama.wordpress.com/2014/06/26/svg2color-qgis-color-ramp-plugin/):
   A plugin available from the official QGIS plugin repository for loading SVG
   styles from various sources (e.g., `cpt-city`).
+* [cmocean](https://matplotlib.org/cmocean/): All perceptually uniform, some
+  CVD-friendly.
 * [Colorcet](https://colorcet.com/): All perceptually uniform,
   [some](https://peterkovesi.com/papers/ColourMapsForColourBlindIAMG2017.pdf)
   CVD-first.
 * [ColorBrewer](https://colorbrewer2.org): All perceptually uniform, most 
-  CVD-friendly.
-* [cmocean](https://matplotlib.org/cmocean/): All perceptually uniform, some
   CVD-friendly.
 * [CMasher](https://cmasher.readthedocs.io/user/introduction.html#colormap-overview):
   All perceptually uniform, some CVD-friendly.
@@ -124,6 +124,8 @@ built for a specific purpose: [choropleth
 maps](https://en.wikipedia.org/wiki/Choropleth_map). They have low saturation in their
 light colors and high saturation in their dark colors, so they're not well-suited for
 use on a light basemap.
+
+My current favorite set of colormaps is `cmocean` by Kristen Thyng and others.
 
 Reminder: CVD stands for Color Vision Deficiency!
 :::
