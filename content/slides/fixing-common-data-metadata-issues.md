@@ -37,6 +37,16 @@ your preferred ecosystem and you will find equivalents.
 :::
 
 
+## GDAL/OGR drivers
+
+* [Vector drivers](https://gdal.org/drivers/vector/index.html)
+* [Raster drivers](https://gdal.org/drivers/raster/index.html)
+
+
+It's worth looking at the list of drivers for your datatype and reading the
+documentation. We'll revisit this in a later slide.
+
+
 ## Data scenario: Raster missing geospatial metadata
 
 [View the full scenario](/content/exercises/data-scenarios/raster-missing-geospatial-metadata)
@@ -265,6 +275,10 @@ ogr2ogr \
 ::::::
 
 :::{.notes}
+We chose to use the OGR VRT driver after reading the docs for the [XLSX
+driver](https://gdal.org/drivers/vector/xlsx.html#vector-xlsx) and seeing "No geometry
+support is available directly (but you may use the OGR VRT capabilities for that)".
+
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
 ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc. Note that the VRT file
 has the same filename as the data, enabling our tool to autodetect it.
