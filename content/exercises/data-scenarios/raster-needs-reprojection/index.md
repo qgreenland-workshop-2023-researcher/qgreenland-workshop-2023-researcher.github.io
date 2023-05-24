@@ -33,8 +33,3 @@ and the range of elevation values across the ice sheet should closely resemble
 those in the original data file. Be on the lookout for abnormal data values
 along the edges of Greenland - it may mean you have not properly handled the
 dataset's NoData value!
-
-
-### Troubleshooting
-
-_TODO_
