@@ -13,6 +13,10 @@ listing:
 :::{#file-listing}
 :::
 
+:::{.callout-note}
+You can find this scenario in
+`/home/jovyan/qgis-data/workshop-materials/content/exercises/data-scenarios/raster-needs-reprojection/`
+:::
 
 Your team needs a DEM of Greenland for a global analysis processing pipeline
 that requires a WGS-84 geographic projection (`EPSG:4326`). Your team selected
