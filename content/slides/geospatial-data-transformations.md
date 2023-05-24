@@ -133,13 +133,6 @@ Weird things happen at the edges!
 
 ![A "seam" along 180 degrees longitude in QGreenland's Natural Earth basemap](/_media/qgreenland_ne_reprojection_seam.png)
 
-<!-- TODO:
-* Consider manufacturing an example, e.g. make a raster with 3x3 grid, then calculate a
-  polygon matching the shape of each pixel in that grid. Finally, reproject both: This
-  will show how the edges of the old pixels don't match the edges of the new pixels.
-* Consider how we could visualize vector geometry invalidating during reproject.
---->
-
 ::: {.notes}
 <!-- alex ignore invalid -->
 * Vector geometry can become invalid after reprojection. Imagine a shape in
