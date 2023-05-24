@@ -17,7 +17,7 @@ Topics to consider:
 * 💽 Your chosen datasets: Discuss how one or more of the datasets your group
   members has chosen relate/conform to FAIR/CARE principles.
 
-## Post notes in GitHub Discussions
+## ✉️ Post notes in GitHub Discussions
 
 Post your group's notes in [GitHub
 Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/new?category=fair-care).
