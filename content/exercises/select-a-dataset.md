@@ -50,7 +50,7 @@ Do not take notes in Zoom chat; they will disappear.
 
 ::: {.callout-note}
 Remember that the QGreenland data package is available at
-`/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/` in CryoCloud.
+`/home/jovyan/qgis-data/QGreenland_v3.0.0alpha2/` in CryoCloud.
 :::
 
 * Identify key attributes of the data/metadata ("Unknown" is an expected answer)

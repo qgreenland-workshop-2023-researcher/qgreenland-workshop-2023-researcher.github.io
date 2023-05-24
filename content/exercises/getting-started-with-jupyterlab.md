@@ -43,12 +43,12 @@ familiar with the JupyterLab interface.
     ![Use default config](/_media/xfce_first_launch.png)
 
 * Open QGIS from the desktop icon.
-* Open QGreenland from `/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/`.
+* Open QGreenland from `/home/jovyan/qgis-data/QGreenland_v3.0.0alpha2/`.
 * Explore QGreenland layers and turn on some layers.
 
 :::{.callout-note}
 Consider saving your own version of the project file (e.g.,
-`/home/jovian/qgis-data/QGreenland_v3.0.0alpha2/qgreenland_personal.qgs`) so
+`/home/jovyan/qgis-data/QGreenland_v3.0.0alpha2/qgreenland_personal.qgs`) so
 that you can make and save changes to e.g., layer order and symbology without
 overwriting the original project file.
 :::
@@ -59,7 +59,7 @@ overwriting the original project file.
 * Run the example notebook from the [Intro to
   JupyterLab](/content/slides/intro-to-jupyterlab.html) slides.
     * Open the `demo.ipynb` notebook from your CryoCloud home directory
-      (`/home/jovian/demo.ipynb`) by double-clicking on it in the JupyterLab
+      (`/home/jovyan/demo.ipynb`) by double-clicking on it in the JupyterLab
       File Browser.
 
         ![](/_media/jupyterlab-demo-notebook-file-browser.png)
