@@ -268,7 +268,7 @@ are now wrong. Demo how to fix that?
 
 ## Data scenario: Raster needs reprojection
 
-[Link](/content/exercises/data-scenarios/raster-needs-reprojection)
+[View the full scenario](/content/exercises/data-scenarios/raster-needs-reprojection)
 
 Review solution at
 `content/exercises/data-scenarios/raster-needs-reprojection/solutions`.
