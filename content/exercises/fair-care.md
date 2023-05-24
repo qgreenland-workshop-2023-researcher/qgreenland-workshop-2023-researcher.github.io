@@ -13,8 +13,8 @@ larger group discussion?
 
 Topics to consider:
 
-* 🤗 FAIR & CARE & me: how do FAIR & CARE principles relate to your research or goals.
-* 💽 Your chosen datasets: Discuss how one or more of the datasets your group
+* 🤗 **FAIR & CARE & me**: how do FAIR & CARE principles relate to your research or goals.
+* 💽 **Your chosen datasets**: Discuss how one or more of the datasets your group
   members has chosen relate/conform to FAIR/CARE principles.
 
 ## ✉️ Post notes in GitHub Discussions
