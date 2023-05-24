@@ -14,7 +14,7 @@ It's common for data to be missing metadata. We often see:
 * In a format without metadata support
 
 It's also not uncommon for data or metadata to be incorrect or in conflict with the
-dataset's user guide. Fixing these issues requires thought and judgement calls.
+dataset's user guide. Fixing these issues requires thought and judgment calls.
 
 
 ## What tool should I use?
@@ -281,9 +281,9 @@ support is available directly (but you may use the OGR VRT capabilities for that
 
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
 ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc. Note that the VRT file
-has the same filename as the data, enabling our tool to autodetect it.
+has the same file name as the data, enabling our tool to auto-detect it.
 
-Note the `EPSG` code, the name of the sheet containing the data, and the data filename
+Note the `EPSG` code, the name of the sheet containing the data, and the data file name
 are encoded in the VRT. Also note the `<GeometryField>` tag contains the column names of
 the X and Y fields.
 
