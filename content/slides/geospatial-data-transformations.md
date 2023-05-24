@@ -29,7 +29,7 @@ they underlie many other tools like QGIS.
 
 It's important that different datasets are compatible with each-other prior to analysis.
 
-* All datasets should be in the same projection and datum
+* All datasets should be in the same CRS (datum and projection)
 * Rasters should be "co-registered": matching grids
 * Understand your transformations! Some can be "lossy"
 * Optional: Don't keep data you don't need
