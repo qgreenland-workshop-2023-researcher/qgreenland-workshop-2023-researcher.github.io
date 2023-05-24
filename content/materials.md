@@ -88,7 +88,7 @@
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: FAIR & CARE data principles discussion (30 minutes)](exercises/fair-care.md)
+[Exercise: FAIR & CARE data principles discussion (20 minutes)](exercises/fair-care.md)
 :::
 ::::::
 
@@ -116,7 +116,7 @@ Discussion (10 minutes)
 :::
 
 ::: {.module-resource .exercise}
-[Exercise: Fix data/metadata issues (30 minutes)](exercises/fix-data-metadata-issues.md)
+[Exercise: Fix data/metadata issues (35 minutes)](exercises/fix-data-metadata-issues.md)
 :::
 ::::::
 

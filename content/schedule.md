@@ -25,8 +25,9 @@ All times in Mountain Daylight Time (UTC-6:00).
 | :------------ | :--------------- |
 | 09:00 - 09:15 | Daily overview |
 | 09:15 - 10:15 | [Intro to GitHub](materials.md#intro-to-github) |
-| 10:15 - 11:00 | [Review Open Science (and data) principles](materials.md#review-open-science-and-data-principles) |
-| 11:00 - 12:00 | 🍜 **Break** |
+| 10:15 - 10:50 | [Review Open Science (and data) principles](materials.md#review-open-science-and-data-principles) |
+| 10:50 - 11:50 | 🍜 **Break** |
+| 11:50 - 12:00 | [Full group discussion: FAIR/CARE](materials.md#workshop-discussion-faircare)
 | 12:00 - 12:55 | [Fixing common data/metadata issues](materials.md#fixing-common-datametadata-issues) |
 | 12:55 - 13:00 | End of day wrap-up |
 
