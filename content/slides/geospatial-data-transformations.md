@@ -7,21 +7,21 @@ background-image: "https://live.staticflickr.com/65535/50268301128_34e0e30e82_k.
 
 ## What tool should I use?
 
-The best one for the job. Explore your ecosystem!
+The best one for the job. Explore the alternatives available in the ecosystem you want
+to work!
 
-* [GDAL tools](https://gdal.org/programs/index.html)
-* Python: Rasterio, Shapely, Xarray, GeoPandas, and more!
+* GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
+  in
+  comparison with other layers like a basemap.
+* Command-line tools are especially useful for getting a quick answer. 
+* Language-specific (e.g., Python) tools are good for automations or research
+  code.
 
 ::: {.notes}
 You may recognize this slide from the "data inspection" deck.
 
-Tool selection is context-dependent.
-
-Command-line tools are especially useful for getting a quick answer.
-
-Language-specific tools are good for automations or research code. These
-examples use Python because that is what we are most familiar with, but explore
-your preferred ecosystem and you will find equivalents.
+These examples use gdal/ogr because that is what we are most familiar with and
+they underlie many other tools like QGIS.
 :::
 
 
