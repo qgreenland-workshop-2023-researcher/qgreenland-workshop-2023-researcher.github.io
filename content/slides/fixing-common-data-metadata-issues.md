@@ -5,28 +5,51 @@ index: 60
 background-image: "https://live.staticflickr.com/65535/50237921938_0e9dc8978a_k.jpg"
 ---
 
+## Common data/metadata issues?
+
+It's common for data to be missing metadata. We often see:
+
+* CRS information missing
+* Flag values (e.g. `NoData`) not set
+* In a format without metadata support
+
+It's also not uncommon for data or metadata to be incorrect or in conflict with the
+dataset's user guide. Fixing these issues requires thought and judgment calls.
+
+
 ## What tool should I use?
 
-The best one for the job.
+The best one for the job. Explore the alternatives available in the ecosystem you want
+to work!
 
-Explore the alternatives available in the ecosystem you want to work!
+* GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
+  in
+  comparison with other layers like a basemap.
+* Command-line tools are especially useful for getting a quick answer. 
+* Language-specific (e.g., Python) tools are good for automations or research
+  code.
 
 ::: {.notes}
 You may recognize this slide from the "data inspection" deck.
 
-Tool selection is context-dependent.
-
-Command-line tools are especially useful for getting a quick answer.
-
-Language-specific tools are good for automations or research code. These
-examples use Python because that is what we are most familiar with, but explore
+These examples use Python because that is what we are most familiar with, but explore
 your preferred ecosystem and you will find equivalents.
 :::
 
 
+## GDAL/OGR drivers
+
+* [Vector drivers](https://gdal.org/drivers/vector/index.html)
+* [Raster drivers](https://gdal.org/drivers/raster/index.html)
+
+
+It's worth looking at the list of drivers for your datatype and reading the
+documentation. We'll revisit this in a later slide.
+
+
 ## Data scenario: Raster missing geospatial metadata
 
-[Link](/content/exercises/data-scenarios/raster-missing-geospatial-metadata)
+[View the full scenario](/content/exercises/data-scenarios/raster-missing-geospatial-metadata)
 
 :::::: {.columns}
 ::: {.column}
@@ -60,6 +83,10 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 ::::::
 
 ::: {.notes}
+This is a real scenario we've encountered before, but not with this exact dataset.
+
+*Presenter: Open the data scenario link. Read through the prompt up to "Validation"*.
+
 The included data file sample (`dem_without_metadata.tif`) is not a real example
 of data from NSIDC; it's been modified from the original
 [@bamber_2001_greenland_dem] to present a challenge.
@@ -68,8 +95,8 @@ of data from NSIDC; it's been modified from the original
 
 ## Raster missing geospatial metadata: Solution
 
-Use `gdal_translate` to edit the metadata with the information provided to us in the
-dataset landing page.
+Use [gdal_translate](https://gdal.org/programs/gdal_translate.html) to edit the
+metadata with the information provided to us in the mock dataset landing page.
 
 ```{.default code-line-numbers="false" code-overflow="scroll"}
 gdal_translate \
@@ -156,16 +183,22 @@ Band 1 Block=301x6 Type=Float32, ColorInterp=Gray
 The output of our `gdal_translate` operation has the metadata we expect: a CRS is
 present, an origin is established (the upper-left-hand-corner), and the pixel size is
 5000 meters (5 km).
+
+It's OK that the `WKT` contains `"unknown"` several times. We defined the ellipsoid and
+other parameters manually on the previous slide, and because this doesn't exactly match
+a named projection (for example, in the EPSG database), we see `"unknown"`.
 :::
+
 
 ## Raster missing geospatial metadata: All better!
 
 ![QGreenland screenshot of layer with fixed 
 metadata](/_media/qgreenland_edited_metadata.png)
 
+
 ## Data scenario: Vector data needs reformatting
 
-[Link](/content/exercises/data-scenarios/vector-needs-reformatting)
+[View the full scenario](/content/exercises/data-scenarios/vector-needs-reformatting)
 
 :::::: {.columns}
 ::: {.column}
@@ -200,10 +233,16 @@ blood_acetylcholine_grams_per_ml: Real (0.0)
 The x and y values appear to be lat and lon values. Our email from Dr. Foobarbaz
 indicates the data is in a "WGS84" projection.
 
+Note `Geometry: None` -- `gdal` can't find Geometry in the spreadsheet.
+
+Note `Layer SRS WKT` is unknown. There is no geospatial metadata to describe the CRS in
+an Excel file.
+
 `ogrinfo`:
-    * `-al`: list all features of all layers (we don't have to pass in `Sheet1`
-      to get information about what fields it contains).
-    * `-so`: Summary Only
+
+* `-al`: list all features of all layers (we don't have to pass in `Sheet1`
+  to get information about what fields it contains).
+* `-so`: Summary Only
 :::
 
 ## Vector data needs reformatting: Solution
@@ -236,10 +275,21 @@ ogr2ogr \
 ::::::
 
 :::{.notes}
+We chose to use the OGR VRT driver after reading the docs for the [XLSX
+driver](https://gdal.org/drivers/vector/xlsx.html#vector-xlsx) and seeing "No geometry
+support is available directly (but you may use the OGR VRT capabilities for that)".
+
 A `.vrt` file that sits alongside the xlsx file containing the above will allow
-ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc.
+ogr2ogr to transform the data into a GeoPackage, GeoJSON, etc. Note that the VRT file
+has the same file name as the data, enabling our tool to auto-detect it.
+
+Note the `EPSG` code, the name of the sheet containing the data, and the data file name
+are encoded in the VRT. Also note the `<GeometryField>` tag contains the column names of
+the X and Y fields.
 
 The `-nln` flag in the `ogr2ogr` command sets the new layer name.
+
+For `ogr2ogr`, the output file comes before the input file, which is unusual.
 
 Note that there are other approaches that use `ogr2ogr` as well. E.g., the
 [`with_ogr2ogr.sh`
@@ -328,11 +378,11 @@ blood_acetylcholine_grams_per_ml: Real (0.0)
 ```
 
 :::{.notes}
-`ogrinfo` confirms the metadata we were able to visually see in the structure of the
-GeoJSON in the previous slide is understandable to GDAL.
+`ogrinfo` confirms the metadata visible in the structure of the GeoJSON in the previous
+slide is understandable to GDAL.
 
 The layer has the name we provided `ogr2ogr`, has 12 point features, and a
-defined SRS (EPSG:4326, WGS84)
+defined CRS (EPSG:4326, WGS84)
 :::
 
 
@@ -340,191 +390,6 @@ defined SRS (EPSG:4326, WGS84)
 
 ![QGreenland screenshot of reformatted vector
 layer](/_media/qgreenland_reformatted_vector_map.png)
-
-## Data scenario: Raster needs reformatting
-
-::::::::: {.r-fit-text}
-
-[Link](/content/exercises/data-scenarios/raster-needs-reformatting)
-
-:::::: {.columns}
-:::{.column}
-```{.default code-line-numbers="false"}
-gdalinfo datafile.jpg
-```
-
-```{.default code-line-numbers="|9"}
-Driver: JPEG/JPEG JFIF
-Files: datafile.jpg
-Size is 2813, 1914
-Image Structure Metadata:
-  COMPRESSION=JPEG
-  INTERLEAVE=PIXEL
-  SOURCE_COLOR_SPACE=YCbCr
-Corner Coordinates:
-Upper Left  (    0.0,    0.0)
-Lower Left  (    0.0, 1914.0)
-Upper Right ( 2813.0,    0.0)
-Lower Right ( 2813.0, 1914.0)
-Center      ( 1406.5,  957.0)
-Band 1 Block=2813x1 Type=Byte, ColorInterp=Red
-  Overviews: 1407x957, 704x479, 352x240
-  Image Structure Metadata:
-    COMPRESSION=JPEG
-Band 2 Block=2813x1 Type=Byte, ColorInterp=Green
-  Overviews: 1407x957, 704x479, 352x240
-  Image Structure Metadata:
-    COMPRESSION=JPEG
-Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
-  Overviews: 1407x957, 704x479, 352x240
-  Image Structure Metadata:
-    COMPRESSION=JPEG
-```
-:::
-
-:::{.column}
-```{.default code-line-numbers="false"}
-gdalsrsinfo -o wkt_simple datafile.prj
-```
-
-```default
-PROJCS["unnamed",
-    GEOGCS["WGS 84",
-        DATUM["WGS_1984",
-            SPHEROID["WGS 84",6378137,298.257223563]],
-        PRIMEM["Greenwich",0],
-        UNIT["degree",0.0174532925199433]],
-    PROJECTION["Polar_Stereographic"],
-    PARAMETER["latitude_of_origin",70],
-    PARAMETER["central_meridian",-45],
-    PARAMETER["false_easting",0],
-    PARAMETER["false_northing",0],
-    UNIT["metre",1]]
-```
-![](/content/exercises/data-scenarios/raster-needs-reformatting/datafile.jpg){width="65%" fig-align="center"}
-:::
-::::::
-:::::::::
-
-:::{.notes}
-Like our first scenario, `gdalinfo` shows no CRS information and the UL
-corner coordinates is (0, 0). If we plotted this in QGIS, it would place the ULC
-at the geographic north pole.
-:::
-
-## Raster needs reformatting: solution {.smaller}
-
-Our colleague from the data scenario gave us the projection information as WKT in the
-provided `.proj` file, so we can pass that file directly to `gdal_translate` with the
-`-a_srs` option.
-
-Our colleague also provided us with information about the location of the corner coordinates:
-
-```default
-Upper Left  ( -334334.200,-1855796.425) ( 55d12'45.62"W, 72d43'11.00"N)
-Lower Left  ( -334334.200,-1860658.423) ( 55d11'11.56"W, 72d40'35.44"N)
-Upper Right ( -327188.537,-1855796.425) ( 54d59'55.86"W, 72d43'51.77"N)
-Lower Right ( -327188.537,-1860658.423) ( 54d58'23.69"W, 72d41'16.09"N)
-```
-
-The `-a_ullr` option takes an array of numbers: `ulx`, `uly`, `lrx`, `lry`
-
-```{.default code-line-numbers="2|3"}
-gdal_translate \
-  -a_srs datafile.prj \
-  -a_ullr -334334.200 -1855796.425 -327188.537 -1860658.423 \
-  datafile.jpg datafile.tif
-```
-
-
-## Raster needs reformatting: All better!
-
-```{.default code-line-numbers="false"}
-gdalinfo datafile.tif
-```
-```{.default code-line-numbers="|4-40|42,48-49"}
-Driver: GTiff/GeoTIFF
-Files: datafile.tif
-Size is 2813, 1914
-Coordinate System is:
-PROJCRS["unnamed",
-    BASEGEOGCRS["WGS 84",
-        DATUM["World Geodetic System 1984",
-            ELLIPSOID["WGS 84",6378137,298.257223563,
-                LENGTHUNIT["metre",1]]],
-        PRIMEM["Greenwich",0,
-            ANGLEUNIT["degree",0.0174532925199433]],
-        ID["EPSG",4326]],
-    CONVERSION["Polar Stereographic (variant B)",
-        METHOD["Polar Stereographic (variant B)",
-            ID["EPSG",9829]],
-        PARAMETER["Latitude of standard parallel",70,
-            ANGLEUNIT["degree",0.0174532925199433],
-            ID["EPSG",8832]],
-        PARAMETER["Longitude of origin",-45,
-            ANGLEUNIT["degree",0.0174532925199433],
-            ID["EPSG",8833]],
-        PARAMETER["False easting",0,
-            LENGTHUNIT["metre",1],
-            ID["EPSG",8806]],
-        PARAMETER["False northing",0,
-            LENGTHUNIT["metre",1],
-            ID["EPSG",8807]]],
-    CS[Cartesian,2],
-        AXIS["(E)",south,
-            MERIDIAN[90,
-                ANGLEUNIT["degree",0.0174532925199433,
-                    ID["EPSG",9122]]],
-            ORDER[1],
-            LENGTHUNIT["metre",1]],
-        AXIS["(N)",south,
-            MERIDIAN[180,
-                ANGLEUNIT["degree",0.0174532925199433,
-                    ID["EPSG",9122]]],
-            ORDER[2],
-            LENGTHUNIT["metre",1]]]
-Data axis to CRS axis mapping: 1,2
-Origin = (-334334.200000000011642,-1855796.425000000046566)
-Pixel Size = (2.540228581585496,-2.540228840125342)
-Metadata:
-  AREA_OR_POINT=Area
-Image Structure Metadata:
-  INTERLEAVE=PIXEL
-Corner Coordinates:
-Upper Left  ( -334334.200,-1855796.425) ( 55d12'45.62"W, 72d43'11.00"N)
-Lower Left  ( -334334.200,-1860658.423) ( 55d11'11.56"W, 72d40'35.44"N)
-Upper Right ( -327188.537,-1855796.425) ( 54d59'55.86"W, 72d43'51.77"N)
-Lower Right ( -327188.537,-1860658.423) ( 54d58'23.69"W, 72d41'16.09"N)
-Center      ( -330761.368,-1858227.424) ( 55d 5'34.25"W, 72d42'13.68"N)
-Band 1 Block=2813x1 Type=Byte, ColorInterp=Red
-Band 2 Block=2813x1 Type=Byte, ColorInterp=Green
-Band 3 Block=2813x1 Type=Byte, ColorInterp=Blue
-```
-
-:::{.notes}
-`gdalinfo` shows that the output dataset has a CRS and the corner coordinate now
-looks correct.
-:::
-
-
-## Raster needs reformatting: All better!
-
-:::::: {.columns}
-::: {.column}
-![](/_media/qgreenland_raster_reformatted1.png)
-:::
-
-::: {.column}
-![](/_media/qgreenland_raster_reformatted2.png){fig-align="center"}
-:::
-::::::
-
-:::{.notes}
-The image data is now correctly positioned, as shown in these screenshots from
-QGreenland which has the "Reference/Borders/Greenland coastlines 2017" overlaid
-and the "Internet-required data/Greenland image mosaic 2015 (15m)" as background
-imagery. Lat/lon lines are shown for reference.
-:::
 
 
 ## What if I can not find a way to fix my data?
@@ -549,6 +414,11 @@ Worst-case scenarios:
 If there are recognizable spatial features in the data, you may be able to georeference
 it. See "continued learning" section to learn more about this.
 :::
+
+
+## Exercise
+
+💪 [Fixing an issue with data/metadata](/content/exercises/fix-data-metadata-issues.html)
 
 
 ## References

@@ -306,5 +306,4 @@ Any files you have created will remain next time you log in!
 
 # Exercise
 
-💪 [Getting started with
-JupyterLab](/content/exercises/getting-started-with-jupyterlab.html)
+💪 [Getting started with JupyterLab](/content/exercises/getting-started-with-jupyterlab.html)

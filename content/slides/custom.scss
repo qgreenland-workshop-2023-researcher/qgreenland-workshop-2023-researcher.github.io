@@ -19,11 +19,11 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=418039), so in Firefox all slides
 will appear "dim".
 */
 html .backgrounds {
-   -webkit-filter: blur(4px) saturate(.7) brightness(.8);
-   -moz-filter: blur(4px) saturate(.7) brightness(.8);
-   -o-filter: blur(4px) saturate(.7) brightness(.8);
-   -ms-filter: blur(4px) saturate(.7) brightness(.8);
-   filter: blur(4px) saturate(.7) brightness(.8);
+   -webkit-filter: blur(4px) saturate(.7) brightness(.7);
+   -moz-filter: blur(4px) saturate(.7) brightness(.7);
+   -o-filter: blur(4px) saturate(.7) brightness(.7);
+   -ms-filter: blur(4px) saturate(.7) brightness(.7);
+   filter: blur(4px) saturate(.7) brightness(.7);
 }
 .slides:has(> #title-slide:not([hidden])) ~ .backgrounds {
    -webkit-filter: blur(0px) saturate(1) brightness(1);

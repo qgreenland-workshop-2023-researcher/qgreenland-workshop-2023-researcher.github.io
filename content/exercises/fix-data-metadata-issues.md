@@ -36,4 +36,4 @@ Please select one of the following data scenarios and develop a Jupyter Notebook
 resolve the scenario.
 
 * [Raster missing NoData value](/content/exercises/data-scenarios/raster-missing-nodata-value)
-* _TODO_
+* [Raster needs reformatting](/content/exercises/data-scenarios/raster-needs-reformatting)
