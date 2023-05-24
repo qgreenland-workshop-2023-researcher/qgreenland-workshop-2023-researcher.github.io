@@ -158,6 +158,11 @@ Can/should we integrate this tool into the workshop?
 
 * The HTML table of contents for prerequisites cannot be made to full expand using
   `toc-expand: true`. Can we reproduce?
+* There are many links to internal documents, for example linking from slides to
+  exercises, that [did not work](https://github.com/quarto-dev/quarto-cli/issues/5106)
+  when using `.md` extension for the target. We changed them to `.html` extension, but
+  that breaks Quarto's ability to detect broken links. When Quarto is enhanced to
+  resolve this issue, we should go back through and change those links to `.md` links.
 
 
 ## Post-workshop
