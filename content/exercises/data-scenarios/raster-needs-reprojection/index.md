@@ -25,8 +25,10 @@ Reproject this data file to `EPSG:4326` using bilinear interpolation.
 
 ## Validation
 
-A walkthrough of tackling this reprojection is provided in the [solution Jupyter
-Notebook](/content/exercises/data-scenarios/raster-needs-reprojection/solutions/solution.ipynb).
+A walkthrough of tackling this reprojection problem is provided in the
+`/home/jovyan/qgis-data/workshop-materials/content/exercises/data-scenarios/raster-needs-reprojection/solutions/solution.ipynb`
+Jupyter Notebook.
+
 
 The resulting solution data file should be bilinearly interpolated to EPSG:4326
 and the range of elevation values across the ice sheet should closely resemble
