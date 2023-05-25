@@ -12,7 +12,7 @@ background-image: "https://live.staticflickr.com/65535/50171104477_4042c97a90_k.
   * Lingering problems
   * Showing off something cool
   * Discussion (FAIR & CARE, introductions, etc.). Engage with other
-    participants and learn from eachother!
+    participants and learn from each other!
 * Use slack for immediate needs and to alert organizers to any issues
   * Groups listed in a pinned post on slack channel
   * Matt & Trey will be checking in on breakout rooms periodically today. Let us
