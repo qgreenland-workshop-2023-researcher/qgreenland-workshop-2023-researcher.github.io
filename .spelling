@@ -218,6 +218,17 @@ subdatasets
 subdataset
 filepath
 Thyng
+downsampling
+gdal
+ogr
+resampled
+downsampled
+verticies
+segmentize
+gdal_warp
+gdal_rasterize
+gdal_polygonize.py
+gdal_contour
  - content/slides/open-science-and-data.md
 indable
 ccessible

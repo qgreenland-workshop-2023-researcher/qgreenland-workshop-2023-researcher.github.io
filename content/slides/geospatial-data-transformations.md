@@ -24,7 +24,7 @@ Good reminder to track the provenance of data. Always back-up source data (and
 ideally intermediate data as well!). Some operations can not be reversed (e.g.,
 downsampling)!
 
-There are numerious ways that data may be transformed to facilitate an analysis
+There are numerous ways that data may be transformed to facilitate an analysis
 or desired visualization. We are going to focus on a few common examples.
 :::
 
@@ -88,7 +88,7 @@ to storage constraints (some high res raster datasets were resampled -
 downsampled - for QGreenland).
 
 However, this is also important in the context co-analyzing two different raster
-datasets. Both need to be aligned to the same grid for many types of anlaysis
+datasets. Both need to be aligned to the same grid for many types of analysis
 (e.g., utilization of the raster calculator).
 :::
 
