@@ -207,6 +207,9 @@ is the tiny circle in the center!](/_media/qgreenland_ne_no_subset.png)
 Reprojection is expensive. If you subset first, it will take much less time! You may
 want to consider doing a performance-motivated subset, then reprojecting, then
 subsetting again in the new projection to get your final area of interest.
+
+Vector subsetting can also result in issues. Consider a polygon that spans the
+boundary you plan to clip to.
 :::
 
 
