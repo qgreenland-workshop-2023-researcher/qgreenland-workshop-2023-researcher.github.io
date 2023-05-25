@@ -6,27 +6,27 @@ background-image: "https://live.staticflickr.com/65535/50268301128_34e0e30e82_k.
 ---
 
 
-# Transformation concepts {.smaller}
+# Geospatial data transformations {.smaller}
+
+* Operations that change the data in some way.
+* Sometimes these changes can be dramatic. They can result in the loss of
+  information in the source data.
+* Provenance is important! Always back up source data.
+
+::: {.notes}
+There are numerous ways that data may be transformed to facilitate an analysis
+or desired visualization. We are going to focus on a few common examples.
+:::
+
+
+# Motivation {.smaller}
 
 It's important that different datasets are compatible with each-other prior to analysis.
 
 * All datasets should be in the same CRS (datum and projection)
 * Rasters should be "co-registered": matching grids (resolution and orientation)
-* Understand your transformations! Some can be "lossy"
 * Optional: Don't keep data you don't need
-
-::: {.notes}
-Transformations are operations that change the data in some way. Sometimes these
-changes can be dramatic. They can result in the loss of information in the
-source data.
-
-Good reminder to track the provenance of data. Always back-up source data (and
-ideally intermediate data as well!). Some operations can not be reversed (e.g.,
-downsampling)!
-
-There are numerous ways that data may be transformed to facilitate an analysis
-or desired visualization. We are going to focus on a few common examples.
-:::
+* Change to data model (raster <-> vector)
 
 
 ## What tool should I use?
@@ -94,7 +94,14 @@ datasets. Both need to be aligned to the same grid for many types of analysis
 
 ## Resampling: interpolation
 
-![Pygis](https://pygis.io/_images/d_bilinear.png)
+::::::{.columns}
+:::{.column}
+![[PyGIS](https://pygis.io/docs/d_vector_crs_intro.html)](https://pygis.io/_images/d_warp.png)
+:::
+:::{.column}
+![[PyGIS](https://pygis.io/docs/d_vector_crs_intro.html)](https://pygis.io/_images/d_bilinear.png)
+:::
+::::::
 
 :::{.notes}
 Considerations about interpolation are important here. It is important to
