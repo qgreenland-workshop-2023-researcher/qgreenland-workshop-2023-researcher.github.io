@@ -37,7 +37,7 @@ to work!
 * GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
   in
   comparison with other layers like a basemap.
-* Command-line tools are especially useful for getting a quick answer. 
+* Command-line tools are especially useful for getting a quick answer.
 * Language-specific (e.g., Python) tools are good for automations or research
   code.
 
@@ -49,9 +49,70 @@ they underlie many other tools like QGIS.
 :::
 
 
-## Reprojection
+## Resampling
 
-`gdal_warp`, `ogr2ogr`
+Generation of a new sample from existing data.
+
+:::{.notes}
+Broadly speaking, resampling is changing the resolution or frequency of
+data. Raster resampling can also include changing the orientation/origin of
+raster data.
+:::
+
+## Raster Resampling {.smaller}
+
+[gdalwarp](https://gdal.org/programs/gdalwarp.html)
+
+Raster grids will not always align, even in the same projection & datum.
+
+::::::{.columns}
+
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-res.jpg)
+:::
+
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-orientation-origin.jpg)
+:::
+
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-orientation.jpg)
+:::
+
+::::::
+
+::: {.notes}
+One of the most common forms of raster resampling is changing the
+resolution. For example, You may want to change the resolution of your data due
+to storage constraints (some high res raster datasets were resampled -
+downsampled - for QGreenland).
+
+However, this is also important in the context co-analyzing two different raster
+datasets. Both need to be aligned to the same grid for many types of anlaysis
+(e.g., utilization of the raster calculator).
+:::
+
+## Resampling: interpolation
+
+![Pygis](https://pygis.io/_images/d_bilinear.png)
+
+:::{.notes}
+Considerations about interpolation are important here. It is important to
+co-register your data in a way that makes sense given the characteristics of the
+data. E.g., use 'nearest neighbor' interpolation for categorical data.
+:::
+
+## Resampling: vectors
+
+[ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
+
+Change the frequency/density of verticies in lines and polygons
+
+* segmentize
+* simplify
+
+
+## Reprojection
 
 ![Reprojection (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/d_reprojection_example.jpg){.center}
 
@@ -60,48 +121,13 @@ When reprojecting, we always use geographic coordinates as an intermediate step.
 :::
 
 
-## On-the-fly reprojection
+## Raster Reprojection
 
-* Useful, but costly especially for large datasets.
+[gdal_warp](https://gdal.org/programs/gdalwarp.html)
 
-* **Could cause unexpected results**: Is your tool acting on reprojected data or source
-  data (what's actually on disk)?
+When raster data is reprojected, data points are usually not mapped 1:1.
 
-* [Learn more about how QGIS does on-the-fly reprojection](https://docs.qgis.org/3.28/en/docs/training_manual/vector_analysis/reproject_transform.html?highlight=reprojecting#basic-fa-on-the-fly-reprojection)
-
-::: {.notes}
-On-the-fly reprojection is reprojection that's done implicitly; some GIS tools will use
-OTFR to do an analysis between two datasets, and some other GIS tools will do OTFR to
-facilitate visualization (e.g. QGIS). It's possible reprojection is happening without
-your knowledge.
-
-With OTFR, some choices are likely being made for you: Interpolation algorithm,
-re-sampling algorithm, etc. Therefore, when doing analysis, know your tools! For most
-analyses, it's helpful to ensure all datasets are in a common projection/datum.
-
-In QGIS, OTFR is automatically enabled; all layers will be reprojected to the chosen
-project CRS.
-:::
-
-
-## Reprojection pitfalls {.smaller}
-
-Reprojection is typically lossy!
-
-* When raster data is warped, data points are not mapped 1:1.
-* Vector reprojection only affects vertices / points.
-
-:::::: {.columns}
-::: {.column width="50%"}
 ![A "warped" reprojection (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/d_warp.png){width=300px}
-:::
-
-::: {.column width="50%"}
-![QGreenland's "Greenland-focused boundary" polygon](/_media/qgreenland_boundary_3413.png){width=150px}
-
-![Reprojected to EPSG:4326](/_media/qgreenland_boundary_4326.png){width=400px}
-:::
-::::::
 
 ::: {.notes}
 <!-- alex disable colors -->
@@ -121,13 +147,30 @@ geometry and spatial positioning of the output grid.
 * When reprojecting raster data, interpolation method is important! Use "nearest
   neighbor" with categorical data, or there will be "smudging" between
   categories.
-
-* When reprojecting vector data, the points move, but the edges are still straight lines
-  between the points, even if they should logically be curved after the reprojection.
-  You will lose topological information; e.g. a point could be inside a polygon
-  prior to reprojection, and outside the polygon after.
 :::
 
+## Vector reprojection
+
+[ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
+
+Vector reprojection only affects vertices / points.
+
+::::::{.columns}
+:::{.column}
+![QGreenland's "Greenland-focused boundary" polygon](/_media/qgreenland_boundary_3413.png){width="50%"}
+:::
+
+:::{.column}
+![Reprojected to EPSG:4326](/_media/qgreenland_boundary_4326.png)
+:::
+::::::
+
+::: {.notes}
+When reprojecting vector data, the points move, but the edges are still straight
+lines between the points, even if they should logically be curved after the
+reprojection. You will lose topological information; e.g. a point could be
+inside a polygon prior to reprojection, and outside the polygon after.
+:::
 
 ## Reprojection pitfalls {.smaller}
 
@@ -154,42 +197,28 @@ Weird things happen at the edges!
 :::
 
 
-## Resampling {.smaller}
 
-`gdalwarp`
+## On-the-fly reprojection
 
-Raster grids will not always align, even in the same projection & datum.
+* Useful, but costly especially for large datasets.
 
-::::::{.columns}
+* **Could cause unexpected results**: Is your tool acting on reprojected data or source
+  data (what's actually on disk)?
 
-:::{.column width="30%"}
-![](https://pygis.io/_images/Raster_diff-res.jpg)
-:::
-
-:::{.column width="30%"}
-![](https://pygis.io/_images/Raster_diff-orientation-origin.jpg)
-:::
-
-:::{.column width="30%"}
-![](https://pygis.io/_images/Raster_diff-orientation.jpg)
-:::
-
-::::::
+* [Learn more about how QGIS does on-the-fly reprojection](https://docs.qgis.org/3.28/en/docs/training_manual/vector_analysis/reproject_transform.html?highlight=reprojecting#basic-fa-on-the-fly-reprojection)
 
 ::: {.notes}
-One of the most common forms of resampling is changing the resolution. For
-example, You may want to change the resolution of your data due to storage
-constraints (some high res raster datasets were resampled - downsampled - for
-QGreenland).
+On-the-fly reprojection is reprojection that's done implicitly; some GIS tools will use
+OTFR to do an analysis between two datasets, and some other GIS tools will do OTFR to
+facilitate visualization (e.g. QGIS). It's possible reprojection is happening without
+your knowledge.
 
-However, this is also important in the context co-analyzing two different raster
-datasets. Both need to be aligned to the same grid for many types of anlaysis
-(e.g., utilization of the raster calculator).
+With OTFR, some choices are likely being made for you: Interpolation algorithm,
+re-sampling algorithm, etc. Therefore, when doing analysis, know your tools! For most
+analyses, it's helpful to ensure all datasets are in a common projection/datum.
 
-Resampling is often done as part of reprojection too. Considerations about
-interpolation are important here. It is important to co-register your data in a
-way that makes sense given the characteristics of the data. E.g., use 'nearest
-neighbor' interpolation for categorical data.
+In QGIS, OTFR is automatically enabled; all layers will be reprojected to the chosen
+project CRS.
 :::
 
 
@@ -215,7 +244,9 @@ boundary you plan to clip to.
 
 ## Conversion
 
-`gdal_rasterize`, `gdal_polygonize.py`, `gdal_contour`
+[gdal_rasterize](https://gdal.org/programs/gdal_rasterize.html),
+[gdal_polygonize.py](https://gdal.org/programs/gdal_polygonize.html),
+[gdal_contour](https://gdal.org/programs/gdal_contour.html)
 
 Does your data provide a suitable representation for your analysis?
 
@@ -227,12 +258,6 @@ intersect, raster may not be a suitable representation. Similarly, if you are tr
 calculate an average scalar value, e.g. temperature or ice sheet thickness, over an
 area, vector may not be a suitable representation.
 :::
-
-<!-- TODO:
-* Do an example of rasterizing categorical vector data; show what happens when
-  you interpolate incorrectly. Make this a data scenario. Add categories to data
-  scenarios to separate transformation scenarios from metadata scenarios.
--->
 
 
 ## Conversion: Vector to raster
