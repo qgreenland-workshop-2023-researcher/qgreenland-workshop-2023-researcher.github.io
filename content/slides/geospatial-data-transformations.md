@@ -148,26 +148,43 @@ Weird things happen at the edges!
 :::
 
 
-## Resampling
+## Resampling {.smaller}
 
 `gdalwarp`
 
 Raster grids will not always align, even in the same projection & datum.
 
-![Resampling - different origin (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation.jpg)
+::::::{.columns}
 
-::: {.notes}
-It's important to correct this problem before analysis so that you can be sure that
-your computations across datasets will be successful.
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-res.jpg)
 :::
 
----
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-orientation-origin.jpg)
+:::
 
-![Resampling - different origin and rotation (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-orientation-origin.jpg)
+:::{.column width="30%"}
+![](https://pygis.io/_images/Raster_diff-orientation.jpg)
+:::
 
----
+::::::
 
-![Resampling - different resolution (via [PyGIS](https://pygis.io/docs/d_vector_crs_intro.html))](https://pygis.io/_images/Raster_diff-res.jpg)
+::: {.notes}
+One of the most common forms of resampling is changing the resolution. For
+example, You may want to change the resolution of your data due to storage
+constraints (some high res raster datasets were resampled - downsampled - for
+QGreenland).
+
+However, this is also important in the context co-analyzing two different raster
+datasets. Both need to be aligned to the same grid for many types of anlaysis
+(e.g., utilization of the raster calculator).
+
+Resampling is often done as part of reprojection too. Considerations about
+interpolation are important here. It is important to co-register your data in a
+way that makes sense given the characteristics of the data. E.g., use 'nearest
+neighbor' interpolation for categorical data.
+:::
 
 
 ## Subsetting (clipping)
