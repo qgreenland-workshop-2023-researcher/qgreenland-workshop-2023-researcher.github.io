@@ -128,6 +128,10 @@ Discussion (10 minutes)
 ### Day 3
 
 :::::: {.schedule-item .module}
+#### [Day 3 overview](slides/day3-overview.md)
+::::::
+
+:::::: {.schedule-item .module}
 #### Geospatial data transformations and data cross-compatibility
 
 ::: {.module-resource .slides}
