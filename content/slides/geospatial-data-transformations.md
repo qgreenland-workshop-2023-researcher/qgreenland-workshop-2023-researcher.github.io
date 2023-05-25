@@ -256,9 +256,3 @@ You may want to do this for:
   management when you apply transformations. `gdalwarp` has a `-nomd` flag to prevent
   metadata copying, but this can strip away useful metadata!
 :::
-
-<!-- TODO:
-Integrate this metadata carryover pitfall into an example of transforming a raster; e.g.
-reformat a NetCDF and then show the carried-over metadata, especially any fields that
-are now wrong. Demo how to fix that?
--->
