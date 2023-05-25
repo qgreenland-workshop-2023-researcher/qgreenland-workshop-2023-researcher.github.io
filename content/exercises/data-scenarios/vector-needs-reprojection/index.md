@@ -14,6 +14,11 @@ listing:
 ::: {#file-listing}
 :::
 
+:::{.callout-note}
+You can find this scenario in
+`/home/jovyan/qgis-data/workshop-materials/content/exercises/data-scenarios/vector-needs-reprojection/`
+:::
+
 You want to re-use the QGreenland analysis area (represented by the `Greenland-focused
 boundary` layer in QGreenland) for a global analysis. Reproject that layer to `EPSG:4326`.
 

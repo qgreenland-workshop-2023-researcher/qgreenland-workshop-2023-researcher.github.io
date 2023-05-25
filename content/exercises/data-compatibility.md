@@ -59,4 +59,4 @@ Please select one of the following data scenarios and develop a Jupyter Notebook
 resolve the scenario.
 
 * [Vector reprojection](data-scenarios/vector-needs-reprojection/index.md)
-* _TODO_
+* [Raster reprojection](/content/exercises/data-scenarios/raster-needs-reprojection)

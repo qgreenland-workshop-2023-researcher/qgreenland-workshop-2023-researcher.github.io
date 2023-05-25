@@ -13,6 +13,10 @@ listing:
 :::{#file-listing}
 :::
 
+:::{.callout-note}
+You can find this scenario in
+`/home/jovyan/qgis-data/workshop-materials/content/exercises/data-scenarios/raster-needs-reprojection/`
+:::
 
 Your team needs a DEM of Greenland for a global analysis processing pipeline
 that requires a WGS-84 geographic projection (`EPSG:4326`). Your team selected
@@ -25,16 +29,13 @@ Reproject this data file to `EPSG:4326` using bilinear interpolation.
 
 ## Validation
 
-A walkthrough of tackling this reprojection is provided in the [solution Jupyter
-Notebook](/content/exercises/data-scenarios/raster-needs-reprojection/solutions/solution.ipynb).
+A walkthrough of tackling this reprojection problem is provided in the
+`/home/jovyan/qgis-data/workshop-materials/content/exercises/data-scenarios/raster-needs-reprojection/solutions/solution.ipynb`
+Jupyter Notebook.
+
 
 The resulting solution data file should be bilinearly interpolated to EPSG:4326
 and the range of elevation values across the ice sheet should closely resemble
 those in the original data file. Be on the lookout for abnormal data values
 along the edges of Greenland - it may mean you have not properly handled the
 dataset's NoData value!
-
-
-### Troubleshooting
-
-_TODO_
