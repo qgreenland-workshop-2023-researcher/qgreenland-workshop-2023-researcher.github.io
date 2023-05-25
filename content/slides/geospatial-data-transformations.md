@@ -139,6 +139,8 @@ Weird things happen at the edges!
   polar stereographic projection which crosses the anti-meridian. Reprojecting
   that to EPSG:4326 would require splitting that shape in two.
 
+* Vector topology can also change!
+
 * Raster data can have a barely-visible "seam" after reprojection. For example,
   data in EPSG:4326 has edges at the antimeridian, and when reprojecting to
   EPSG:3413 those edges have to meet somewhere, and at that location you may
