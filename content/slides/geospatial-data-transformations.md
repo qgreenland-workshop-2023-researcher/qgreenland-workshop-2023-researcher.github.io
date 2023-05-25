@@ -5,25 +5,6 @@ index: 70
 background-image: "https://live.staticflickr.com/65535/50268301128_34e0e30e82_k.jpg"
 ---
 
-## What tool should I use?
-
-The best one for the job. Explore the alternatives available in the ecosystem you want
-to work!
-
-* GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
-  in
-  comparison with other layers like a basemap.
-* Command-line tools are especially useful for getting a quick answer. 
-* Language-specific (e.g., Python) tools are good for automations or research
-  code.
-
-::: {.notes}
-You may recognize this slide from the "data inspection" deck.
-
-These examples use gdal/ogr because that is what we are most familiar with and
-they underlie many other tools like QGIS.
-:::
-
 
 # Transformation concepts {.smaller}
 
@@ -45,6 +26,26 @@ downsampling)!
 
 There are numerious ways that data may be transformed to facilitate an analysis
 or desired visualization. We are going to focus on a few common examples.
+:::
+
+
+## What tool should I use?
+
+The best one for the job. Explore the alternatives available in the ecosystem you want
+to work!
+
+* GUI-based GIS tools (QGIS!) are useful for visualization of data, especially
+  in
+  comparison with other layers like a basemap.
+* Command-line tools are especially useful for getting a quick answer. 
+* Language-specific (e.g., Python) tools are good for automations or research
+  code.
+
+::: {.notes}
+You may recognize this slide from the "data inspection" deck.
+
+These examples use gdal/ogr because that is what we are most familiar with and
+they underlie many other tools like QGIS.
 :::
 
 
