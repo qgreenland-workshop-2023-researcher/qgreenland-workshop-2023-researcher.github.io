@@ -30,16 +30,21 @@ they underlie many other tools like QGIS.
 It's important that different datasets are compatible with each-other prior to analysis.
 
 * All datasets should be in the same CRS (datum and projection)
-* Rasters should be "co-registered": matching grids
+* Rasters should be "co-registered": matching grids (resolution and orientation)
 * Understand your transformations! Some can be "lossy"
 * Optional: Don't keep data you don't need
 
 ::: {.notes}
-Raster "co-registration" means multiple datasets have the same grid resolution and
-orientation.
+Transformations are operations that change the data in some way. Sometimes these
+changes can be dramatic. They can result in the loss of information in the
+source data.
 
-"Lossy" transformations can not be reversed. Potentially lossy operations include
-reprojection, resampling, and conversion between raster and vector.
+Good reminder to track the provenance of data. Always back-up source data (and
+ideally intermediate data as well!). Some operations can not be reversed (e.g.,
+downsampling)!
+
+There are numerious ways that data may be transformed to facilitate an analysis
+or desired visualization. We are going to focus on a few common examples.
 :::
 
 
