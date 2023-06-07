@@ -9,12 +9,7 @@ _May 23-25, 2023_
 
 ~~**Apply [here](https://forms.gle/yLE1ovcBAP5Wgz2Y8) between March 15 - April 9, 2023!**~~
 
-:::{.callout-note}
-The QGreenland Researcher Workshop 2023 concluded on May 25, 2023. This website
-and workshop materials will remain available as an educational resource.
-
-Thank you to all participants for making this workshop a resounding success!
-:::
+{{< include content/workshop-completion-notice.md >}}
 
 
 ## Overview
