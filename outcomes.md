@@ -23,7 +23,7 @@ Our participants engaged in small group discussions on
 Participants worked together to explore, transform, and visualize geospatial
 data from a variety of sources using [Jupyter Notebooks](https://jupyter.org/).
 
-For exmaple:
+For example:
 
 * [Group 1](https://github.com/qgreenland-workshop-2023-researcher/group-one)
   produced a
