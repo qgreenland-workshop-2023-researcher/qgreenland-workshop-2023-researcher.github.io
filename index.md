@@ -4,12 +4,11 @@ subtitle: "Develop standards-based geospatial data practices"
 author: "Trey Stafford, Matt Fisher"
 ---
 
+{{< include content/workshop-completion-notice.md >}}
 
 _May 23-25, 2023_
 
 ~~**Apply [here](https://forms.gle/yLE1ovcBAP5Wgz2Y8) between March 15 - April 9, 2023!**~~
-
-{{< include content/workshop-completion-notice.md >}}
 
 
 ## Overview
