@@ -234,6 +234,8 @@ gdal_contour
 etopo1_bedrock_elevation
 data-inspection-with-jupyterlab
 index.md
+symbology.md
+repos
  - content/slides/open-science-and-data.md
 indable
 ccessible

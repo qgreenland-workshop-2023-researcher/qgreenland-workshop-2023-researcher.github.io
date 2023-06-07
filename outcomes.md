@@ -17,6 +17,26 @@ Our participants engaged in small group discussions on
 [CARE](https://www.gida-global.org/care) data principles and recorded their insights on
 [GitHub Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/fair-care).
 
+Highlights include:
+
+> ...researchers fly in, do their work in two weeks, don’t invest in
+> relationships, and fly out. - [Group
+> 1](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/150)
+
+> Concern for someone stealing code, publishing first - [Group
+> 2](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/148)
+
+<!-- alex ignore just -->
+> It is not just about sharing the data, but enabling further analysis on the
+> data. - [Group
+> 5](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/146)
+
+> Some communities in Alaska have established an interface requiring scientists
+> to register, disclose their activities, submit plans, and obtain licenses. -
+> [Group
+> 6](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/149)
+
+
 
 ### Explored geospatial data using Jupyter Notebooks
 
@@ -43,8 +63,3 @@ For example:
 All workshop outputs can be found in each group's respective GitHub
 repository. See the list
 [here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group-&type=all&language=&sort=).
-
-
-#### Highlights
-
-_TODO_
