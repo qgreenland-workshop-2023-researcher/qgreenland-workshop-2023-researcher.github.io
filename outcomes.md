@@ -5,6 +5,20 @@ title: "Outcomes"
 🎉 Our workshop concluded on May 25, 2023. Thank you to all participants for making this
 workshop a success!
 
+Over the course of the workshop, participants engaged on topics including:
+
+* Foundational geospatial data concepts
+* Open science and geospatial data standards
+* Making data analysis-ready
+* Literate programming
+* Symbolizing data
+
+Through exercises related to each of these topics, participants produced Jupyter
+Notebooks, engaged in group discussions and posted notes on GitHub Discussions, and used
+QGIS to explore, symbolize, and inspect data alongside QGreenland.
+
+We learned a lot from our participants and we are very grateful for their engagement!
+
 
 ## ✨ What our participants created
 
