@@ -41,6 +41,7 @@ Jira
 Jupyter
 JupyterBook
 JupyterHub
+JupyterHubs
 JupyterLab
 JupyterLabs
 MacOS
@@ -142,6 +143,7 @@ placenames
 plaintext
 pre-assign
 pre-configured
+pre-configuring
 pre-created
 pre-populate
 pre-record

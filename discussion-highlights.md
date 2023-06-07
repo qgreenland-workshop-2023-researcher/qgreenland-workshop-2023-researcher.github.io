@@ -1,3 +1,5 @@
+<!-- alex disable -->
+
 # [Group 1](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/150)
 
 * "...researchers fly in, do their work in two weeks, don’t invest in
