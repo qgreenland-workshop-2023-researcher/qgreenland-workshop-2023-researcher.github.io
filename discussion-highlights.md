@@ -1,10 +1,10 @@
-# Group 1
+# [Group 1](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/150)
 
 * "...researchers fly in, do their work in two weeks, don’t invest in
   relationships, and fly out."
 
 
-# Group 2
+# [Group 2](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/148)
 
 * "...sometimes have to email authors for code, poorly documented, don’t
   get everything you need, rushed to finish."
@@ -12,7 +12,7 @@
 * "Should we be protecting our code? Need to be actively developing something"
 
 
-# Group 3
+# [Group 3](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/147)
 
 Excellent commentary on diverse practices in different countries.
 
@@ -24,7 +24,7 @@ Excellent commentary on diverse practices in different countries.
   makes it easy for working with several different models all together"
 
 
-# Group 5
+# [Group 5](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/146)
 
 * "It is not just about sharing the data, but enabling further analysis on
   the data."
@@ -38,7 +38,7 @@ Excellent commentary on diverse practices in different countries.
   difficult and is a different skill set than scientific production.
 
 
-# Group 6
+# [Group 6](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/149)
 
 * "The discussion mentioned the Kennedy Strait incident where hunters were stranded
   with their dogs, emphasizing the need for ice breakers to coordinate with
@@ -50,7 +50,7 @@ Excellent commentary on diverse practices in different countries.
   plans, and obtain licenses."
 
 
-# Group 7
+# [Group 7](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/151)
 
 * "As the data has related publications (included in the website), it is really helpful
   for people who need additional & detailed information about the dataset."
