@@ -62,8 +62,3 @@ For example:
 All workshop outputs can be found in each group's respective GitHub
 repository. See the list
 [here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group-&type=all&language=&sort=).
-
-
-#### Highlights
-
-_TODO_
