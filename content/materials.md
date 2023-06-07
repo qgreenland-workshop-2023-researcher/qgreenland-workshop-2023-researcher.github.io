@@ -1,4 +1,6 @@
-# Workshop materials
+---
+title: "Workshop materials"
+---
 
 ### Day 1
 
