@@ -16,7 +16,17 @@
 
 ## Workshop website updates
 
-Update website to add a new top-level nav link "Outcomes" and:
+* Add a "this workshop is completed" notice to front page (info / warning box?)
+* Thank attendees for their high quality participation
+
+
+### Remove OBE content
+
+* Remove links to application materials
+* Cross out workshop dates and replace with a completion message
+
+
+### New "Outcomes" top-level nav
 
 * Thank participants for an awesome workshop
 * Highlight deliverables (see previous section)
@@ -24,7 +34,9 @@ Update website to add a new top-level nav link "Outcomes" and:
 * Link to Hacker News post
 
 
-## Misc wrapup
+### Lessons learned
+
+_Should this be in the admin space, or the outcomes space?_
 
 * Overall impressions
 * Changes we'd want to make
