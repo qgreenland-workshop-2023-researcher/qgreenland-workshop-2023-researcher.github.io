@@ -7,7 +7,14 @@ author: "Trey Stafford, Matt Fisher"
 
 _May 23-25, 2023_
 
-**Apply [here](https://forms.gle/yLE1ovcBAP5Wgz2Y8) between March 15 - April 9, 2023!**
+~~**Apply [here](https://forms.gle/yLE1ovcBAP5Wgz2Y8) between March 15 - April 9, 2023!**~~
+
+:::{.callout-note}
+The QGreenland Researcher Workshop 2023 concluded on May 25, 2023. This website
+and workshop materials will remain available as an educational resource.
+
+Thank you to all participants for making this workshop a resounding success!
+:::
 
 
 ## Overview
@@ -76,5 +83,5 @@ For more information, visit <https://qgreenland.org>.
 
 ### Application details
 
-Deadline to apply is April 3, 2023.
-Decisions will be made the week of April 10, 2023.
+The workshop has concluded. Decisions on applicant selection were made the week
+of April 10, 2023.
