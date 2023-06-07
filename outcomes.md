@@ -26,6 +26,7 @@ Highlights include:
 > Concern for someone stealing code, publishing first - [Group
 > 2](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/148)
 
+<!-- alex ignore just -->
 > It is not just about sharing the data, but enabling further analysis on the
 > data. - [Group
 > 5](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/146)
