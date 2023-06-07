@@ -100,8 +100,8 @@
 
 ## GitHub Discussions announcements
 
-* When outcomes page goes live, make an announcement thanking participants for making
-  the workshop a success.
+* ~~When outcomes page goes live, make an announcement thanking participants for making
+  the workshop a success.~~
 * When Jupyter blog post goes live, make another announcement.
 
 
