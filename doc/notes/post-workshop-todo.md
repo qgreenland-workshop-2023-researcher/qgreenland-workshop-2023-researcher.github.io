@@ -82,7 +82,7 @@ _Should this be in the admin space, or the outcomes space?_
 * Overall impressions
 * Changes we'd want to make
     * Symbology exercise: deliverable in addition to qml files? Screenshot? Discussion post?
-    * More time for exercises, especially on day 1. Maybe fewer topics covered overall?
+    * More time for exercises, especially on day 1. Maybe allocate more time than 9 hours, or cover fewer topics.
     * Should be more clear on file names/structure for git repos. Initially hard to tell which notebooks correspond to each exercise.
     * Archive workshop materials? E.g., Everything in qgis-data?
 * Tips and tricks for running workshop
