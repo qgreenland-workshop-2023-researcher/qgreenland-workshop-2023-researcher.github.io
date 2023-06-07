@@ -6,19 +6,6 @@
   to edit after we've got a first draft. We can contact Yuvi on Openscapes Slack.
 
 
-## Review deliverables
-
-* Participants now have GitHub profiles with activity.
-
-* What are some interesting:
-    * Notebooks
-        - Group 1
-            * `GDAL_dataset_information.ipynb`: Notebook to inspect ETOPO data using Python (`osgeo.gdal`, `cartopy`, `xarray`) and `gdalinfo`
-            * `Python_ds_analysis.ipynb`: Python to reproject ETOPO, use matplotlib to plot. Also resampled data. Attempt to clip unsuccessful.
-    * Discussions posts (specifically FAIR/CARE)
-        * Include word cloud
-
-
 ## Workshop website updates
 
 * ~~Add a "this workshop is completed" notice to front page (info / warning box?)~~
@@ -41,8 +28,13 @@
 
 #### Review deliverables
 
+* Participants now have GitHub profiles with activity.
+
 * What are some interesting:
     * Notebooks
+        - Group 1
+            * `GDAL_dataset_information.ipynb`: Notebook to inspect ETOPO data using Python (`osgeo.gdal`, `cartopy`, `xarray`) and `gdalinfo`
+            * `Python_ds_analysis.ipynb`: Python to reproject ETOPO, use matplotlib to plot. Also resampled data. Attempt to clip unsuccessful.
     * ~~Discussions posts (specifically FAIR/CARE)~~
         * ~~Include word cloud~~
         * Highlight some important insights
