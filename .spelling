@@ -229,6 +229,9 @@ gdal_warp
 gdal_rasterize
 gdal_polygonize.py
 gdal_contour
+etopo1_bedrock_elevation
+data-inspection-with-jupyterlab
+index.md
  - content/slides/open-science-and-data.md
 indable
 ccessible

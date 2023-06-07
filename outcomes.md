@@ -18,6 +18,33 @@ Our participants engaged in small group discussions on
 [GitHub Discussions](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/categories/fair-care).
 
 
+### Explored geospatial data using Jupyter Notebooks
+
+Participants worked together to explore, transform, and visualize geospatial
+data from a variety of sources using [Jupyter Notebooks](https://jupyter.org/).
+
+For example:
+
+* [Group 1](https://github.com/qgreenland-workshop-2023-researcher/group-one)
+  produced a
+  [Notebook](https://github.com/qgreenland-workshop-2023-researcher/group-one/blob/main/Python_ds_analysis.ipynb)
+  utilizing `Python` to reproject, plot, and resample [ETOPO1 bedrock elevation
+  data for Greenland](/content/example-data/etopo1_bedrock_elevation) as part of
+  the [Make the data work together
+  exercise](/content/exercises/data-compatibility.md).
+
+* [Group 3](https://github.com/qgreenland-workshop-2023-researcher/group-three)
+  explored the use of tools like `gdalinfo`, `ncdump`, and `Python` to inspect
+  [CMIP5](https://psl.noaa.gov/ipcc/ocn/ccwp.html) data in their
+  [Notebook](https://github.com/qgreenland-workshop-2023-researcher/group-three/blob/main/exercise_inspect_data.ipynb)
+  created for the [Data inspection with JupyterLab
+  exercise](/content/exercises/data-inspection-with-jupyterlab/index.md).
+
+All workshop outputs can be found in each group's respective GitHub
+repository. See the list
+[here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group-&type=all&language=&sort=).
+
+
 #### Highlights
 
 _TODO_
