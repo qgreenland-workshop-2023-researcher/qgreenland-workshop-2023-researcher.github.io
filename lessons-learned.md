@@ -22,6 +22,18 @@ title: "Lessons learned"
   material, or cut some material.
 * When sending 5-minute warnings at the end of breakout group exercises, ask attendees
   to commit their work to GitHub now, regardless of whether it's done.
+* For the [Symbolizing datasets together
+  exercise](/content/exercises/symbology.md), it would be helpful to include a
+  deliverable in addition to the `.qml` files. Maybe a screenshot and/or
+  discussion post. This would make it easier for us to review the outcomes from
+  this exercise.
+* We should have a more clear structure for file names/structure in git
+  repos. It can be initially hard to tell which notebooks correspond to each
+  exercise in groups' repos.
+* Archive all workshop materials after completion. We had a temporary workspace
+  (`qgis-data`) which had faster storage that allowed e.g., QGIS to more quickly
+  access data in QGreenland that participants used and stored some data on. This
+  directory got cleaned-up after the workshop.
 
 
 ## Tips and tricks

@@ -78,21 +78,18 @@
 
 ### Lessons learned
 
-_Should this be in the admin space, or the outcomes space?_
-
 * ~~Overall impressions~~
 * Changes we'd want to make
-    * Symbology exercise: deliverable in addition to qml files? Screenshot? Discussion post?
+    * ~~Symbology exercise: deliverable in addition to qml files? Screenshot? Discussion post?~~
     * ~~More time for exercises, especially on day 1. Maybe allocate more time than 9
       hours, or cover fewer topics.~~
-    * Should be more clear on file names/structure for git repos. Initially hard to tell which notebooks correspond to each exercise.
-    * Archive workshop materials? E.g., Everything in qgis-data?
+    * ~~Should be more clear on file names/structure for git repos. Initially hard to tell which notebooks correspond to each exercise.~~
+    * ~~Archive workshop materials? E.g., Everything in qgis-data?~~
 * ~~Tips and tricks for running workshop~~
     * ~~Let people join their own breakout rooms; trying to predict what e-mail people
       will join Zoom with and pre-configuring breakout rooms turned out to be a time
       sink. Inevitably, some will join from their phone, not sign in, etc. resulting in
       spending time manually setting up breakout rooms.~~
-* Create read-only run-of-show documents to share as examples
 
 
 ## GitHub Discussions announcements
@@ -100,3 +97,8 @@ _Should this be in the admin space, or the outcomes space?_
 * When outcomes page goes live, make an announcement thanking participants for making
   the workshop a success.
 * When Jupyter post goes live, make another announcement.
+
+
+## Create a template/read-only run-of-show document
+
+Do this.
