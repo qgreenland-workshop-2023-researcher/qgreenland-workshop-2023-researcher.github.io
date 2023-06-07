@@ -30,11 +30,46 @@
 
 * Participants now have GitHub profiles with activity.
 
+* Participants engaged on workshop topics in small groups and established new connections
+
 * What are some interesting:
     * Notebooks
         - Group 1
-            * `GDAL_dataset_information.ipynb`: Notebook to inspect ETOPO data using Python (`osgeo.gdal`, `cartopy`, `xarray`) and `gdalinfo`
-            * `Python_ds_analysis.ipynb`: Python to reproject ETOPO, use matplotlib to plot. Also resampled data. Attempt to clip unsuccessful.
+            * [`GDAL_dataset_information.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-one/blob/main/GDAL_dataset_information.ipynb):
+              Inspects ETOPO data using Python (`osgeo.gdal`, `cartopy`,
+              `xarray`) and `gdalinfo`
+            * [`Python_ds_analysis.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-one/blob/main/Python_ds_analysis.ipynb):
+              Uses `Python` (`osgeo.gdal`, `matplotlib`, `cartopy`, `geopandas`) to reproject, plot, and resample
+              ETOPO dataset. Attempt to clip unsuccessful.
+        - Group 2
+            * [`metadata.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-two/blob/main/metadata.ipynb):
+              inspects MEaSURES Greenland Annual Ice Sheet Velocity Mosaics
+              dataset using both python and `gdalinfo` (CLI)
+        - Group 3
+            * [`exercise_inspect_data.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-three/blob/main/exercise_inspect_data.ipynb):
+              utilized `gdalinfo`, `ncdump`, `Python` (`xarray`) to inspect
+              CMIP5 data. Also fetched hot springs data with `wget` and
+              inspected it using `pandas`.
+            * [`exercise_fixing_metadata.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-three/blob/main/exercise_fixing_metadata.ipynb):
+              attempts to use `gdalwarp` to fix missing CRS information.
+        - Group 4
+            * [`Qiceradar_fix.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-four/blob/main/Qiceradar_fix.ipynb):
+              Uses `ogrinfo` and `Python` (`geopandas`) to inspect GeoPackage
+            * [`Group_four-new.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-four/blob/main/Group_four-new.ipynb):
+              Inspects vegetation biomass layer from QGreenland usign Python.
+            * [`data_comp_1_4.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-four/blob/main/data_comp_1_4.ipynb):
+              Clipped the DEM from group 1 with the dataset from group 4.
+        - Group 5
+            * [`data_inspection.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-five/blob/main/data_inspection.ipynb):
+              Uses `ogrinfo` (CLI) and `Python` (`geopandas`) to inspect arctic
+              data collection sites. Also used `Python` (`xarray`) to inspect
+              Sermilik Fjord data.
+        - Group 6
+            * [`DescribeData.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-six/blob/main/DescribeData.ipynb):
+              Uses `fiona` and `ogrinfo` to inspect HydroLAKES dataset.
+        - Group 7
+            * [`GIS_D.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-seven/blob/main/GIS_D.ipynb):
+              Inspects ice discharge PROMICE dataset using `Python` (`netCDF4`)
     * ~~Discussions posts (specifically FAIR/CARE)~~
         * ~~Include word cloud~~
         * Highlight some important insights
