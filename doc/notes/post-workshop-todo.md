@@ -7,6 +7,12 @@
   Slack.~~
 
 
+## CryoCloud cleanup
+
+* Check for notebooks in `shared/public` that could be added to the group GitHub
+  repositories
+
+
 ## Workshop website updates
 
 * ~~Add a "this workshop is completed" notice to front page (info / warning box?)~~
