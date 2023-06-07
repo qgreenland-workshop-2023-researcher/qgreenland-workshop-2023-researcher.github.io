@@ -6,32 +6,33 @@
   to edit after we've got a first draft. We can contact Yuvi on Openscapes Slack.
 
 
-## Review deliverables
-
-* What are some interesting:
-    * Notebooks
-    * Discussions posts (specifically FAIR/CARE)
-        * Include word cloud
-
-
 ## Workshop website updates
 
-* Add a "this workshop is completed" notice to front page (info / warning box?)
-* Thank attendees for their high quality participation
+* ~~Add a "this workshop is completed" notice to front page (info / warning box?)~~
+* ~~Thank attendees for their high quality participation~~
 
 
 ### Remove OBE content
 
-* Remove links to application materials
-* Cross out workshop dates and replace with a completion message
+* ~~Remove links to application materials~~
+* ~~Cross out workshop dates and replace with a completion message~~
 
 
 ### New "Outcomes" top-level nav
 
-* Thank participants for an awesome workshop
+* ~~Thank participants for an awesome workshop~~
 * Highlight deliverables (see previous section)
 * Link to our blog post
 * Link to Hacker News post
+
+
+#### Review deliverables
+
+* What are some interesting:
+    * Notebooks
+    * ~~Discussions posts (specifically FAIR/CARE)~~
+        * ~~Include word cloud~~
+        * Highlight some important insights
 
 
 ### Lessons learned
