@@ -20,6 +20,8 @@ title: "Lessons learned"
 * The material we developed technically fit in the schedule, but we wanted to provide
   more time for attendees to do hands-on work. Either increase the time for the
   material, or cut some material.
+* When sending 5-minute warnings at the end of breakout group exercises, ask attendees
+  to commit their work to GitHub now, regardless of whether it's done.
 
 
 ## Tips and tricks
