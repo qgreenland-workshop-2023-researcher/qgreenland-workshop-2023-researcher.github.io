@@ -40,13 +40,13 @@
 
 _Should this be in the admin space, or the outcomes space?_
 
-* Overall impressions
-* Changes we'd want to make
-* Tips and tricks for running workshop
-    * Let people join their own breakout rooms; trying to predict what e-mail people
+* ~~Overall impressions~~
+* ~~Changes we'd want to make~~
+* ~~Tips and tricks for running workshop~~
+    * ~~Let people join their own breakout rooms; trying to predict what e-mail people
       will join Zoom with and pre-configuring breakout rooms turned out to be a time
       sink. Inevitably, some will join from their phone, not sign in, etc. resulting in
-      spending time manually setting up breakout rooms.
+      spending time manually setting up breakout rooms.~~
 * Create read-only run-of-show documents to share as examples
 
 
