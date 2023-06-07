@@ -7,6 +7,8 @@ format:
     toc-expand: true
 ---
 
+{{< include /content/workshop-completion-notice.md >}}
+
 In order to successfully complete the workshop and receive the $250 stipend,
 participants must complete the following list of prerequisites in advance of the
 workshop:

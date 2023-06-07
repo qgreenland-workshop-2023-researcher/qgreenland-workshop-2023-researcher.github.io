@@ -1,9 +1,10 @@
 # Schedule
 
+{{< include workshop-completion-notice.md >}}
+
 ::: {.callout-note}
 All times in Mountain Daylight Time (UTC-6:00).
 :::
-
 
 ### Day 1
 
