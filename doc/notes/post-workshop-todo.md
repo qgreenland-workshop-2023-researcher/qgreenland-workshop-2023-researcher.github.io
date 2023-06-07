@@ -22,7 +22,7 @@
 ### New "Outcomes" top-level nav
 
 * ~~Thank participants for an awesome workshop~~
-* Highlight deliverables (see previous section)
+* ~~Highlight deliverables (see next section)~~
 * Link to our blog post
 * Link to Hacker News post
 
@@ -73,7 +73,7 @@
               Inspects ice discharge PROMICE dataset using `Python` (`netCDF4`)
     * ~~Discussions posts (specifically FAIR/CARE)~~
         * ~~Include word cloud~~
-        * Highlight some important insights
+        * ~~Highlight some important insights~~
 
 
 ### Lessons learned
