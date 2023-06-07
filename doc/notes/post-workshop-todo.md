@@ -2,8 +2,9 @@
 
 ## Jupyter blog post
 
-* Start a post on a collaborative platform (HackMD, Google Docs), and invite Yuvi Panda
-  to edit after we've got a first draft. We can contact Yuvi on Openscapes Slack.
+* ~~Start a post on a collaborative platform (HackMD, Google Docs), and invite Yuvi
+  Panda to edit after we've got a first draft. We can contact Yuvi on Openscapes
+  Slack.~~
 
 
 ## Workshop website updates
