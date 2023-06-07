@@ -30,6 +30,12 @@ Highlights include:
 > data. - [Group
 > 5](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/146)
 
+> Some communities in Alaska have established an interface requiring scientists
+> to register, disclose their activities, submit plans, and obtain licenses. -
+> [Group
+> 6](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/149)
+
+
 
 ### Explored geospatial data using Jupyter Notebooks
 
