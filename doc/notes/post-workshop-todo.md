@@ -2,8 +2,9 @@
 
 ## Jupyter blog post
 
-* Start a post on a collaborative platform (HackMD, Google Docs), and invite Yuvi Panda
-  to edit after we've got a first draft. We can contact Yuvi on Openscapes Slack.
+* ~~Start a post on a collaborative platform (HackMD, Google Docs), and invite Yuvi
+  Panda to edit after we've got a first draft. We can contact Yuvi on Openscapes
+  Slack.~~
 
 
 ## Workshop website updates
@@ -79,17 +80,18 @@
 
 _Should this be in the admin space, or the outcomes space?_
 
-* Overall impressions
+* ~~Overall impressions~~
 * Changes we'd want to make
     * Symbology exercise: deliverable in addition to qml files? Screenshot? Discussion post?
-    * More time for exercises, especially on day 1. Maybe allocate more time than 9 hours, or cover fewer topics.
+    * ~~More time for exercises, especially on day 1. Maybe allocate more time than 9
+      hours, or cover fewer topics.~~
     * Should be more clear on file names/structure for git repos. Initially hard to tell which notebooks correspond to each exercise.
     * Archive workshop materials? E.g., Everything in qgis-data?
-* Tips and tricks for running workshop
-    * Let people join their own breakout rooms; trying to predict what e-mail people
+* ~~Tips and tricks for running workshop~~
+    * ~~Let people join their own breakout rooms; trying to predict what e-mail people
       will join Zoom with and pre-configuring breakout rooms turned out to be a time
       sink. Inevitably, some will join from their phone, not sign in, etc. resulting in
-      spending time manually setting up breakout rooms.
+      spending time manually setting up breakout rooms.~~
 * Create read-only run-of-show documents to share as examples
 
 

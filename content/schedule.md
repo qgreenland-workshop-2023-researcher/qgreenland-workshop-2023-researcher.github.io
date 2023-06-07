@@ -1,4 +1,6 @@
-# Schedule
+---
+title: "Schedule"
+---
 
 {{< include workshop-completion-notice.md >}}
 
