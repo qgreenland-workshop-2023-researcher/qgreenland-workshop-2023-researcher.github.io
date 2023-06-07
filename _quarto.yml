@@ -26,6 +26,8 @@ website:
         file: "content/schedule.md"
       - text: "Materials"
         file: "content/materials.md"
+      - text: "Outcomes"
+        file: "outcomes.md"
     right:
       - icon: "github"
         aria-label: "GitHub"
