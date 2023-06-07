@@ -8,8 +8,13 @@
 
 ## Review deliverables
 
+* Participants now have GitHub profiles with activity.
+
 * What are some interesting:
     * Notebooks
+        - Group 1
+            * `GDAL_dataset_information.ipynb`: Notebook to inspect ETOPO data using Python (`osgeo.gdal`, `cartopy`, `xarray`) and `gdalinfo`
+            * `Python_ds_analysis.ipynb`: Python to reproject ETOPO, use matplotlib to plot. Also resampled data. Attempt to clip unsuccessful.
     * Discussions posts (specifically FAIR/CARE)
         * Include word cloud
 
