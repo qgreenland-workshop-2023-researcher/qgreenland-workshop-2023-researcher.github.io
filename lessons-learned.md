@@ -27,7 +27,7 @@ title: "Lessons learned"
   deliverable in addition to the `.qml` files. Maybe a screenshot and/or
   discussion post. This would make it easier for us to review the outcomes from
   this exercise.
-* We should have a more clear structure for file names/structure in git
+* We should have prescribed a more clear structure for file names/structure in git
   repos. It can be initially hard to tell which notebooks correspond to each
   exercise in groups' repos.
 * Archive all workshop materials after completion. We had a temporary workspace
