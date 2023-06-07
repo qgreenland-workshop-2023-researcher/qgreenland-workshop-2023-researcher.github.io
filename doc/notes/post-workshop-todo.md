@@ -29,12 +29,12 @@
 
 #### Review deliverables
 
-* Participants now have GitHub profiles with activity.
+* ~~Participants now have GitHub profiles with activity.~~
 
-* Participants engaged on workshop topics in small groups and established new connections
+* ~~Participants engaged on workshop topics in small groups and established new connections~~
 
-* What are some interesting:
-    * Notebooks
+* ~~What are some interesting:~~
+    * ~~Notebooks~~
         - Group 1
             * [`GDAL_dataset_information.ipynb`](https://github.com/qgreenland-workshop-2023-researcher/group-one/blob/main/GDAL_dataset_information.ipynb):
               Inspects ETOPO data using Python (`osgeo.gdal`, `cartopy`,
@@ -79,7 +79,7 @@
 ### Lessons learned
 
 * ~~Overall impressions~~
-* Changes we'd want to make
+* ~~Changes we'd want to make~~
     * ~~Symbology exercise: deliverable in addition to qml files? Screenshot? Discussion post?~~
     * ~~More time for exercises, especially on day 1. Maybe allocate more time than 9
       hours, or cover fewer topics.~~
@@ -96,7 +96,7 @@
 
 * When outcomes page goes live, make an announcement thanking participants for making
   the workshop a success.
-* When Jupyter post goes live, make another announcement.
+* When Jupyter blog post goes live, make another announcement.
 
 
 ## Create a template/read-only run-of-show document
