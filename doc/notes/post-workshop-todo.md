@@ -84,6 +84,7 @@ _Should this be in the admin space, or the outcomes space?_
     * Symbology exercise: deliverable in addition to qmd files? Screenshot? Discussion post?
     * More time for exercises, especially on day 1. Maybe fewer topics covered overall?
     * Should be more clear on file names/structure for git repos. Initially hard to tell which notebooks correspond to each exercise.
+    * Archive workshop materials? E.g., Everything in qgis-data?
 * Tips and tricks for running workshop
     * Let people join their own breakout rooms; trying to predict what e-mail people
       will join Zoom with and pre-configuring breakout rooms turned out to be a time
