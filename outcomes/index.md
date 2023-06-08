@@ -51,7 +51,6 @@ Highlights include:
 > 6](https://github.com/orgs/qgreenland-workshop-2023-researcher/discussions/149)
 
 
-
 ### Explored geospatial data using Jupyter Notebooks
 
 Participants worked together to explore, transform, and visualize geospatial
@@ -77,3 +76,9 @@ For example:
 All workshop outputs can be found in each group's respective GitHub
 repository. See the list
 [here](https://github.com/orgs/qgreenland-workshop-2023-researcher/repositories?q=group-&type=all&language=&sort=).
+
+
+We have also created a [backup](./qgreenland-workshop-shared-public.tar.gz) of workshop
+outputs that were in the `shared-public/` directory on the CryoCloud JupyterHub. We
+intentionally kept only notebooks and style files, omitting data files, to keep the size
+small. Data files will need to be re-downloaded or re-created.
