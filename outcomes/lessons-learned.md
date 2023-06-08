@@ -42,6 +42,16 @@ title: "Lessons learned"
   will join Zoom with and pre-configuring breakout rooms turned out to be a time
   sink. Inevitably, some will join from their phone, not sign in, etc. resulting in
   spending time manually setting up breakout rooms.
+* One problem we encountered was copy/paste from the clipboard does not work
+  between the remote desktop and the user's local desktop environment. In order
+  to get around this limitation, workshop participants resorted to using a text
+  file for transferring text between the remote and local desktop
+  environments. For example, if a user wanted to move text from their local
+  desktop to the CryoCloud desktop environment, they would save that text to a
+  file (e.g., `copy.txt`) and then transfer that file to CryoCloud (either by
+  uploading the file through the file browser interface in JupyterLab or using
+  JupyterLab's built-in file editor).
+
 
 
 ### Run of show
