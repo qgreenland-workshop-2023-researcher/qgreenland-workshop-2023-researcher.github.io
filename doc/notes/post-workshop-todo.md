@@ -82,7 +82,7 @@
         * ~~Highlight some important insights~~
 
 
-### Lessons learned
+#### Lessons learned
 
 * ~~Overall impressions~~
 * ~~Changes we'd want to make~~
@@ -98,13 +98,21 @@
       spending time manually setting up breakout rooms.~~
 
 
+#### Create a template/read-only run-of-show document
+
+Do this.
+
+
+#### Add a section on common challenges
+
+We saw participants run in to very familiar issues, like "I loaded my data in QGIS, but
+I don't see it anywhere. (Zoom to layer) Why is my data at the geographic North pole?"
+
+Add a section about these common challenges to the outcomes doc.
+
+
 ## GitHub Discussions announcements
 
 * ~~When outcomes page goes live, make an announcement thanking participants for making
   the workshop a success.~~
 * When Jupyter blog post goes live, make another announcement.
-
-
-## Create a template/read-only run-of-show document
-
-Do this.
