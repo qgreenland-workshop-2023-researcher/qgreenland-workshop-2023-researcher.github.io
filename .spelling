@@ -53,11 +53,13 @@ NoData
 OGC-adopted
 OSGeo
 OpenGIS
+PDFs
 Pandoc
 PyGIS
 PyQGIS
 QGreenland
 RPCs
+RStudio
 SPD-41a
 SQLite
 Shapefile
@@ -103,9 +105,11 @@ datatype
 datatypes
 datums
 dealbreakers
+deliverables
 dem_with_altered_metadata.tif
 dominguez_2010_icebridge_dms
 e.g.
+ePubs
 equirectangular
 esri
 flightlines
