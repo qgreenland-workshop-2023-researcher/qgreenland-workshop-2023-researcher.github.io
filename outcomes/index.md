@@ -82,3 +82,12 @@ We have also created a [backup](./qgreenland-workshop-shared-public.tar.gz) of w
 outputs that were in the `shared-public/` directory on the CryoCloud JupyterHub. We
 intentionally kept only notebooks and style files, omitting data files, to keep the size
 small. Data files will need to be re-downloaded or re-created.
+
+
+## ⌛ Retrospective
+
+### Jupyter Blog post
+
+We were kindly invited to post on the [Jupyter Blog](https://blog.jupyter.org). Our post
+can be found
+[here](https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a).
