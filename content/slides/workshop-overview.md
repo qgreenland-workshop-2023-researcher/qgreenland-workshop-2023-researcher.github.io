@@ -32,13 +32,13 @@ We will start by introducing ourselves, the organizers of the workshop.
 ## Workshop goals
 
 * ⚙️ Build a shared familiarity with standard/open tools, formats, and practices.
-  * Our workshop contents are [built with open source
+  * Our workshop contents are [built with open-source
     tools](/content/built-with-open-source.html)!
 * 🤝 Create a more collaborative/open work environment for researchers.
 * 🌐 Learn to prepare datasets for use in the QGreenland QGIS data environment.
 
 :::{.notes}
-Note that red text are links ("built with open source tools" in this slide)
+Note that red text are links ("built with open-source tools" in this slide)
 :::
 
 

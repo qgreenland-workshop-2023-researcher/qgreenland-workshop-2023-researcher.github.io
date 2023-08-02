@@ -28,6 +28,8 @@ website:
         file: "content/materials.md"
       - text: "Outcomes"
         file: "outcomes/index.md"
+      - text: "Built on open source"
+        file: "content/built-with-open-source.md"
     right:
       - icon: "github"
         aria-label: "GitHub"
